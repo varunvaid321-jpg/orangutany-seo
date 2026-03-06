@@ -125,13 +125,15 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             </section>
           )}
 
-          {/* Where It's Been Found */}
+          {/* Where It's Been Found — only show if species has images (map file exists alongside photos) */}
+          {species.images.length > 0 && (
           <section>
             <h2 className="mb-2 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
               Where It&apos;s Been Found
             </h2>
             <DistributionMap slug={species.slug} />
           </section>
+          )}
 
           {/* Identification: with images */}
           <section>
