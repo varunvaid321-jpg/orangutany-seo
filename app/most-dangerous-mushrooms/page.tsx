@@ -5,12 +5,12 @@ import { allSpecies } from "@/data/species";
 export const metadata: Metadata = {
   title: "10 Most Dangerous Mushrooms in the World",
   description:
-    "The deadliest mushrooms on Earth — from the Death Cap to the Destroying Angel. Real images, identification tips, and documented poisoning cases.",
+    "The deadliest mushrooms on Earth, from the Death Cap to the Destroying Angel. Real images, identification tips, and documented poisoning cases.",
   alternates: { canonical: "/most-dangerous-mushrooms" },
   openGraph: {
     title: "10 Most Dangerous Mushrooms in the World",
     description:
-      "The deadliest mushrooms on Earth — from the Death Cap to the Destroying Angel. Real images, identification tips, and documented poisoning cases.",
+      "The deadliest mushrooms on Earth, from the Death Cap to the Destroying Angel. Real images, identification tips, and documented poisoning cases.",
   },
 };
 
@@ -40,7 +40,7 @@ export default function MostDangerousPage() {
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         These are the mushrooms responsible for the vast majority of fatal poisonings worldwide.
         Some look deceptively similar to popular edible species. Knowing what they look like
-        could save your life — or your dog&apos;s.
+        could save your life, or your dog&apos;s.
       </p>
 
       <div className="mt-8 space-y-6">

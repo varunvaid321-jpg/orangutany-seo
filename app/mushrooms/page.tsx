@@ -5,12 +5,12 @@ import { MushroomGrid } from "@/components/species/mushroom-grid";
 export const metadata: Metadata = {
   title: "All Mushroom Species",
   description:
-    "Browse our complete guide to wild mushrooms — edible, toxic, and deadly species with real images, habitat maps, look-alikes, and safety notes.",
+    "Browse our complete guide to wild mushrooms, edible, toxic, and deadly species with real images, habitat maps, look-alikes, and safety notes.",
   alternates: { canonical: "/mushrooms" },
   openGraph: {
     title: "All Mushroom Species | Orangutany Mushroom Guide",
     description:
-      "Browse our complete guide to wild mushrooms — edible, toxic, and deadly species with real images, habitat maps, look-alikes, and safety notes.",
+      "Browse our complete guide to wild mushrooms, edible, toxic, and deadly species with real images, habitat maps, look-alikes, and safety notes.",
   },
 };
 

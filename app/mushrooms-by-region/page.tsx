@@ -3,14 +3,14 @@ import Link from "next/link";
 import { allSpecies } from "@/data/species";
 
 export const metadata: Metadata = {
-  title: "Wild Mushrooms by Region — What Grows Near You",
+  title: "Wild Mushrooms by Region, What Grows Near You",
   description:
-    "Find wild mushrooms by region — North America, Europe, Asia, and beyond. Distribution maps, photos, and identification guides for local species.",
+    "Find wild mushrooms by region, North America, Europe, Asia, and beyond. Distribution maps, photos, and identification guides for local species.",
   alternates: { canonical: "/mushrooms-by-region" },
   openGraph: {
-    title: "Wild Mushrooms by Region — What Grows Near You",
+    title: "Wild Mushrooms by Region, What Grows Near You",
     description:
-      "Find wild mushrooms by region — North America, Europe, Asia, and beyond. Distribution maps, photos, and identification guides for local species.",
+      "Find wild mushrooms by region, North America, Europe, Asia, and beyond. Distribution maps, photos, and identification guides for local species.",
   },
 };
 
@@ -18,7 +18,7 @@ const REGIONS: { name: string; keywords: string[]; description: string }[] = [
   {
     name: "North America",
     keywords: ["North America", "United States", "Canada", "Eastern North America", "Western North America", "Pacific Northwest"],
-    description: "From Morels in the Midwest to Chanterelles in the Pacific Northwest — the most commonly foraged species across the US and Canada.",
+    description: "From Morels in the Midwest to Chanterelles in the Pacific Northwest, the most commonly foraged species across the US and Canada.",
   },
   {
     name: "Europe",

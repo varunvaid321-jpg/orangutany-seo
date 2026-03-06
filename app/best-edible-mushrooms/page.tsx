@@ -3,14 +3,14 @@ import Link from "next/link";
 import { allSpecies } from "@/data/species";
 
 export const metadata: Metadata = {
-  title: "Best Edible Wild Mushrooms — A Forager's Guide",
+  title: "Best Edible Wild Mushrooms, A Forager's Guide",
   description:
-    "The most prized edible wild mushrooms — Chanterelles, Morels, Porcini, and more. Identification tips, where to find them, and what to watch out for.",
+    "The most prized edible wild mushrooms, Chanterelles, Morels, Porcini, and more. Identification tips, where to find them, and what to watch out for.",
   alternates: { canonical: "/best-edible-mushrooms" },
   openGraph: {
-    title: "Best Edible Wild Mushrooms — A Forager's Guide",
+    title: "Best Edible Wild Mushrooms, A Forager's Guide",
     description:
-      "The most prized edible wild mushrooms — Chanterelles, Morels, Porcini, and more. Identification tips, where to find them, and what to watch out for.",
+      "The most prized edible wild mushrooms, Chanterelles, Morels, Porcini, and more. Identification tips, where to find them, and what to watch out for.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function BestEdiblePage() {
       </h1>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         These are the mushrooms that foragers dream about. Some are worth hundreds of dollars per pound,
-        others grow in your backyard. All of them are delicious — if you know what you&apos;re looking for.
+        others grow in your backyard. All of them are delicious, if you know what you&apos;re looking for.
       </p>
 
       <div className="mt-8 space-y-6">
