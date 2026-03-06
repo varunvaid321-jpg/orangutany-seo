@@ -11,6 +11,25 @@ const staticPages = [
   { url: "/most-dangerous-mushrooms", priority: "0.85", freq: "monthly" },
   { url: "/best-edible-mushrooms", priority: "0.85", freq: "monthly" },
   { url: "/mushrooms-by-region", priority: "0.85", freq: "monthly" },
+  // Articles
+  { url: "/how-to-identify-poisonous-mushrooms", priority: "0.85", freq: "monthly" },
+  { url: "/mushrooms-that-can-kill-you", priority: "0.85", freq: "monthly" },
+  { url: "/beginners-guide-to-mushroom-foraging", priority: "0.85", freq: "monthly" },
+  { url: "/mushrooms-in-your-yard", priority: "0.85", freq: "monthly" },
+  { url: "/dog-ate-mushroom", priority: "0.85", freq: "monthly" },
+  { url: "/australian-mushroom-poisoning", priority: "0.8", freq: "monthly" },
+  { url: "/psychoactive-mushrooms-science", priority: "0.8", freq: "monthly" },
+  { url: "/edible-wild-mushrooms-trail", priority: "0.8", freq: "monthly" },
+  { url: "/why-mushrooms-grow-in-circles", priority: "0.8", freq: "monthly" },
+  { url: "/mushroom-foraging-by-season", priority: "0.85", freq: "monthly" },
+  // Authors
+  { url: "/authors/varun-vaid", priority: "0.6", freq: "monthly" },
+  { url: "/authors/elena-marchetti", priority: "0.4", freq: "yearly" },
+  { url: "/authors/james-whitfield", priority: "0.4", freq: "yearly" },
+  { url: "/authors/priya-sharma", priority: "0.4", freq: "yearly" },
+  { url: "/authors/daniel-okafor", priority: "0.4", freq: "yearly" },
+  { url: "/authors/mei-lin-chen", priority: "0.4", freq: "yearly" },
+  { url: "/authors/sofia-andersson", priority: "0.4", freq: "yearly" },
 ];
 
 const speciesPages = allSpecies.map((s) => ({
