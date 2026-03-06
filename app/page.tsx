@@ -34,7 +34,7 @@ export default function Home() {
       {/* Hub Links */}
       <div className="mb-12 grid gap-4 sm:grid-cols-3">
         <Link
-          href="/most-dangerous-mushrooms"
+          href="/articles/most-dangerous-mushrooms"
           className="rounded-xl border border-red-900/30 bg-red-950/20 p-5 transition hover:border-red-800/50"
         >
           <h2 className="font-[family-name:var(--font-heading)] text-base font-semibold text-red-300">
@@ -45,7 +45,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/best-edible-mushrooms"
+          href="/articles/best-edible-mushrooms"
           className="rounded-xl border border-green-900/30 bg-green-950/20 p-5 transition hover:border-green-800/50"
         >
           <h2 className="font-[family-name:var(--font-heading)] text-base font-semibold text-green-300">
@@ -56,7 +56,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/mushrooms-by-region"
+          href="/articles/mushrooms-by-region"
           className="rounded-xl border border-blue-900/30 bg-blue-950/20 p-5 transition hover:border-blue-800/50"
         >
           <h2 className="font-[family-name:var(--font-heading)] text-base font-semibold text-blue-300">
@@ -74,42 +74,42 @@ export default function Home() {
       </h2>
       <div className="mb-12 grid gap-3 sm:grid-cols-2">
         <Link
-          href="/how-to-identify-poisonous-mushrooms"
+          href="/articles/how-to-identify-poisonous-mushrooms"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">How to Identify a Poisonous Mushroom</h3>
           <p className="mt-1 text-xs text-foreground/60">The myths that will get you killed — and what actually works.</p>
         </Link>
         <Link
-          href="/dog-ate-mushroom"
+          href="/articles/dog-ate-mushroom"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">My Dog Ate a Mushroom — What Do I Do</h3>
           <p className="mt-1 text-xs text-foreground/60">Emergency steps, danger signs, and which yard mushrooms kill dogs.</p>
         </Link>
         <Link
-          href="/mushrooms-that-can-kill-you"
+          href="/articles/mushrooms-that-can-kill-you"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">Mushrooms That Can Kill You</h3>
           <p className="mt-1 text-xs text-foreground/60">Real poisoning cases, real species. True crime meets mycology.</p>
         </Link>
         <Link
-          href="/beginners-guide-to-mushroom-foraging"
+          href="/guides/beginners-guide-to-mushroom-foraging"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">Beginner&apos;s Guide to Mushroom Foraging</h3>
           <p className="mt-1 text-xs text-foreground/60">Everything you need to know to start — from someone who started last year.</p>
         </Link>
         <Link
-          href="/mushrooms-in-your-yard"
+          href="/articles/mushrooms-in-your-yard"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">Mushrooms in Your Yard</h3>
           <p className="mt-1 text-xs text-foreground/60">What they are, whether to panic, and what about the dog.</p>
         </Link>
         <Link
-          href="/mushroom-foraging-by-season"
+          href="/guides/mushroom-foraging-by-season"
           className="rounded-xl border border-border bg-card p-4 transition hover:border-primary/50"
         >
           <h3 className="text-sm font-semibold text-foreground">Foraging by Season</h3>

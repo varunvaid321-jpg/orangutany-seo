@@ -70,7 +70,7 @@ export default function MeiLinChenPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/psychoactive-mushrooms-science" className="text-sm text-primary hover:underline">
+            <Link href="/articles/psychoactive-mushrooms-science" className="text-sm text-primary hover:underline">
               The Science of Psychoactive Mushrooms
             </Link>
           </li>

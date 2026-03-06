@@ -11,14 +11,17 @@ export function Header() {
           <Link href="/mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
             All Species
           </Link>
-          <Link href="/most-dangerous-mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
+          <Link href="/articles/most-dangerous-mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
             Most Dangerous
           </Link>
-          <Link href="/best-edible-mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
+          <Link href="/articles/best-edible-mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
             Best Edible
           </Link>
-          <Link href="/beginners-guide-to-mushroom-foraging" className="text-sm text-muted-foreground hover:text-foreground transition hidden lg:block">
-            Foraging Guide
+          <Link href="/guides" className="text-sm text-muted-foreground hover:text-foreground transition hidden lg:block">
+            Guides
+          </Link>
+          <Link href="/articles" className="text-sm text-muted-foreground hover:text-foreground transition hidden lg:block">
+            Articles
           </Link>
           <a
             href="https://orangutany.com"

@@ -70,7 +70,7 @@ export default function JamesWhitfieldPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/beginners-guide-to-mushroom-foraging" className="text-sm text-primary hover:underline">
+            <Link href="/guides/beginners-guide-to-mushroom-foraging" className="text-sm text-primary hover:underline">
               Beginner&apos;s Guide to Mushroom Foraging
             </Link>
           </li>

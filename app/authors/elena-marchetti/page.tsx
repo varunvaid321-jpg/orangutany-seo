@@ -69,12 +69,12 @@ export default function ElenaMarchettiPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/mushrooms-that-can-kill-you" className="text-sm text-primary hover:underline">
+            <Link href="/articles/mushrooms-that-can-kill-you" className="text-sm text-primary hover:underline">
               Mushrooms That Can Kill You
             </Link>
           </li>
           <li>
-            <Link href="/australian-mushroom-poisoning" className="text-sm text-primary hover:underline">
+            <Link href="/articles/australian-mushroom-poisoning" className="text-sm text-primary hover:underline">
               The Australian Mushroom Poisoning Case
             </Link>
           </li>

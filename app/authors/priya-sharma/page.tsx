@@ -70,12 +70,12 @@ export default function PriyaSharmaPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/mushrooms-in-your-yard" className="text-sm text-primary hover:underline">
+            <Link href="/articles/mushrooms-in-your-yard" className="text-sm text-primary hover:underline">
               Mushrooms in Your Yard
             </Link>
           </li>
           <li>
-            <Link href="/mushroom-foraging-by-season" className="text-sm text-primary hover:underline">
+            <Link href="/guides/mushroom-foraging-by-season" className="text-sm text-primary hover:underline">
               Mushroom Foraging by Season
             </Link>
           </li>

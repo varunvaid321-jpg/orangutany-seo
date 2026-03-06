@@ -71,7 +71,7 @@ export default function SofiaAnderssonPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/australian-mushroom-poisoning" className="text-sm text-primary hover:underline">
+            <Link href="/articles/australian-mushroom-poisoning" className="text-sm text-primary hover:underline">
               The Australian Mushroom Poisoning Case
             </Link>
           </li>

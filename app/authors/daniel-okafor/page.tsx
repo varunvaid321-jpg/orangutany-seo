@@ -70,7 +70,7 @@ export default function DanielOkaforPage() {
         </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/dog-ate-mushroom" className="text-sm text-primary hover:underline">
+            <Link href="/articles/dog-ate-mushroom" className="text-sm text-primary hover:underline">
               My Dog Ate a Mushroom. What Do I Do?
             </Link>
           </li>
