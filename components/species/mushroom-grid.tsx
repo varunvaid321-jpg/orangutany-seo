@@ -18,15 +18,33 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
 
+  // Semantic search: map natural queries to edibility/trait filters
+  const INTENT_MAP: Record<string, { edibility?: string; trait?: string }> = {
+    edible: { edibility: "edible" },
+    "safe to eat": { edibility: "edible" },
+    "can you eat": { edibility: "edible" },
+    poisonous: { edibility: "toxic" },
+    poison: { edibility: "toxic" },
+    toxic: { edibility: "toxic" },
+    deadly: { edibility: "deadly" },
+    fatal: { edibility: "deadly" },
+    "can kill": { edibility: "deadly" },
+    psychoactive: { trait: "psychoactive" },
+    magic: { trait: "psychoactive" },
+    psilocybin: { trait: "psychoactive" },
+  };
+
+  const q = search.trim().toLowerCase();
+  const intent = Object.entries(INTENT_MAP).find(([key]) => q.includes(key))?.[1];
+
   const byFilter =
     filter === "all" ? species :
     filter === "psychoactive" ? species.filter((s) => s.psychoactive) :
     species.filter((s) => s.edibility === filter);
 
-  const filtered = search.trim()
+  const filtered = q
     ? byFilter
         .map((s) => {
-          const q = search.toLowerCase();
           const cn = s.commonName.toLowerCase();
           const sn = s.scientificName.toLowerCase();
           // Priority: exact start of name > contains name > scientific > taxonomy > seo queries > summary
@@ -40,6 +58,15 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
           else if (s.seoQueries.some((sq) => sq.toLowerCase().includes(q))) score = 30;
           else if (s.summary.toLowerCase().includes(q)) score = 20;
           else if (s.description.toLowerCase().includes(q)) score = 10;
+
+          // If user expressed intent (e.g. "edible"), boost matching species and penalize contradictions
+          if (intent) {
+            if (intent.edibility && s.edibility === intent.edibility) score = Math.max(score, 90);
+            else if (intent.edibility && s.edibility !== intent.edibility) score = 0;
+            else if (intent.trait === "psychoactive" && s.psychoactive) score = Math.max(score, 90);
+            else if (intent.trait === "psychoactive" && !s.psychoactive) score = 0;
+          }
+
           return { species: s, score };
         })
         .filter((r) => r.score > 0)
