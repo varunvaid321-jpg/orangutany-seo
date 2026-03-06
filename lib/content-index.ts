@@ -324,7 +324,7 @@ export const guides: ContentEntry[] = [
 
 // --- Authors ---
 export const authors: ContentEntry[] = [
-  { title: "Varun Vaid", slug: "/authors/varun-vaid", type: "author", summary: "Founder of Orangutany. Forager based in Markham, Ontario.", keyword: "varun vaid mushroom", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: true },
+  { title: "Varun Vaid", slug: "/authors/varun-vaid", type: "author", summary: "Software engineer and hobby forager. Founder of Orangutany. Based in Markham, Ontario.", keyword: "varun vaid mushroom", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: true },
   { title: "Elena Marchetti", slug: "/authors/elena-marchetti", type: "author", summary: "Freelance journalist covering true crime and forensic mycology.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
   { title: "James Whitfield", slug: "/authors/james-whitfield", type: "author", summary: "Outdoor recreation coordinator and beginner foraging guide writer.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
   { title: "Priya Sharma", slug: "/authors/priya-sharma", type: "author", summary: "Environmental scientist and fungal ecology writer.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },

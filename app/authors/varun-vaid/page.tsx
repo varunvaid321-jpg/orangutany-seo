@@ -37,7 +37,7 @@ export default function VarunVaidPage() {
           <h1 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground sm:text-3xl">
             Varun Vaid
           </h1>
-          <p className="mt-1 text-sm text-primary">Founder, Orangutany &middot; Mushroom Forager &middot; Software Engineer</p>
+          <p className="mt-1 text-sm text-primary">Software Engineer &middot; Hobby Forager &middot; Founder, Orangutany</p>
           <p className="mt-1 text-xs text-muted-foreground">Markham, Ontario, Canada</p>
           <p className="mt-4 text-sm leading-relaxed text-foreground/80">
             I grew up in India, then lived in Lancaster (UK), Seoul (South Korea), Hannover (Germany),
@@ -349,7 +349,7 @@ export default function VarunVaidPage() {
             name: "Varun Vaid",
             url: "https://guide.orangutany.com/authors/varun-vaid",
             image: "https://guide.orangutany.com/images/authors/varun-vaid/forest-backpack.jpg",
-            jobTitle: "Software Engineer & Mushroom Forager",
+            jobTitle: "Software Engineer & Hobby Forager",
             description:
               "Amateur mycologist and mushroom forager based in Markham, Ontario. Founder of Orangutany.",
             sameAs: ["https://orangutany.com"],
