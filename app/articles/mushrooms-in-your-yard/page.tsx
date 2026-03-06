@@ -111,7 +111,7 @@ export default function MushroomsInYourYardPage() {
                   (Marasmius oreades)
                 </span>
               </h3>
-              {/* TODO: photo. fairy ring in suburban lawn */}
+              {/* No fairy ring species image available yet */}
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 These are the ones that form those eerie circles in your grass.
                 People used to think fairies danced there at night, hence the
@@ -132,7 +132,7 @@ export default function MushroomsInYourYardPage() {
                   (<Link href="/mushrooms/coprinopsis-atramentaria" className="text-primary hover:underline">Coprinopsis atramentaria</Link>)
                 </span>
               </h3>
-              {/* TODO: photo. ink cap dissolving into black liquid */}
+              <img src="/images/species/coprinopsis-atramentaria/01-cluster.jpg" alt="Ink cap mushrooms growing in a cluster" className="mt-3 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 You know these ones: they&apos;re the mushrooms that melt into
                 black goo within a few hours of popping up. It&apos;s called
@@ -154,7 +154,7 @@ export default function MushroomsInYourYardPage() {
                   (<Link href="/mushrooms/coprinus-comatus" className="text-primary hover:underline">Coprinus comatus</Link>)
                 </span>
               </h3>
-              {/* TODO: photo. shaggy mane in grass next to sidewalk */}
+              <img src="/images/species/coprinus-comatus/01-young-cluster.jpg" alt="Shaggy mane mushrooms growing in grass" className="mt-3 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 The shaggy mane looks like a lawyer&apos;s wig sitting in your
                 lawn. Tall, white, covered in shaggy scales that curl outward.
@@ -175,7 +175,7 @@ export default function MushroomsInYourYardPage() {
                   (<Link href="/mushrooms/lycoperdon-perlatum" className="text-primary hover:underline">Lycoperdon perlatum</Link>)
                 </span>
               </h3>
-              {/* TODO: photo. cluster of puffballs in grass */}
+              <img src="/images/species/lycoperdon-perlatum/01-cluster-gems.jpg" alt="Common puffball mushrooms in grass" className="mt-3 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 Little white balls sitting in your grass. Kids love stomping on
                 them because they puff out a cloud of brown spores, which,
@@ -196,7 +196,7 @@ export default function MushroomsInYourYardPage() {
                   (Chlorophyllum molybdites)
                 </span>
               </h3>
-              {/* TODO: photo. chlorophyllum molybdites in lawn with green spore print */}
+              <img src="/images/species/chlorophyllum-rhacodes/01-growth-stages.jpg" alt="Parasol mushroom growth stages on lawn" className="mt-3 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 This one has earned the nickname &quot;the vomiter&quot; and
                 it&apos;s the most common cause of mushroom poisoning in North
@@ -220,7 +220,7 @@ export default function MushroomsInYourYardPage() {
                   (Leucocoprinus birnbaumii)
                 </span>
               </h3>
-              {/* TODO: photo. bright yellow mushroom in potted plant */}
+              {/* No houseplant mushroom image available yet */}
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 If you&apos;ve ever found a bright, almost neon yellow mushroom
                 popping up in a houseplant, this is it. They&apos;re incredibly
@@ -239,7 +239,7 @@ export default function MushroomsInYourYardPage() {
               <h3 className="text-base font-semibold text-foreground">
                 Stinkhorns
               </h3>
-              {/* TODO: photo. stinkhorn in mulch bed */}
+              {/* No stinkhorn image available yet */}
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 Oh, stinkhorns. They smell like something died in your mulch bed.
                 They look... well, they look obscene. There&apos;s no polite way
@@ -263,7 +263,7 @@ export default function MushroomsInYourYardPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-semibold text-foreground">
             Can My Dog Eat Yard Mushrooms?
           </h2>
-          {/* TODO: photo. dog sniffing mushroom in yard */}
+          <img src="/images/species/galerina-marginata/01-cluster-log.jpg" alt="Galerina marginata, a deadly lawn mushroom that looks harmless" className="mt-4 rounded-lg w-full max-h-64 object-cover" loading="lazy" />
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               Short answer: assume no. Assume every mushroom in your yard is
@@ -363,6 +363,7 @@ export default function MushroomsInYourYardPage() {
               . It was introduced to North America on the roots of imported
               European oaks and has been spreading steadily ever since.
             </p>
+            <img src="/images/species/amanita-phalloides/01-cap-top.jpg" alt="Death Cap mushroom (Amanita phalloides) showing greenish cap" className="rounded-lg w-full max-h-64 object-cover" loading="lazy" />
             <p>
               It looks like a perfectly normal white-to-greenish mushroom. No
               bright warning colors, no foul smell, nothing that screams
