@@ -19,6 +19,11 @@ const staticPages = [
   { url: "/articles/australian-mushroom-poisoning", priority: "0.8", freq: "monthly" },
   { url: "/articles/psychoactive-mushrooms-science", priority: "0.8", freq: "monthly" },
   { url: "/articles/why-mushrooms-grow-in-circles", priority: "0.8", freq: "monthly" },
+  { url: "/articles/chicken-of-the-woods", priority: "0.85", freq: "monthly" },
+  { url: "/articles/how-to-find-morels", priority: "0.85", freq: "monthly" },
+  { url: "/articles/morel-vs-false-morel", priority: "0.85", freq: "monthly" },
+  { url: "/articles/most-expensive-mushrooms", priority: "0.8", freq: "monthly" },
+  { url: "/articles/medicinal-mushrooms", priority: "0.8", freq: "monthly" },
   // Guides
   { url: "/guides/beginners-guide-to-mushroom-foraging", priority: "0.85", freq: "monthly" },
   { url: "/guides/edible-wild-mushrooms-trail", priority: "0.8", freq: "monthly" },

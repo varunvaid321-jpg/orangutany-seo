@@ -124,7 +124,13 @@ const species: SpeciesRecord = {
     "In the UK, fresh magic mushrooms were legal to possess until the Drugs Act 2005. Before that, market stalls in Camden, London openly sold bags of fresh Liberty Caps.",
     "Sheep eat them. There's no documented evidence it affects the sheep in any noticeable way, though the idea has generated considerable internet speculation.",
   ],
-  images: [],
+  images: [
+    { filename: "01-single.jpg", alt: "Liberty cap mushroom single specimen with pointed cap", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe.semilanceata.Alan.jpg", author: "Alan Rockefeller", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/" },
+    { filename: "02-field.jpg", alt: "Psilocybe semilanceata growing in grass", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_semilanceata_6514.jpg", author: "Arp", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/" },
+    { filename: "03-closeup.jpg", alt: "Liberty cap closeup showing conical cap and slender stem", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_semilanceata_6576.jpg", author: "Arp", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/" },
+    { filename: "04-ireland.jpg", alt: "Liberty cap mushroom found in Mayo, Ireland", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_Semilanceata_-_Mayo,_Ireland.jpg", author: "Unknown", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/" },
+    { filename: "05-group.jpg", alt: "Group of Psilocybe semilanceata liberty caps in field", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_semilanceata_group.JPG", author: "Unknown", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/" },
+  ],
   identificationImages: {},
 };
 
