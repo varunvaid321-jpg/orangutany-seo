@@ -43,6 +43,7 @@ const staticPages = [
   { url: "/authors/daniel-okafor", priority: "0.4", freq: "yearly" },
   { url: "/authors/mei-lin-chen", priority: "0.4", freq: "yearly" },
   { url: "/authors/sofia-andersson", priority: "0.4", freq: "yearly" },
+  { url: "/authors/arjun-mehra", priority: "0.4", freq: "yearly" },
 ];
 
 const speciesPages = allSpecies.map((s) => ({

@@ -331,6 +331,7 @@ export const authors: ContentEntry[] = [
   { title: "Daniel Okafor", slug: "/authors/daniel-okafor", type: "author", summary: "Veterinary technician specializing in pet mushroom safety.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
   { title: "Mei Lin Chen", slug: "/authors/mei-lin-chen", type: "author", summary: "Science writer covering psychedelics and neuroscience.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
   { title: "Sofia Andersson", slug: "/authors/sofia-andersson", type: "author", summary: "Investigative journalist based in Stockholm.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
+  { title: "Arjun Mehra", slug: "/authors/arjun-mehra", type: "author", summary: "Ethnomycologist studying psychoactive and traditional fungi in the Aravalli hills and across South Asia.", keyword: "", ctaType: "none", hub: "/authors", relatedSlugs: [], published: true, featured: false },
 ];
 
 // --- All content (combined) ---
