@@ -211,12 +211,12 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
               <div className="space-y-3">
                 {species.lookAlikes.map((la) => (
                   <div key={la.name} className="overflow-hidden rounded-lg border border-border bg-card">
-                    <div className="flex gap-0">
+                    <div className="flex flex-col sm:flex-row gap-0">
                       {la.image && (
                         <img
                           src={`${imgBase}/${la.image}`}
                           alt={la.name}
-                          className="h-auto w-28 flex-shrink-0 object-cover sm:w-36"
+                          className="h-40 w-full object-cover sm:h-auto sm:w-36 flex-shrink-0"
                           loading="lazy"
                         />
                       )}

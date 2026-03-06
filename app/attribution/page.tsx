@@ -25,31 +25,31 @@ export default function AttributionPage() {
         <h2 className="text-lg font-semibold text-foreground">Licenses Used</h2>
         <ul className="mt-3 space-y-2 text-sm text-foreground/80">
           <li>
-            <strong>CC BY-SA 3.0</strong> &mdash;{" "}
+            <strong>CC BY-SA 3.0</strong> &ndash;{" "}
             <a href="https://creativecommons.org/licenses/by-sa/3.0/" className="text-primary hover:underline">
               Creative Commons Attribution-ShareAlike 3.0
             </a>
           </li>
           <li>
-            <strong>CC BY-SA 4.0</strong> &mdash;{" "}
+            <strong>CC BY-SA 4.0</strong> &ndash;{" "}
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" className="text-primary hover:underline">
               Creative Commons Attribution-ShareAlike 4.0
             </a>
           </li>
           <li>
-            <strong>CC BY 3.0</strong> &mdash;{" "}
+            <strong>CC BY 3.0</strong> &ndash;{" "}
             <a href="https://creativecommons.org/licenses/by/3.0/" className="text-primary hover:underline">
               Creative Commons Attribution 3.0
             </a>
           </li>
           <li>
-            <strong>CC0 1.0</strong> &mdash;{" "}
+            <strong>CC0 1.0</strong> &ndash;{" "}
             <a href="https://creativecommons.org/publicdomain/zero/1.0/" className="text-primary hover:underline">
               Public Domain Dedication
             </a>
           </li>
           <li>
-            <strong>Public Domain</strong> &mdash; No copyright restrictions.
+            <strong>Public Domain</strong> &ndash; No copyright restrictions.
           </li>
         </ul>
       </section>
