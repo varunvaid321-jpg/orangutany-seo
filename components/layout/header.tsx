@@ -7,7 +7,7 @@ export function Header() {
         <Link href="/" className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
           Orangutany <span className="text-primary">Guide</span>
         </Link>
-        <nav className="flex items-center gap-2 sm:gap-4">
+        <nav className="flex items-center gap-2 sm:gap-4 whitespace-nowrap">
           <Link href="/mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
             Species
           </Link>
