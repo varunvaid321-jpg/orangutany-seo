@@ -145,7 +145,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                     <img
                       src={`${imgBase}/${species.identificationImages.cap}`}
                       alt={`${species.commonName} cap detail`}
-                      className="aspect-[2/1] w-full object-cover"
+                      className="aspect-[2/1] w-full object-cover object-top"
                       loading="lazy"
                     />
                   )}
@@ -161,7 +161,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                     <img
                       src={`${imgBase}/${species.identificationImages.gills}`}
                       alt={`${species.commonName} gills detail`}
-                      className="aspect-[2/1] w-full object-cover"
+                      className="aspect-[2/1] w-full object-cover object-top"
                       loading="lazy"
                     />
                   )}
@@ -177,7 +177,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                     <img
                       src={`${imgBase}/${species.identificationImages.stem}`}
                       alt={`${species.commonName} stem and base detail`}
-                      className="aspect-[2/1] w-full object-cover"
+                      className="aspect-[2/1] w-full object-cover object-top"
                       loading="lazy"
                     />
                   )}

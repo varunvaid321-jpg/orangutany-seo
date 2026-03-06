@@ -6,6 +6,10 @@ export function Footer() {
         <a href="/attribution" className="text-primary hover:underline">
           Full attribution
         </a>
+        {" "}&middot;{" "}
+        <a href="/newsletter" className="text-primary hover:underline">
+          Join our quarterly newsletter
+        </a>
       </p>
       <p className="mt-2">
         &copy; {new Date().getFullYear()}{" "}

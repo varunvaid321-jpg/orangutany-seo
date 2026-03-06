@@ -5,14 +5,17 @@ import { useState } from "react";
 import type { SpeciesRecord } from "@/lib/types";
 import { EdibilityBadge } from "./edibility-badge";
 
-const FILTERS = [
-  { key: "all", label: "All" },
-  { key: "edible", label: "Edible" },
-  { key: "edible-with-caution", label: "Caution" },
-  { key: "toxic", label: "Toxic" },
-  { key: "deadly", label: "Deadly" },
-  { key: "psychoactive", label: "Psychoactive" },
-] as const;
+function getCounts(species: SpeciesRecord[]) {
+  const edible = species.filter((s) => s.edibility === "edible").length;
+  const caution = species.filter((s) => s.edibility === "edible-with-caution").length;
+  const toxic = species.filter((s) => s.edibility === "toxic").length;
+  const deadly = species.filter((s) => s.edibility === "deadly").length;
+  const psychoactive = species.filter((s) => s.psychoactive).length;
+  const inedible = species.filter((s) => s.edibility === "inedible").length;
+  return { all: species.length, edible, caution, toxic, deadly, psychoactive, inedible };
+}
+
+const FILTER_KEYS = ["all", "edible", "edible-with-caution", "toxic", "deadly", "inedible", "psychoactive"] as const;
 
 export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
   const [filter, setFilter] = useState("all");
@@ -33,6 +36,17 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
     magic: { trait: "psychoactive" },
     psilocybin: { trait: "psychoactive" },
   };
+
+  const counts = getCounts(species);
+  const FILTERS = [
+    { key: "all" as const, label: "All", count: counts.all },
+    { key: "edible" as const, label: "Edible", count: counts.edible },
+    { key: "edible-with-caution" as const, label: "Caution", count: counts.caution },
+    { key: "toxic" as const, label: "Toxic", count: counts.toxic },
+    { key: "deadly" as const, label: "Deadly", count: counts.deadly },
+    { key: "inedible" as const, label: "Inedible", count: counts.inedible },
+    { key: "psychoactive" as const, label: "Psychoactive", count: counts.psychoactive },
+  ];
 
   const q = search.trim().toLowerCase();
   const intent = Object.entries(INTENT_MAP).find(([key]) => q.includes(key))?.[1];
@@ -97,7 +111,7 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
                 : "bg-muted text-muted-foreground hover:bg-muted/80"
             }`}
           >
-            {f.label}
+            {f.label} <span className="opacity-60">({f.count})</span>
           </button>
         ))}
       </div>
@@ -113,7 +127,7 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
               <img
                 src={`/images/species/${s.slug}/${s.images[0].filename}`}
                 alt={s.images[0].alt}
-                className="aspect-[3/2] w-full object-cover transition group-hover:scale-105"
+                className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                 loading="lazy"
               />
             )}
