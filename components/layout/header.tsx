@@ -2,9 +2,16 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export function Header() {
   const [userName, setUserName] = useState<string | null>(null);
+  const pathname = usePathname();
+
+  function navClass(href: string) {
+    const active = pathname === href || pathname.startsWith(href + "/");
+    return `text-xs sm:text-sm transition whitespace-nowrap shrink-0 ${active ? "text-foreground font-semibold" : "text-muted-foreground hover:text-foreground"}`;
+  }
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -61,19 +68,19 @@ export function Header() {
           >
             Identify
           </a>
-          <Link href="/mushrooms" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0">
+          <Link href="/mushrooms" className={navClass("/mushrooms")}>
             Species
           </Link>
-          <Link href="/articles" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0">
+          <Link href="/articles" className={navClass("/articles")}>
             Articles
           </Link>
-          <Link href="/guides" className="hidden sm:block text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap">
+          <Link href="/guides" className={`hidden sm:block ${navClass("/guides")}`}>
             Guides
           </Link>
-          <Link href="/articles/most-dangerous-mushrooms" className="hidden md:block text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap">
+          <Link href="/articles/most-dangerous-mushrooms" className={`hidden md:block ${navClass("/articles/most-dangerous-mushrooms")}`}>
             Most Dangerous
           </Link>
-          <Link href="/articles/best-edible-mushrooms" className="hidden md:block text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap">
+          <Link href="/articles/best-edible-mushrooms" className={`hidden md:block ${navClass("/articles/best-edible-mushrooms")}`}>
             Best Edible
           </Link>
         </nav>
