@@ -6,11 +6,26 @@ import type { SpeciesRecord } from "@/lib/types";
 import { EdibilityBadge } from "./edibility-badge";
 import cardImageIndex from "@/data/images/card-image-index.json";
 import { articles, guides, authors, type ContentEntry } from "@/lib/content-index";
+import { RECIPES } from "@/data/recipes";
 
 const cardIdx = cardImageIndex as Record<string, number>;
 
+// Recipe entries as ContentEntry for unified search
+const recipeContentItems: ContentEntry[] = RECIPES.map((r) => ({
+  title: r.recipeName,
+  slug: `/articles/cooking-wild-mushrooms/${r.slug}`,
+  type: "article" as const,
+  summary: r.tasteNote,
+  keyword: `${r.recipeName} recipe cooking mushroom`,
+  ctaType: "identify" as const,
+  hub: "/articles",
+  relatedSlugs: [],
+  published: true,
+  featured: false,
+}));
+
 // All non-species content to search across
-const contentItems: ContentEntry[] = [...articles, ...guides, ...authors];
+const contentItems: ContentEntry[] = [...articles, ...guides, ...authors, ...recipeContentItems];
 
 const authorNameMap: Record<string, string> = Object.fromEntries(
   authors.map((a) => [a.slug.replace("/authors/", ""), a.title])
@@ -32,6 +47,7 @@ const TYPE_LABELS: Record<string, string> = {
   article: "Article",
   guide: "Guide",
   author: "Author",
+  recipe: "Recipe",
 };
 
 const TYPE_COLORS: Record<string, string> = {
