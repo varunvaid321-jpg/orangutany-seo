@@ -48,6 +48,7 @@ import hericiumErinaceus from "./hericium-erinaceus";
 import hydnumRepandum from "./hydnum-repandum";
 import hygrocybeCoccinea from "./hygrocybe-coccinea";
 import hypholomaFasciculare from "./hypholoma-fasciculare";
+import inocybeAeruginascens from "./inocybe-aeruginascens";
 import inocybeErubescens from "./inocybe-erubescens";
 import inonotusObliquus from "./inonotus-obliquus";
 import lactariusDeliciosus from "./lactarius-deliciosus";
@@ -73,11 +74,16 @@ import paxillusInvolutus from "./paxillus-involutus";
 import phallusHadriani from "./phallus-hadriani";
 import phallusImpudicus from "./phallus-impudicus";
 import pleurotusOstreatus from "./pleurotus-ostreatus";
+import pluteusSalicinus from "./pluteus-salicinus";
 import podostromaCornuDamae from "./podostroma-cornu-damae";
 import psilocybeAzurescens from "./psilocybe-azurescens";
+import psilocybeCaerulescens from "./psilocybe-caerulescens";
 import psilocybeCubensis from "./psilocybe-cubensis";
 import psilocybeCyanescens from "./psilocybe-cyanescens";
+import psilocybeMexicana from "./psilocybe-mexicana";
 import psilocybeSemilanceata from "./psilocybe-semilanceata";
+import psilocybeStuntzii from "./psilocybe-stuntzii";
+import psilocybeTampanensis from "./psilocybe-tampanensis";
 import ramariaBotrytis from "./ramaria-botrytis";
 import rubroboletusSatanas from "./rubroboletus-satanas";
 import russulaCyanoxantha from "./russula-cyanoxantha";
@@ -151,6 +157,7 @@ export const allSpecies: SpeciesRecord[] = [
   hydnumRepandum,
   hygrocybeCoccinea,
   hypholomaFasciculare,
+  inocybeAeruginascens,
   inocybeErubescens,
   inonotusObliquus,
   lactariusDeliciosus,
@@ -176,11 +183,16 @@ export const allSpecies: SpeciesRecord[] = [
   phallusHadriani,
   phallusImpudicus,
   pleurotusOstreatus,
+  pluteusSalicinus,
   podostromaCornuDamae,
   psilocybeAzurescens,
+  psilocybeCaerulescens,
   psilocybeCubensis,
   psilocybeCyanescens,
+  psilocybeMexicana,
   psilocybeSemilanceata,
+  psilocybeStuntzii,
+  psilocybeTampanensis,
   ramariaBotrytis,
   rubroboletusSatanas,
   russulaCyanoxantha,
