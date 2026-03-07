@@ -19,8 +19,8 @@ These are locked design decisions. Do NOT change without explicit authorization.
 - **GBIF API**: `https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png`
 - **Style**: `orange.marker` — produces large salmon/peach filled circles
 - **SRS**: `EPSG:4326` (matches equirectangular basemap — no misalignment)
-- **Zoom**: 1
-- **Tiles**: x=0 (180W to 0), x=1 (0 to 180E), y=0 (both)
+- **Zoom**: 0 (NOT 1 — zoom 1 is a 4x2 grid in EPSG:4326, causes dot misalignment)
+- **Tiles**: z=0, x=0 (western half), x=1 (eastern half), y=0 — two tiles cover full world
 - **Compositing**: `Image.alpha_composite(basemap, dots)` — basemap is RGBA, dots layer on top
 - **NEVER use**: matplotlib scatter dots (too small, wrong color, different visual feel)
 - **NEVER use**: `orangeHeat.point` style (tiny heatmap pixels, not the approved look)

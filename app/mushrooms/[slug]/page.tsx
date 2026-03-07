@@ -3,9 +3,10 @@ import { Metadata } from "next";
 import { allSpecies, getSpeciesBySlug } from "@/data/species";
 import { ImageGallery } from "@/components/species/image-gallery";
 import { EdibilityBadge } from "@/components/species/edibility-badge";
-import { DistributionMap } from "@/components/species/distribution-map";
+import { DistributionMapSection } from "@/components/species/distribution-map";
 import { getAuthor } from "@/lib/authors";
 import Link from "next/link";
+import { getCardImage } from "@/lib/card-image";
 
 export function generateStaticParams() {
   return allSpecies.map((s) => ({ slug: s.slug }));
@@ -125,15 +126,8 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             </section>
           )}
 
-          {/* Where It's Been Found — only show if species has images (map file exists alongside photos) */}
-          {species.images.length > 0 && (
-          <section>
-            <h2 className="mb-2 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
-              Where It&apos;s Been Found
-            </h2>
-            <DistributionMap slug={species.slug} />
-          </section>
-          )}
+          {/* Where It's Been Found — hidden entirely if no approved map */}
+          <DistributionMapSection slug={species.slug} />
 
           {/* Identification: with images */}
           <section>
@@ -292,10 +286,10 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                       href={`/mushrooms/${r.slug}`}
                       className="group overflow-hidden rounded-lg border border-border bg-card transition hover:border-primary/50"
                     >
-                      {r.images.length > 0 ? (
+                      {getCardImage(r) ? (
                         <img
-                          src={`/images/species/${r.slug}/${r.images[0].filename}`}
-                          alt={r.images[0].alt}
+                          src={getCardImage(r)!.src}
+                          alt={getCardImage(r)!.alt}
                           className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                           loading="lazy"
                         />

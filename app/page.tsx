@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
 import { EdibilityBadge } from "@/components/species/edibility-badge";
+import { getCardImage } from "@/lib/card-image";
 
 export default function Home() {
   const featured = allSpecies.slice(0, 6);
@@ -128,10 +129,10 @@ export default function Home() {
             href={`/mushrooms/${s.slug}`}
             className="group overflow-hidden rounded-xl border border-border bg-card transition hover:border-primary/50"
           >
-            {s.images.length > 0 && (
+            {getCardImage(s) && (
               <img
-                src={`/images/species/${s.slug}/${s.images[0].filename}`}
-                alt={s.images[0].alt}
+                src={getCardImage(s)!.src}
+                alt={getCardImage(s)!.alt}
                 className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                 loading="lazy"
               />

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
+import { getCardImage } from "@/lib/card-image";
 
 export const metadata: Metadata = {
   title: "Wild Mushrooms by Region, What Grows Near You",
@@ -71,8 +72,8 @@ export default function MushroomsByRegionPage() {
                     >
                       {s.images.length > 0 && (
                         <img
-                          src={`/images/species/${s.slug}/${s.images[0].filename}`}
-                          alt={s.images[0].alt}
+                          src={getCardImage(s)?.src ?? ""}
+                          alt={getCardImage(s)?.alt ?? ""}
                           className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                           loading="lazy"
                         />

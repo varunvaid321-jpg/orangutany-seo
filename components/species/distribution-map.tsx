@@ -17,6 +17,27 @@ const manifest = mapManifest as Record<string, MapManifestEntry>;
 const REQUIRED_BASEMAP_VERSION = "world-equirectangular-v1";
 const REQUIRED_PROJECTION = "equirectangular";
 
+export function DistributionMapSection({ slug }: { slug: string }) {
+  const entry = manifest[slug];
+  const isApproved =
+    entry &&
+    entry.approved &&
+    entry.renderingApproved &&
+    entry.basemapVersion === REQUIRED_BASEMAP_VERSION &&
+    entry.projection === REQUIRED_PROJECTION;
+
+  if (!isApproved) return null;
+
+  return (
+    <section>
+      <h2 className="mb-2 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
+        Where It&apos;s Been Found
+      </h2>
+      <DistributionMap slug={slug} />
+    </section>
+  );
+}
+
 export function DistributionMap({ slug }: { slug: string }) {
   const entry = manifest[slug];
 
@@ -28,11 +49,7 @@ export function DistributionMap({ slug }: { slug: string }) {
     entry.projection === REQUIRED_PROJECTION;
 
   if (!isApproved) {
-    return (
-      <div className="flex aspect-[2/1] items-center justify-center rounded-lg border border-border bg-card">
-        <p className="text-sm text-muted-foreground">Range data unavailable</p>
-      </div>
-    );
+    return null;
   }
 
   return (

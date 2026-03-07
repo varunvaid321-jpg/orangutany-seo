@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useState } from "react";
 import type { SpeciesRecord } from "@/lib/types";
 import { EdibilityBadge } from "./edibility-badge";
+import cardImageIndex from "@/data/images/card-image-index.json";
+
+const cardIdx = cardImageIndex as Record<string, number>;
 
 function getCounts(species: SpeciesRecord[]) {
   const edible = species.filter((s) => s.edibility === "edible").length;
@@ -125,8 +128,8 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
           >
             {s.images.length > 0 && (
               <img
-                src={`/images/species/${s.slug}/${s.images[0].filename}`}
-                alt={s.images[0].alt}
+                src={`/images/species/${s.slug}/${(s.images[cardIdx[s.slug] ?? 0] ?? s.images[0]).filename}`}
+                alt={`${s.commonName} (${s.scientificName})`}
                 className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                 loading="lazy"
               />
