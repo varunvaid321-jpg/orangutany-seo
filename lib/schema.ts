@@ -6,10 +6,17 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Orangutany Mushroom Guide",
+    name: "Orangutany",
+    alternateName: "Orangutany Mushroom Identification",
     url: BASE,
-    description: "Identify mushrooms with real images, habitat info, look-alikes, and safety notes.",
+    description:
+      "Premium mushroom identification powered by machine learning trained on millions of observations. Built in Canada for foragers, mycologists, and the curious.",
     publisher: organizationSchema(),
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${BASE}/mushrooms?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
   };
 }
 
@@ -19,6 +26,25 @@ export function organizationSchema() {
     name: "Orangutany",
     url: "https://orangutany.com",
     logo: "https://orangutany.com/icon.png",
+    description:
+      "Canadian mushroom identification company. Machine learning trained on millions of verified observations delivers expert-grade species ID to foragers worldwide.",
+    foundingDate: "2025",
+    foundingLocation: {
+      "@type": "Place",
+      name: "Markham, Ontario, Canada",
+    },
+    areaServed: "Worldwide",
+    knowsAbout: [
+      "Mushroom identification",
+      "Mycology",
+      "Mushroom foraging",
+      "Fungal taxonomy",
+      "Wild mushroom safety",
+    ],
+    sameAs: [
+      "https://orangutany.com",
+      "https://guide.orangutany.com",
+    ],
   };
 }
 

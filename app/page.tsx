@@ -10,25 +10,28 @@ export default function Home() {
     <div className="mx-auto max-w-5xl px-6 py-12">
       {/* Hero */}
       <div className="mb-12 text-center">
+        <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
+          Built in Canada
+        </p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-          Mushroom Identification Guide
+          Mushroom identification,<br className="hidden sm:block" /> done right.
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-          Real images, global distribution maps, look-alikes, and safety notes for wild mushrooms worldwide.
+          Machine learning trained on millions of verified observations. Real photographs, global distribution maps, toxic look-alikes, and safety data for every species. The identification experience mushroom foragers deserve.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
-          <Link
-            href="/mushrooms"
-            className="rounded-full bg-primary px-6 py-3 font-medium text-background transition hover:bg-primary/90"
-          >
-            Browse All Species
-          </Link>
           <a
             href="https://orangutany.com"
+            className="rounded-full bg-primary px-6 py-3 font-medium text-background transition hover:bg-primary/90"
+          >
+            Identify a Mushroom
+          </a>
+          <Link
+            href="/mushrooms"
             className="rounded-full border border-primary px-6 py-3 font-medium text-primary transition hover:bg-primary/10"
           >
-            Identify from Photo
-          </a>
+            Browse {allSpecies.length} Species
+          </Link>
         </div>
       </div>
 
@@ -154,6 +157,36 @@ export default function Home() {
           View all {allSpecies.length} species &rarr;
         </Link>
       </div>
+
+      {/* Why Orangutany */}
+      <section className="mt-16 rounded-2xl border border-border/50 bg-card/50 p-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-semibold text-foreground">
+          Why Orangutany
+        </h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-3">
+          <div>
+            <h3 className="text-sm font-semibold text-primary">Millions of observations</h3>
+            <p className="mt-1 text-sm text-foreground/70">
+              Our ML models are trained on millions of verified mushroom observations from research-grade datasets worldwide. Not stock photos — real field data.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-sm font-semibold text-primary">Expert-grade accuracy</h3>
+            <p className="mt-1 text-sm text-foreground/70">
+              Every species page is written with identification precision in mind — cap, gills, stem, spore print, bruising, habitat, season, and dangerous look-alikes.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-sm font-semibold text-primary">Safety first, always</h3>
+            <p className="mt-1 text-sm text-foreground/70">
+              We flag every toxic look-alike, every deadly cousin, every edge case. Because the cost of a wrong ID isn&apos;t a bad meal — it&apos;s a hospital visit.
+            </p>
+          </div>
+        </div>
+        <p className="mt-6 text-sm text-foreground/60">
+          Orangutany is a Canadian company building the mushroom identification experience that foragers, mycologists, and the wild-mushroom curious actually deserve. No clutter, no ads, no guesswork.
+        </p>
+      </section>
     </div>
   );
 }
