@@ -23,31 +23,36 @@ export function Header() {
 
   return (
     <header className="border-b border-border/50 px-4 sm:px-6">
-      {/* Top row: logo + user */}
+      {/* Row 1: logo + Hi/Logout */}
       <div className="mx-auto flex max-w-5xl items-center justify-between py-3">
         <Link href="/" className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground">
           Orangutany <span className="text-primary">Guide</span>
         </Link>
-        <div className="flex items-center gap-3">
-          {userName && (
-            <>
-              <span className="text-sm font-semibold text-primary">
-                Hi, {userName}
-              </span>
-              <button
-                onClick={() => {
-                  sessionStorage.removeItem("orangutany_user");
-                  setUserName(null);
-                }}
-                className="text-xs text-muted-foreground hover:text-foreground transition"
-              >
-                Log out
-              </button>
-            </>
-          )}
-        </div>
+        {userName ? (
+          <div className="flex items-center gap-3">
+            <span className="text-sm font-semibold text-primary">
+              Hi, {userName}
+            </span>
+            <button
+              onClick={() => {
+                sessionStorage.removeItem("orangutany_user");
+                setUserName(null);
+              }}
+              className="text-xs text-muted-foreground hover:text-foreground transition"
+            >
+              Log out
+            </button>
+          </div>
+        ) : (
+          <a
+            href="https://orangutany.com"
+            className="text-sm text-muted-foreground hover:text-foreground transition"
+          >
+            Sign in
+          </a>
+        )}
       </div>
-      {/* Bottom row: nav links */}
+      {/* Row 2: Identify + nav links */}
       <div className="mx-auto max-w-5xl border-t border-border/30">
         <nav className="flex items-center gap-5 py-2.5">
           <a
