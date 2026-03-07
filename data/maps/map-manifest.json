@@ -1032,5 +1032,38 @@
     "fileSizeBytes": 36303,
     "renderingApproved": true,
     "approved": true
+  },
+  "psilocybe-stuntzii": {
+    "speciesSlug": "psilocybe-stuntzii",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5242543,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 40480,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "inocybe-aeruginascens": {
+    "speciesSlug": "inocybe-aeruginascens",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 3331845,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 41217,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "pluteus-salicinus": {
+    "speciesSlug": "pluteus-salicinus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5241274,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 72103,
+    "renderingApproved": true,
+    "approved": true
   }
 }
