@@ -41,16 +41,21 @@ def download_map_tile_style(gbif_key, out_dir):
         print(f"  ERROR: basemap missing at {BASEMAP}")
         return False
 
-    left = fetch(f"https://api.gbif.org/v2/map/occurrence/density/1/0/0@2x.png?taxonKey={gbif_key}&style=orange.marker&srs=EPSG:4326")
-    right = fetch(f"https://api.gbif.org/v2/map/occurrence/density/1/1/0@2x.png?taxonKey={gbif_key}&style=orange.marker&srs=EPSG:4326")
+    # Zoom 0: 2 tiles (0,0) and (1,0) cover full world in EPSG:4326
+    # Zoom 1 was WRONG: 4x2 grid, tiles (0,0)+(1,0) only covered partial world
+    left = fetch(f"https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey={gbif_key}&style=orange.marker&srs=EPSG:4326")
+    right = fetch(f"https://api.gbif.org/v2/map/occurrence/density/0/1/0@2x.png?taxonKey={gbif_key}&style=orange.marker&srs=EPSG:4326")
 
     if not left or not right:
         print(f"  FAILED to download tiles")
         return False
 
+    # Each tile is 1024x1024 (@2x), scale to 1024x1024 and place side by side
+    left_img = Image.open(BytesIO(left)).convert('RGBA').resize((1024, 1024), Image.LANCZOS)
+    right_img = Image.open(BytesIO(right)).convert('RGBA').resize((1024, 1024), Image.LANCZOS)
     dots = Image.new('RGBA', (2048, 1024), (0,0,0,0))
-    dots.paste(Image.open(BytesIO(left)).convert('RGBA'), (0, 0))
-    dots.paste(Image.open(BytesIO(right)).convert('RGBA'), (1024, 0))
+    dots.paste(left_img, (0, 0))
+    dots.paste(right_img, (1024, 0))
     result = Image.alpha_composite(Image.open(BASEMAP).convert('RGBA'), dots)
     result.save(str(map_path))
     sz = map_path.stat().st_size
