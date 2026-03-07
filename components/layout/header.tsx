@@ -83,6 +83,9 @@ export function Header() {
           <Link href="/articles/best-edible-mushrooms" className={`hidden md:block ${navClass("/articles/best-edible-mushrooms")}`}>
             Best Edible
           </Link>
+          <Link href="/articles/cooking-wild-mushrooms" className={`hidden md:block ${navClass("/articles/cooking-wild-mushrooms")}`}>
+            Recipes
+          </Link>
         </nav>
       </div>
     </header>
