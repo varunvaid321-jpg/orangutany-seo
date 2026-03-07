@@ -91,8 +91,8 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "02-young.jpg",
-      alt: "Young Jewelled Amanita specimen",
+      filename: "01-field.jpg",
+      alt: "Young Jewelled Amanita specimen with yellow cap and white veil patches",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:20060909_Amanita_gemmata_young.jpg",
       author: "Eike Wulfmeyer",
@@ -101,7 +101,7 @@ const species: SpeciesRecord = {
     },
     {
       filename: "03-field.jpg",
-      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      alt: "Jewelled Amanita (Amanita gemmata) composite showing multiple specimens with yellow caps",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_gemmata_von_hms.jpg",
       author: "Hans-Martin Scheibner",
@@ -109,8 +109,8 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
-      filename: "05-field.jpg",
-      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      filename: "04-field.jpg",
+      alt: "Jewelled Amanita (Amanita gemmata) mature specimen in forest",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_spec._-_Lindsey_3a.jpg",
       author: "James Lindsey",

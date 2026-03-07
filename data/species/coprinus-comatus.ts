@@ -124,12 +124,12 @@ const species: SpeciesRecord = {
   images: [
     {
       filename: "01-field.jpg",
-      alt: "Shaggy Mane (Coprinus comatus) wild specimen",
+      alt: "Young Shaggy Mane (Coprinus comatus) showing classic white elongated shaggy cap",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus-3_hg.jpg",
-      author: "Hannes Grobe/Hannes Grobe (talk)",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus_(30053094063).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
       filename: "02-cap-top.jpg",
@@ -142,12 +142,12 @@ const species: SpeciesRecord = {
     },
     {
       filename: "03-field.jpg",
-      alt: "Shaggy Mane (Coprinus comatus) wild specimen",
+      alt: "Shaggy Mane in late deliquescent stage showing black ink dripping from gills",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus_(30053094063).jpg",
-      author: "Björn S...",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus-3_hg.jpg",
+      author: "Hannes Grobe/Hannes Grobe (talk)",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
       filename: "04-field.jpg",

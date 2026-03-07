@@ -146,16 +146,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "04-illustration.png",
-      alt: "Historical botanical illustration of Inocybe patouillardii by Giacomo Bresadola showing cap, gills, and stem details",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Bresadola_-_Inocybe_Patouillardi.png",
-      author: "Giacomo Bresadola",
-      license: "Public domain",
-      licenseUrl: "",
-    },
-    {
       filename: "05-field.jpg",
       alt: "Inosperma erubescens specimen in field showing fresh pale cap and stem",
       source: "Wikimedia Commons",
