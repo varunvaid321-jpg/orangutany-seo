@@ -3,9 +3,9 @@ import { CtaBlock } from "@/components/shared/cta-block";
 import { organizationSchema } from "@/lib/schema";
 
 export const metadata = {
-  title: "About the Orangutany Mushroom Guide",
+  title: "About Orangutany — Canadian Mushroom Identification",
   description:
-    "Orangutany is a mushroom identification app. This guide helps people learn to identify mushrooms safely with real images, habitat info, and expert writing.",
+    "Orangutany takes the guesswork out of mushroom identification. AI trained on millions of images — species matches, distribution maps, seasonality. Built in Canada. Think global, forage local.",
 };
 
 export default function AboutPage() {

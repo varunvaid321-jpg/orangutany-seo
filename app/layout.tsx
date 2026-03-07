@@ -10,16 +10,29 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Orangutany Mushroom Guide",
-    template: "%s | Orangutany Mushroom Guide",
+    default: "Orangutany — Premium Mushroom Identification | Built in Canada",
+    template: "%s | Orangutany",
   },
   description:
-    "Identify mushrooms with real images, habitat info, look-alikes, and safety notes. Powered by AI trained on millions of species.",
+    "Expert mushroom identification powered by machine learning trained on millions of observations. Real photos, distribution maps, safety data, and look-alikes for 100+ species. Built in Canada.",
   metadataBase: new URL("https://guide.orangutany.com"),
+  keywords: [
+    "mushroom identification",
+    "mushroom ID app",
+    "identify mushroom from photo",
+    "mushroom foraging guide",
+    "poisonous mushroom identification",
+    "edible mushroom guide",
+    "mycology",
+    "wild mushroom safety",
+    "orangutany",
+  ],
   openGraph: {
-    siteName: "Orangutany Mushroom Guide",
+    siteName: "Orangutany",
     type: "website",
-    locale: "en_US",
+    locale: "en_CA",
+    description:
+      "Expert mushroom identification powered by machine learning. Real photos, safety data, and look-alikes. Built in Canada.",
   },
   robots: { index: true, follow: true },
 };
