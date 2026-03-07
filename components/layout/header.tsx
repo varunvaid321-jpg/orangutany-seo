@@ -47,7 +47,8 @@ export function Header() {
             href="https://orangutany.com"
             className="rounded-full bg-primary px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm font-medium text-background transition hover:bg-primary/90 whitespace-nowrap"
           >
-            Identify
+            <span className="sm:hidden">Identify</span>
+            <span className="hidden sm:inline">Identify a Mushroom</span>
           </a>
         </nav>
       </div>
@@ -61,7 +62,7 @@ export function Header() {
               href="https://orangutany.com"
               className="text-xs font-medium text-primary hover:text-primary/80 transition"
             >
-              Back to Identification
+              Identify a Mushroom
             </a>
             <button
               onClick={() => {
