@@ -84,8 +84,8 @@ export default function MushroomsThatCanKillYouPage() {
             Death Cap (<em>Amanita phalloides</em>)
           </h2>
           <figure className="my-4">
-            <img src="/images/species/amanita-phalloides/02-group.jpg" alt="Group of Death Cap mushrooms at various growth stages in woodland" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
-            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Death Caps at various stages of growth. Responsible for 90% of all mushroom fatalities worldwide.</figcaption>
+            <img src="/images/species/amanita-phalloides/04-mature.jpg" alt="Two Death Cap mushrooms at different growth stages in woodland, showing olive-green caps and white stems with volva" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Death Caps at two growth stages. The olive-green cap and white stem look completely ordinary. Responsible for 90% of all mushroom fatalities worldwide.</figcaption>
           </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>

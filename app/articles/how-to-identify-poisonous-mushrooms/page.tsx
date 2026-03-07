@@ -220,22 +220,6 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
             </div>
           </div>
 
-          {/* Chanterelle vs Destroying Angel — color myth */}
-          <ComparisonImages
-            left={{
-              src: "/images/species/cantharellus-cibarius/01-field.jpg",
-              alt: "Golden Chanterelle mushroom — bright orange and completely edible",
-              label: "Chanterelle (edible, bright orange)",
-            }}
-            right={{
-              src: "/images/species/amanita-virosa/01-white-cap.jpg",
-              alt: "Destroying Angel mushroom — pure white and deadly",
-              label: "Destroying Angel (deadly, pure white)",
-            }}
-          />
-          <p className="text-xs text-center text-muted-foreground -mt-4 mb-4">
-            Color tells you nothing. The bright orange Chanterelle is delicious. The pristine white Destroying Angel will kill you.
-          </p>
         </section>
 
         {/* What Actually Works */}
@@ -284,8 +268,8 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
               {/* Stem detail showing volva */}
               <ArticleImage
                 src="/images/species/amanita-phalloides/stem-detail.jpg"
-                alt="Death Cap stem base showing the volva — a cup-like sack at the base that is the key identification feature for deadly Amanitas"
-                caption="The volva at the base of a Death Cap stem. This sits underground — if you snap the stem, you miss the one feature that could save your life."
+                alt="Death Cap mushroom uprooted showing the complete specimen — mature cap, stem with ring, and white volva sack at the base"
+                caption="A Death Cap dug up to reveal the volva (white cup at the base). A young button-stage specimen sits beside it. Always dig up the full mushroom — the volva is the most important identification feature."
               />
             </div>
 
@@ -324,12 +308,12 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <figure>
-              <img src="/images/species/amanita-phalloides/02-group.jpg" alt="Group of Death Cap mushrooms at various growth stages" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+              <img src="/images/species/amanita-phalloides/04-mature.jpg" alt="Two Death Cap mushrooms at different growth stages in woodland, showing olive-green caps and white stems" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
               <figcaption className="mt-1.5 text-center text-xs text-foreground">Death Cap</figcaption>
               <p className="text-center text-[10px] text-red-400 font-medium">90% of all deaths</p>
             </figure>
             <figure>
-              <img src="/images/species/amanita-virosa/04-young.jpg" alt="Young Destroying Angel mushroom emerging from the ground" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+              <img src="/images/species/amanita-virosa/03-mature.jpg" alt="Destroying Angel mushroom — full white specimen with cap and stem visible in woodland" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
               <figcaption className="mt-1.5 text-center text-xs text-foreground">Destroying Angel</figcaption>
               <p className="text-center text-[10px] text-red-400 font-medium">Identical toxin to Death Cap</p>
             </figure>
@@ -408,8 +392,8 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                 {/* Death Cap gill detail vs look-alike */}
                 <ArticleImage
                   src="/images/species/amanita-phalloides/gills-detail.jpg"
-                  alt="Death Cap gills — pure white gills that remain white throughout the mushroom's life, a key difference from the Paddy Straw Mushroom whose gills turn pinkish-brown"
-                  caption="Death Cap gills stay pure white. Paddy Straw Mushroom gills turn pinkish-brown — this difference saves lives."
+                  alt="Mature Death Cap mushroom showing olive-green cap from the side with white stem and partial veil remnants"
+                  caption="A mature Death Cap in the wild. The olive-green cap and white stem look deceptively ordinary — there are no warning signs visible to the untrained eye."
                 />
               </div>
             </div>

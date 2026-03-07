@@ -188,12 +188,6 @@ export default function MorelVsFalseMorelPage() {
               looks stuffed. Some species have lobes and folds of flesh inside,
               others have a wispy, fibrous filling. Either way, it is not empty.
             </p>
-            {/* Cross-section detail */}
-            <figure className="mt-4">
-              <img src="/images/species/morchella-esculenta/stem-detail.jpg" alt="Cross-section of a true morel showing the completely hollow interior" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
-              <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">A true morel sliced in half — completely hollow inside. No fibers, no chambers, just air.</figcaption>
-            </figure>
-
             <div className="mt-4 rounded-lg border border-amber-800/30 bg-amber-950/20 p-4">
               <p className="text-sm font-semibold text-amber-300">
                 If you only remember one thing from this article: cut it open. A
