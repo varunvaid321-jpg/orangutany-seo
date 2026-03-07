@@ -10,7 +10,7 @@ export function websiteSchema() {
     alternateName: "Orangutany Mushroom Identification",
     url: BASE,
     description:
-      "Mushroom identification for people who love mushrooms. 100+ species with real photos, safety data, look-alikes, and foraging guides. Built in Canada.",
+      "Mushroom identification for people who love mushrooms. 100+ species with real photos, safety data, look-alikes, and foraging guides. Precision-engineered in Canada.",
     publisher: organizationSchema(),
     potentialAction: {
       "@type": "SearchAction",
@@ -27,7 +27,7 @@ export function organizationSchema() {
     url: "https://orangutany.com",
     logo: "https://orangutany.com/icon.png",
     description:
-      "Canadian mushroom identification company. We love mushrooms as much as you do — real species guides, safety data, and foraging knowledge for foragers worldwide.",
+      "Canadian mushroom identification company. Premium species guides, safety data, and foraging knowledge — precision-engineered for foragers worldwide.",
     foundingDate: "2025",
     foundingLocation: {
       "@type": "Place",

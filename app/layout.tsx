@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Orangutany",
   },
   description:
-    "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, distribution maps, and honest foraging guides. Written by people who actually pick mushrooms.",
+    "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, distribution maps, and honest foraging guides. Precision-engineered in Canada.",
   metadataBase: new URL("https://guide.orangutany.com"),
   keywords: [
     "mushroom identification",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     description:
-      "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, and honest foraging guides.",
+      "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, and honest foraging guides. Precision-engineered in Canada.",
   },
   robots: { index: true, follow: true },
 };
