@@ -24,7 +24,7 @@
   "chlorophyllum-molybdites": 0,
   "chlorophyllum-rhacodes": 0,
   "clathrus-ruber": 0,
-  "clitocybe-dealbata": 0,
+  "clitocybe-dealbata": 1,
   "clitocybe-nuda": 0,
   "conocybe-filaris": 0,
   "coprinopsis-atramentaria": 0,
@@ -90,5 +90,13 @@
   "tuber-melanosporum": 0,
   "verpa-bohemica": 0,
   "volvariella-volvacea": 0,
-  "xeromphalina-campanella": 0
+  "xeromphalina-campanella": 0,
+  "lepista-saeva": 0,
+  "lycoperdon-pyriforme": 0,
+  "mutinus-caninus": 0,
+  "podostroma-cornu-damae": 0,
+  "psilocybe-cyanescens": 0,
+  "suillus-granulatus": 0,
+  "suillus-luteus": 0,
+  "xerocomellus-chrysenteron": 0
 }
