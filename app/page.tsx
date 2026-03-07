@@ -37,7 +37,7 @@ export default function Home() {
       </div>
 
       {/* Hub Links */}
-      <div className="mb-12 grid gap-4 sm:grid-cols-3">
+      <div className="mb-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Link
           href="/articles/most-dangerous-mushrooms"
           className="rounded-xl border border-red-900/30 bg-red-950/20 p-5 transition hover:border-red-800/50"
@@ -58,6 +58,17 @@ export default function Home() {
           </h2>
           <p className="mt-1 text-sm text-foreground/60">
             The most prized wild mushrooms for foraging and cooking.
+          </p>
+        </Link>
+        <Link
+          href="/articles/cooking-wild-mushrooms"
+          className="rounded-xl border border-amber-900/30 bg-amber-950/20 p-5 transition hover:border-amber-800/50"
+        >
+          <h2 className="font-[family-name:var(--font-heading)] text-base font-semibold text-amber-300">
+            Cooking Wild Mushrooms
+          </h2>
+          <p className="mt-1 text-sm text-foreground/60">
+            8 real recipes from chanterelle risotto to lion&apos;s mane crab cakes.
           </p>
         </Link>
         <Link
