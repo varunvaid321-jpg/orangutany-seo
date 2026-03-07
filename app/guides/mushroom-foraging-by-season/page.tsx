@@ -221,7 +221,7 @@ export default function MushroomForagingBySeasonPage() {
                   golden, funnel-shaped, smelling faintly of apricots.
                   They&rsquo;re mycorrhizal, which means they form partnerships
                   with living trees, so they come back in the same spots year
-                  after year.
+                  after year. For identification help, see <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>.
                 </p>
                 <p>
                   Early chicken of the woods is also going strong now. If you
@@ -543,7 +543,7 @@ export default function MushroomForagingBySeasonPage() {
                 Foraging makes you pay attention to seasons in a way nothing
                 else does. You start noticing the soil warming in March, the
                 first humid night in June, the first cool morning in September.
-                The mushrooms were always there. You just weren&rsquo;t looking.
+                The mushrooms were always there. You just weren&rsquo;t looking. For species distribution and seasonality data, explore <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">GBIF</a>.
               </p>
             </div>
           </section>

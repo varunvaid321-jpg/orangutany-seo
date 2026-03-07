@@ -169,7 +169,7 @@ export default function BeginnersGuidePage() {
                 <strong className="text-foreground">
                   A field guide specific to your region
                 </strong>{" "}
-               , not a global one, not an app. A book written by someone who
+               , not a global one, not an app. Online resources like <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a> are also invaluable. A book written by someone who
                 forages in your area. The species in the Pacific Northwest are
                 different from the Southeast. Get the right book.
               </li>
@@ -366,7 +366,7 @@ export default function BeginnersGuidePage() {
                   confidence.
                 </strong>{" "}
                 Not 95%. Not &ldquo;pretty sure.&rdquo; One hundred percent.
-                There are mushrooms that will kill you, and they look ordinary.
+                There are mushrooms that will kill you, and they look ordinary. If someone does eat an unknown mushroom, contact <a href="https://poison.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">Poison Control</a> immediately.
                 This is the one rule that matters more than all the others
                 combined.
               </li>

@@ -82,8 +82,8 @@ export default function MushroomsThatCanKillYouPage() {
           {/* TODO: Wikimedia photo */}
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              The Death Cap is responsible for roughly 90% of all mushroom
-              fatalities worldwide. Let that sink in. Nine out of ten people who
+              The Death Cap is responsible for roughly <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">90% of all mushroom
+              fatalities</a> worldwide. Let that sink in. Nine out of ten people who
               die from eating a wild mushroom die from this one species.
             </p>
             <p>
@@ -142,7 +142,7 @@ export default function MushroomsThatCanKillYouPage() {
             </p>
             <p>It will kill you just as dead as the Death Cap.</p>
             <p>
-              The Destroying Angel contains the same amatoxins (alpha-amanitin)
+              The Destroying Angel contains the same <a href="https://www.ncbi.nlm.nih.gov/books/NBK431052/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">amatoxins</a> (alpha-amanitin)
               that make the Death Cap lethal. Same three-phase timeline. Same
               liver destruction. Same slim odds once symptoms set in.
             </p>

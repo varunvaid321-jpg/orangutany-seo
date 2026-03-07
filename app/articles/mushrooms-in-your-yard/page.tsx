@@ -199,7 +199,7 @@ export default function MushroomsInYourYardPage() {
               <img src="/images/species/chlorophyllum-rhacodes/01-growth-stages.jpg" alt="Parasol mushroom growth stages on lawn" className="mt-3 rounded-lg w-full max-h-56 object-contain" loading="lazy" />
               <p className="mt-2 text-sm leading-relaxed text-foreground/80">
                 This one has earned the nickname &quot;the vomiter&quot; and
-                it&apos;s the most common cause of mushroom poisoning in North
+                it&apos;s the <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">most common cause of mushroom poisoning</a> in North
                 America. It looks almost exactly like an edible parasol mushroom,
                 which is the problem. Big, white, impressive-looking thing
                 growing right in the middle of your lawn. The giveaway is the
@@ -306,7 +306,7 @@ export default function MushroomsInYourYardPage() {
             </p>
             <p>
               If your dog eats a yard mushroom: grab a sample, take a photo, call
-              your vet. Don&apos;t wait for symptoms. By the time symptoms show
+              your vet or <a href="https://poison.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">Poison Control</a>. Don&apos;t wait for symptoms. By the time symptoms show
               up with amatoxin poisoning, the damage is already happening.
             </p>
           </div>

@@ -45,7 +45,7 @@ export default function MushroomsByRegionPage() {
         Wild Mushrooms by Region
       </h1>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
-        Every species page includes a global distribution map showing where it&apos;s been found.
+        Every species page includes a global distribution map showing where it&apos;s been found, using occurrence data from <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">GBIF</a>.
         Here&apos;s a quick way to explore mushrooms by the region you&apos;re in.
       </p>
 
@@ -96,7 +96,7 @@ export default function MushroomsByRegionPage() {
         <p className="text-sm text-foreground/70">
           Every species includes a{" "}
           <span className="font-semibold text-primary">global distribution map</span>{" "}
-          showing reported sightings from GBIF.{" "}
+          showing reported sightings from GBIF. For detailed species identification, see <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>.{" "}
           <Link href="/mushrooms" className="text-primary hover:underline">
             Browse all species
           </Link>

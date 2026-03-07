@@ -149,7 +149,7 @@ export default function EdibleWildMushroomsTrailPage() {
                 you&rsquo;re in the right place.
               </p>
               <p>
-                The key identification feature is the false gills:
+                The key identification feature is the false gills (see <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a> for detailed descriptions):
                 they&rsquo;re not true blade-like gills but shallow, forking
                 ridges that run down the stem. That&rsquo;s what separates a
                 real chanterelle from a jack-o&rsquo;-lantern mushroom, which
@@ -635,7 +635,7 @@ export default function EdibleWildMushroomsTrailPage() {
                   </strong>{" "}
                   No mushroom is worth a hospital visit. If your identification
                   is even slightly uncertain, leave it in the ground and go home
-                  alive.
+                  alive. For information on <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom poisoning symptoms and treatment</a>, see the NIH resource.
                 </li>
               </ul>
 

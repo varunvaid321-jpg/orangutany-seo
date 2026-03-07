@@ -41,6 +41,11 @@ export default function BestEdiblePage() {
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         These are the mushrooms that foragers dream about. Some are worth hundreds of dollars per pound,
         others grow in your backyard. All of them are delicious, if you know what you&apos;re looking for.
+        Accurate species identification is critical for safe foraging — resources like{" "}
+        <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>{" "}
+        provide detailed field guides, and understanding{" "}
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom toxicity</a>{" "}
+        is essential before eating any wild species.
       </p>
 
       <div className="mt-8 space-y-6">
