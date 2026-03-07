@@ -100,15 +100,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
     },
     {
-      filename: "02-group.jpg",
-      alt: "Group of False Death Cap mushrooms in the wild",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina_group.jpg",
-      author: "Danny Cicchetti",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "False Death Cap (Amanita citrina) wild specimen",
       source: "Wikimedia Commons",

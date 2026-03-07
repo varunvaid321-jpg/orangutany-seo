@@ -155,15 +155,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "05-closeup.jpg",
-      alt: "Aged Chicken of the Woods shelves showing faded coloring",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_2017_G01.jpg",
-      author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

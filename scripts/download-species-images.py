@@ -15,6 +15,50 @@ BASEMAP = IMG_DIR / "_basemap.png"
 
 UA = "OrangutanyBot/1.0 (https://guide.orangutany.com; educational mushroom guide)"
 
+# ── Hardcoded rejection patterns (from audit findings) ──────────────────────
+# These patterns in Wikimedia filenames indicate wrong content. Auto-reject.
+REJECT_FILENAME_PATTERNS = [
+    # Historical illustrations (wrong format — not photographs)
+    "karl_johanssvamp", "iduns_kokbok", "bresadola", "bulliard", "sowerby",
+    "curtis_british", "atlas_champignons", "atlas_des_champignons",
+    "illustration", "drawing", "engraving", "painting", "watercolor",
+    "botanical_plate", "tab.", "tav.",
+    # Microscopy / spore images (not field photos)
+    "spore", "microscop", "ascospore", "basidiospore", "sem_image",
+    "microscope", "spores_de_",
+    # Diagrams and charts (not photographs)
+    "lifecycle", "cycle_de_vie", "diagram", "chart", "infographic",
+    # Icons and UI elements
+    "flag", "icon", "logo", "map", "commons-logo", "wikidata",
+    "wikispecies", "edit-clear", "wiki-", "text-", "lock-", "crystal",
+    "ambox", "question", "stub", "star", "symbol", "nuvola", "info",
+    "red_pencil", "status", "oc-icon", "padlock", "semi-protection",
+    "portal", "folder", "increase", "decrease",
+]
+
+def is_rejected_filename(filename):
+    """Check if a Wikimedia filename matches known bad patterns."""
+    lower = filename.lower()
+    return any(pat in lower for pat in REJECT_FILENAME_PATTERNS)
+
+def verify_species_in_filename(filename, scientific_name):
+    """Check if the image filename plausibly relates to the target species.
+    Returns True if OK, False if the filename names a DIFFERENT species."""
+    lower = filename.lower()
+    genus = scientific_name.split()[0].lower()
+    species_epithet = scientific_name.split()[-1].lower() if len(scientific_name.split()) > 1 else ""
+
+    # Known cross-contamination: check for common wrong-species indicators
+    wrong_species_indicators = [
+        "boletus_edulis", "karl_johanssvamp",  # Porcini appearing in non-bolete pages
+        "amanita_muscaria",  # Fly agaric appearing in non-muscaria pages
+    ]
+    for indicator in wrong_species_indicators:
+        if indicator in lower and indicator not in genus and indicator not in species_epithet:
+            return False
+
+    return True
+
 def fetch(url, retries=3):
     """Fetch URL with retries and proper user agent."""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -91,24 +135,20 @@ def get_wiki_images(scientific_name, slug):
     page = list(pages.values())[0]
     all_images = page.get("images", [])
 
-    # Filter to actual mushroom photos (jpg/png, skip SVGs, flags, icons, maps)
-    skip_patterns = [
-        "flag", "icon", "logo", "map", "diagram", "commons-logo", "wikidata",
-        "wikispecies", "edit-clear", "wiki", "text-", "lock-", "crystal",
-        "ambox", "question", "stub", "star", "symbol", "nuvola", "info",
-        "red_pencil", "status", "oc-icon", "padlock", "semi-protection",
-        "portal", "folder", "increase", "decrease"
-    ]
-
     good_images = []
     for img in all_images:
         title = img["title"]
         lower = title.lower()
         if not any(lower.endswith(ext) for ext in [".jpg", ".jpeg", ".png"]):
             continue
-        if any(pat in lower for pat in skip_patterns):
+        # Use centralized rejection check (covers icons, illustrations, microscopy, etc.)
+        if is_rejected_filename(title):
+            print(f"    REJECTED (bad pattern): {title}")
             continue
-        # Prefer images that mention the species name
+        # Verify the image doesn't name a known different species
+        if not verify_species_in_filename(title, scientific_name):
+            print(f"    REJECTED (wrong species in filename): {title}")
+            continue
         good_images.append(title)
 
     return good_images[:8]  # Get up to 8 candidates
@@ -176,7 +216,18 @@ def download_species_photos(scientific_name, slug, out_dir):
         data = fetch_json(search_url)
         if data:
             pages = data.get("query", {}).get("pages", {})
-            wiki_images = [p.get("title", "") for p in pages.values() if p.get("title", "").lower().endswith((".jpg", ".jpeg", ".png"))]
+            # Apply same rejection filters to search results
+            for p in pages.values():
+                t = p.get("title", "")
+                if not t.lower().endswith((".jpg", ".jpeg", ".png")):
+                    continue
+                if is_rejected_filename(t):
+                    print(f"    REJECTED (bad pattern in search): {t}")
+                    continue
+                if not verify_species_in_filename(t, scientific_name):
+                    print(f"    REJECTED (wrong species in search): {t}")
+                    continue
+                wiki_images.append(t)
 
     downloaded = []
     idx = 1
@@ -188,9 +239,22 @@ def download_species_photos(scientific_name, slug, out_dir):
         if not info or not info["thumb_url"]:
             continue
 
+        # Final rejection check on the resolved image info
+        if is_rejected_filename(file_title):
+            print(f"    REJECTED (bad pattern): {file_title}")
+            continue
+        if not verify_species_in_filename(file_title, scientific_name):
+            print(f"    REJECTED (wrong species): {file_title}")
+            continue
+
         # Download the image
         img_data = fetch(info["thumb_url"])
         if not img_data or len(img_data) < 5000:
+            continue
+
+        # Enforce minimum file size (60KB for gallery, per IMAGE_POLICY.md)
+        if len(img_data) < 60000:
+            print(f"    REJECTED (too small: {len(img_data)} bytes < 60KB min): {file_title}")
             continue
 
         filename = f"{idx:02d}-{slug.split('-')[-1]}-{idx}.jpg"

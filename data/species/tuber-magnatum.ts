@@ -135,15 +135,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "05-field.jpg",
-      alt: "White Truffle (Tuber magnatum) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bresadola_-_Tuber_magnatum_und_Tuber_maelanosporum.png",
-      author: "Giacomo Bresadola",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
   ],
 };
 

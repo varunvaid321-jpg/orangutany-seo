@@ -115,15 +115,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
     {
-      filename: "03-cap-top.jpg",
-      alt: "Cinnabar Chanterelle cap viewed from above showing surface texture",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletopsis_nothofagi_fruitbodies.jpg",
-      author: "Jerry A. Cooper",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
       source: "Wikimedia Commons",

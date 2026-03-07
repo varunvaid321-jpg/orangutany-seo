@@ -22,9 +22,15 @@
 
 ## Disallowed Image Classes
 
-- icon, symbol, clipart, illustration
+- icon, symbol, clipart, illustration, drawing, engraving, painting, watercolor
 - ai_generated, placeholder, warning_graphic
-- unrelated_photo, uncertain_species_match
+- unrelated_photo, uncertain_species_match, wrong_species
+- microscopy, spore_slide, spore_print_mislabeled (spore prints are allowed ONLY in spore_print class)
+- lifecycle_diagram, infographic, scientific_chart
+- food_photo, cooking_scene, market_storefront, kitchen_scene
+- landscape_no_subject (habitat photo where the mushroom is not visible)
+- degraded_specimen (collapsed, rotted, or unrecognizable specimens)
+- multi_species_unlabeled (image with multiple species where target is not clearly dominant)
 
 ## Hero Image Requirements
 
@@ -60,6 +66,35 @@ Section images are optional. Never force an irrelevant image.
 3. Thumbnails: `object-cover` acceptable if mushroom remains recognizable
 4. Never crop cap off the top of frame
 5. Default to `object-contain` when no crop metadata exists
+6. Never crop or resize an image such that the mushroom becomes partially hidden, cut off, or hard to identify
+7. The entire fruiting body must remain visible in all display contexts (desktop card, mobile card, gallery lightbox)
+8. If an image's aspect ratio would cause the mushroom to be cropped in a card layout, use `object-contain` with background fill instead of `object-cover`
+
+## Source Verification Rules (hardcoded — not discretionary)
+
+Before accepting any image from Wikimedia Commons or any external source:
+
+1. **Check source filename**: The Wikimedia filename must reference the target species. If it names a different species (e.g., "Karl_Johanssvamp" for a non-bolete page), REJECT immediately.
+2. **Check source description page**: The image description on Commons must confirm the species. Cross-reference against the target species.
+3. **Filter known bad patterns**: Reject images whose filenames contain any of:
+   - "Iduns_kokbok", "Karl_Johanssvamp" (recurring Boletus edulis illustration)
+   - "Bresadola", "Bulliard", "Sowerby", "Curtis" (historical illustrators)
+   - "illustration", "drawing", "engraving", "painting", "Atlas"
+   - "spore", "microscop", "ascospore", "basidiospore", "SEM"
+   - "lifecycle", "diagram", "cycle_de_vie"
+4. **Verify visual content**: Even after source checks pass, visually confirm the image shows the correct species as a clear photograph.
+
+## Detail Image Requirements (hardcoded)
+
+Detail images (`cap-detail.jpg`, `gills-detail.jpg`, `pores-detail.jpg`, `stem-detail.jpg`) have strict requirements:
+
+1. Must be a close-up photograph of the specific anatomical feature named in the filename
+2. `cap-detail.jpg` → must show the cap surface, texture, and color at close range
+3. `gills-detail.jpg` → must show the gill structure from below or at an angle
+4. `pores-detail.jpg` → must show the pore surface clearly
+5. `stem-detail.jpg` → must show the stem, ring, and/or base at close range
+6. A landscape, market photo, distant shot, or photo of people is NEVER a valid detail image
+7. If no suitable close-up photo exists, omit the detail image entirely rather than using an inappropriate substitute
 
 ## Minimum File Sizes
 

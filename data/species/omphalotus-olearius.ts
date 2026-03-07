@@ -48,7 +48,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "False Chanterelle (Hygrophoropsis aurantiaca)",
-      image: "lookalike-hygrophoropsis.jpg",
+      image: "",
       distinction:
         "Smaller and thinner than the Jack O'Lantern, with a more brownish-orange cap that often has a suede-like texture. Has true forked gills (not ridges like real chanterelles). Grows on soil or decaying conifer wood, not hardwood stumps. Mildly toxic — causes GI upset in some people but not as severe as Jack O'Lanterns.",
       externalUrl: "https://www.inaturalist.org/taxa/63538-Hygrophoropsis-aurantiaca",

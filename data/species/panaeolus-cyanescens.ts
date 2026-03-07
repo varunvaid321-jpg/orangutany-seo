@@ -111,15 +111,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "02-cyanescens-2.jpg",
-      alt: "Panaeolus cyanescens mushroom photograph",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
-      author: "Elisabeth Östman (1869–1933)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
-    },
   ],
 };
 

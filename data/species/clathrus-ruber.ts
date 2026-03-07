@@ -132,15 +132,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "05-field.jpg",
-      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_by_Micheli_1729.jpg",
-      author: "Pier Antonio Micheli",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
   ],
 };
 

@@ -136,16 +136,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
-      filename: "03-cluster.jpg",
-      alt: "Cluster of Deadly Fibrecap mushrooms showing characteristic pale caps and crowded growth",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Inocybe-erubescens024.jpg",
-      author: "Danny Steaven",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "05-field.jpg",
       alt: "Inosperma erubescens specimen in field showing fresh pale cap and stem",
       source: "Wikimedia Commons",

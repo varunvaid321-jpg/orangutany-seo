@@ -157,16 +157,6 @@ const species: SpeciesRecord = {
       license: "CC BY 2.0",
       licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
-    {
-      filename: "05-german.jpg",
-      alt: "Gyromitra esculenta specimen in German forest showing dark brown wrinkled cap",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Fruehjahrslorchel.jpg",
-      author: "W.J.Pilsak",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

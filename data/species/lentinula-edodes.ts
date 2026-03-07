@@ -128,15 +128,6 @@ const species: SpeciesRecord = {
       licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     },
     {
-      filename: "03-young.jpg",
-      alt: "Young Shiitake specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Button_mushroom_and_winter_mushroom.jpg",
-      author: "Peachyeung316",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Dried shiitake mushrooms in a bowl",
       source: "Wikimedia Commons",

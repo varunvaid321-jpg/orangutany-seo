@@ -151,30 +151,10 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "04-forest-floor.jpg",
-      alt: "Caesar's Mushroom specimen in Polish forest showing orange cap and yellow ring",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Amanita_caesarea_MS7_(4).jpg",
-      author: "Jerzy Opiol",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "05-market.jpg",
-      alt: "Freshly foraged Caesar's Mushrooms displayed for sale at a French market",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Oronges.jpg",
-      author: "Yaqui",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",
     gills: "gills-detail.jpg",
-    stem: "stem-detail.jpg",
   },
 };
 

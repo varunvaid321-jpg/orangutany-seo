@@ -129,15 +129,6 @@ const species: SpeciesRecord = {
       licenseUrl: "",
     },
     {
-      filename: "02-group.jpg",
-      alt: "Group of Death Cap mushrooms at various growth stages in woodland",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_group.jpg",
-      author: "Danny Cicchetti",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "03-young.jpg",
       alt: "Young Death Cap mushroom with pale greenish cap emerging from volva",
       source: "Wikimedia Commons",

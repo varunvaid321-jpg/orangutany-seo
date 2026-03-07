@@ -114,15 +114,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
     },
     {
-      filename: "03-group.jpg",
-      alt: "Group of Panther Cap mushrooms growing together in woodland",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_group.jpg",
-      author: "Danny Cicchetti",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "04-stem.jpg",
       alt: "Panther Cap showing stem, pendant ring, and base",
       source: "Wikimedia Commons",

@@ -170,7 +170,7 @@ const species: SpeciesRecord = {
   ],
   identificationImages: {
     cap: "cap-detail.jpg",
-    gills: "cross-section-detail.jpg",
+    gills: "",
     stem: "stem-detail.jpg",
   },
 };

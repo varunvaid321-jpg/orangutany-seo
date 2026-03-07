@@ -137,15 +137,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "03-field.jpg",
-      alt: "Black Trumpet (Craterellus cornucopioides) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Craterellus.cornucopioides.1000x.DIC.jpg",
-      author: "Alan Rockefeller",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",
