@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <p className="font-semibold text-foreground">Orangutany</p>
             <p className="mt-1 text-muted-foreground">
-              Premium mushroom identification built in Canada. Machine learning trained on millions of observations.
+              Premium mushroom identification built in Canada. Trained on millions of observations.
             </p>
           </div>
           <div>
@@ -21,7 +21,7 @@ export function Footer() {
           <div>
             <p className="font-semibold text-foreground">Company</p>
             <ul className="mt-1 space-y-1 text-muted-foreground">
-              <li><a href="https://orangutany.com" className="hover:text-primary transition">Orangutany Mushroom ID</a></li>
+              <li><a href="https://orangutany.com" className="hover:text-primary transition">Orangutany</a></li>
               <li><a href="/about" className="hover:text-primary transition">About Orangutany Guide</a></li>
               <li><a href="/attribution" className="hover:text-primary transition">Image Attribution</a></li>
               <li><a href="/newsletter" className="hover:text-primary transition">Newsletter</a></li>

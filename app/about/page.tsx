@@ -5,7 +5,7 @@ import { organizationSchema } from "@/lib/schema";
 export const metadata = {
   title: "About Orangutany Guide — Canadian Mushroom Identification",
   description:
-    "Orangutany takes the guesswork out of mushroom identification. AI trained on millions of images — species matches, distribution maps, seasonality. Built in Canada. Think global, forage local.",
+    "Orangutany takes the guesswork out of mushroom identification. Upload a photo and get species matches, distribution maps, and seasonality. Built in Canada. Think global, forage local.",
   alternates: { canonical: "/about" },
 };
 
@@ -44,7 +44,7 @@ export default function AboutPage() {
           >
             Orangutany
           </a>
-          , a mushroom identification app that uses AI to identify fungi from
+          , a mushroom identification tool that helps you identify fungi from
           photos.
         </p>
 
