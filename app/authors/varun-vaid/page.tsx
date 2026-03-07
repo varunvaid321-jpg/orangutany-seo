@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
+import { getCardImage } from "@/lib/card-image";
 
 export const metadata: Metadata = {
   title: "Varun Vaid, Mushroom Guide Author & Forager | Orangutany",
@@ -316,11 +317,11 @@ export default function VarunVaidPage() {
               href={`/mushrooms/${s.slug}`}
               className="group overflow-hidden rounded-lg border border-border bg-card transition hover:border-primary/50"
             >
-              {s.images.length > 0 && (
+              {getCardImage(s) && (
                 <img
-                  src={`/images/species/${s.slug}/${s.images[0].filename}`}
-                  alt={s.images[0].alt}
-                  className="aspect-[3/2] w-full object-cover transition group-hover:scale-105"
+                  src={getCardImage(s)!.src}
+                  alt={getCardImage(s)!.alt}
+                  className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                   loading="lazy"
                 />
               )}

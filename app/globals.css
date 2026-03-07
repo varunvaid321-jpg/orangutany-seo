@@ -16,6 +16,18 @@
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Prevent any element from exceeding viewport width */
+img, video, iframe, embed, object, table {
+  max-width: 100%;
+}
+
+/* Ensure pre/code blocks scroll instead of overflowing */
+pre {
+  overflow-x: auto;
 }
 
 ::selection {

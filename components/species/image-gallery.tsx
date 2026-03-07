@@ -6,19 +6,25 @@ import type { SpeciesImage } from "@/lib/types";
 export function ImageGallery({ images, slug }: { images: SpeciesImage[]; slug: string }) {
   const [selected, setSelected] = useState(0);
 
-  if (images.length === 0) return null;
+  if (images.length === 0) {
+    return (
+      <div className="flex aspect-[4/3] items-center justify-center rounded-xl border border-border bg-card">
+        <p className="text-sm text-muted-foreground">Image unavailable</p>
+      </div>
+    );
+  }
 
   const current = images[selected];
   const basePath = `/images/species/${slug}`;
 
   return (
     <div className="space-y-3">
-      {/* Main image */}
-      <div className="overflow-hidden rounded-xl border border-border">
+      {/* Main image: contain-safe rendering preserves full specimen */}
+      <div className="overflow-hidden rounded-xl border border-border bg-[#1a1a1a]">
         <img
           src={`${basePath}/${current.filename}`}
           alt={current.alt}
-          className="aspect-[4/3] w-full object-cover"
+          className="aspect-[4/3] w-full object-contain"
           loading="eager"
         />
       </div>
@@ -37,7 +43,7 @@ export function ImageGallery({ images, slug }: { images: SpeciesImage[]; slug: s
               <img
                 src={`${basePath}/${img.filename}`}
                 alt={img.alt}
-                className="h-16 w-20 object-cover"
+                className="h-16 w-20 object-cover object-top"
                 loading="lazy"
               />
             </button>

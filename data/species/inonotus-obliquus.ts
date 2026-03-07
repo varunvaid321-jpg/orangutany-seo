@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible-with-caution",
   edibilityNote:
     "Traditionally consumed as a tea or decoction, not eaten whole (the texture is far too woody). Chaga tea has been used in Russian and Siberian folk medicine for centuries. Modern Chaga products include powders, tinctures, and capsules. Caution: Chaga is high in oxalates, and excessive consumption has been linked to kidney problems in case reports. People with kidney disease, those on blood thinners, or those with autoimmune conditions should consult a doctor before using Chaga. Many marketed health claims lack robust human clinical evidence.",
-  gbifKey: 2544402,
+  gbifKey: 2521089,
   stories: [
     {
       title: "Solzhenitsyn's Cancer Ward",
@@ -101,7 +101,53 @@ const species: SpeciesRecord = {
     "A single Chaga conk can grow on a living birch tree for 10-20 years, slowly feeding on the tree's heartwood before the tree eventually dies.",
     "Chaga is naturally high in oxalates. A case report in a Japanese medical journal documented kidney failure in a woman who consumed large amounts of Chaga powder daily for several months.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Chaga (Inonotus obliquus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_(Inonotus_obliquus)_de_4,2_kg.jpg",
+      author: "JBouchez",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Chaga (Inonotus obliquus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_Mushroom_-_Inonotus_obliquus_(30222675437).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Chaga (Inonotus obliquus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_Mushroom_-_Inonotus_obliquus_(40358524662).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Chaga (Inonotus obliquus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_Mushroom_-_Inonotus_obliquus_(45112059032).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Chaga (Inonotus obliquus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus_(35578063011).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+  ],
 };
 
 export default species;

@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "Not considered edible due to extremely small size. The fruiting bodies are too tiny to have any culinary value. Not known to be toxic, but there is no tradition of consumption. The primary interest in this species is aesthetic and scientific, not culinary.",
-  gbifKey: 5260882,
+  gbifKey: 8411734,
   stories: [
     {
       title: "Renaissance Intarsia and the Green Wood Mystery",
@@ -93,7 +93,53 @@ const species: SpeciesRecord = {
     "Researchers have demonstrated that xylindein can function as an organic semiconductor, opening the door to sustainable, bio-derived electronic components.",
     "The blue-green color of xylindein is produced by a quinone pigment with a unique molecular structure not found in any synthetic dye. Chemists have been trying to replicate it efficiently for industrial use.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria_aeruginascens-336907.jpg",
+      author: "This image was created by user Sava Krstic (sava) at Mushroom Observer, a source for mycological images.You can contact",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Green Elfcup growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria-wood-Coatings-07-00188-g001.png",
+      author: "Patricia T. Vega Gutierrez",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria_aeruginascens_stained.jpg",
+      author: "Paul Derbyshire",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria_aeruginascens_1M.jpg",
+      author: "Amadej Trnkoczy",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cheb_relief_intarsia_-_Allegories_of_months_3.jpg",
+      author: "Attributed to Adam Eck",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

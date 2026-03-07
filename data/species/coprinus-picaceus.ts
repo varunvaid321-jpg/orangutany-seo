@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "Not edible. Causes gastrointestinal upset including nausea and stomach pain. Some sources suggest it may contain coprine, which causes a disulfiram-like reaction with alcohol, though this has not been definitively confirmed. The species is uncommon enough that it is better appreciated in situ than collected for the table. Photograph it; do not eat it.",
-  gbifKey: 8375392,
+  gbifKey: 5242777,
   stories: [
     {
       title: "The Beech Wood Photo Trophy",
@@ -92,7 +92,53 @@ const species: SpeciesRecord = {
     "In some parts of England, the Magpie Inkcap was traditionally called the 'magpie fungus' and was considered bad luck to pick, echoing the superstition that seeing a single magpie brings misfortune.",
     "The inky black liquid produced by deliquescing inkcaps was historically used as actual writing ink. Manuscripts written with inkcap ink have survived for centuries and can be authenticated by the presence of fungal spores under microscopic examination.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-cap-top.jpg",
+      alt: "Magpie Inkcap cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:After_6_weeks_intensive_inspection_there_were_again_Coprinopsis_picacea,_Syn_Coprinus_(GB%3D_Magpie_Inkcap,_D%3D_Specht-Tintling_,_F%3D_Coprin_pie,_Syn._Coprin_noir_et_blanc,_NL%3D_Spechtinktzwam)_at_15_October_2014._Last_year_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-cap-top.jpg",
+      alt: "Magpie Inkcap cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinopsis_picacea_(Magpie_Inkcap)_(50476263012).jpg",
+      author: "Lukas Large from Stourbridge, United Kingdom",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Magpie Inkcap (Coprinopsis picacea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinopsis_picacea_(Specht-Tintling).jpg",
+      author: "Muck",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "04-cap-top.jpg",
+      alt: "Magpie Inkcap cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinopsis_picacea_(Magpie_Inkcap)_(50491120351).jpg",
+      author: "Lukas Large from Stourbridge, United Kingdom",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "05-cap-top.jpg",
+      alt: "Magpie Inkcap cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinopsis_picacea_(Magpie_Inkcap)_(51391960136).jpg",
+      author: "Lukas Large from Stourbridge, United Kingdom",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+  ],
 };
 
 export default species;

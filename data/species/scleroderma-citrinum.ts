@@ -50,7 +50,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Causes gastrointestinal distress including nausea, vomiting, diarrhea, and abdominal pain. Onset is typically 30 minutes to 2 hours after ingestion. Some individuals also report dizziness, headache, and visual disturbances. Symptoms are usually self-limiting but can be significant enough to require medical attention for rehydration. Not considered life-threatening but distinctly unpleasant.",
-  gbifKey: 5241106,
+  gbifKey: 5239982,
   stories: [
     {
       title: "The Puffball Soup That Wasn't",
@@ -88,7 +88,53 @@ const species: SpeciesRecord = {
     "The thick, tough skin of the Common Earthball (2-3 mm thick) is one of the easiest ways to distinguish it from true puffballs, which have thin, papery skin. Just squeeze it: if it feels like a hard rubber ball, it is an earthball.",
     "Common Earthballs are sometimes parasitized by the Parasitic Bolete (Pseudoboletus parasiticus), a small brownish bolete mushroom that grows directly out of the earthball's surface.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Common Earthball (Scleroderma citrinum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2009-09-03_Scleroderma_citrinum_Pers_55647.jpg",
+      author: "This image was created by user Herbert Baker (Herbert Baker) at Mushroom Observer, a source for mycological images.You c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Common Earthball (Scleroderma citrinum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bagno_Chlebowo,_fungi_(Scleroderma_citrinum).JPG",
+      author: "MOs810",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Common Earthball (Scleroderma citrinum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bagno_Chlebowo,_fungi_(Scleroderma_citrinum,_1).JPG",
+      author: "MOs810",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Common Earthball (Scleroderma citrinum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Common_Earthball_(Scleroderma_citrinum)_(20774260398).jpg",
+      author: "Andrew C",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Common Earthball (Scleroderma citrinum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Common_Earthball_Fungi_(Scleroderma_citrinum)_(30654114993).jpg",
+      author: "James Johnstone from Ecclefechan, Scotland",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+  ],
 };
 
 export default species;

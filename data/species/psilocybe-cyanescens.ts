@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   psychoactive: true,
   edibilityNote:
     "Contains psilocybin and psilocin, which are Schedule I controlled substances in the United States and illegal in most countries. P. cyanescens is notably more potent than P. cubensis, with higher concentrations of psilocybin per gram of dried material. Effects include intense visual distortions, altered time perception, euphoria, and anxiety. The primary danger beyond legal consequences is confusion with Galerina marginata, which is deadly. Do not consume this mushroom.",
-  gbifKey: 8228074,
+  gbifKey: 5242465,
   stories: [
     {
       title: "The Wood Chip Explosion of Portland",

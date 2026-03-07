@@ -48,7 +48,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Causes acute gastrointestinal distress when eaten raw or undercooked. Symptoms include severe nausea, projectile vomiting, abdominal cramps, and diarrhea, typically beginning 30 minutes to 2 hours after ingestion. Symptoms usually resolve within 24 hours. Not considered life-threatening in healthy adults, but dehydration can be dangerous for children, the elderly, or those with underlying conditions. The raw flesh has a distinctly acrid, peppery taste that should serve as a warning.",
-  gbifKey: 5242398,
+  gbifKey: 2551213,
   stories: [
     {
       title: "The Taste Test That Worked",
@@ -86,7 +86,53 @@ const species: SpeciesRecord = {
     "Russula flesh is uniquely brittle because of spherical cells called sphaerocysts in the tissue. This gives all Russulas a texture that snaps cleanly like chalk, unlike the stringy, fibrous flesh of most other gilled mushrooms.",
     "Despite its toxicity when raw, The Sickener plays an important ecological role, forming mycorrhizal partnerships with conifers that help trees absorb water and nutrients from poor, acidic soils.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "The Sickener (Russula emetica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_emetica_in_Poland.jpg",
+      author: "MichalPL",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "The Sickener (Russula emetica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Buchen-Spei-T%C3%A4ubling_Russula_nobilis.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "The Sickener (Russula emetica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Tiny_Russula_paludosa_(Appelrussula)_at_Rozendaal_castle_park_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "The Sickener (Russula emetica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_nana_218407_crop.jpg",
+      author: "Gerhard Koller (Gerhard)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "The Sickener (Russula emetica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_emetica_61164.jpg",
+      author: "amadej trnkoczy (amadej)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

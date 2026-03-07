@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
+import { getCardImage } from "@/lib/card-image";
 
 export const metadata: Metadata = {
   title: "Best Edible Wild Mushrooms, A Forager's Guide",
@@ -51,9 +52,9 @@ export default function BestEdiblePage() {
           >
             {species!.images.length > 0 && (
               <img
-                src={`/images/species/${species!.slug}/${species!.images[0].filename}`}
-                alt={species!.images[0].alt}
-                className="h-auto w-32 flex-shrink-0 object-cover sm:w-44"
+                src={getCardImage(species!)?.src ?? ""}
+                alt={getCardImage(species!)?.alt ?? ""}
+                className="h-auto w-32 flex-shrink-0 object-contain sm:w-44"
                 loading="lazy"
               />
             )}

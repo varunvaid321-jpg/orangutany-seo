@@ -55,7 +55,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A prized edible mushroom across the Mediterranean world with a firm texture and mildly nutty, slightly resinous flavor. Best grilled, roasted, or sauteed. In Catalonia, traditionally grilled over vine cuttings (a la brasa) and served with alioli. Can also be pickled or preserved in olive oil. The carotenoid pigments may temporarily tint urine orange-red after consuming large quantities; this is harmless. Always confirm identification by checking for orange (not white) latex.",
-  gbifKey: 2539573,
+  gbifKey: 5248629,
   stories: [
     {
       title: "Roman Mosaic Evidence",
@@ -104,7 +104,53 @@ const species: SpeciesRecord = {
     "In Spain, Lactarius deliciosus is the most commercially important wild mushroom species. The annual harvest is estimated at thousands of tonnes, and niscolos are sold in markets throughout the country during autumn. Some regions hold competitive mushroom festivals centered on the species.",
     "Saffron Milk Caps contain a unique sesquiterpene compound called lactaroviolin, which is responsible for both the orange color and the greenish staining that develops on damaged flesh. The compound has demonstrated antimicrobial activity in laboratory studies.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Saffron Milk Cap (Lactarius deliciosus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2009-09-28_Lactarius_deliciosus.jpg",
+      author: "furtwangl from West Seattle",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "02-cap-top.jpg",
+      alt: "Saffron Milk Cap cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lactarius_deliciosus_-_Saffron_Milkcap_(51575513877).jpg",
+      author: "Lukas Large from Stourbridge, United Kingdom",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-gills.jpg",
+      alt: "Saffron Milk Cap underside showing gill structure",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-12-09_Lactarius_deliciosus_gills_60530.jpg",
+      author: "This image was created by user Tom (LanLord) at Mushroom Observer, a source for mycological images.You can contact this",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-stem.jpg",
+      alt: "Saffron Milk Cap stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Isn%27t_it_lovely_this_Lactarius_deliciosus_(Smakelijke_Melkzwam)_with_its_soft_colours_and_a_thick_stipe_at_Hoge_Veluwe_Park_%E2%80%93_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Saffron Milk Cap (Lactarius deliciosus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-11-26_Lactarius_deliciosus_(L.)_Gray_187160.jpg",
+      author: "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

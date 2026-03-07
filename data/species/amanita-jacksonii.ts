@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A choice edible mushroom with mild, nutty flavor and firm texture. However, this is an Amanita, and misidentification in this genus can be fatal. Only experienced foragers who can confidently verify the combination of red-orange cap, yellow gills, yellow stem, white volva, and absence of a ring should attempt to eat this species. When in doubt, leave it. The stakes are too high for guessing.",
-  gbifKey: 8272688,
+  gbifKey: 5452395,
   stories: [
     {
       title: "Caesar's Mushroom in the Blue Ridge",
@@ -94,7 +94,44 @@ const species: SpeciesRecord = {
     "Roman emperors prized Amanita caesarea so highly that they had special dishes called 'boletaria' specifically designed for serving them. Amanita jacksonii is its closest New World relative.",
     "The thick white volva at the base can be left behind in the soil if you are not careful when harvesting. Always dig around the base to expose it, as the volva is a critical identification feature.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "American Caesar's Mushroom (Amanita jacksonii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_jacksonii_Maine_USA.jpg",
+      author: "Bishopcp",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-stem.jpg",
+      alt: "American Caesar's Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Spring-mushroom-forest-floor-macro_-_West_Virginia_-_ForestWander.jpg",
+      author: "ForestWander",
+      license: "CC BY-SA 3.0 us",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/us/deed.en",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "American Caesar's Mushroom (Amanita jacksonii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_jacksonii_-_red_mushrooms_at_Salem_Lake_in_NC.jpg",
+      author: "Bigmacthealmanac",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "American Caesar's Mushroom (Amanita jacksonii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Striated_margin_seen_on_Amanita.jpg",
+      author: "Timothy A. Peden",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

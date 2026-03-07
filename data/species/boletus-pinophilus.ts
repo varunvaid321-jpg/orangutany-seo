@@ -53,7 +53,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A choice edible mushroom, considered equal to Boletus edulis in culinary quality. The flesh is dense, firm, and nutty, with a slightly more concentrated flavor than B. edulis. Excellent sauteed, grilled, dried, or used in risottos and sauces. Dries exceptionally well, and dried slices develop an intense, concentrated umami flavor. Remove any tubes that have become soft or olive-colored in mature specimens.",
-  gbifKey: 2524893,
+  gbifKey: 5954949,
   stories: [
     {
       title: "Finnish Forest Foraging Tradition",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "The Pine Bolete often fruits earlier in the season than B. edulis, appearing in June or July in Scandinavia while B. edulis typically peaks in August and September. This early fruiting means it faces less competition from maggots, which become more abundant later in the season.",
     "DNA studies have confirmed that B. pinophilus is a distinct species within the porcini complex (section Boletus), not merely a variety of B. edulis. The two species diverged millions of years ago, likely adapting to different host tree partnerships.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus3.JPG",
+      author: "Paffka",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_(44562780465).jpg",
+      author: "Lukas from London, England",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_(45645751825).jpg",
+      author: "Lukas from London, England",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_(51395319142).jpg",
+      author: "Tero Karppinen from Finland",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_12.jpg",
+      author: "Finnish Biodiversity Information Facility",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

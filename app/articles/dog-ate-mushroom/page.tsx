@@ -67,7 +67,7 @@ export default function DogAteMushroomPage() {
           </p>
         </section>
 
-        <img src="/images/species/lycoperdon-perlatum/01-cluster-gems.jpg" alt="Mushrooms growing in lawn where dogs play" className="my-6 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
+        <img src="/images/species/lycoperdon-perlatum/01-cluster-gems.jpg" alt="Mushrooms growing in lawn where dogs play" className="my-6 rounded-lg w-full max-h-56 object-contain" loading="lazy" />
 
         {/* Right Now: What to Do in the First Hour */}
         <section>
@@ -140,7 +140,7 @@ export default function DogAteMushroomPage() {
           </div>
         </section>
 
-        <img src="/images/species/agaricus-campestris/01-field-group.jpg" alt="Common lawn mushrooms that dogs might encounter" className="my-6 rounded-lg w-full max-h-56 object-cover" loading="lazy" />
+        <img src="/images/species/agaricus-campestris/01-field-group.jpg" alt="Common lawn mushrooms that dogs might encounter" className="my-6 rounded-lg w-full max-h-56 object-contain" loading="lazy" />
 
         {/* How Bad Is This, Really? */}
         <section>
@@ -237,7 +237,7 @@ export default function DogAteMushroomPage() {
             The Yard Mushrooms That Actually Kill Dogs
           </h2>
 
-          <img src="/images/species/amanita-phalloides/01-cap-top.jpg" alt="Death Cap mushroom, deadly to dogs" className="my-4 rounded-lg w-full max-h-64 object-cover" loading="lazy" />
+          <img src="/images/species/amanita-phalloides/01-cap-top.jpg" alt="Death Cap mushroom, deadly to dogs" className="my-4 rounded-lg w-full max-h-64 object-contain" loading="lazy" />
 
           <div className="space-y-6">
             <div className="rounded-xl border border-red-800/30 bg-red-950/20 p-4">

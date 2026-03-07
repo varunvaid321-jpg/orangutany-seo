@@ -50,7 +50,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Contains ibotenic acid and muscimol in higher concentrations than Fly Agaric. Symptoms begin 30 minutes to 2 hours after ingestion and include confusion, agitation, hallucinations, muscle twitching, seizures, and in severe cases, coma. Deaths have been recorded, particularly in children and the elderly. No specific antidote exists; treatment is supportive.",
-  gbifKey: 5240341,
+  gbifKey: 8961574,
   stories: [
     {
       title: "A Forager's Close Call in the Black Forest",
@@ -94,7 +94,53 @@ const species: SpeciesRecord = {
     "The pure white warts on the Panther Cap are remnants of the universal veil. Rain can wash them off completely, leaving a plain brown cap that looks nothing like the typical description.",
     "The rimmed, collar-like volva at the base of the Panther Cap is one of its most reliable identification features, but you have to dig up the entire mushroom to see it.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-habitat.jpg",
+      alt: "Panther Cap brown cap with white warts in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_100.jpg",
+      author: "Megalogena",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-cap-top.jpg",
+      alt: "Amanita pantherina cap viewed from above showing brown surface and white patch remnants",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_2013_G1.jpg",
+      author: "George Chernilevsky",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    },
+    {
+      filename: "03-group.jpg",
+      alt: "Group of Panther Cap mushrooms growing together in woodland",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_group.jpg",
+      author: "Danny Cicchetti",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "04-stem.jpg",
+      alt: "Panther Cap showing stem, pendant ring, and base",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_pantherina_MdE_1.jpg",
+      author: "MdE",
+      license: "CC BY-SA 3.0 de",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    },
+    {
+      filename: "05-specimen.jpg",
+      alt: "Young Panther Cap specimen showing characteristic brown cap with white patches",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita.pantherina2.-.lindsey.jpg",
+      author: "James Lindsey",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

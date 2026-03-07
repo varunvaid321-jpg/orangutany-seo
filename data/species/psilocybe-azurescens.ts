@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   psychoactive: true,
   edibilityNote:
     "The most potent known psilocybin mushroom. Contains psilocybin, psilocin, and baeocystin, all controlled substances. Effects are intense and long-lasting even at low doses. A unique side effect called \"wood lover paralysis,\" a temporary inability to move lasting minutes to hours, has been reported specifically with this and other wood-loving Psilocybe species. The mechanism is unknown and unpredictable. Do not consume this mushroom.",
-  gbifKey: 3318920,
+  gbifKey: 5242469,
   stories: [
     {
       title: "The Boy Scout Discovery",
@@ -102,7 +102,53 @@ const species: SpeciesRecord = {
     "P. azurescens is one of the few mushroom species strongly associated with a single plant: European beachgrass (Ammophila arenaria), an invasive species that was planted along the Oregon coast to stabilize sand dunes in the early 1900s. The mushroom may have spread with the grass.",
     "Wood lover paralysis, a temporary inability to move reported after consuming P. azurescens and other wood-loving Psilocybe species, has no known chemical explanation. It does not occur with dung-loving species like P. cubensis, suggesting a compound unique to wood decomposers may be responsible.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Flying Saucer (Psilocybe azurescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_azurescens_Stamets_%26_Gartz_1118060_crop.jpg",
+      author: "This image was created by user Caleb Brown (Caleb Brown) at Mushroom Observer, a source for mycological images.You can c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Flying Saucer (Psilocybe azurescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_azurescens_Stamets_%26_Gartz_187165.jpg",
+      author: "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Flying Saucer (Psilocybe azurescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_azurescens_Stamets_%26_Gartz_187166.jpg",
+      author: "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Flying Saucer (Psilocybe azurescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_azurescens_Stamets_%26_Gartz_187164.jpg",
+      author: "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Flying Saucer (Psilocybe azurescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_azurescens_Stamets_%26_Gartz_187167.jpg",
+      author: "This image was created by user zaca at Mushroom Observer, a source for mycological images.You can contact this user here",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A premier edible mushroom, equal in quality to Boletus edulis. Rich, nutty flavor with firm texture. Excellent sauteed, grilled, dried, or in risottos and pasta. Check the tubes for insect larvae, which are common in warm-weather boletes. Trim any heavily infested portions. Dries beautifully for year-round use.",
-  gbifKey: 2519079,
+  gbifKey: 5954691,
   stories: [
     {
       title: "First Porcini of the Season in Tuscany",
@@ -99,7 +99,53 @@ const species: SpeciesRecord = {
     "Summer ceps are more prone to insect larvae than autumn porcini because warm temperatures accelerate insect activity. Experienced foragers harvest them young and firm to minimize worm damage.",
     "Boletus reticulatus was one of the first cep species to be formally separated from the Boletus edulis complex, though many foragers still treat all ceps as a single culinary entity.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Summer Cep (Boletus reticulatus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2012-08-26_Boletus_reticulatus_Schaeff_254757.jpg",
+      author: "This image was created by user Gerhard Koller (Gerhard) at Mushroom Observer, a source for mycological images.You can co",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Summer Cep growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:A_big_white_woodland_mushroom.jpg",
+      author: "Tommy from Arad",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Summer Cep (Boletus reticulatus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:20200611Boletus_reticulatus1.jpg",
+      author: "AnRo0002",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Summer Cep (Boletus reticulatus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:20200611Boletus_reticulatus2.jpg",
+      author: "AnRo0002",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Summer Cep (Boletus reticulatus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:20200611Boletus_reticulatus3.jpg",
+      author: "AnRo0002",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+  ],
 };
 
 export default species;

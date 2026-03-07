@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible-with-caution",
   edibilityNote:
     "Eaten by many foragers without problems, but some individuals experience GI distress, muscular incoordination, or other symptoms. Cook thoroughly; never eat raw. Start with small quantities. Do not eat multiple days in a row. Some foraging guides advise against eating this species entirely. If you experience any neurological symptoms, stop consuming immediately.",
-  gbifKey: 5258960,
+  gbifKey: 5259057,
   stories: [
     {
       title: "The Cottonwood Flush Along the Willamette",
@@ -94,7 +94,35 @@ const species: SpeciesRecord = {
     "Some commercial morel buyers refuse to purchase Verpa bohemica, while others accept them as 'early morels' at a lower price per pound.",
     "The cottony-stuffed stem is one of the most reliable field ID features. Slicing a Verpa lengthwise reveals wispy white fibers inside, while a true morel is cleanly hollow.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Early Morel (Verpa bohemica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Verpa_bohemica1.jpg",
+      author: "Jason Hollinger",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Early Morel (Verpa bohemica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Verpa_bohemica_84787.jpg",
+      author: "Amadej Trnkoczy (amadej)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-cross-section.jpg",
+      alt: "Early Morel cross section",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Verpa-bohemica-Xsection.jpg",
+      author: "Jason Hollinger",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

@@ -55,7 +55,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible and widely consumed, especially in Eastern Europe. The slimy cap cuticle should be peeled off before cooking, as it has a laxative effect in some people and an unpleasant texture. The pore layer can become soggy in older specimens and is sometimes removed as well. Best prepared by slicing and sauteing in butter, pickling, marinating, or drying. Drying concentrates the mild flavor significantly. Some individuals experience mild gastrointestinal upset, so try a small amount the first time.",
-  gbifKey: 2524888,
+  gbifKey: 7777157,
   stories: [
     {
       title: "Polish Forest Weekends",

@@ -50,7 +50,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible and collected as a spring table mushroom in parts of Europe. The flavor is mild, mealy, and slightly nutty. Best sauteed or added to mixed mushroom dishes. Not a top-tier culinary mushroom, but a reliable early-season find. Identification must be confident, as several dangerous species share its habitat. Always take a spore print to rule out Conocybe and Inocybe species.",
-  gbifKey: 2536149,
+  gbifKey: 8997022,
   stories: [
     {
       title: "The First Mushroom of Spring in Bavaria",
@@ -90,7 +90,53 @@ const species: SpeciesRecord = {
     "The mealy or flour-like odor of fresh A. praecox specimens is caused by the compound 1-octen-3-ol, the same molecule responsible for the characteristic 'mushroom smell' in many species.",
     "Agrocybe praecox is part of a species complex that has been split into several closely related taxa by modern molecular studies. What was once considered a single variable species may actually be several distinct species with overlapping ranges.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Spring Fieldcap (Agrocybe praecox) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agrocybe_praecox_cupertino.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "02-stem.jpg",
+      alt: "Spring Fieldcap stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agrocybe_praecox--_the_Spring_Agrocybe_(31424550150).jpg",
+      author: "Dick Culbert from Gibsons, B.C., Canada",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "03-group.jpg",
+      alt: "Group of Spring Fieldcap mushrooms in the wild",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-04-29_Agrocybe_praecox_group_143839.jpg",
+      author: "This image was created by user Copyright ©2011 chemist at Mushroom Observer, a source for mycological images.You can con",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Spring Fieldcap (Agrocybe praecox) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-05-17_Agrocybe_praecox_(Pers.)_Fayod_146356_crop.jpg",
+      author: "This image was created by user Herbert Baker (Herbert Baker) at Mushroom Observer, a source for mycological images.You c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Spring Fieldcap (Agrocybe praecox) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-05-17_Agrocybe_praecox_(Pers.)_Fayod_146356.jpg",
+      author: "This image was created by user Herbert Baker (Herbert Baker) at Mushroom Observer, a source for mycological images.You c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

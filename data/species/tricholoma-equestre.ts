@@ -48,7 +48,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Causes rhabdomyolysis (destruction of skeletal muscle) with repeated consumption over consecutive days. Toxicity is cumulative. Symptoms include severe muscle pain, weakness, dark brown urine, and can progress to kidney failure and cardiac arrest. Three deaths were recorded in the Bordeaux region of France between 1992 and 2000. A single meal may not cause obvious harm, but repeated consumption is potentially fatal. Previously considered a choice edible; now classified as toxic by most European mycological authorities.",
-  gbifKey: 2532464,
+  gbifKey: 3324883,
   stories: [
     {
       title: "The Bordeaux Deaths That Changed Everything",
@@ -88,7 +88,53 @@ const species: SpeciesRecord = {
     "Some researchers believe the Yellow Knight's toxicity may vary by region or genetic strain, which could explain why some populations ate it safely for centuries while others suffered fatal consequences. This theory remains unproven.",
     "Rhabdomyolysis literally means 'dissolution of striped muscle.' The breakdown products turn urine dark brown or cola-colored, which is often the first symptom that sends patients to the hospital.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Yellow Knight (Tricholoma equestre) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Tricholoma_equestre.jpg",
+      author: "Unknown",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Yellow Knight growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Annual_report_of_the_Regents_of_the_University_on_the_condition_of_the_State_Cabinet_of_Natural_History,_with_catalogues_of_the_same%22_(1848-1873)_(19372026811).jpg",
+      author: "Internet Archive Book Images",
+      license: "No restrictions",
+      licenseUrl: "https://www.flickr.com/commons/usage/",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Yellow Knight (Tricholoma equestre) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bresadola_-_Tricholoma_equestre.png",
+      author: "Giacomo Bresadola",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Yellow Knight (Tricholoma equestre) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Atlas_des_champignons_comestibles_et_v%C3%A9n%C3%A9neux_(Planche_10)_(6358015081).jpg",
+      author: "Dufour, L.",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Yellow Knight (Tricholoma equestre) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gruenling_(1).jpg",
+      author: "Thomas Pruß",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

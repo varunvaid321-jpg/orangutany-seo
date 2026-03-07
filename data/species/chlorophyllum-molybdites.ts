@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "The most common cause of mushroom poisoning in North America. Causes severe gastrointestinal syndrome within 1-3 hours: violent vomiting, watery diarrhea, and intense abdominal cramps lasting 6-12 hours. Hospitalization for IV fluid replacement is frequently required, especially for children and the elderly. Fatalities are rare but documented. The toxin is not fully characterized. Do not eat this mushroom.",
-  gbifKey: 5243065,
+  gbifKey: 5243168,
   stories: [
     {
       title: "The Fourth of July Barbecue Disaster",
@@ -102,7 +102,53 @@ const species: SpeciesRecord = {
     "A single mature Chlorophyllum molybdites cap can be as large as a dinner plate, reaching 30 cm (12 inches) across. The size and meaty texture are part of why foragers find it so tempting.",
     "The green spore print is unique among common North American gilled mushrooms. If you see green on your spore print paper, stop. You have Chlorophyllum molybdites.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Green-spored Parasol / The Vomiter (Chlorophyllum molybdites) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_Crop_2013-09-10.jpg",
+      author: "Laitche",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-gills.jpg",
+      alt: "Green-spored Parasol / The Vomiter underside showing gill structure",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_gill_DSCN3143.jpg",
+      author: "RIT RAJARSHI",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "03-stem.jpg",
+      alt: "Green-spored Parasol / The Vomiter stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites-fairy_ring.jpg",
+      author: "peterwchen",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "04-young.jpg",
+      alt: "Young Green-spored Parasol / The Vomiter specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_young.JPG",
+      author: "Ianaré Sévi",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Green-spored Parasol / The Vomiter (Chlorophyllum molybdites) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_DSCN3139.jpg",
+      author: "RIT RAJARSHI",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+  ],
 };
 
 export default species;

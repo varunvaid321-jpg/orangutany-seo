@@ -50,7 +50,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Excellent edible mushroom. Best when young, while the caps are still burgundy and firm. The flavor is mild, nutty, and slightly earthy, with a firm, meaty texture that holds up well to cooking. Can be sauteed, grilled, added to soups, or used as a portobello substitute. Older specimens with faded caps and dark gills are still edible but less desirable. As with all wild mushrooms, cook thoroughly before eating.",
-  gbifKey: 2536052,
+  gbifKey: 2533347,
   stories: [
     {
       title: "The Permaculture Garden Hero",
@@ -99,7 +99,53 @@ const species: SpeciesRecord = {
     "The cogwheel ring on the stem of S. rugosoannulata is so distinctive that it alone can identify the species. The upper surface of the ring has a grooved, gear-like pattern found in no other common mushroom.",
     "Wine Cap mycelium grows so aggressively that it can colonize a fresh wood chip bed in as little as two to three weeks, often outcompeting molds, bacteria, and other fungi for the available substrate.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-stem.jpg",
+      alt: "Wine Cap / King Stropharia stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183478.jpg",
+      author: "This image was created by user Ann B. (Ann F. Berger) at Mushroom Observer, a source for mycological images.You can cont",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-stem.jpg",
+      alt: "Wine Cap / King Stropharia stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-05-19_Stropharia_rugosoannulata_Farl._ex_Murrill_183479.jpg",
+      author: "This image was created by user Ann B. (Ann F. Berger) at Mushroom Observer, a source for mycological images.You can cont",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Wine Cap / King Stropharia (Stropharia rugosoannulata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Mushroom2.jpg",
+      author: "Kintaiyo",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-stem.jpg",
+      alt: "Wine Cap / King Stropharia stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2017-04-18_Stropharia_rugosoannulata_Farl._ex_Murrill_738722.jpg",
+      author: "This image was created by user Jack Smith (Mushroom) at Mushroom Observer, a source for mycological images.You can conta",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-stem.jpg",
+      alt: "Wine Cap / King Stropharia stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Kulturtr%C3%A4uschling_Stropharia_rugosoannulata.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+  ],
 };
 
 export default species;

@@ -94,7 +94,35 @@ const species: SpeciesRecord = {
     "A single cluster of Gymnopilus junonius can weigh several kilograms and contain dozens of individual fruiting bodies. The largest documented clusters have exceeded 50 caps emerging from a single stump.",
     "The psychoactive status of Gymnopilus junonius varies so dramatically by region that mycologists suspect it may actually be a complex of several genetically distinct species hiding under one name.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Spectacular Rustgill (Gymnopilus junonius) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gymnopilus_junonius-02.jpg",
+      author: "Tony Wills",
+      license: "CC BY 2.5",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.5",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Spectacular Rustgill (Gymnopilus junonius) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gymnopilus_junonius.jpg",
+      author: "Garnhami",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Spectacular Rustgill (Gymnopilus junonius) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

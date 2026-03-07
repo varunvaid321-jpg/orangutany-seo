@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible when the interior gleba is uniformly white and firm. Slice every specimen in half to confirm: if the interior is yellow, olive, or shows any developing structure, do not eat it. The flavor is mild and slightly nutty. Best sauteed in butter. Small size means you need quantity. Always confirm you are not looking at an Amanita egg by checking for a developing mushroom outline inside.",
-  gbifKey: 5244498,
+  gbifKey: 5243232,
   stories: [
     {
       title: "The Log That Looked Like It Was Covered in Golf Balls",

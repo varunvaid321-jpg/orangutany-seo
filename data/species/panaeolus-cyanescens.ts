@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   psychoactive: true,
   edibilityNote:
     "Contains psilocybin and psilocin, controlled substances in most countries. Panaeolus cyanescens is considerably more potent than Psilocybe cubensis, with higher psilocybin concentrations by dry weight. The small size of the mushrooms can lead to underestimation of dose. Effects include intense visual and auditory hallucinations, time distortion, and emotional amplification. Do not consume this mushroom.",
-  gbifKey: 2534700,
+  gbifKey: 2526769,
   stories: [
     {
       title: "The Hawaiian Pasture Tradition",
@@ -101,7 +101,26 @@ const species: SpeciesRecord = {
     "The mottled appearance of Panaeolus gills is caused by spores maturing at different rates across the gill surface. This creates a patchwork of dark and light areas that is unique to the genus.",
     "In Australia, Panaeolus cyanescens is sometimes called \"Gold Tops\" in Queensland, causing confusion with the completely unrelated Psilocybe cubensis, which is also called \"Gold Tops\" in other regions.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-cyanescens-1.jpg",
+      alt: "Panaeolus cyanescens mushroom photograph",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Copelandia_cyanescens.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-cyanescens-2.jpg",
+      alt: "Panaeolus cyanescens mushroom photograph",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    },
+  ],
 };
 
 export default species;

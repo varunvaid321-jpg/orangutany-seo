@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "deadly",
   edibilityNote:
     "Contains amatoxins (alpha-amanitin), the same compounds found in Amanita phalloides. Symptoms are delayed 6-12 hours: severe gastrointestinal distress, followed by a deceptive period of improvement, then catastrophic liver and kidney failure over 3-7 days. Even a few small caps can cause serious organ damage. There is no antidote. Treatment requires intensive care and potentially liver transplant. Do not eat any small brown lawn mushroom.",
-  gbifKey: 2533148,
+  gbifKey: 2529789,
   stories: [
     {
       title: "The Lawn Mushroom That Sent a Toddler to the ER",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "Conocybe filaris was previously known as Pholiotina filaris and Conocybe rugosa. The taxonomy of this group has been reorganized multiple times as DNA sequencing reveals hidden relationships.",
     "The thin ring on the stem of C. filaris is one of the few macroscopic clues that separates it from other small brown lawn mushrooms, but rain and handling can destroy it in minutes.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-habitat.jpg",
+      alt: "Deadly Conocybe wild specimen in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bresadola_-_Pholiota_togularis.png",
+      author: "Giacomo Bresadola",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    },
+    {
+      filename: "02-detail.jpg",
+      alt: "Deadly Conocybe showing full fruiting body",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Conocybe_filaris.jpg",
+      author: "No machine-readable author provided. Alan Rockefeller assumed (based on copyright claims).",
+      license: "CC BY-SA 2.5",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5",
+    },
+    {
+      filename: "03-wild.jpg",
+      alt: "Deadly Conocybe (Conocybe filaris) in the wild",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Conocybe_filaris_10092.jpg",
+      author: "This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images.You can con",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-closeup.jpg",
+      alt: "Deadly Conocybe close-up field photograph",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Conocybe_filaris_10150.jpg",
+      author: "This image was created by user Nathan Wilson (nathan) at Mushroom Observer, a source for mycological images.You can cont",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-specimen.jpg",
+      alt: "Deadly Conocybe mushroom, field identification reference",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Conocybe_filaris_10151.jpg",
+      author: "This image was created by user Nathan Wilson (nathan) at Mushroom Observer, a source for mycological images.You can cont",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

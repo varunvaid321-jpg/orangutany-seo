@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Contains ibotenic acid and muscimol in variable amounts. Poisoning symptoms include dizziness, confusion, visual disturbances, muscle twitching, and in severe cases, seizures and loss of consciousness. Onset is typically 30 minutes to 2 hours after ingestion. Most patients recover with supportive care, but severe cases, especially in children, can be dangerous. Not recommended for consumption under any circumstances.",
-  gbifKey: 5240347,
+  gbifKey: 5240292,
   stories: [
     {
       title: "Child Hospitalized After Backyard Encounter",
@@ -89,7 +89,53 @@ const species: SpeciesRecord = {
     "Rain can wash away all the white patches on the cap, leaving a smooth yellow mushroom that looks completely different from the typical description. This is when confusion with edible species becomes most dangerous.",
     "In some parts of eastern Europe, Amanita gemmata was historically considered edible after parboiling. Modern toxicology has firmly rejected this practice.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_gemmata_51945.jpg",
+      author: "This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images.You can con",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-young.jpg",
+      alt: "Young Jewelled Amanita specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:20060909_Amanita_gemmata_young.jpg",
+      author: "Eike Wulfmeyer",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_gemmata_von_hms.jpg",
+      author: "Hans-Martin Scheibner",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_spec._-_Lindsey_3a.jpg",
+      author: "James Lindsey",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

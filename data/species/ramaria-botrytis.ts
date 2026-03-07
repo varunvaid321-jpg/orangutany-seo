@@ -59,7 +59,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible when young and fresh. The flesh is firm with a mild, slightly peppery flavor. Older specimens become tough and may cause mild gastrointestinal upset. Must be positively identified, as several other Ramaria species cause digestive problems. Only the young, fresh, pink-tipped form should be collected. Cook thoroughly. Do not eat any coral fungus you cannot confidently identify to species level.",
-  gbifKey: 2551030,
+  gbifKey: 7486196,
   stories: [
     {
       title: "The Italian Ditola Tradition",
@@ -99,7 +99,35 @@ const species: SpeciesRecord = {
     "The genus Ramaria contains over 300 described species worldwide, and many regions are believed to harbor undescribed species. It is considered one of the most taxonomically challenging groups in all of mycology.",
     "A single large Ramaria botrytis can weigh over a kilogram, making it one of the heaviest non-bracket fungi you are likely to encounter on a forest floor.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Pink-tipped Coral (Ramaria botrytis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Ramaria_botrytis_190863.jpg",
+      author: "Ron Pastorino (Ronpast)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Pink-tipped Coral (Ramaria botrytis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Ramaria_botrytis_299869.jpg",
+      author: "John Kirkpatrick (natashadak)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Pink-tipped Coral (Ramaria botrytis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-09-17_Ramaria_botrytis_crop.jpg",
+      author: "2010-09-17_Ramaria_botrytis.jpg: Jason Hollinger derivative work: Ak ccm",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+  ],
 };
 
 export default species;

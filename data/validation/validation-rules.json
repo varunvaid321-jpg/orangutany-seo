@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "imageRules": {
+    "minimumFileSizeBytes": {
+      "hero": 307200,
+      "gallery": 61440,
+      "section": 61440,
+      "lookalike": 61440
+    },
+    "allowedImageClasses": [
+      "hero",
+      "gallery_general",
+      "cap_top",
+      "gills",
+      "pores",
+      "stem",
+      "base_volva",
+      "ring_annulus",
+      "cluster_habit",
+      "cross_section",
+      "spore_print",
+      "habitat_context",
+      "human_holding",
+      "in_basket",
+      "field_foraging",
+      "forest_context",
+      "market_context"
+    ],
+    "disallowedImageClasses": [
+      "icon",
+      "symbol",
+      "clipart",
+      "illustration",
+      "ai_generated",
+      "placeholder",
+      "warning_graphic",
+      "unrelated_photo",
+      "uncertain_species_match"
+    ],
+    "requiredFields": [
+      "imageId",
+      "speciesSlug",
+      "source",
+      "localPath",
+      "creator",
+      "license",
+      "imageClass",
+      "showsFeatures",
+      "speciesConfidence",
+      "approved"
+    ],
+    "heroRequirements": {
+      "speciesConfidence": "high",
+      "approved": true,
+      "requireAttribution": true,
+      "requireLicense": true
+    },
+    "sectionFeatureMapping": {
+      "cap": "cap_top",
+      "gills": "gills",
+      "pores": "pores",
+      "stem": "stem",
+      "base_volva": "base_volva",
+      "spore_print": "spore_print",
+      "habitat": "habitat_context"
+    }
+  },
+  "mapRules": {
+    "requiredBasemapVersion": "world-equirectangular-v1",
+    "requiredProjection": "equirectangular",
+    "minimumFileSizeBytes": 133120,
+    "requiredFields": [
+      "speciesSlug",
+      "mapVersion",
+      "basemapVersion",
+      "projection",
+      "gbifKey",
+      "approved"
+    ]
+  },
+  "buildFailOn": {
+    "unapprovedHeroRendered": true,
+    "missingManifestEntry": true,
+    "mapArchitectureMismatch": true,
+    "iconImageDetected": true,
+    "sectionFeatureMismatch": true
+  }
+}

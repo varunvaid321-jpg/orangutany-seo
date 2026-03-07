@@ -59,7 +59,7 @@ const species: SpeciesRecord = {
   edibility: "edible-with-caution",
   edibilityNote:
     "The egg stage is edible and has been eaten in parts of France, Germany, and Eastern Europe for centuries. The gelatinous outer layer is peeled off, and the inner portion is sliced and fried or pickled. The taste is described as mild, slightly radish-like. The mature, erect form is technically non-toxic but the smell and texture make it thoroughly unappetizing. IMPORTANT: always slice eggs open to confirm they are stinkhorn eggs and not Amanita eggs.",
-  gbifKey: 5241095,
+  gbifKey: 3314876,
   stories: [
     {
       title: "Etty Darwin's Stinkhorn Crusade",
@@ -108,7 +108,53 @@ const species: SpeciesRecord = {
     "Stinkhorn spores are not wind-dispersed like most mushrooms. Instead, flies eat the foul-smelling gleba and deposit spores in their droppings, sometimes hundreds of meters from the original mushroom.",
     "In parts of China, a related species (Phallus indusiatus, the veiled stinkhorn) is considered a delicacy and is commercially cultivated for use in soups and stir-fries.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Phallus_impudicus_LC0235.jpg",
+      author: "Jörg Hempel",
+      license: "CC BY-SA 3.0 de",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Stinkmorchel.mit.Fliegen.P1094309.jpg",
+      author: "Bautsch",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Stinkmorchel.ohne.Fliegen.P1094311.jpg",
+      author: "Bautsch",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hexenei.jpg",
+      author: "Kettelring",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+  ],
 };
 
 export default species;

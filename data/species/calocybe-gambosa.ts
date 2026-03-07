@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A good edible mushroom, highly prized in parts of Europe, especially the Basque Country and the UK. The strong mealy flavor divides opinion; some find it delicious, others overwhelming. Best sauteed in butter or olive oil, used in omelets, or combined with spring vegetables. Cook thoroughly. Be absolutely certain of identification, as the deadly Inocybe erubescens fruits at the same time and in similar habitats.",
-  gbifKey: 3318060,
+  gbifKey: 8936224,
   stories: [
     {
       title: "The Basque Perrechico Tradition",
@@ -93,7 +93,53 @@ const species: SpeciesRecord = {
     "The species name 'gambosa' comes from the Greek 'gambos' meaning 'swollen,' referring to the mushroom's characteristically thick, chunky build.",
     "Despite being one of the most recognizable spring mushrooms in Europe, Calocybe gambosa has never been commercially cultivated at scale. All market specimens are wild-foraged.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "St. George's Mushroom (Calocybe gambosa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_080420wa.jpg",
+      author: "User:Strobilomyces",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "St. George's Mushroom (Calocybe gambosa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-05-27_Calocybe_gambosa.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "St. George's Mushroom (Calocybe gambosa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_(27014325317).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "St. George's Mushroom (Calocybe gambosa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_(34375878814).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "St. George's Mushroom (Calocybe gambosa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_(34410861793).jpg",
+      author: "Björn S...",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+  ],
 };
 
 export default species;

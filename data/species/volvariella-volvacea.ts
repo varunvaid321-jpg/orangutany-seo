@@ -53,7 +53,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A widely cultivated and consumed edible mushroom across tropical Asia. Best eaten fresh, at the egg stage or just after the cap has opened. Delicate, slightly sweet flavor with silky texture. Deteriorates rapidly after harvest and does not store or ship well, which is why most Western consumers encounter it only in canned form. Must be cooked before eating. CRITICAL: never forage for this species in temperate regions, as young specimens can be fatally confused with Amanita phalloides.",
-  gbifKey: 2536755,
+  gbifKey: 5241445,
   stories: [
     {
       title: "Fatal Confusion in Canberra",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "The volva of V. volvacea is actually the remnant of a universal veil that enclosed the entire young mushroom. As the fruiting body expands, it bursts through this veil, leaving the cup-like volva at the base. This same developmental pattern occurs in Amanita species, which is why the two genera can be confused.",
     "In traditional Chinese medicine, V. volvacea has been used for its perceived health benefits for centuries. Modern research has identified bioactive polysaccharides in the species that show immunomodulatory activity in laboratory studies.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-stem.jpg",
+      alt: "Paddy Straw Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:HK_food_%E8%8D%89%E8%8F%87_Volvariella_volvacea_Straw_Mushroom_May-2012.JPG",
+      author: "Cathiniamoa",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-stem.jpg",
+      alt: "Paddy Straw Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Volvariella_volvacea_paddy_straw_mushroom_spawn.jpg",
+      author: "Zenyrgarden",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Paddy Straw Mushroom (Volvariella volvacea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:43_-_IMG_20150902_134402.jpg",
+      author: "Susan Slater",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "04-stem.jpg",
+      alt: "Paddy Straw Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:1797_Volvariella_volvacea_Sowerby.jpg",
+      author: "Coloured Figures of English Fungi or Mushrooms - t. 1.jpg: James Sowerby derivative work: Natr (talk)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "05-stem.jpg",
+      alt: "Paddy Straw Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Volv_volvacea_yogya_DSC_0969.jpg",
+      author: "Kembangraps",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;
