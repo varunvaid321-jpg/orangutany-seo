@@ -54,15 +54,12 @@ export default function AustralianMushroomPoisoningPage() {
             The Mushroom That Killed a Family in Australia. The Erin Patterson
             Case
           </h1>
-          <p className="mt-4 text-sm text-muted-foreground">
+          <p className="mt-2 text-xs text-muted-foreground">
             By{" "}
-            <a
-              href="https://orangutany.com"
-              className="underline hover:text-foreground transition"
-            >
+            <Link href="/authors/sofia-andersson" className="text-primary hover:underline">
               Sofia Andersson
-            </a>{" "}
-            · January 2025
+            </Link>{" "}
+            &middot; Orangutany &middot; January 2025
           </p>
         </header>
 

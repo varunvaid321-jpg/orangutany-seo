@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getAuthor } from "@/lib/authors";
 
 export const metadata: Metadata = {
   title:
@@ -30,8 +29,6 @@ const SEO_QUERIES = [
 ];
 
 export default function HowToIdentifyPoisonousMushroomsPage() {
-  const author = getAuthor("how-to-identify-poisonous-mushrooms");
-
   return (
     <article className="mx-auto max-w-4xl px-6 py-10">
       {/* Header */}
@@ -40,13 +37,11 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
           How to Identify a Poisonous Mushroom (Hint: Most &ldquo;Rules&rdquo; Are Wrong)
         </h1>
         <p className="mt-2 text-xs text-muted-foreground">
-          By {author} &middot;{" "}
-          <a
-            href="https://orangutany.com"
-            className="text-primary hover:underline"
-          >
-            Orangutany
-          </a>
+          By{" "}
+          <Link href="/authors/varun-vaid" className="text-primary hover:underline">
+            Varun Vaid
+          </Link>{" "}
+          &middot; Orangutany
         </p>
       </div>
 

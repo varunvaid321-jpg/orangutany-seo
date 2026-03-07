@@ -38,6 +38,13 @@ export default function BestEdiblePage() {
       <h1 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground sm:text-3xl">
         Best Edible Wild Mushrooms
       </h1>
+      <p className="mt-2 text-xs text-muted-foreground">
+        By{" "}
+        <Link href="/authors/varun-vaid" className="text-primary hover:underline">
+          Varun Vaid
+        </Link>{" "}
+        &middot; Orangutany
+      </p>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         These are the mushrooms that foragers dream about. Some are worth hundreds of dollars per pound,
         others grow in your backyard. All of them are delicious, if you know what you&apos;re looking for.

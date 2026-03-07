@@ -50,7 +50,11 @@ export default function PsychoactiveMushroomsSciencePage() {
             Psychoactive Mushrooms: What Science Actually Knows (2025)
           </h1>
           <p className="mt-2 text-xs text-muted-foreground">
-            Mei Lin Chen for Orangutany
+            By{" "}
+            <Link href="/authors/mei-lin-chen" className="text-primary hover:underline">
+              Mei Lin Chen
+            </Link>{" "}
+            &middot; Orangutany
           </p>
         </header>
 

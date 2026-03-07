@@ -43,7 +43,11 @@ export default function MushroomsThatCanKillYouPage() {
             Mushrooms That Can Kill You: Real Cases, Real Species
           </h1>
           <p className="mt-2 text-xs text-muted-foreground">
-            By Elena Marchetti
+            By{" "}
+            <Link href="/authors/elena-marchetti" className="text-primary hover:underline">
+              Elena Marchetti
+            </Link>{" "}
+            &middot; Orangutany
           </p>
         </header>
 

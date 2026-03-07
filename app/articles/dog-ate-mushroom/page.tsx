@@ -37,13 +37,11 @@ export default function DogAteMushroomPage() {
           My Dog Ate a Mushroom: What Do I Do Right Now
         </h1>
         <p className="mt-2 text-xs text-muted-foreground">
-          By Daniel Okafor &middot;{" "}
-          <a
-            href="https://orangutany.com"
-            className="text-primary hover:underline"
-          >
-            Orangutany
-          </a>
+          By{" "}
+          <Link href="/authors/daniel-okafor" className="text-primary hover:underline">
+            Daniel Okafor
+          </Link>{" "}
+          &middot; Orangutany
         </p>
       </div>
 

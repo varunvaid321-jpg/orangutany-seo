@@ -1,13 +1,11 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getAuthor } from "@/lib/authors";
 
 const title =
   "Why Do Mushrooms Grow in Circles? The Real Science Behind Fairy Rings";
 const description =
   "The science behind fairy rings: why mushrooms grow in perfect circles, the folklore behind them, and whether you should try to get rid of them.";
 const slug = "why-mushrooms-grow-in-circles";
-const author = getAuthor(slug);
 
 export const metadata: Metadata = {
   title,
@@ -23,7 +21,7 @@ const jsonLd = {
   description,
   author: {
     "@type": "Person",
-    name: author,
+    name: "Varun Vaid",
   },
   publisher: {
     "@type": "Organization",
@@ -49,14 +47,12 @@ export default function WhyMushroomsGrowInCirclesPage() {
           <h1 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground sm:text-3xl">
             {title}
           </h1>
-          <p className="mt-2 text-sm text-muted-foreground">
+          <p className="mt-2 text-xs text-muted-foreground">
             By{" "}
-            <a
-              href="https://orangutany.com"
-              className="text-primary hover:underline"
-            >
-              {author}
-            </a>
+            <Link href="/authors/varun-vaid" className="text-primary hover:underline">
+              Varun Vaid
+            </Link>{" "}
+            &middot; Orangutany
           </p>
         </header>
 

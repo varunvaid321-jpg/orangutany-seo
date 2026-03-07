@@ -7,6 +7,8 @@
     "build": "npx tsx scripts/generate-guide-manifest.ts && next build",
     "generate-manifest": "npx tsx scripts/generate-guide-manifest.ts",
     "validate-seo": "npx tsx scripts/validate-seo.ts",
+    "check:authors": "node scripts/check-author-links.mjs",
+    "check": "npm run check:authors",
     "start": "next start"
   },
   "dependencies": {

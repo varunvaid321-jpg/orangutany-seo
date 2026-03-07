@@ -187,6 +187,7 @@ export const articles: ContentEntry[] = [
     relatedSlugs: ["/articles/mushrooms-that-can-kill-you", "/articles/how-to-identify-poisonous-mushrooms"],
     published: true,
     featured: true,
+    author: "elena-marchetti",
   },
   {
     title: "Best Edible Mushrooms",
@@ -199,6 +200,7 @@ export const articles: ContentEntry[] = [
     relatedSlugs: ["/guides/edible-wild-mushrooms-trail", "/guides/beginners-guide-to-mushroom-foraging"],
     published: true,
     featured: true,
+    author: "varun-vaid",
   },
   {
     title: "Mushrooms by Region",
@@ -211,6 +213,7 @@ export const articles: ContentEntry[] = [
     relatedSlugs: ["/guides/mushroom-foraging-by-season"],
     published: true,
     featured: false,
+    author: "priya-sharma",
   },
   {
     title: "Chicken of the Woods: A Field Guide",
