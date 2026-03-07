@@ -34,7 +34,7 @@ const species: SpeciesRecord = {
       image: "lookalike-stereum-ostrea.jpg",
       distinction:
         "The most common mix-up. Looks very similar from the top — fan-shaped with concentric color zones. The giveaway is the underside: False Turkey Tail has a smooth underside with NO pores, while true Turkey Tail has tiny visible pores. If the bottom is smooth, it's not Turkey Tail.",
-      externalUrl: "https://www.inaturalist.org/taxa/125429-Stereum-ostrea",
+      externalUrl: "https://www.inaturalist.org/taxa/1599131-Stereum-ostrea",
       externalSource: "iNaturalist",
     },
     {

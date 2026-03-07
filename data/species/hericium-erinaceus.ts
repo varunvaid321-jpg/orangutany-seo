@@ -35,7 +35,7 @@ const species: SpeciesRecord = {
       image: "lookalike-americanum.jpg",
       distinction:
         "Very similar but has branching structure — spines hang from multiple short branches rather than a single compact mass. Still edible and delicious. If it looks like a Lion's Mane but with distinct branches, it's probably this one.",
-      externalUrl: "https://www.inaturalist.org/taxa/118150-Hericium-americanum",
+      externalUrl: "https://www.inaturalist.org/taxa/124335-Hericium-americanum",
       externalSource: "iNaturalist",
     },
     {
@@ -122,6 +122,15 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
+      filename: "05-mature.jpg",
+      alt: "Mature Lion's Mane mushroom with elongated white spines on tree bark",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_104664221.jpg",
+      author: "Becky",
+      license: "CC0",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
       filename: "01-whole-fruiting-body.jpg",
       alt: "Lion's Mane mushroom showing full white globular fruiting body with cascading spines",
       source: "Wikimedia Commons",
@@ -154,15 +163,6 @@ const species: SpeciesRecord = {
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_102695873.jpg",
       author: "Hamilton Turner",
-      license: "CC0",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    },
-    {
-      filename: "05-mature.jpg",
-      alt: "Mature Lion's Mane mushroom with elongated white spines on tree bark",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_104664221.jpg",
-      author: "Becky",
       license: "CC0",
       licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
     },

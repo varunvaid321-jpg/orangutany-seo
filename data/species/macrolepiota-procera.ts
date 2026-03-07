@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Smaller overall and the flesh stains reddish-orange when cut or bruised — the true Parasol does not change color. The stem lacks the distinctive snakeskin pattern and is smoother. Edible for most people but causes GI upset in some. Always do the cut test: if the flesh turns red, it's a Shaggy, not a Parasol.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/348841-Chlorophyllum-rhacodes",
+        "https://www.inaturalist.org/taxa/56535-Chlorophyllum-rhacodes",
       externalSource: "iNaturalist",
     },
     {

@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       distinction:
         "Much smaller with a deeply grooved, parasol-like white cap. Grows on woody debris rather than in grass. Has a distinctive collar connecting the gills to the stem. Not a grass-dweller.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/117800-Marasmius-rotula",
+        "https://www.inaturalist.org/taxa/63100-Marasmius-rotula",
       externalSource: "iNaturalist",
     },
   ],

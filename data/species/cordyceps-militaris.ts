@@ -44,7 +44,7 @@ const species: SpeciesRecord = {
       distinction:
         "Some small orange club fungi could be confused at a glance. Key difference: Clavulinopsis species grow from soil or leaf litter with no insect attachment at the base. Excavate the base of a suspected Cordyceps, and you should find the mummified host insect.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/55846-Clavulinopsis",
+        "https://www.inaturalist.org/taxa/55244-Clavulinopsis",
       externalSource: "iNaturalist",
     },
   ],

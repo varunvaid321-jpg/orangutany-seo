@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       distinction:
         "Superficially similar in overall shape (large, pale, cauliflower-like), but Sparassis has flat, wavy, ribbon-like lobes rather than branching fingers. Grows at the base of pine trees, not in beech or oak woodland. Excellent edible.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/117784-Sparassis-crispa",
+        "https://www.inaturalist.org/taxa/63014-Sparassis-crispa",
       externalSource: "iNaturalist",
     },
   ],

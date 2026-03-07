@@ -11,6 +11,7 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
+      "https://guide.orangutany.com/sitemap.xml",
       "https://orangutany.com/sitemap.xml",
     ],
   };

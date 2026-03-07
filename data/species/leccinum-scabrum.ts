@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Very similar structure and habitat, but the cap is distinctly orange to reddish-orange rather than brown. The flesh also stains grayish to dark when cut. Both are edible.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/54438-Leccinum-aurantiacum",
+        "https://www.inaturalist.org/taxa/124085-Leccinum-aurantiacum",
       externalSource: "iNaturalist",
     },
     {

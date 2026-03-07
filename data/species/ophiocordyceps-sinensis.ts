@@ -37,7 +37,7 @@ const species: SpeciesRecord = {
       distinction:
         "Much more common and widespread, found at low elevations across the Northern Hemisphere. Bright orange rather than dark brown. Smaller overall. Grows on moth pupae rather than large caterpillars. Can be commercially cultivated.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/125328-Cordyceps-militaris",
+        "https://www.inaturalist.org/taxa/119118-Cordyceps-militaris",
       externalSource: "iNaturalist",
     },
     {

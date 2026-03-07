@@ -44,7 +44,7 @@ const species: SpeciesRecord = {
       distinction:
         "Smaller (cap usually under 3 cm), with a more finely scaly cap surface and a thinner stem. Similar bright red color. Found in similar grassland habitats. Edible but too small to be worthwhile.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/62810-Hygrocybe-miniata",
+        "https://www.inaturalist.org/taxa/194659-Hygrocybe-miniata",
       externalSource: "iNaturalist",
     },
   ],

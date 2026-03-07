@@ -1,0 +1,450 @@
+{
+  "timestamp": "2026-03-07T06:11:39.479Z",
+  "totalSpecies": 106,
+  "totalFindings": 63,
+  "errors": 54,
+  "warnings": 9,
+  "findings": [
+    {
+      "slug": "agaricus-campestris",
+      "file": "lookalike-phalloides.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Death Cap (Amanita phalloides)"
+    },
+    {
+      "slug": "agaricus-campestris",
+      "file": "lookalike-xanthodermus.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Yellow-staining Mushroom (Agaricus xanthodermus)"
+    },
+    {
+      "slug": "agaricus-campestris",
+      "file": "lookalike-leucothites.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: White Dapperling (Leucoagaricus leucothites)"
+    },
+    {
+      "slug": "agaricus-campestris",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "agaricus-campestris",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "agaricus-campestris",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "amanita-gemmata",
+      "file": "02-young.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 656x737 (need 1200px long edge)"
+    },
+    {
+      "slug": "amanita-muscaria",
+      "file": "01-cap-top.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 960x641 (need 1200px long edge)"
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "lookalike-galerina.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Deadly Galerina (Galerina marginata)"
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "lookalike-pholiota.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Shaggy Scalycap (Pholiota squarrosa)"
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "lookalike-tabescens.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Ringless Honey Mushroom (Desarmillaria tabescens)"
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "armillaria-mellea",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "lookalike-olearius.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Jack O'Lantern (Omphalotus olearius)"
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "lookalike-aurantiaca.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: False Chanterelle (Hygrophoropsis aurantiaca)"
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "lookalike-floccosus.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Scaly Vase Chanterelle (Turbinellus floccosus)"
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "cantharellus-cibarius",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "conocybe-filaris",
+      "file": "01-habitat.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 1024x732 (need 1200px long edge)"
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "lookalike-atramentaria.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Common Ink Cap (Coprinopsis atramentaria)"
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "lookalike-molybdites.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Green-Spored Parasol (Chlorophyllum molybdites)"
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "lookalike-picacea.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Magpie Fungus (Coprinopsis picacea)"
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "coprinus-comatus",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "lookalike-yellowfoot.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Yellowfoot Chanterelle (Craterellus tubaeformis)"
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "lookalike-urnula.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Devil's Urn (Urnula craterium)"
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "lookalike-devil.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Sinuous Chanterelle (Craterellus cinereus)"
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "craterellus-cornucopioides",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "craterellus-tubaeformis",
+      "file": "01-field.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 768x1024 (need 1200px long edge)"
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "lookalike-kuehneromyces.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Sheathed Woodtuft (Kuehneromyces mutabilis)"
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "lookalike-armillaria.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Honey Mushroom (Armillaria mellea)"
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "lookalike-psilocybe.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Wavy Cap (Psilocybe cyanescens)"
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "gills-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "galerina-marginata",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "ganoderma-lucidum",
+      "file": "lookalike-applanatum.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Artist's Conk (Ganoderma applanatum)"
+    },
+    {
+      "slug": "ganoderma-lucidum",
+      "file": "lookalike-tsugae.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Hemlock Varnish Shelf (Ganoderma tsugae)"
+    },
+    {
+      "slug": "ganoderma-lucidum",
+      "file": "lookalike-sessile.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Sessile Reishi (Ganoderma sessile)"
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "lookalike-chicken.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Chicken of the Woods (Laetiporus sulphureus)"
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "lookalike-berkeley.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Berkeley's Polypore (Bondarzewia berkeleyi)"
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "lookalike-blackstaining.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Black-staining Polypore (Meripilus sumstinei)"
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "02-fronds.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "03-large.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "grifola-frondosa",
+      "file": "04-base-of-oak.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "inocybe-aeruginascens",
+      "file": "01-field.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 800x533 (need 1200px long edge)"
+    },
+    {
+      "slug": "lentinula-edodes",
+      "file": "lookalike-neolentinus.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Train Wrecker (Neolentinus lepideus)"
+    },
+    {
+      "slug": "lentinula-edodes",
+      "file": "lookalike-armillaria.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Honey Mushroom (Armillaria mellea)"
+    },
+    {
+      "slug": "lentinula-edodes",
+      "file": "lookalike-galerina.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Funeral Bell (Galerina marginata)"
+    },
+    {
+      "slug": "omphalotus-olearius",
+      "file": "01-cluster.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 768x504 (need 1200px long edge)"
+    },
+    {
+      "slug": "panaeolus-cyanescens",
+      "file": "01-cyanescens-1.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 960x708 (need 1200px long edge)"
+    },
+    {
+      "slug": "psilocybe-tampanensis",
+      "file": "01-field.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 1024x511 (need 1200px long edge)"
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "lookalike-edulis.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Porcini / King Bolete (Boletus edulis)"
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "lookalike-legaliae.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Le Gal's Bolete (Rubroboletus legaliae)"
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "lookalike-luridus.jpg",
+      "context": "lookalike",
+      "severity": "error",
+      "message": "Lookalike image missing: Lurid Bolete (Suillellus luridus)"
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "cap-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"cap\""
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "pores-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"gills\""
+    },
+    {
+      "slug": "rubroboletus-satanas",
+      "file": "stem-detail.jpg",
+      "context": "id-detail",
+      "severity": "error",
+      "message": "ID image missing for \"stem\""
+    },
+    {
+      "slug": "trametes-versicolor",
+      "file": "01-top-view.jpg",
+      "context": "hero",
+      "severity": "warning",
+      "message": "Hero image too small: 960x960 (need 1200px long edge)"
+    }
+  ]
+}

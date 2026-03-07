@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Smaller (5-12 cm tall), more slender, with a tapered orange-red tip rather than a distinct honeycomb head. Same putrid smell but less intense. Also grows from an egg. Edible at the egg stage but rarely collected.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/47779-Mutinus-caninus",
+        "https://www.inaturalist.org/taxa/63580-Mutinus-caninus",
       externalSource: "iNaturalist",
     },
     {

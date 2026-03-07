@@ -35,7 +35,7 @@ const species: SpeciesRecord = {
       image: "lookalike-volvacea.jpg",
       distinction:
         "A popular edible mushroom in Southeast Asian cuisine. Both have a volva at the base, but the Straw Mushroom has pinkish-brown spores (not white), a darker grayish-brown cap, and gills that turn pink with age. This confusion has killed Southeast Asian immigrants foraging in the US and Australia.",
-      externalUrl: "https://www.inaturalist.org/taxa/126944-Volvariella-volvacea",
+      externalUrl: "https://www.inaturalist.org/taxa/179054-Volvariella-volvacea",
       externalSource: "iNaturalist",
     },
     {

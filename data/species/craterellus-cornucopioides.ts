@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Similar trumpet shape but yellowish-brown cap and distinctive yellow-orange stem. Has visible veins or ridges on the underside rather than the smooth surface of the Black Trumpet. Also edible and delicious — no danger in mixing these up.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/57437-Craterellus-tubaeformis",
+        "https://www.inaturalist.org/taxa/350511-Craterellus-tubaeformis",
       externalSource: "iNaturalist",
     },
     {

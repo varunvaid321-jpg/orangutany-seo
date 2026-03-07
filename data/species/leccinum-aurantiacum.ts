@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Very similar in structure and habitat but the cap is brown rather than orange. Flesh does not go through the dramatic pinkish-to-dark-gray color changes when cut. Both are edible.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/54436-Leccinum-scabrum",
+        "https://www.inaturalist.org/taxa/63232-Leccinum-scabrum",
       externalSource: "iNaturalist",
     },
     {

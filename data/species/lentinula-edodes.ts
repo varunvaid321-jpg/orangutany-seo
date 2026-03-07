@@ -50,7 +50,7 @@ const species: SpeciesRecord = {
       image: "lookalike-galerina.jpg",
       distinction:
         "DEADLY — contains the same amatoxins as the Death Cap. Much smaller than shiitake (cap 1–5 cm), with a thin ring on the stem and rusty brown spore print. Grows on decaying conifer wood. If you're foraging for wild shiitake, learning to distinguish Galerina is non-negotiable.",
-      externalUrl: "https://www.inaturalist.org/taxa/347094-Galerina-marginata",
+      externalUrl: "https://www.inaturalist.org/taxa/154735-Galerina-marginata",
       externalSource: "iNaturalist",
     },
   ],

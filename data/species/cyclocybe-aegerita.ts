@@ -37,7 +37,7 @@ const species: SpeciesRecord = {
       distinction:
         "DEADLY. Can grow on wood and has a ring on the stem. Key differences: Galerina is much smaller, with a rusty brown spore print (not dark brown), and grows on conifer wood rather than hardwood. It typically appears as scattered individuals, not dense clusters. Contains amatoxins.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/57478-Galerina-marginata",
+        "https://www.inaturalist.org/taxa/154735-Galerina-marginata",
       externalSource: "iNaturalist",
     },
     {

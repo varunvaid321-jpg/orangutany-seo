@@ -43,7 +43,7 @@ const species: SpeciesRecord = {
       image: "lookalike-geophylla.jpg",
       distinction:
         "Much smaller (cap 1–4 cm), pure white to lilac, silky smooth cap, and does NOT stain red. Also contains muscarine but in lower concentrations. Found in similar habitats but typically in autumn rather than spring.",
-      externalUrl: "https://www.inaturalist.org/taxa/59927-Inocybe-geophylla",
+      externalUrl: "https://www.inaturalist.org/taxa/1366601-Inocybe-geophylla",
       externalSource: "iNaturalist",
     },
     {

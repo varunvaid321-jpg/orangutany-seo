@@ -35,7 +35,7 @@ const species: SpeciesRecord = {
       image: "lookalike-caesarea.jpg",
       distinction:
         "Actually edible and delicious — prized since Roman times. Smooth orange cap (no white spots), bright yellow gills and stem. Hatches from a large white egg. If the gills are yellow, it's not a Fly Agaric.",
-      externalUrl: "https://www.inaturalist.org/taxa/67875-Amanita-caesarea",
+      externalUrl: "https://www.inaturalist.org/taxa/204588-Amanita-caesarea",
       externalSource: "iNaturalist",
     },
     {

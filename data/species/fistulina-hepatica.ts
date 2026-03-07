@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Some Ganoderma brackets can appear reddish-brown, but they are woody, hard, and perennial, not soft and fleshy. Ganoderma does not bleed red juice when cut. Surface is typically shiny or lacquered-looking.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/47391-Ganoderma",
+        "https://www.inaturalist.org/taxa/47379-Ganoderma",
       externalSource: "iNaturalist",
     },
     {
