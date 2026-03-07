@@ -21,8 +21,8 @@ export function Footer() {
           <div>
             <p className="font-semibold text-foreground">Company</p>
             <ul className="mt-1 space-y-1 text-muted-foreground">
-              <li><a href="https://orangutany.com" className="hover:text-primary transition">Identify a Mushroom</a></li>
-              <li><a href="/about" className="hover:text-primary transition">About Orangutany</a></li>
+              <li><a href="https://orangutany.com" className="hover:text-primary transition">Orangutany Mushroom ID</a></li>
+              <li><a href="/about" className="hover:text-primary transition">About Orangutany Guide</a></li>
               <li><a href="/attribution" className="hover:text-primary transition">Image Attribution</a></li>
               <li><a href="/newsletter" className="hover:text-primary transition">Newsletter</a></li>
             </ul>

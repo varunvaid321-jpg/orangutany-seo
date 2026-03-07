@@ -24,8 +24,8 @@ export function Header() {
   return (
     <header className="border-b border-border/50 px-4 sm:px-6 py-4">
       <div className="mx-auto flex max-w-5xl items-center justify-between">
-        <div className="flex items-center gap-3">
-          <Link href="/" className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
+        <div className="flex items-center gap-4">
+          <Link href="/" className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground whitespace-nowrap">
             Orangutany <span className="text-primary">Guide</span>
           </Link>
           <a
@@ -36,9 +36,12 @@ export function Header() {
             <span className="hidden sm:inline">Identify a Mushroom</span>
           </a>
         </div>
-        <nav className="flex items-center gap-2 sm:gap-4 whitespace-nowrap">
+        <nav className="flex items-center gap-4 sm:gap-5 whitespace-nowrap">
           <Link href="/mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
             Species
+          </Link>
+          <Link href="/articles" className="text-sm text-muted-foreground hover:text-foreground transition">
+            Articles
           </Link>
           <Link href="/articles/most-dangerous-mushrooms" className="hidden sm:block text-sm text-muted-foreground hover:text-foreground transition">
             Most Dangerous
@@ -48,9 +51,6 @@ export function Header() {
           </Link>
           <Link href="/guides" className="hidden lg:block text-sm text-muted-foreground hover:text-foreground transition">
             Guides
-          </Link>
-          <Link href="/articles" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Articles
           </Link>
           {userName && (
             <>
