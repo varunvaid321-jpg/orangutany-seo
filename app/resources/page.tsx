@@ -7,6 +7,7 @@ export const metadata = {
     "Mushroom Identification Resources - Books, Websites, Apps | Orangutany Guide",
   description:
     "Curated list of the best mushroom identification resources: field guides, websites, apps, and mycological societies.",
+  alternates: { canonical: "/resources" },
 };
 
 const resources = [

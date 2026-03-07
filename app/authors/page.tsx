@@ -7,6 +7,7 @@ export const metadata = {
   title: "Authors - Orangutany Mushroom Guide",
   description:
     "Meet the writers behind the Orangutany mushroom guide. Foragers, scientists, and journalists who know their fungi.",
+  alternates: { canonical: "/authors" },
 };
 
 export default function AuthorsPage() {

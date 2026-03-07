@@ -6,6 +6,7 @@ export const metadata = {
   title: "About Orangutany — Canadian Mushroom Identification",
   description:
     "Orangutany takes the guesswork out of mushroom identification. AI trained on millions of images — species matches, distribution maps, seasonality. Built in Canada. Think global, forage local.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

@@ -9,6 +9,7 @@ export const metadata = {
   title: "Mushroom Articles - Safety, Foraging, Science | Orangutany Guide",
   description:
     "In-depth articles on mushroom safety, foraging tips, real poisoning cases, and mycology science. Written by experts and field practitioners.",
+  alternates: { canonical: "/articles" },
 };
 
 export default function ArticlesPage() {

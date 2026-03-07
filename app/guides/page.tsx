@@ -8,6 +8,7 @@ export const metadata = {
   title: "Mushroom Foraging Guides - Beginner to Advanced | Orangutany Guide",
   description:
     "Practical guides for mushroom foraging, identification, and safety. Learn what to look for by season, region, and skill level.",
+  alternates: { canonical: "/guides" },
 };
 
 export default function GuidesPage() {

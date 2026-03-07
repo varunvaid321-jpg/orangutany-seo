@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "canonical_host": "https://orangutany.com",
+  "guide_host": "https://guide.orangutany.com",
+  "indexing_policy": "single-host",
+  "policy_description": "All indexable content canonicalizes to orangutany.com. guide.orangutany.com serves content but defers canonical authority to orangutany.com via <link rel=canonical> and X-Robots-Tag headers.",
+  "included_path_groups": {
+    "main_app": {
+      "host": "orangutany.com",
+      "paths": ["/", "/learn", "/learn/*", "/about", "/resources", "/privacy", "/terms", "/refund"]
+    },
+    "guide": {
+      "host": "guide.orangutany.com",
+      "canonical_prefix": "https://orangutany.com/guide",
+      "paths": ["/", "/mushrooms", "/mushrooms/*", "/articles", "/articles/*", "/guides", "/guides/*", "/authors", "/authors/*", "/identify-a-mushroom", "/attribution", "/newsletter", "/resources"]
+    }
+  },
+  "excluded_path_groups": {
+    "main_app": ["/admin", "/api/*", "/forgot-password", "/reset-password"],
+    "guide": []
+  },
+  "generator_commands": {
+    "main_app": "cd frontend && npx next build (generates sitemap.xml including guide URLs)",
+    "guide": "npm run build (generates sitemap.xml with guide.orangutany.com URLs + public/sitemap-guide-manifest.json)"
+  },
+  "validation_gates": {
+    "guide_manifest_exists": "public/sitemap-guide-manifest.json must exist after build",
+    "canonical_host_match": "All canonical tags in guide repo must resolve to orangutany.com",
+    "no_competing_indexing": "guide robots.txt must not present guide.orangutany.com sitemap as primary",
+    "main_sitemap_includes_guide": "orangutany.com/sitemap.xml must include guide content URLs"
+  }
+}
