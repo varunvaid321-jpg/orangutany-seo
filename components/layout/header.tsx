@@ -54,7 +54,7 @@ export function Header() {
       </div>
       {userName && (
         <div className="mx-auto mt-2 flex max-w-5xl items-center justify-between">
-          <span className="text-xs text-muted-foreground">
+          <span className="text-sm font-medium text-foreground">
             Hi, {userName}
           </span>
           <div className="flex items-center gap-3">
