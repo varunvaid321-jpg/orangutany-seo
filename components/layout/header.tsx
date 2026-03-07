@@ -1,6 +1,26 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export function Header() {
+  const [userName, setUserName] = useState<string | null>(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const param = params.get("user");
+    if (param) {
+      sessionStorage.setItem("orangutany_user", param);
+      setUserName(param);
+      const url = new URL(window.location.href);
+      url.searchParams.delete("user");
+      window.history.replaceState({}, "", url.toString());
+    } else {
+      const stored = sessionStorage.getItem("orangutany_user");
+      if (stored) setUserName(stored);
+    }
+  }, []);
+
   return (
     <header className="border-b border-border/50 px-4 sm:px-6 py-4">
       <div className="mx-auto flex max-w-5xl items-center justify-between">
@@ -31,6 +51,30 @@ export function Header() {
           </a>
         </nav>
       </div>
+      {userName && (
+        <div className="mx-auto mt-2 flex max-w-5xl items-center justify-between">
+          <span className="text-xs text-muted-foreground">
+            Hi, {userName}
+          </span>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://orangutany.com"
+              className="text-xs font-medium text-primary hover:text-primary/80 transition"
+            >
+              Back to Identification
+            </a>
+            <button
+              onClick={() => {
+                sessionStorage.removeItem("orangutany_user");
+                setUserName(null);
+              }}
+              className="text-xs text-muted-foreground hover:text-foreground transition"
+            >
+              Log out
+            </button>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
