@@ -105,7 +105,7 @@ const species: SpeciesRecord = {
     },
     {
       filename: "02-habitat.jpg",
-      alt: "Green Elfcup growing in natural habitat",
+      alt: "Microscopy of wood fibers stained green by Chlorociboria xylindein pigment",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria-wood-Coatings-07-00188-g001.png",
       author: "Patricia T. Vega Gutierrez",
@@ -129,15 +129,6 @@ const species: SpeciesRecord = {
       author: "Amadej Trnkoczy",
       license: "CC BY-SA 2.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cheb_relief_intarsia_-_Allegories_of_months_3.jpg",
-      author: "Attributed to Adam Eck",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
   ],
 };
