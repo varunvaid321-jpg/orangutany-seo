@@ -49,7 +49,11 @@ export default function MushroomsInYourYardPage() {
             Those Mushrooms in Your Yard: What They Are and Whether to Panic
           </h1>
           <p className="mt-2 text-xs text-muted-foreground">
-            By Priya Sharma
+            By{" "}
+            <Link href="/authors/priya-sharma" className="text-primary hover:underline">
+              Priya Sharma
+            </Link>{" "}
+            &middot; Orangutany
           </p>
         </header>
 

@@ -44,6 +44,13 @@ export default function MushroomsByRegionPage() {
       <h1 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground sm:text-3xl">
         Wild Mushrooms by Region
       </h1>
+      <p className="mt-2 text-xs text-muted-foreground">
+        By{" "}
+        <Link href="/authors/priya-sharma" className="text-primary hover:underline">
+          Priya Sharma
+        </Link>{" "}
+        &middot; Orangutany
+      </p>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         Every species page includes a global distribution map showing where it&apos;s been found, using occurrence data from <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">GBIF</a>.
         Here&apos;s a quick way to explore mushrooms by the region you&apos;re in.

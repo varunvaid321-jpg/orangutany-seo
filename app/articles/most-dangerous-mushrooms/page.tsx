@@ -38,6 +38,13 @@ export default function MostDangerousPage() {
       <h1 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground sm:text-3xl">
         10 Most Dangerous Mushrooms in the World
       </h1>
+      <p className="mt-2 text-xs text-muted-foreground">
+        By{" "}
+        <Link href="/authors/elena-marchetti" className="text-primary hover:underline">
+          Elena Marchetti
+        </Link>{" "}
+        &middot; Orangutany
+      </p>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
         These are the mushrooms responsible for the vast majority of fatal poisonings worldwide,
         many caused by{" "}
