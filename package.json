@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx tsx scripts/generate-guide-manifest.ts && next build",
+    "generate-manifest": "npx tsx scripts/generate-guide-manifest.ts",
+    "validate-seo": "npx tsx scripts/validate-seo.ts",
     "start": "next start"
   },
   "dependencies": {

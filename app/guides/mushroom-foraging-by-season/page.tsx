@@ -4,7 +4,7 @@ import Link from "next/link";
 const title = "Mushroom Foraging by Season: What to Find Each Month";
 const description =
   "A month-by-month guide to mushroom foraging in the Northern Hemisphere. Learn when morels, chanterelles, porcini, and other species fruit, and where to find them.";
-const url = "https://orangutany.com/guides/mushroom-foraging-by-season";
+const url = "/guides/mushroom-foraging-by-season";
 
 export const metadata: Metadata = {
   title,

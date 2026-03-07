@@ -7,6 +7,7 @@ export const metadata = {
   title: "Identify a Mushroom",
   description:
     "Use Orangutany to identify mushrooms from photos. Upload a picture, get an AI-powered identification with safety info, look-alikes, habitat details, and edibility ratings.",
+  alternates: { canonical: "/identify-a-mushroom" },
 };
 
 export default function IdentifyAMushroomPage() {

@@ -5,7 +5,7 @@ const title =
   "Mushrooms You Can Eat Right Off the Trail (If You Know What You're Doing)";
 const description =
   "A trail-by-trail guide to the best edible wild mushrooms you can forage on a hike: chanterelles, porcini, morels, chicken of the woods, and more. Written by a Pacific Northwest forager who's eaten them all.";
-const url = "https://orangutany.com/guides/edible-wild-mushrooms-trail";
+const url = "/guides/edible-wild-mushrooms-trail";
 
 export const metadata: Metadata = {
   title,
