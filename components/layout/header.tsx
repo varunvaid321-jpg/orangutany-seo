@@ -22,36 +22,13 @@ export function Header() {
   }, []);
 
   return (
-    <header className="border-b border-border/50 px-4 sm:px-6 py-4">
-      <div className="mx-auto flex max-w-5xl items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Link href="/" className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground whitespace-nowrap">
-            Orangutany <span className="text-primary">Guide</span>
-          </Link>
-          <a
-            href="https://orangutany.com"
-            className="rounded-full bg-primary px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm font-medium text-background transition hover:bg-primary/90 whitespace-nowrap"
-          >
-            <span className="sm:hidden">Identify</span>
-            <span className="hidden sm:inline">Identify a Mushroom</span>
-          </a>
-        </div>
-        <nav className="flex items-center gap-4 sm:gap-5 whitespace-nowrap">
-          <Link href="/mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Species
-          </Link>
-          <Link href="/articles" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Articles
-          </Link>
-          <Link href="/articles/most-dangerous-mushrooms" className="hidden sm:block text-sm text-muted-foreground hover:text-foreground transition">
-            Most Dangerous
-          </Link>
-          <Link href="/articles/best-edible-mushrooms" className="hidden sm:block text-sm text-muted-foreground hover:text-foreground transition">
-            Best Edible
-          </Link>
-          <Link href="/guides" className="hidden lg:block text-sm text-muted-foreground hover:text-foreground transition">
-            Guides
-          </Link>
+    <header className="border-b border-border/50 px-4 sm:px-6">
+      {/* Top row: logo + user */}
+      <div className="mx-auto flex max-w-5xl items-center justify-between py-3">
+        <Link href="/" className="font-[family-name:var(--font-heading)] text-2xl font-bold text-foreground">
+          Orangutany <span className="text-primary">Guide</span>
+        </Link>
+        <div className="flex items-center gap-3">
           {userName && (
             <>
               <span className="text-sm font-semibold text-primary">
@@ -68,6 +45,33 @@ export function Header() {
               </button>
             </>
           )}
+        </div>
+      </div>
+      {/* Bottom row: nav links */}
+      <div className="mx-auto max-w-5xl border-t border-border/30">
+        <nav className="flex items-center gap-5 py-2.5">
+          <a
+            href="https://orangutany.com"
+            className="rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-background transition hover:bg-primary/90 whitespace-nowrap"
+          >
+            <span className="sm:hidden">Identify</span>
+            <span className="hidden sm:inline">Identify a Mushroom</span>
+          </a>
+          <Link href="/mushrooms" className="text-sm text-muted-foreground hover:text-foreground transition">
+            Species
+          </Link>
+          <Link href="/articles" className="text-sm text-muted-foreground hover:text-foreground transition">
+            Articles
+          </Link>
+          <Link href="/guides" className="hidden sm:block text-sm text-muted-foreground hover:text-foreground transition">
+            Guides
+          </Link>
+          <Link href="/articles/most-dangerous-mushrooms" className="hidden md:block text-sm text-muted-foreground hover:text-foreground transition">
+            Most Dangerous
+          </Link>
+          <Link href="/articles/best-edible-mushrooms" className="hidden md:block text-sm text-muted-foreground hover:text-foreground transition">
+            Best Edible
+          </Link>
         </nav>
       </div>
     </header>
