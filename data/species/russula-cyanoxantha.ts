@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Considered the best edible Russula worldwide. Mild, nutty flavor with firm, pleasant texture that holds up well to sauteing, grilling, and stewing. The flexible gills make it uniquely identifiable among Russulas. Always confirm with the gill flexibility test before eating any Russula as a charcoal burner. Taste a tiny bit of cap flesh: it should be mild, not peppery.",
-  gbifKey: 2551900,
+  gbifKey: 2551542,
   stories: [
     {
       title: "The Gill Flexibility Test in Normandy",
@@ -94,7 +94,53 @@ const species: SpeciesRecord = {
     "In France, the charcoal burner is so well known and trusted that it appears in mainstream supermarkets during summer and fall, alongside golden chanterelles and porcini.",
     "The name 'charcoal burner' likely comes from the dark, smoky tones that can appear in the cap color, evoking the soot-covered workers who once produced charcoal in European forests.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Charcoal Burner (Russula cyanoxantha) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:0_Russula_cyanoxantha_1.jpg",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Charcoal Burner (Russula cyanoxantha) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:0_Russula_cyanoxantha_2.jpg",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Charcoal Burner (Russula cyanoxantha) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-09-29_Russula_cyanoxantha_cropped.jpg",
+      author: "Russule_charbonniere.jpg: MediAtta derivative work: Ak ccm (talk)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Charcoal Burner (Russula cyanoxantha) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Charcoal_burner_(Russula_cyanoxantha),_old_and_faded_fruiting_body_founded_in_Poland,_September_2014_(1).jpg",
+      author: "MichalPL",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Charcoal Burner (Russula cyanoxantha) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Charcoal_burner_(Russula_cyanoxantha),_old_and_faded_fruiting_body_founded_in_Poland,_September_2014.jpg",
+      author: "MichalPL",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

@@ -67,7 +67,7 @@ const species: SpeciesRecord = {
   psychoactive: true,
   edibilityNote:
     "Contains psilocybin and baeocystin — potent psychoactive compounds. Illegal to possess or consume in most countries. Pound for pound, Liberty Caps are more potent than Psilocybe cubensis. Effects include visual distortion, altered thinking, euphoria, and anxiety. Physical toxicity is extremely low — there are no confirmed deaths from psilocybin mushrooms alone — but psychological risks are real, especially in uncontrolled settings.",
-  gbifKey: 8276893,
+  gbifKey: 5242507,
   stories: [
     {
       title: "The Accidental Trip in a Welsh Hospital",

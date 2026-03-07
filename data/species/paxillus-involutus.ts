@@ -48,7 +48,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Causes immune-mediated hemolytic anemia through cumulative sensitization. Each consumption event builds antibodies. At an unpredictable point, a subsequent meal triggers massive red blood cell destruction, leading to acute hemolytic anemia, kidney failure, and potentially death. The reaction is unpredictable: some people eat it for years without visible harm before a sudden, catastrophic episode. Cooking does not eliminate the risk. Classified as poisonous by all major mycological authorities.",
-  gbifKey: 2524821,
+  gbifKey: 5240002,
   stories: [
     {
       title: "The Mycologist Who Championed Then Died From It",
@@ -92,7 +92,53 @@ const species: SpeciesRecord = {
     "The immunological mechanism of Paxillus involutus poisoning was not fully understood until the 1980s, when researchers demonstrated that repeated exposure builds IgG antibodies against a specific mushroom antigen.",
     "Brown Rollrims are so common in birch forests that in some areas of northern Europe, they are the single most frequently encountered mushroom species during autumn.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Brown Rollrim (Paxillus involutus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Kahler-Krempling-Paxillus-involutus.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Brown Rollrim (Paxillus involutus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Navadne_podvihanke_(Paxillus_involutus).jpg",
+      author: "Petar Milošević",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Brown Rollrim (Paxillus involutus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Paxillus_involutus_112885.jpg",
+      author: "Steve Rogers (srogers)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Brown Rollrim (Paxillus involutus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Paxillus_involutus_119527.jpg",
+      author: "Richard Sullivan (enchplant)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Brown Rollrim (Paxillus involutus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Paxillus_involutus_2025_G1.jpg",
+      author: "George Chernilevsky",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+  ],
 };
 
 export default species;

@@ -59,7 +59,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A good edible mushroom, widely prized in Eastern Europe and Scandinavia. Must be cooked thoroughly; there are reports of gastrointestinal upset from undercooked or raw specimens. Best when young and firm. The flesh turns dark gray to black when cooked, which is normal and does not affect flavor. Remove the pore layer on mature specimens. Excellent dried.",
-  gbifKey: 2519041,
+  gbifKey: 2524513,
   stories: [
     {
       title: "The Podossinovik Pilgrimage",
@@ -100,7 +100,53 @@ const species: SpeciesRecord = {
     "Despite the name 'Orange Birch Bolete,' many populations are actually associated with aspen and poplar rather than birch. The taxonomy remains actively debated among mycologists.",
     "A single mature Orange Birch Bolete can weigh over 500 grams, making it one of the heftier boletes you are likely to encounter in a typical forest walk.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Orange Birch Bolete (Leccinum aurantiacum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leccinum_aurantiacum.jpg",
+      author: "Hans Hillewaert",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Orange Birch Bolete (Leccinum aurantiacum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:0_Bolet_orang%C3%A9_-_Leccinum_aurantiacum_-_Havr%C3%A9_(1).JPG",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Orange Birch Bolete (Leccinum aurantiacum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:0_Bolet_orang%C3%A9_-_Leccinum_aurantiacum_-_Havr%C3%A9_(3).JPG",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Orange Birch Bolete (Leccinum aurantiacum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:0_Bolet_orang%C3%A9_-_Leccinum_aurantiacum_-_Havr%C3%A9_(4).JPG",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Orange Birch Bolete (Leccinum aurantiacum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-09-13_Leccinum_aurantiacum_6555643513.jpg",
+      author: "About field station from Russia",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+  ],
 };
 
 export default species;

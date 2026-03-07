@@ -46,7 +46,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "Not toxic, but too small, thin, and tough to have any culinary value. Not worth attempting to eat. More importantly, small brown mushrooms on wood should always be treated with extreme caution due to the possibility of confusion with Galerina marginata, which is deadly. Enjoy golden trumpets with your eyes and camera, not your stomach.",
-  gbifKey: 2535291,
+  gbifKey: 2527302,
   stories: [
     {
       title: "The Photographer's Dream Log",
@@ -87,7 +87,53 @@ const species: SpeciesRecord = {
     "Golden trumpets are so tough and wiry that dried specimens can persist on logs for weeks after other mushrooms have decomposed, making them one of the longer-lasting forest fungi.",
     "The name campanella means 'little bell' in Latin, perfectly describing the bell-shaped caps of young specimens before they flatten with age.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Golden Trumpet (Xeromphalina campanella) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gl%C3%B6ckchen_Nabeling_Xeromphalina_campanella.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-stem.jpg",
+      alt: "Golden Trumpet stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Kelluk-nabaseen1.jpg",
+      author: "Svencapoeira",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Golden Trumpet (Xeromphalina campanella) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Xeromphalina_campanella_63413.jpg",
+      author: "This image was created by user Christian (Christian Schwarz) at Mushroom Observer, a source for mycological images.You c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Golden Trumpet (Xeromphalina campanella) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Xeromphalina_campanella_(25433946480).jpg",
+      author: "Melissa McMasters from Memphis, TN, United States",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Golden Trumpet (Xeromphalina campanella) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Xeromphalina_campanella_(25613648422).jpg",
+      author: "Melissa McMasters from Memphis, TN, United States",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+  ],
 };
 
 export default species;

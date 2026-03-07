@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible, with a unique sour, tangy flavor. Best when young and fresh; older specimens become tough and excessively acidic. Can be eaten raw in thin slices, sauteed, or marinated. The acidic flavor pairs well with salads and vinaigrettes. Remove the pore layer before cooking, as it can become slimy. Some people experience mild gastrointestinal discomfort; try a small amount first.",
-  gbifKey: 2542067,
+  gbifKey: 2531012,
   stories: [
     {
       title: "The Brown Oak Premium",
@@ -93,7 +93,53 @@ const species: SpeciesRecord = {
     "Fistulina hepatica is one of the very few bracket fungi that can be safely eaten raw. The sour, citrusy flavor actually works well in salad preparations.",
     "The red juice that oozes from cut Beefsteak Fungus contains pigments closely related to those found in red wine. The biochemistry is coincidental, not related.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Beefsteak Fungus (Fistulina hepatica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Fistulina_hepatica.JPG",
+      author: "Jiří Berkovec",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Beefsteak Fungus growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:6361.Glimmen.Haren.Fungi.Zwam.Quintusbos.Wood.Bos.Paddenstoelen.jpg",
+      author: "Andre Hosper",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-young.jpg",
+      alt: "Young Beefsteak Fungus specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:4_young_and_2_old_Fistulina_hepatica_(GB%3D_Beefsteak_polypore_fungus_or_Ox_Tongue,_D%3D_Leberreischling,_or_Ochsenzunge,_F%3D_Langue_de_b%C5%93uf,_NL%3D_Biefstukzwam),_pinkish_spores_and_causes_brown_rot_at_an_Oak_at_Deelerwoud_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Beefsteak Fungus (Fistulina hepatica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-06-26_Fistulina_hepatica_47685.jpg",
+      author: "This image was created by user Dan Molter (shroomydan) at Mushroom Observer, a source for mycological images.You can con",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Beefsteak Fungus (Fistulina hepatica) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-11-30_Fistulina_hepatica_(Schaeff.)_With_123874.jpg",
+      author: "This image was created by user Alan Rockefeller (Alan Rockefeller) at Mushroom Observer, a source for mycological images",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

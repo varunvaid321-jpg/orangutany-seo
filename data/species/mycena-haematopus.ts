@@ -49,7 +49,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "Not edible due to small size and uncertain toxicity. Some Mycena species contain toxic compounds, and the genus is not considered safe for consumption. The mushrooms are too small and fragile to have culinary value even if they were safe. Appreciate this species for its dramatic bleeding reaction, not as a food source.",
-  gbifKey: 8147068,
+  gbifKey: 2526942,
   stories: [
     {
       title: "The Kid Who Found a Bleeding Mushroom",
@@ -89,7 +89,53 @@ const species: SpeciesRecord = {
     "Mycena haematopus is bioluminescent under certain conditions: the mycelium (not the fruiting body) emits a faint greenish glow in complete darkness, a property shared by several dozen Mycena species worldwide.",
     "The genus Mycena contains over 500 described species, making it one of the largest genera of gilled mushrooms. Most require microscopic examination to identify, but M. haematopus is one of the few that can be identified instantly by a single macroscopic feature.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-cap-top.jpg",
+      alt: "Bleeding Mycena cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Mycena_haematopus_19292.jpg",
+      author: "This image was created by user Dan Molter (shroomydan) at Mushroom Observer, a source for mycological images.You can con",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-cap-top.jpg",
+      alt: "Bleeding Mycena cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Mycena_haematopus_56359.jpg",
+      author: "This image was created by user Patrick Harvey (pg_harvey) at Mushroom Observer, a source for mycological images.You can",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Bleeding Mycena (Mycena haematopus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Spinellus_fusiger_51504.jpg",
+      author: "Anna (sapphyre)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-cap-top.jpg",
+      alt: "Bleeding Mycena cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Haematopus-bleeding.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "05-cap-top.jpg",
+      alt: "Bleeding Mycena cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Haematopus-on-oak.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

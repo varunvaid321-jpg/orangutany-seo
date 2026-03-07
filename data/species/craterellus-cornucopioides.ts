@@ -120,54 +120,31 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-cluster-forest.jpg",
-      alt: "Cluster of Black Trumpet mushrooms growing on forest floor among leaves",
+      filename: "01-field.jpg",
+      alt: "Black Trumpet (Craterellus cornucopioides) wild specimen",
       source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Black_trumpet_Craterellus_cornucopioides.jpg",
-      author: "Holger Krisp",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_JPG1.jpg",
+      author: "Jean-Pol GRANDMONT",
       license: "CC BY 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
-      filename: "02-single-trumpet.jpg",
-      alt: "Single Black Trumpet mushroom showing hollow funnel shape from above",
+      filename: "02-habitat.jpg",
+      alt: "Black Trumpet growing in natural habitat",
       source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:A_black_trumpet_mushroom..jpg",
-      author: "Tero Keski-Valkama",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Trumpets_on_the_forest_floor.jpg",
+      author: "Sarahnphillips",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "03-group-livorno.jpg",
-      alt: "Group of Black Trumpets emerging from leaf litter in Italian woodland near Livorno",
+      filename: "03-field.jpg",
+      alt: "Black Trumpet (Craterellus cornucopioides) wild specimen",
       source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides,_Livorno.JPG",
-      author: "Lucarelli",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Craterellus.cornucopioides.1000x.DIC.jpg",
+      author: "Alan Rockefeller",
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "04-estonia-habitat.jpg",
-      alt: "Black Trumpet mushrooms in their natural Estonian forest habitat among moss",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_Eestis.JPG",
-      author: "Marko Vainu",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "05-poland-cluster.jpg",
-      alt: "Dense cluster of Black Trumpets growing in Polish deciduous forest",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides0.jpg",
-      author: "Tomasz Przechlewski",
-      license: "CC BY 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
   ],
   identificationImages: {

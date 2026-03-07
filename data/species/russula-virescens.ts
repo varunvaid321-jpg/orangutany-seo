@@ -55,7 +55,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Considered one of the finest edible Russula species worldwide. The flesh is firm, nutty, and mild, with none of the acrid or peppery taste found in many other Russulas. Excellent sauteed, grilled whole, or added to soups and stews. In Yunnan, China, it is a commercially important market mushroom sold fresh. In Italy, it is eaten raw in salads or grilled with olive oil and garlic.",
-  gbifKey: 2552744,
+  gbifKey: 2551423,
   stories: [
     {
       title: "Yunnan Market Staple",
@@ -103,7 +103,53 @@ const species: SpeciesRecord = {
     "The cracking pattern on the cap of R. virescens is caused by the colored cuticle (skin) splitting as the underlying flesh expands during growth. The white flesh pushes through the green skin, creating the characteristic mosaic.",
     "In some parts of China, R. virescens is considered a 'gateway mushroom' for new foragers because it is so easy to identify, builds confidence, and tastes excellent. Experienced hunters say if someone cannot recognize verdone, they should not be picking wild mushrooms at all.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Green-cracking Russula (Russula virescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_virescens3.JPG",
+      author: "Paffka",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Green-cracking Russula (Russula virescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_virescens_107410.jpg",
+      author: "I. G. Safonov (IGSafonov)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Green-cracking Russula (Russula virescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_virescens_89201.jpg",
+      author: "zaca",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Green-cracking Russula (Russula virescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_virescens_illustration_1898.jpg",
+      author: "Book: Thomas Taylor; Artwork: Louis Charles Christopher Krieger (1873-1940)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Green-cracking Russula (Russula virescens) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

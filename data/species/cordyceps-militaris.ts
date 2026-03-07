@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible and commercially cultivated as a health supplement and culinary ingredient. Wild specimens are too small and rare to be of practical culinary value, but cultivated Cordyceps militaris is widely available. Used in traditional Chinese medicine and cuisine, particularly in soups and tonics. Contains cordycepin, a compound with demonstrated biological activity in laboratory studies. Generally considered safe, though people with autoimmune conditions or on immunosuppressant medications should consult a doctor.",
-  gbifKey: 2564393,
+  gbifKey: 7567077,
   stories: [
     {
       title: "The Cordyceps That Broke the Internet",
@@ -93,7 +93,53 @@ const species: SpeciesRecord = {
     "Despite being widespread and reasonably common, Cordyceps militaris is easily overlooked in the wild. The fruiting bodies are small, often hidden in deep leaf litter, and their orange color can blend with autumn leaves.",
     "The video game and TV series 'The Last of Us' features a fictional Cordyceps that infects humans, inspired by real Cordyceps species that control insect behavior. Cordyceps militaris does not control host behavior, but its tropical relative Ophiocordyceps unilateralis does.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Scarlet Caterpillar Club (Cordyceps militaris) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_militaris_jar.jpg",
+      author: "Yel D'ohan",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Scarlet Caterpillar Club growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_militaris_in_the_bow_of_a_beech_tree_-_geograph.org.uk_-_1132098.jpg",
+      author: "Stan Campbell",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-cap-top.jpg",
+      alt: "Scarlet Caterpillar Club cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Above_Treorchy,_Cordiceps_militaris,_January_1973_(31021972185).jpg",
+      author: "Dr Mary Gillham Archive Project",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Scarlet Caterpillar Club (Cordyceps militaris) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_militaris_(GB%3D_Scarlet_Caterpillarclub,_D%3D_Orangegelbe_Puppenkernkeule,_NL%3D_Rupsendoder)_at_Deelerwoud_in_the_moss_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Scarlet Caterpillar Club (Cordyceps militaris) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_militaris_452741546.jpg",
+      author: "Matej Frančeškin",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+  ],
 };
 
 export default species;

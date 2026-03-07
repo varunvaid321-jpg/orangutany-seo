@@ -47,7 +47,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Both wild and cultivated forms are edible. Wild specimens have a pleasant, mild flavor and slightly slimy texture that works well in soups, hot pots, and stir-fries. The tough lower portions of the stem should be discarded. Cultivated enoki are crisp, mild, and widely used in East Asian cuisine. Critical safety note: always confirm the white spore print and dark velvety stem to avoid confusion with deadly Galerina marginata.",
-  gbifKey: 2536042,
+  gbifKey: 3341441,
   stories: [
     {
       title: "January Foraging in Brooklyn",
@@ -89,7 +89,44 @@ const species: SpeciesRecord = {
     "DNA studies have revealed that what was called 'Flammulina velutipes' is actually a complex of several closely related species. The East Asian populations used for cultivation may be a distinct species (F. filiformis), while European populations retain the name F. velutipes.",
     "In 2020, the FDA issued a recall of enoki mushrooms from a South Korean producer after a Listeria monocytogenes outbreak linked to the product killed four people in the United States. The contamination was traced to processing conditions, not the mushroom itself.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-habitat.jpg",
+      alt: "Enoki growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Flammulina_velutipes_on_a_tree.jpg",
+      author: "Давид Андронов",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Enoki (Flammulina velutipes) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Fluweelpootje,_(Flammulina_velutipes),_22-01-2026._(d.j.b.)._01.jpg",
+      author: "Dominicus Johannes Bergsma.",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Enoki (Flammulina velutipes) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2009-11-19_Flammulina_velutipes_agg_biolib.cz_crop.jpg",
+      author: "2009-11-19_Flammulina_sp_biolib.cz.jpg: František ŠARŽÍK derivative work: Ak ccm",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Enoki (Flammulina velutipes) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

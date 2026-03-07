@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A premier edible mushroom with deep, smoky, earthy flavor. Must be thoroughly cooked before eating; raw morels contain hydrazine compounds that are destroyed by heat. Never eat raw. Excellent sauteed, stuffed, dried, or in cream sauces. Pairs beautifully with asparagus, ramps, and spring onions.",
-  gbifKey: 5258942,
+  gbifKey: 2594626,
   stories: [
     {
       title: "The Burn Morel Gold Rush in British Columbia",
@@ -103,7 +103,35 @@ const species: SpeciesRecord = {
     "Black morels are among the few wild mushrooms that have been successfully cultivated on a commercial scale, though outdoor cultivation remains far more productive than indoor methods.",
     "In the Pacific Northwest, burn morel permits are required on national forest land, and competition for prime sites can be fierce enough to involve confrontations between rival picking crews.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Black Morel (Morchella elata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Morchella_elata_Spitzmorchel_Morchella_conica.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Black Morel (Morchella elata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Morelasci.jpg",
+      author: "Peter G. Werner",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Black Morel (Morchella elata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:%CE%9C%CE%BF%CF%81%CF%87%CE%AD%CE%BB%CE%B1_%CF%83%CF%84%CE%B7%CE%BD_%CE%A0%CE%AC%CF%81%CE%BD%CE%B7%CE%B8%CE%B1.jpg",
+      author: "Dimitris Tzoumpas",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

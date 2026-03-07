@@ -55,7 +55,7 @@ const species: SpeciesRecord = {
   edibility: "edible-with-caution",
   edibilityNote:
     "A good edible mushroom with a unique, slightly perfumed flavor, but MUST be thoroughly cooked before eating. Raw or undercooked Blewits contain thermolabile proteins that cause nausea, vomiting, and diarrhea. Cook for at least 15 minutes. Some individuals experience allergic reactions even to cooked specimens, so try a small amount first. The texture becomes smooth and slightly slippery when sauteed. Pairs well with cream sauces, eggs, and pasta.",
-  gbifKey: 2533701,
+  gbifKey: 5242048,
   stories: [
     {
       title: "The Blewit Fairy Ring in Kew Gardens",
@@ -104,7 +104,53 @@ const species: SpeciesRecord = {
     "Blewits can survive light frosts and continue fruiting into December and even January in mild climates. The mycelium is cold-tolerant, and fruiting bodies can recover from brief freezing, making this one of the latest wild mushrooms available each year.",
     "The perfumed, floral aroma of Wood Blewits is caused by a complex mixture of volatile compounds that has not been fully characterized. Some people find the smell pleasant; others describe it as soapy or reminiscent of cheap perfume.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-habitat.jpg",
+      alt: "Wood Blewit wild specimen in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Edible_fungi_in_basket_2022_G5.jpg",
+      author: "George Chernilevsky",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "02-detail.jpg",
+      alt: "Wood Blewit showing full fruiting body",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lepista_nuda.jpg",
+      author: "Unknown",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+    {
+      filename: "03-wild.jpg",
+      alt: "Wood Blewit (Lepista nuda) in the wild",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lepista_nuda_109950721.jpg",
+      author: "Елена Патерикина",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "04-closeup.jpg",
+      alt: "Wood Blewit close-up field photograph",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lepista_nuda_167405666.jpg",
+      author: "steve b",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "05-specimen.jpg",
+      alt: "Wood Blewit mushroom, field identification reference",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lepista_nuda_167462660.jpg",
+      author: "Michel Langeveld",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

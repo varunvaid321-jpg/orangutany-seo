@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible and widely eaten, though not considered a top-tier species. Peel the slimy cap skin before cooking to avoid gelatinous texture. Harvest young specimens to minimize insect damage. Best sauteed, in soups, or pickled (a popular preparation in Eastern Europe and Russia). Mild, pleasant flavor that absorbs seasonings well.",
-  gbifKey: 2527482,
+  gbifKey: 8146046,
   stories: [
     {
       title: "Pine Plantation Bounty in Chile",

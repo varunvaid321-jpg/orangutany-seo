@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Technically edible but not recommended for collection. Scarlet Waxcaps are small, not particularly flavorful, and are important indicator species for threatened grassland habitats. Many mycological societies and conservation organizations discourage picking waxcaps. In some countries, waxcap grasslands have legal protection, and collecting fungi from them may be prohibited.",
-  gbifKey: 5249825,
+  gbifKey: 2538445,
   stories: [
     {
       title: "The Churchyard Waxcap Survey",
@@ -94,7 +94,53 @@ const species: SpeciesRecord = {
     "A single churchyard lawn in Wales was found to contain 33 species of waxcap, more than many nature reserves thousands of times its size.",
     "The waxy texture of waxcap gills is caused by unusually long, inflated cells (basidia) that give them a slippery, almost plastic feel unlike any other mushroom group.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Scarlet Waxcap (Hygrocybe coccinea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hygrocybe_coccinea_(1)_(38288859596).jpg",
+      author: "Dr. Hans-Günter Wagner",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Scarlet Waxcap growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-10-02_Hygrocybe_coccinea_ecology_55652.jpg",
+      author: "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a source for mycological images.You can co",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Scarlet Waxcap (Hygrocybe coccinea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hygrocybe_coccinea_(1)_(49151806671).jpg",
+      author: "Dr. Hans-Günter Wagner",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Scarlet Waxcap (Hygrocybe coccinea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hygrocybe_coccinea_(10)_(38313130272).jpg",
+      author: "Dr. Hans-Günter Wagner",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Scarlet Waxcap (Hygrocybe coccinea) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hygrocybe_coccinea_(10)_(49152001847).jpg",
+      author: "Dr. Hans-Günter Wagner",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+  ],
 };
 
 export default species;

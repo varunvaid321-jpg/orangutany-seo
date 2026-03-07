@@ -46,7 +46,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A fine edible mushroom, especially valued for drying. The flavor is more delicate than golden chanterelles but concentrates well when dried. Excellent in cream sauces, soups, risottos, and with eggs. Cook before eating. The thin flesh means rapid cooking times.",
-  gbifKey: 2526410,
+  gbifKey: 2554536,
   stories: [
     {
       title: "A Norwegian Grandmother's String of Chanterelles",
@@ -87,7 +87,53 @@ const species: SpeciesRecord = {
     "In Finland, trumpet chanterelles are commercially harvested and sold fresh in supermarkets during autumn, often cheaper than golden chanterelles because they fruit in such abundance.",
     "The hollow stem runs from the cap all the way to the base, and in large specimens you can actually look straight through the mushroom like a tiny telescope.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:(Craterellus_tubaeformis_4)_-_Flickr_-_Tero_Karppinen.jpg",
+      author: "Tero Karppinen from Finland",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2009-10-07_Craterellus_tubaeformis_Leotia_lubrica.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-07-12_Craterellus_tubaeformis_71471.jpg",
+      author: "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user h",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Craterellus_tubaeformis_LC0374.jpg",
+      author: "Jörg Hempel",
+      license: "CC BY-SA 3.0 de",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Annie_L._Prat_(16704556272).jpg",
+      author: "Nova Scotia Archives",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

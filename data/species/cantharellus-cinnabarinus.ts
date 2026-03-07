@@ -46,7 +46,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A choice edible chanterelle with concentrated peppery, fruity flavor despite its small size. Best collected in quantity due to small individual size. Excellent sauteed in butter, in pasta, or dried for later use. Cook before eating. The vivid color makes them a beautiful garnish.",
-  gbifKey: 5249507,
+  gbifKey: 5249599,
   stories: [
     {
       title: "A Sea of Red on an Appalachian Trail",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "This species is strictly a North American mushroom. European foragers have no equivalent small red chanterelle.",
     "Cinnabar chanterelles often grow in mixed troops with golden chanterelles, creating a striking two-toned display of red and gold on the forest floor.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-07-12_Cantharellus_cinnabarinus_71498_cropped.jpg",
+      author: "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user h",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Cinnabar Chanterelle growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Red_Chanterelle_-_Flickr_-_treegrow.jpg",
+      author: "Katja Schulz from Washington, D. C., USA",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "03-cap-top.jpg",
+      alt: "Cinnabar Chanterelle cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletopsis_nothofagi_fruitbodies.jpg",
+      author: "Jerry A. Cooper",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-07-12_Cantharellus_cinnabarinus_71498.jpg",
+      author: "This image was created by user Hamilton (ham) at Mushroom Observer, a source for mycological images.You can contact this",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cantharellus_cinnabarinus_(Schwein.)_Schwein_352912.jpg",
+      author: "This image was created by user Hamilton (ham) at Mushroom Observer, a source for mycological images.You can contact this",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

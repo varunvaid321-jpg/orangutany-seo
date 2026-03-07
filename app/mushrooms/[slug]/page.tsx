@@ -144,12 +144,14 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
               {species.identification.cap && (
                 <div className="overflow-hidden rounded-lg border border-border bg-card">
                   {species.identificationImages?.cap && (
-                    <img
-                      src={`${imgBase}/${species.identificationImages.cap}`}
-                      alt={`${species.commonName} cap detail`}
-                      className="aspect-[2/1] w-full object-cover object-top"
-                      loading="lazy"
-                    />
+                    <div className="bg-[#1a1a1a]">
+                      <img
+                        src={`${imgBase}/${species.identificationImages.cap}`}
+                        alt={`${species.commonName} cap detail`}
+                        className="aspect-[2/1] w-full object-contain"
+                        loading="lazy"
+                      />
+                    </div>
                   )}
                   <div className="p-3">
                     <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Cap</h3>
@@ -160,12 +162,14 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
               {species.identification.gills && (
                 <div className="overflow-hidden rounded-lg border border-border bg-card">
                   {species.identificationImages?.gills && (
-                    <img
-                      src={`${imgBase}/${species.identificationImages.gills}`}
-                      alt={`${species.commonName} gills detail`}
-                      className="aspect-[2/1] w-full object-cover object-top"
-                      loading="lazy"
-                    />
+                    <div className="bg-[#1a1a1a]">
+                      <img
+                        src={`${imgBase}/${species.identificationImages.gills}`}
+                        alt={`${species.commonName} gills detail`}
+                        className="aspect-[2/1] w-full object-contain"
+                        loading="lazy"
+                      />
+                    </div>
                   )}
                   <div className="p-3">
                     <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Gills</h3>
@@ -176,12 +180,14 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
               {species.identification.stem && (
                 <div className="overflow-hidden rounded-lg border border-border bg-card">
                   {species.identificationImages?.stem && (
-                    <img
-                      src={`${imgBase}/${species.identificationImages.stem}`}
-                      alt={`${species.commonName} stem and base detail`}
-                      className="aspect-[2/1] w-full object-cover object-top"
-                      loading="lazy"
-                    />
+                    <div className="bg-[#1a1a1a]">
+                      <img
+                        src={`${imgBase}/${species.identificationImages.stem}`}
+                        alt={`${species.commonName} stem and base detail`}
+                        className="aspect-[2/1] w-full object-contain"
+                        loading="lazy"
+                      />
+                    </div>
                   )}
                   <div className="p-3">
                     <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Stem</h3>
@@ -218,7 +224,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                         <img
                           src={`${imgBase}/${la.image}`}
                           alt={la.name}
-                          className="h-40 w-full object-cover sm:h-auto sm:w-36 flex-shrink-0"
+                          className="h-40 w-full object-contain bg-[#1a1a1a] sm:h-auto sm:w-36 flex-shrink-0"
                           loading="lazy"
                         />
                       )}
@@ -286,13 +292,17 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                       href={`/mushrooms/${r.slug}`}
                       className="group overflow-hidden rounded-lg border border-border bg-card transition hover:border-primary/50"
                     >
-                      {r.images.length > 0 && (
+                      {r.images.length > 0 ? (
                         <img
                           src={`/images/species/${r.slug}/${r.images[0].filename}`}
                           alt={r.images[0].alt}
-                          className="aspect-[3/2] w-full object-cover transition group-hover:scale-105"
+                          className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                           loading="lazy"
                         />
+                      ) : (
+                        <div className="flex aspect-[3/2] items-center justify-center bg-[#1a1a1a]">
+                          <span className="text-xs text-muted-foreground">No image</span>
+                        </div>
                       )}
                       <div className="p-2">
                         <p className="text-sm font-semibold text-foreground">{r.commonName}</p>

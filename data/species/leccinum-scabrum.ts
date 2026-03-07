@@ -59,7 +59,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "Edible and widely eaten, especially in Scandinavia and Eastern Europe. Best when young and firm. Older specimens become soft and waterlogged. The texture improves significantly with drying. Cook thoroughly before eating. Remove the pore layer on mature specimens, as it becomes slimy when cooked.",
-  gbifKey: 2519052,
+  gbifKey: 9141390,
   stories: [
     {
       title: "Finland's National Mushroom Harvest",
@@ -100,7 +100,53 @@ const species: SpeciesRecord = {
     "In Finland, an estimated 2-6 million kilograms of wild mushrooms are picked annually, and Leccinum species make up a major portion of the harvest.",
     "The flesh of Brown Birch Boletes does not stain when cut, which helps distinguish it from several related Leccinum species whose flesh turns pink, gray, or black.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Brown Birch Bolete (Leccinum scabrum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leccinum_scabrum_JPG7.jpg",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Brown Birch Bolete growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Birch_boletes_on_wood_table.JPG",
+      author: "Anonimski",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Brown Birch Bolete (Leccinum scabrum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:7544.3._Leccinum_scabrum_in_Sosnovka_Park.jpg",
+      author: "GAlexandrova",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Brown Birch Bolete (Leccinum scabrum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Birken-R%C3%B6hrling_Leccinum_scabrum.JPG",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Brown Birch Bolete (Leccinum scabrum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2007-10-13_Leccinum_scabrum_(Bull.)_Gray_12300_crop.jpg",
+      author: "This image was created by user vesna maric (kalipso) at Mushroom Observer, a source for mycological images.You can conta",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

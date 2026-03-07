@@ -47,7 +47,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "The egg stage is theoretically edible (some stinkhorn eggs are eaten in parts of Asia), but Mutinus caninus is not considered a food species. The mature stalk is too spongy and foul-smelling to eat. Not toxic, but there is no culinary reason to try.",
-  gbifKey: 5243032,
+  gbifKey: 5239473,
   stories: [
     {
       title: "The Garden Surprise in Surrey",

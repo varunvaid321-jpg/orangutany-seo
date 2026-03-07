@@ -54,7 +54,7 @@ export default function MostDangerousPage() {
               <img
                 src={`/images/species/${species!.slug}/${species!.images[0].filename}`}
                 alt={species!.images[0].alt}
-                className="h-auto w-32 flex-shrink-0 object-cover sm:w-44"
+                className="h-auto w-32 flex-shrink-0 object-contain sm:w-44"
                 loading="lazy"
               />
             )}

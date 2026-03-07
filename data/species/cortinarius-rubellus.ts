@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "deadly",
   edibilityNote:
     "Contains orellanine, a bipyridyl compound that causes delayed-onset kidney failure. Symptoms may not appear for 2 to 20 days after ingestion, beginning with intense thirst, nausea, and headache, progressing to acute kidney failure. There is no antidote. Many victims require lifelong dialysis or kidney transplantation. Even small amounts can cause permanent kidney damage. Cooking does not destroy the toxin.",
-  gbifKey: 8117909,
+  gbifKey: 2528663,
   stories: [
     {
       title: "The Horse Whisperer Author's Nightmare",
@@ -97,7 +97,53 @@ const species: SpeciesRecord = {
     "There is still no reliable antidote for orellanine poisoning. Treatment is entirely supportive: dialysis to keep patients alive while hoping the kidneys recover. Many do not.",
     "Nicholas Evans later wrote about his poisoning experience, saying the mushrooms tasted 'perfectly pleasant' and that there was nothing about the flavor to suggest anything was wrong.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Deadly Webcap (Cortinarius rubellus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2006-07-12_Cortinarius_rubellus_1.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Deadly Webcap (Cortinarius rubellus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2006-07-12_Cortinarius_rubellus_2.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Deadly Webcap (Cortinarius rubellus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2007-07-07_Cortinarius_rubellus.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Deadly Webcap (Cortinarius rubellus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cortinarius_rubellus_with_Craterellus_tubaeformis.jpg",
+      author: "Wkee4ager",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Deadly Webcap (Cortinarius rubellus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cortinarius-rubellus063.jpg",
+      author: "Danny Steven S.",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+  ],
 };
 
 export default species;

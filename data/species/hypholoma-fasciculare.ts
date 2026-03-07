@@ -49,7 +49,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Contains fasciculol E and other toxic sesquiterpenes. Extremely bitter taste usually deters consumption, but ingestion of significant quantities causes nausea, vomiting, and diarrhea, followed by delayed liver and kidney damage over 2 to 6 days. Fatal cases have been reported. Cooking does not eliminate the bitterness or the toxins. Even small quantities can cause gastrointestinal distress.",
-  gbifKey: 7432098,
+  gbifKey: 3293632,
   stories: [
     {
       title: "Japanese Family Hospitalized After Stump Harvest",
@@ -88,7 +88,53 @@ const species: SpeciesRecord = {
     "A single dead tree stump can produce Sulphur Tuft clusters for 5 to 10 years as the mycelium slowly decomposes the wood. The same stump may produce hundreds of fruiting bodies per season.",
     "Sulphur Tuft mycelium produces compounds that inhibit the growth of other fungi, helping it dominate the dead wood it colonizes. This antifungal activity has attracted interest from pharmaceutical researchers.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2014_Hypholoma_fasciculare.jpg",
+      author: "Kreuzschnabel",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hypholoma-fasciculare-Alan-Rockefeller-inaturalist-14376439.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hypholoma_fasciculare_-_December_2024_-_Sarah_Stierch_02.jpg",
+      author: "Missvain",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hypholoma_fasciculare_Queteraro.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hypholoma_fasciculare_JPG1.jpg",
+      author: "Jean-Pol GRANDMONT",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+  ],
 };
 
 export default species;

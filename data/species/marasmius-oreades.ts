@@ -59,7 +59,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "An excellent edible mushroom with sweet, nutty flavor. Use only the caps; the stems are too tough and wiry. Dries exceptionally well, concentrating the flavor. Must be identified with absolute confidence due to the toxic Clitocybe rivulosa look-alike that also grows in grass. Avoid collecting from treated lawns (pesticides, herbicides, fertilizers) or areas near roads where lead and other contaminants may be present.",
-  gbifKey: 5248027,
+  gbifKey: 2537250,
   stories: [
     {
       title: "Shakespeare's Fairy Circles",
@@ -109,7 +109,53 @@ const species: SpeciesRecord = {
     "Fairy rings expand outward at roughly 10-15 cm per year. By measuring the diameter of a ring, you can roughly estimate how many years ago the original spore germinated at the center.",
     "The hydrophobic compounds produced by the mycelium of Marasmius oreades can make the soil inside a fairy ring so water-repellent that it resists irrigation, a major headache for golf course superintendents worldwide.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Fairy Ring Mushroom (Marasmius oreades) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Michigan_Marasmius_oreades.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Fairy Ring Mushroom growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Michigan_Marasmius_oreades_black_background.jpg",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "03-stem.jpg",
+      alt: "Fairy Ring Mushroom stem, ring, and base detail",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Marasmius_oreades_string.jpg",
+      author: "The original uploader was The Thadman at English Wikipedia.",
+      license: "CC BY-SA 2.5",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Fairy Ring Mushroom (Marasmius oreades) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-10-16_Marasmius_oreades_(Bolton)_Fr_112276.jpg",
+      author: "This image was created by user Lord Mayonnaise at Mushroom Observer, a source for mycological images.You can contact thi",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Fairy Ring Mushroom (Marasmius oreades) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-10-16_Marasmius_oreades_(Bolton)_Fr_112385.jpg",
+      author: "This image was created by user Lord Mayonnaise at Mushroom Observer, a source for mycological images.You can contact thi",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

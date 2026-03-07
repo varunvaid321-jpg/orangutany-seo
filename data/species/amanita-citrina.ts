@@ -51,7 +51,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Generally considered inedible and mildly toxic. Contains bufotenine and can cause nausea, vomiting, and stomach cramps. While not life-threatening, eating it is unwise both because of its own toxicity and because of the risk of confusing it with the genuinely deadly Amanita phalloides.",
-  gbifKey: 5240327,
+  gbifKey: 3328320,
   stories: [
     {
       title: "The Potato Smell That Saved a Picker",
@@ -89,7 +89,53 @@ const species: SpeciesRecord = {
     "Amanita citrina contains bufotenine, the same psychoactive compound found in certain toad secretions. However, the amounts are far too small to produce any noticeable effect.",
     "The veil patches on the False Death Cap's cap are often described as looking like a map of islands, giving it a distinctive patchwork appearance that differs from the clean warts of other Amanitas.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "False Death Cap (Amanita citrina) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina_2010_G1.jpg",
+      author: "George Chernilevsky",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "02-group.jpg",
+      alt: "Group of False Death Cap mushrooms in the wild",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina_group.jpg",
+      author: "Danny Cicchetti",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "False Death Cap (Amanita citrina) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina_1.jpg",
+      author: "Karelj",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "False Death Cap (Amanita citrina) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina3.jpg",
+      author: "Taken by me user debivort,",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "False Death Cap (Amanita citrina) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_sp._2010-10-31.jpg",
+      author: "The High Fin Sperm Whale",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

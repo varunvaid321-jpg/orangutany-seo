@@ -54,7 +54,7 @@ const species: SpeciesRecord = {
   edibility: "edible-with-caution",
   edibilityNote:
     "Edible but not highly regarded. Young, firm specimens are the only ones worth collecting; older specimens are frequently waterlogged, soft, and maggot-infested. The flavor is mild and inoffensive but lacks the depth of better boletes. Best used as a supplement in mixed mushroom dishes rather than as the star ingredient. Some individuals report mild gastrointestinal upset, possibly due to consuming specimens that were too old or poorly cooked. Always cook thoroughly.",
-  gbifKey: 2524978,
+  gbifKey: 2519413,
   stories: [
     {
       title: "The Beginner's Bolete in Surrey",

@@ -97,7 +97,35 @@ const species: SpeciesRecord = {
     "Flies that visit stinkhorns to feed on the gleba have been observed carrying viable spores on their bodies for up to 48 hours, dispersing them far beyond what wind alone could achieve.",
     "In traditional Chinese medicine, stinkhorn species have been used for centuries as remedies for joint inflammation and respiratory conditions. Modern research has identified bioactive polysaccharides in several Phallus species.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Dune Stinkhorn (Phallus hadriani) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Phallus_hadriani.JPG",
+      author: "Roberto Petruzzo - Latina, Italy",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "02-young.jpg",
+      alt: "Young Dune Stinkhorn specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Phallus_hadriani_eggs.jpg",
+      author: "Nathan Wilson",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Dune Stinkhorn (Phallus hadriani) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Phallus_hadriani.jpg",
+      author: "Nathan Wilson",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+  ],
 };
 
 export default species;

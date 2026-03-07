@@ -47,7 +47,7 @@ const species: SpeciesRecord = {
   edibility: "inedible",
   edibilityNote:
     "Not toxic in the traditional sense, but the overwhelming stench of rotting meat makes eating it unthinkable. The egg stage is reportedly edible in some stinkhorn species, but Clathrus ruber is not considered a food species anywhere. The smell alone would defeat any attempt at consumption.",
-  gbifKey: 5243025,
+  gbifKey: 5239476,
   stories: [
     {
       title: "The Backyard Alien in Atlanta",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "Despite smelling like death, the red cage stinkhorn is completely harmless to garden plants, soil health, and pets. The smell is exclusively a spore-dispersal strategy.",
     "Flies that visit the gleba can carry thousands of Clathrus spores on their bodies, depositing them across a much wider area than wind dispersal alone could achieve.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_125338.jpg",
+      author: "Angelos Papadimitriou (Aggelos(Xanthi))",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_61319.jpg",
+      author: "(Alan Rockefeller)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_spacepleb.jpg",
+      author: "David Gough (Spacepleb)",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_(decaying).jpg",
+      author: "Dэя-Бøяg",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Red Cage Stinkhorn (Clathrus ruber) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clathrus_ruber_by_Micheli_1729.jpg",
+      author: "Pier Antonio Micheli",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

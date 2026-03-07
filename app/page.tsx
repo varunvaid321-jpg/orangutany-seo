@@ -132,7 +132,7 @@ export default function Home() {
               <img
                 src={`/images/species/${s.slug}/${s.images[0].filename}`}
                 alt={s.images[0].alt}
-                className="aspect-[3/2] w-full object-cover transition group-hover:scale-105"
+                className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                 loading="lazy"
               />
             )}

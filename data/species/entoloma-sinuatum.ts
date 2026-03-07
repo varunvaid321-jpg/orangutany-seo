@@ -49,7 +49,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Causes severe gastrointestinal poisoning with onset 30 minutes to 2 hours after ingestion. Symptoms include violent vomiting, watery diarrhea, and intense abdominal cramping lasting 1 to 3 days. Severe dehydration can be life-threatening, especially for the elderly, young children, or immunocompromised individuals. Deaths have been recorded in Europe. Hospital treatment for rehydration is often necessary.",
-  gbifKey: 2533029,
+  gbifKey: 2539308,
   stories: [
     {
       title: "The Surrey Dinner Party Disaster",
@@ -92,7 +92,53 @@ const species: SpeciesRecord = {
     "The species name 'sinuatum' refers to the sinuate (notched) gill attachment, which is one of the key identification features but requires close inspection to appreciate.",
     "Despite being well-known to European mycologists, the Livid Pinkgill is responsible for more mushroom poisoning incidents in some regions of Europe than any species other than Amanita phalloides.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Livid Pinkgill (Entoloma sinuatum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Entoloma_sinuatum_40542.jpg",
+      author: "Gerhard Koller",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-cap-top.jpg",
+      alt: "Livid Pinkgill cap viewed from above showing surface texture",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_-_Lindsey.jpg",
+      author: "James Lindsey",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-group.jpg",
+      alt: "Group of Livid Pinkgill mushrooms in the wild",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Entoloma_sinuatum_group.JPG",
+      author: "No machine-readable author provided. Archenzo assumed (based on copyright claims).",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Livid Pinkgill (Entoloma sinuatum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
+      author: "Elisabeth Östman (1869–1933)",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Livid Pinkgill (Entoloma sinuatum) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calocybe_gambosa_950.jpg",
+      author: "No machine-readable author provided. Japonica assumed (based on copyright claims).",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+  ],
 };
 
 export default species;

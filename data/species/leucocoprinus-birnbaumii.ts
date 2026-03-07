@@ -49,7 +49,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Mildly toxic. Ingestion causes gastrointestinal symptoms including nausea, vomiting, and diarrhea. The specific toxins are not fully characterized. Fatalities have not been documented, but the mushroom should not be eaten. The primary concern is accidental ingestion by children or pets attracted to the bright yellow color. Simply remove fruiting bodies as they appear if household members are at risk.",
-  gbifKey: 2534257,
+  gbifKey: 2535598,
   stories: [
     {
       title: "The r/houseplants Panic Thread",
@@ -92,7 +92,53 @@ const species: SpeciesRecord = {
     "Despite causing panic in houseplant owners, Leucocoprinus birnbaumii is actually beneficial to potted plants. The mycelium breaks down dead organic matter in the soil, releasing nutrients and improving soil structure.",
     "The bright yellow color fades significantly as the mushroom ages. Old specimens can look grayish-yellow or dingy cream, making them harder to identify and less likely to trigger the characteristic alarm in plant owners.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Yellow Houseplant Mushroom (Leucocoprinus birnbaumii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Aborting_Leucocoprinus_birnbaumii.jpg",
+      author: "Axelradical",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Yellow Houseplant Mushroom (Leucocoprinus birnbaumii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leucocoprinus_birnbaumii_56048.jpg",
+      author: "Dan Molter (shroomydan)",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Yellow Houseplant Mushroom (Leucocoprinus birnbaumii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Two_yellow_Leucocoprinus_birnbaumii_in_a_row.jpg",
+      author: "Arria Belli (Arria Belli)",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Yellow Houseplant Mushroom (Leucocoprinus birnbaumii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leucocoprinus_birnbaumii_sclerotia_02.jpg",
+      author: "Micah Raimer (walks-the-ages)",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Yellow Houseplant Mushroom (Leucocoprinus birnbaumii) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leucocoprinus_birnbaumii_growing_on_potting_mix.jpg",
+      author: "Impudicuss",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+  ],
 };
 
 export default species;

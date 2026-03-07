@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Species Image Manifest",
+  "description": "Validated list of approved images per species",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["hero", "status"],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": ["approved", "pending", "skipped"]
+      },
+      "hero": {
+        "type": "object",
+        "required": ["filename", "minSizeKb", "verified"],
+        "properties": {
+          "filename": { "type": "string" },
+          "minSizeKb": { "type": "number", "minimum": 300 },
+          "verified": { "type": "boolean" }
+        }
+      },
+      "gallery": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["filename", "minSizeKb"],
+          "properties": {
+            "filename": { "type": "string" },
+            "minSizeKb": { "type": "number", "minimum": 60 }
+          }
+        },
+        "minItems": 4
+      },
+      "map": {
+        "type": "object",
+        "required": ["gbifKey", "verified", "minSizeKb"],
+        "properties": {
+          "gbifKey": { "type": "integer" },
+          "verified": { "type": "boolean" },
+          "minSizeKb": { "type": "number", "minimum": 131 }
+        }
+      }
+    }
+  }
+}

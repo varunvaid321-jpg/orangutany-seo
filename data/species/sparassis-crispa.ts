@@ -47,7 +47,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "A choice edible mushroom with excellent flavor and texture. The flesh is firm, slightly chewy, and noodle-like, with a mild, nutty, slightly sweet flavor. Excellent sauteed in butter, added to cream sauces, stir-fried, or used in pasta dishes. The deeply folded structure requires thorough cleaning to remove trapped debris. Tear into small clusters, soak in salted water, and rinse carefully. Dries well for long-term storage.",
-  gbifKey: 2542681,
+  gbifKey: 2550247,
   stories: [
     {
       title: "The 8-Kilogram Specimen in the New Forest",
@@ -95,7 +95,53 @@ const species: SpeciesRecord = {
     "The Japanese name hanabira-take means 'petal mushroom,' reflecting the flower-like appearance of the ruffled lobes. In Japan, it is one of the few wild mushrooms that has been successfully cultivated at commercial scale on sawdust substrates.",
     "Sparassis crispa has been shown to contain higher concentrations of beta-1,3-D-glucan than most other edible mushroom species tested. Beta-glucans are polysaccharides that have demonstrated immunomodulatory effects in laboratory and animal studies.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Cauliflower Mushroom (Sparassis crispa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Grote_sponszwam_(Sparassis_crispa)._09-11-2023._(d.j.b).jpg",
+      author: "Dominicus Johannes Bergsma",
+      license: "CC0",
+      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    },
+    {
+      filename: "02-habitat.jpg",
+      alt: "Cauliflower Mushroom growing in natural habitat",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:A_huge_(some_40_cm%5E)_Sparassis_crispa_(Wood_Cauliflower,_D%3D_Krause_Gluck_or_Fette_Henne,_F%3D_Sparassis_cr%C3%A9pu_Syn._chou-fleur,_NL%3D_Grote_sponszwam)_white_spores_and_causes_white_rot,_compared_to_the_little_mushroom_left_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "03-young.jpg",
+      alt: "Young Cauliflower Mushroom specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:A_young_Sparassis_crispa_(Wood_Cauliflower,_D%3D_Krause_Gluck_or_Fette_Henne,_F%3D_Sparassis_cr%C3%A9pu_Syn._chou-fleur,_NL%3D_Grote_sponszwam)_white_spores_and_causes_white_rot,_at_the_foot_of_a_firtree_at_Warnsborn_forest_-_panoramio.jpg",
+      author: "Henk Monster",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Cauliflower Mushroom (Sparassis crispa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Sparassis_crispa_JPG1.jpg",
+      author: "voir ci-dessous / see below",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Cauliflower Mushroom (Sparassis crispa) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2025-08-29_D500-0564_Achim_Lammerts_Krause_Glucke_(Sparassis_crispa).jpg",
+      author: "Achim Lammerts (Syntaxys) / Wikimedia Commons",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
+  ],
 };
 
 export default species;

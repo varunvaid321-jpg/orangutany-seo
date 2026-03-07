@@ -48,7 +48,7 @@ const species: SpeciesRecord = {
   edibility: "toxic",
   edibilityNote:
     "Contains high concentrations of muscarine. Symptoms begin 15 to 30 minutes after ingestion and include profuse sweating, salivation, lacrimation (tears), nausea, vomiting, diarrhea, blurred vision, and bradycardia (slow heart rate). Severe cases can cause respiratory distress. The antidote is atropine, which is highly effective when administered promptly. Deaths are rare in adults with access to medical care but have occurred.",
-  gbifKey: 2529944,
+  gbifKey: 2531056,
   stories: [
     {
       title: "The Fairy Ring Mix-Up in Kent",
@@ -87,7 +87,53 @@ const species: SpeciesRecord = {
     "The Ivory Funnel and the edible Fairy Ring Champignon can literally grow intermingled in the same fairy ring, making basket contamination almost inevitable for careless foragers.",
     "Muscarinic symptoms are sometimes remembered by the mnemonic SLUDGE: Salivation, Lacrimation, Urination, Defecation, GI distress, and Emesis.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bresadola_-_Clitocybe_dealbata.png",
+      author: "Giacomo Bresadola",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "02-field.jpg",
+      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_(32275792405).jpg",
+      author: "Dick Culbert from Gibsons, B.C., Canada",
+      license: "CC BY 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_2_-_Lindsey.jpg",
+      author: "James Lindsey",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe.dealbata.-.lindsey.jpg",
+      author: "James Lindsey",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_1.jpg",
+      author: "Archenzo",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+  ],
 };
 
 export default species;

@@ -53,7 +53,7 @@ const species: SpeciesRecord = {
   edibility: "edible",
   edibilityNote:
     "The world's most consumed mushroom. Mild, versatile flavor that absorbs seasonings well. Can be eaten raw in salads (though cooking improves digestibility), sauteed, grilled, stuffed, or added to virtually any dish. The portobello stage has a meatier texture and more concentrated flavor due to moisture loss as the cap opens and gills are exposed. Nutritionally, it is a good source of B vitamins, selenium, and (when exposed to UV light) vitamin D.",
-  gbifKey: 5243448,
+  gbifKey: 5243447,
   stories: [
     {
       title: "The Paris Catacombs Mushroom Farms",
@@ -103,7 +103,53 @@ const species: SpeciesRecord = {
     "China produces more than 70% of the world's cultivated mushrooms, with A. bisporus being one of the top species. Global annual production exceeds 10 million tonnes.",
     "A single commercial mushroom farm can produce over 500,000 pounds of mushrooms per week. The composting process alone takes 3-4 weeks and requires precise temperature management to create the ideal growing substrate.",
   ],
-  images: [],
+  images: [
+    {
+      filename: "01-field.jpg",
+      alt: "Button Mushroom (Agaricus bisporus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-06-25_Agaricus_bisporus_3_70149.jpg",
+      author: "This image was created by user I. G. Safonov (IGSafonov) at Mushroom Observer, a source for mycological images.You can c",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
+      filename: "02-gills.jpg",
+      alt: "Button Mushroom underside showing gill structure",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Giant_mushroom_underside.jpg",
+      author: "Unknown",
+      license: "GFDL",
+      licenseUrl: "http://www.gnu.org/copyleft/fdl.html",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Button Mushroom (Agaricus bisporus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_mushroom.jpg",
+      author: "Мыць Денис",
+      license: "Public domain",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+    },
+    {
+      filename: "04-field.jpg",
+      alt: "Button Mushroom (Agaricus bisporus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_(Cup_mushroom,_doubled).jpg",
+      author: "Unknown",
+      license: "GFDL",
+      licenseUrl: "http://www.gnu.org/copyleft/fdl.html",
+    },
+    {
+      filename: "05-field.jpg",
+      alt: "Button Mushroom (Agaricus bisporus) wild specimen",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_Zuchtchampignon2.jpg",
+      author: "böhringer friedrich",
+      license: "CC BY-SA 2.5",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5",
+    },
+  ],
 };
 
 export default species;
