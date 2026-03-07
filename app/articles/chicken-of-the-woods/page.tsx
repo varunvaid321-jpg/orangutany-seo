@@ -96,7 +96,8 @@ export default function ChickenOfTheWoodsPage() {
             What It Looks Like
           </h2>
           <p className="text-sm leading-relaxed text-foreground/80">
-            Chicken of the woods (<em>Laetiporus sulphureus</em>) grows in
+            Chicken of the woods (<em>Laetiporus sulphureus</em>), described in detail on{" "}
+            <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>, grows in
             overlapping brackets or shelves, often in large rosettes that can
             weigh several kilograms. Individual shelves range from 5 to 30 cm
             across. The top surface is bright orange to orange-yellow, often
@@ -267,7 +268,8 @@ export default function ChickenOfTheWoodsPage() {
           <p className="text-sm leading-relaxed text-foreground/90">
             Here is something that catches people off guard: even when properly
             identified and properly cooked, chicken of the woods causes GI
-            distress in roughly 10% of people who eat it. Nausea, stomach
+            distress in roughly 10% of people who eat it, a reaction consistent with individual sensitivity patterns described in the{" "}
+            <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">NIH mushroom toxicity reference</a>. Nausea, stomach
             cramps, sometimes vomiting. The reaction seems to be individual
             sensitivity rather than anything wrong with the mushroom itself.
           </p>

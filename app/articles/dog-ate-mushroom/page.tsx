@@ -52,7 +52,8 @@ export default function DogAteMushroomPage() {
         <section className="rounded-xl border border-red-800/30 bg-red-950/20 p-6">
           <p className="text-lg font-bold leading-snug text-red-300 sm:text-xl">
             If your dog ate a wild mushroom in the last 2 hours: call your vet
-            or ASPCA Animal Poison Control{" "}
+            or ASPCA Animal Poison Control (or contact{" "}
+            <a href="https://poison.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">Poison Control</a>){" "}
             <a
               href="tel:888-426-4435"
               className="font-mono text-red-200 hover:underline"
@@ -160,7 +161,8 @@ export default function DogAteMushroomPage() {
             >
               <em>Amanita phalloides</em>
             </Link>{" "}
-            (death cap) and{" "}
+            (death cap, a species covered in the{" "}
+            <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">NIH mushroom toxicity reference</a>) and{" "}
             <Link
               href="/mushrooms/amanita-virosa"
               className="text-primary hover:underline"

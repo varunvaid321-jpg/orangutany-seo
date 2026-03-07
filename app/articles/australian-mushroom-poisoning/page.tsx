@@ -243,7 +243,16 @@ export default function AustralianMushroomPoisoningPage() {
               activated charcoal if caught early, silibinin (an extract from milk
               thistle) in some protocols, and ultimately liver transplantation if
               the organ fails. The mortality rate for untreated death cap
-              poisoning is estimated at 50–90%.
+              poisoning is estimated at 50–90% (
+              <a
+                href="https://www.ncbi.nlm.nih.gov/books/NBK431052/"
+                className="text-primary underline hover:text-primary/80 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NCBI: Amatoxin Toxicity
+              </a>
+              ).
             </p>
           </div>
         </section>
@@ -282,10 +291,32 @@ export default function AustralianMushroomPoisoningPage() {
               pleaded not guilty.
             </p>
             <p>
+              On July 7, 2025, a jury found Erin Patterson{" "}
+              <a
+                href="https://www.abc.net.au/news/2025-07-07/erin-patterson-guilty-murder-verdict-death-cap-mushroom-lunch/105458058"
+                className="text-primary underline hover:text-primary/80 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                guilty of three counts of murder
+              </a>{" "}
+              and five counts of attempted murder. On September 8, 2025, she
+              was{" "}
+              <a
+                href="https://www.abc.net.au/news/2025-09-08/mushroom-murderer-erin-patterson-sentenced-to-life-in-prison/105735360"
+                className="text-primary underline hover:text-primary/80 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                sentenced to life imprisonment
+              </a>
+              .
+            </p>
+            <p>
               The case drew intense media scrutiny, both in Australia and
-              internationally. The central question (could this have been an
-              accident?) seemed increasingly difficult to support as the
-              evidence mounted.
+              internationally. The verdict confirmed what the evidence had
+              strongly suggested: this was deliberate poisoning, not a
+              foraging accident.
             </p>
           </div>
         </section>
@@ -322,7 +353,16 @@ export default function AustralianMushroomPoisoningPage() {
               In 2014, a New Year&apos;s Eve dinner in Canberra turned fatal
               when a guest served foraged mushrooms that turned out to be death
               caps. Two people died. It was one of several incidents that
-              prompted public health warnings across the ACT and Victoria.
+              prompted{" "}
+              <a
+                href="https://www.health.vic.gov.au/food-safety/death-cap-mushrooms"
+                className="text-primary underline hover:text-primary/80 transition"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                public health warnings
+              </a>{" "}
+              across the ACT and Victoria.
             </p>
             <p>
               Related species like the{" "}

@@ -114,7 +114,7 @@ export default function PsychoactiveMushroomsSciencePage() {
               <p>
                 The modern era of psilocybin research started with one study.
                 In 2006, Roland Griffiths at Johns Hopkins gave psilocybin to 36
-                healthy volunteers in a controlled setting. The results were
+                healthy volunteers in a controlled setting, in a <a href="https://pubmed.ncbi.nlm.nih.gov/28613706/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">landmark study</a>. The results were
                 striking: 60% of participants rated the experience among the
                 most personally meaningful of their entire lives. Not
                 immediately after. 14 months later, when the novelty had long
@@ -228,7 +228,7 @@ export default function PsychoactiveMushroomsSciencePage() {
                 that.
               </p>
               <p>
-                This is not a risk-free substance. The clinical setting matters
+                This is not a risk-free substance. For a broader overview of <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom toxicity and safety</a>, see the NIH resource. The clinical setting matters
                 enormously.
               </p>
             </div>

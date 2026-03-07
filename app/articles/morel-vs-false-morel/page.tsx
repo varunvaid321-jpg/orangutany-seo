@@ -163,7 +163,8 @@ export default function MorelVsFalseMorelPage() {
               that matters more than any other.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-foreground/80">
-              A true morel (<em>Morchella</em> species) is completely hollow
+              A true morel (<em>Morchella</em> species, well-documented on{" "}
+              <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>) is completely hollow
               inside. The cap and stem form one continuous cavity, like a tube.
               There is nothing in there. No fibers, no tissue, no cotton-like
               material. Just air.
@@ -230,7 +231,8 @@ export default function MorelVsFalseMorelPage() {
               The species name &ldquo;esculenta&rdquo; means &ldquo;edible.&rdquo;
               That name has killed people. <em>Gyromitra esculenta</em> contains
               gyromitrin, a compound your body metabolizes into
-              monomethylhydrazine. MMH. The same chemical used as rocket
+              monomethylhydrazine, as documented in the{" "}
+              <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">NIH mushroom toxicity reference</a>. MMH. The same chemical used as rocket
               propellant.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-foreground/80">

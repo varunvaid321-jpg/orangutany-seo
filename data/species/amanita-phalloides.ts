@@ -64,10 +64,10 @@ const species: SpeciesRecord = {
   stories: [
     {
       title: "The Leongatha Lunch That Killed Three",
-      text: "In 2023, Erin Patterson served beef Wellington containing suspected Death Cap mushrooms to her former in-laws in Leongatha, Victoria, Australia. Three of the four guests died. Patterson was later charged with murder.",
+      text: "In 2023, Erin Patterson served beef Wellington containing Death Cap mushrooms to her former in-laws in Leongatha, Victoria, Australia. Three of the four guests died. On July 7, 2025, Patterson was found guilty of three counts of murder. On September 8, 2025, she was sentenced to life imprisonment.",
       location: "Leongatha, Victoria, Australia",
       source: "ABC News Australia",
-      sourceUrl: "https://www.abc.net.au/news/2023-11-02/erin-patterson-mushroom-deaths/103057392",
+      sourceUrl: "https://www.abc.net.au/news/2025-09-08/mushroom-murderer-erin-patterson-sentenced-to-life-in-prison/105735360",
     },
     {
       title: "Canberra New Year's Tragedy",

@@ -55,7 +55,8 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
         <section>
           <p className="text-base leading-relaxed text-foreground/90">
             Every year, people die from mushrooms they were &ldquo;sure&rdquo;
-            were safe. Around 100 deaths globally, and that&apos;s just the
+            were safe. According to{" "}
+            <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">NIH data on mushroom toxicity</a>, around 100 deaths globally, and that&apos;s just the
             confirmed ones. The actual number is almost certainly higher.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-foreground/80">
@@ -125,7 +126,7 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                 &ldquo;Cook it and the poison goes away&rdquo;
               </h3>
               <p className="mt-1 text-sm text-foreground/80">
-                Amatoxins, the compounds in Death Caps and{" "}
+                <a href="https://www.ncbi.nlm.nih.gov/books/NBK431052/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">Amatoxins</a>, the compounds in Death Caps and{" "}
                 <Link
                   href="/mushrooms/galerina-marginata"
                   className="text-primary hover:underline"
@@ -362,7 +363,9 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                 &#9679;
               </span>
               <p className="text-sm text-foreground/90">
-                <strong>Call poison control immediately:</strong>{" "}
+                <strong>Call{" "}
+                <a href="https://poison.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">poison control</a>{" "}
+                immediately:</strong>{" "}
                 <a
                   href="tel:1-800-222-1222"
                   className="font-mono text-primary hover:underline"

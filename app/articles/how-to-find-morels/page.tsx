@@ -124,14 +124,16 @@ export default function HowToFindMorelsPage() {
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               If you&apos;ve never seen one in person, morels have a distinctive honeycomb-textured
-              cap that looks like someone sculpted it out of a sponge. The cap is covered in ridges
+              cap that looks like someone sculpted it out of a sponge. Detailed identification references are available at{" "}
+              <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>. The cap is covered in ridges
               and pits, and the color ranges from pale yellowish-tan on young specimens all the way
               to dark brown or almost black on the black morel species. The cap shape is generally
               conical or egg-shaped, tapering to a point at the top.
             </p>
             <p>
               Here&apos;s the single most important identification step: cut one in half lengthwise.
-              A true morel is completely hollow inside, from the tip of the cap all the way down
+              A true morel is completely hollow inside — confusing them with false morels can lead to serious{" "}
+              <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom toxicity</a>. It is completely hollow inside, from the tip of the cap all the way down
               through the stem. It&apos;s like a little cave in there. The cap is also attached
               directly to the stem at its base, not hanging free like a skirt. If the inside is
               solid, cottony, or chambered, you&apos;re looking at something else and you should

@@ -72,7 +72,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           {/* The Story: fun intro */}
           <section>
             <p className="text-base leading-relaxed text-foreground/90">{species.summary}</p>
-            {species.description.split("\n").map((p, i) => (
+            {species.description.split("\n").filter((p) => p.trim()).map((p, i) => (
               <p key={i} className="mt-3 text-sm leading-relaxed text-foreground/80">{p}</p>
             ))}
           </section>

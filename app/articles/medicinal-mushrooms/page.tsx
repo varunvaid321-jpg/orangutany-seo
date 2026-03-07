@@ -106,7 +106,9 @@ export default function MedicinalMushroomsPage() {
             </p>
             <p>
               Here is the frustrating part: there is real science behind some
-              medicinal mushrooms. Genuine, peer-reviewed, sometimes
+              medicinal mushrooms. A{" "}
+              <a href="https://pubmed.ncbi.nlm.nih.gov/28613706/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">comprehensive review of medicinal mushroom evidence</a>{" "}
+              documents genuine, peer-reviewed, sometimes
               double-blind-placebo-controlled science. But it gets buried under
               an avalanche of marketing copy that treats a petri dish result and
               a human clinical trial as if they&apos;re the same thing. They are
@@ -236,7 +238,8 @@ export default function MedicinalMushroomsPage() {
               <p>
                 Reishi contains triterpene compounds (ganoderic acids) and
                 polysaccharides (beta-glucans) that are demonstrably
-                biologically active. In cell culture and animal models, these
+                biologically active, with well-documented{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30227371/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">immunomodulatory properties</a>. In cell culture and animal models, these
                 compounds show anti-inflammatory, immunomodulatory, and even
                 anti-tumor properties. The chemistry is real.
               </p>

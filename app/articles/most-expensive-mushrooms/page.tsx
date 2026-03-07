@@ -406,7 +406,9 @@ export default function MostExpensiveMushroomsPage() {
             </p>
             <p>
               Chanterelles are mycorrhizal, which means they cannot be farm-
-              cultivated. Every chanterelle you have ever eaten was picked from
+              cultivated. Detailed species descriptions are available at{" "}
+              <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a>.
+              Every chanterelle you have ever eaten was picked from
               the ground by a human being. That fact alone justifies the price.
             </p>
           </div>
@@ -468,7 +470,8 @@ export default function MostExpensiveMushroomsPage() {
             </p>
             <p>
               Mycorrhizal fungi form symbiotic relationships with the roots of
-              living trees. The fungus provides the tree with water and minerals.
+              living trees, a pattern documented across global{" "}
+              <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">species distribution data</a>. The fungus provides the tree with water and minerals.
               The tree provides the fungus with sugars. Neither can thrive
               without the other. White truffles, matsutake, chanterelles, and
               porcini are all mycorrhizal. You cannot replicate the relationship

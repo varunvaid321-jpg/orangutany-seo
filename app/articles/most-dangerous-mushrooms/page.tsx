@@ -39,9 +39,12 @@ export default function MostDangerousPage() {
         10 Most Dangerous Mushrooms in the World
       </h1>
       <p className="mt-3 text-sm leading-relaxed text-foreground/80">
-        These are the mushrooms responsible for the vast majority of fatal poisonings worldwide.
-        Some look deceptively similar to popular edible species. Knowing what they look like
-        could save your life, or your dog&apos;s.
+        These are the mushrooms responsible for the vast majority of fatal poisonings worldwide,
+        many caused by{" "}
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK431052/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">amatoxin poisoning</a>.
+        Some look deceptively similar to popular edible species. For a broader overview of{" "}
+        <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom toxicity syndromes</a>,
+        knowing what they look like could save your life, or your dog&apos;s.
       </p>
 
       <div className="mt-8 space-y-6">
