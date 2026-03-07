@@ -10,11 +10,11 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
   title: {
-    default: "Orangutany — Premium Mushroom Identification | Built in Canada",
+    default: "Orangutany Guide — Real Mushroom Knowledge for Real Foragers",
     template: "%s | Orangutany",
   },
   description:
-    "Expert mushroom identification powered by machine learning trained on millions of observations. Real photos, distribution maps, safety data, and look-alikes for 100+ species. Built in Canada.",
+    "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, distribution maps, and honest foraging guides. Written by people who actually pick mushrooms.",
   metadataBase: new URL("https://guide.orangutany.com"),
   keywords: [
     "mushroom identification",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     description:
-      "Expert mushroom identification powered by machine learning. Real photos, safety data, and look-alikes. Built in Canada.",
+      "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, and honest foraging guides.",
   },
   robots: { index: true, follow: true },
 };
