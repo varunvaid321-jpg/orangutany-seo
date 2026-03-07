@@ -2,6 +2,7 @@ import Link from "next/link";
 import { allSpecies } from "@/data/species";
 import { EdibilityBadge } from "@/components/species/edibility-badge";
 import { getCardImage } from "@/lib/card-image";
+import { RECIPES } from "@/data/recipes";
 
 export default function Home() {
   const featured = allSpecies.slice(0, 6);
@@ -118,6 +119,49 @@ export default function Home() {
         >
           <h3 className="text-sm font-semibold text-foreground">Foraging by Season</h3>
           <p className="mt-1 text-xs text-foreground/60">Month-by-month guide to what&apos;s fruiting and where to find it.</p>
+        </Link>
+      </div>
+
+      {/* Recipes */}
+      <h2 className="mb-4 font-[family-name:var(--font-heading)] text-xl font-semibold text-foreground">
+        Wild Mushroom Recipes
+      </h2>
+      <div className="mb-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {RECIPES.slice(0, 4).map((recipe) => {
+          const species = allSpecies.find((s) => s.slug === recipe.speciesSlug);
+          if (!species) return null;
+          const card = getCardImage(species);
+          const imgSrc = card?.src ?? `/images/species/${species.slug}/${species.images[0]?.filename ?? "01-field.jpg"}`;
+          return (
+            <Link
+              key={recipe.slug}
+              href={`/articles/cooking-wild-mushrooms/${recipe.slug}`}
+              className="group overflow-hidden rounded-xl border border-border bg-card transition hover:border-primary/50"
+            >
+              <div className="relative">
+                <img
+                  src={imgSrc}
+                  alt={`${species.commonName} — ${recipe.recipeName}`}
+                  className="aspect-[4/3] w-full object-cover transition group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-3">
+                  <p className="text-[10px] font-medium text-white/60 uppercase tracking-wider">
+                    {species.commonName}
+                  </p>
+                  <h3 className="text-xs font-bold text-white leading-snug mt-0.5">
+                    {recipe.recipeName}
+                  </h3>
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      <div className="-mt-8 mb-12 text-center">
+        <Link href="/articles/cooking-wild-mushrooms" className="text-sm text-primary hover:underline">
+          View all {RECIPES.length} recipes &rarr;
         </Link>
       </div>
 

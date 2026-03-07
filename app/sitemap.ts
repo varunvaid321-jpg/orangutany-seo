@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { allSpecies } from "@/data/species";
 import { articles, guides, authors } from "@/lib/content-index";
+import { RECIPES } from "@/data/recipes";
 
 export const dynamic = "force-static";
 
@@ -49,6 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/resources`, lastModified: NOW, changeFrequency: "monthly", priority: 0.6 },
     ...species,
     ...articleEntries,
+    ...RECIPES.map((r) => ({
+      url: `${BASE}/articles/cooking-wild-mushrooms/${r.slug}`,
+      lastModified: NOW,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
     ...guideEntries,
     ...authorEntries,
   ];
