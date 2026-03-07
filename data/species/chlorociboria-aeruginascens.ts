@@ -40,11 +40,11 @@ const species: SpeciesRecord = {
       externalSource: "iNaturalist",
     },
     {
-      name: "Blue Stain Fungi (Ceratocystis/Ophiostoma species)",
+      name: "Ophiostoma (Blue Stain Fungi)",
       distinction:
         "Various blue-stain fungi can discolor wood blue-gray, but the color is duller and grayish rather than the vivid turquoise of Chlorociboria. Blue-stain fungi primarily affect conifers (especially pine), while Chlorociboria prefers hardwoods.",
       externalUrl:
-        "https://en.wikipedia.org/wiki/Chlorociboria",
+        "https://en.wikipedia.org/wiki/Ophiostoma",
       externalSource: "Wikipedia",
     },
   ],

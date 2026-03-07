@@ -40,7 +40,7 @@ const species: SpeciesRecord = {
       externalSource: "First Nature",
     },
     {
-      name: "Lawn Mottlegill (Panaeolina foenisecii)",
+      name: "Lawn Mottlegill (Panaeolus foenisecii)",
       distinction:
         "Also common in lawns but has a dark brown spore print (not white), darker cap, and closely spaced gills that turn dark with spore maturity. Not dangerously toxic but not edible. Grows scattered rather than in distinct rings.",
       externalUrl:

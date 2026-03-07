@@ -47,11 +47,11 @@ const species: SpeciesRecord = {
       externalSource: "iNaturalist",
     },
     {
-      name: "White Dapperling (Leucoagaricus leucothites)",
+      name: "White Dapperling (Leucocoprinus leucothites)",
       image: "lookalike-leucothites.jpg",
       distinction:
         "A white mushroom that grows in grass and gardens, sometimes confused with both Field Mushrooms and Destroying Angels. Key differences: no volva at the base, gills start white but turn pinkish, and it typically grows in open grassy areas rather than woodland. Some sources list it as edible, but it's caused gastrointestinal issues and is best avoided given the risk of confusion.",
-      externalUrl: "https://www.inaturalist.org/taxa/1558279-Leucoagaricus-leucothites",
+      externalUrl: "https://www.inaturalist.org/taxa/1558279-Leucocoprinus-leucothites",
       externalSource: "iNaturalist",
     },
   ],

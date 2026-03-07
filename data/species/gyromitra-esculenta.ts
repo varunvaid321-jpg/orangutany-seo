@@ -47,7 +47,7 @@ const species: SpeciesRecord = {
       externalSource: "Wikipedia",
     },
     {
-      name: "Snow Morel (Gyromitra gigas)",
+      name: "Snow Morel (Discina gigas)",
       image: "lookalike-gigas.jpg",
       distinction:
         "A close relative that's generally larger and lighter in color — tan to yellowish-brown rather than dark reddish-brown. The cap folds tend to be smoother and less tightly convoluted. Also contains gyromitrin but in lower concentrations. Fruits earlier in spring, often near melting snow at higher elevations.",

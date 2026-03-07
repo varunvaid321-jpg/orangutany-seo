@@ -38,7 +38,7 @@ const species: SpeciesRecord = {
       externalSource: "Wikipedia",
     },
     {
-      name: "Clitocybe sordida",
+      name: "Sordid Blewit (Collybia sordida)",
       distinction:
         "A smaller, thinner-fleshed species with similar violet coloring. Generally considered edible but less substantial. Cap typically under 8 cm, more fragile, with thinner flesh. The distinction is somewhat academic for foragers since both are edible when cooked, but C. sordida is not worth collecting due to its small size.",
       externalUrl: "https://en.wikipedia.org/wiki/Lepista_sordida",

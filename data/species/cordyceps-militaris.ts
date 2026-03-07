@@ -32,7 +32,7 @@ const species: SpeciesRecord = {
     "Widespread across the temperate Northern Hemisphere. Found throughout Europe (including the UK, Scandinavia, and continental Europe), across North America, and through temperate and subtropical Asia (China, Japan, Korea). More common than most people realize, but easily overlooked due to its small size.",
   lookAlikes: [
     {
-      name: "Cordyceps canadensis",
+      name: "Tolypocladium capitatum",
       distinction:
         "Very similar in appearance but typically associated with moth pupae in North American coniferous forests. Slightly paler orange. Reliable distinction requires microscopic examination of spore morphology.",
       externalUrl:
