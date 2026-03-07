@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { SpeciesRecord } from "@/lib/types";
 import { EdibilityBadge } from "./edibility-badge";
 import cardImageIndex from "@/data/images/card-image-index.json";
@@ -65,6 +65,13 @@ function searchContent(q: string): ContentEntry[] {
 export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
+
+  // Hydrate search from ?q= URL param (cross-domain continuity)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    if (q) setSearch(q);
+  }, []);
 
   // Semantic search: map natural queries to edibility/trait filters
   const INTENT_MAP: Record<string, { edibility?: string; trait?: string }> = {
