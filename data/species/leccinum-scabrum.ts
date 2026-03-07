@@ -44,8 +44,8 @@ const species: SpeciesRecord = {
       distinction:
         "Cap is mottled with patches of gray, brown, and whitish tones rather than uniform brown. Also found under birch. Edible but less common. Flesh may stain pinkish then gray when cut.",
       externalUrl:
-        "https://www.mushroomexpert.com/leccinum_variicolor.html",
-      externalSource: "MushroomExpert",
+        "https://en.wikipedia.org/wiki/Leccinum_variicolor",
+      externalSource: "Wikipedia",
     },
     {
       name: "Bitter Bolete (Tylopilus felleus)",

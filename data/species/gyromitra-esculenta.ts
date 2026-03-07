@@ -51,8 +51,8 @@ const species: SpeciesRecord = {
       image: "lookalike-gigas.jpg",
       distinction:
         "A close relative that's generally larger and lighter in color — tan to yellowish-brown rather than dark reddish-brown. The cap folds tend to be smoother and less tightly convoluted. Also contains gyromitrin but in lower concentrations. Fruits earlier in spring, often near melting snow at higher elevations.",
-      externalUrl: "https://www.mushroomexpert.com/gyromitra_gigas.html",
-      externalSource: "MushroomExpert",
+      externalUrl: "https://en.wikipedia.org/wiki/Gyromitra_gigas",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "toxic",

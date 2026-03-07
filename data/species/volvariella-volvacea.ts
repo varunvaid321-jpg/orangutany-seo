@@ -43,7 +43,7 @@ const species: SpeciesRecord = {
         "Another deadly Amanita with a prominent volva. Pure white throughout, with white gills and white spore print. V. volvacea has a dark gray-brown cap and gills that mature to pink. A. virosa grows in temperate woodlands, not on compost in tropical settings. The habitat difference should prevent confusion, but immigrants unfamiliar with local species have made this mistake.",
     },
     {
-      name: "Volvariella gloiocephala (Stubble Rosegill)",
+      name: "Volvopluteus gloiocephalus (Stubble Rosegill)",
       distinction:
         "A larger species found in agricultural fields and compost in temperate regions. Similar volva and free gills, but the cap is paler (whitish-gray to pale brown) and the mushroom is generally larger (cap 8-20 cm). Also has pink spore print. Edible but much less commonly eaten. The main practical issue is that V. gloiocephala shares habitat with Amanita species in temperate regions, making it riskier to collect.",
       externalUrl: "https://en.wikipedia.org/wiki/Volvopluteus_gloiocephalus",

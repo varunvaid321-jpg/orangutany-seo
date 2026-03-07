@@ -34,7 +34,7 @@ const species: SpeciesRecord = {
       image: "lookalike-cincinnatus.jpg",
       distinction:
         "Very closely related and also edible. The key difference: white to pale salmon pore surface instead of yellow. Tends to grow at the base of trees or from buried roots rather than high up on trunks. Some foragers consider it even tastier than the standard Chicken of the Woods.",
-      externalUrl: "https://www.inaturalist.org/taxa/350055-Laetiporus-cincinnatus",
+      externalUrl: "https://www.inaturalist.org/taxa/487301-Laetiporus-cincinnatus",
       externalSource: "iNaturalist",
     },
     {
@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       image: "lookalike-velvet-top.jpg",
       distinction:
         "Another bracket fungus found on conifers. Dark brown to greenish-brown with a velvety surface — much darker than Chicken of the Woods. Grows at the base of trees. Not considered edible. The color difference is obvious once you've seen both side by side.",
-      externalUrl: "https://www.inaturalist.org/taxa/54134-Phaeolus-schweinitzii",
+      externalUrl: "https://www.inaturalist.org/taxa/118084-Phaeolus-schweinitzii",
       externalSource: "iNaturalist",
     },
   ],

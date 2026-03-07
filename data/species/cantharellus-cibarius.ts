@@ -34,7 +34,7 @@ const species: SpeciesRecord = {
       image: "lookalike-olearius.jpg",
       distinction:
         "The dangerous one. Grows in clusters on wood or buried roots (chanterelles grow singly from soil). Has TRUE sharp, blade-like gills — not blunt ridges. Deeper orange color. The gills glow faintly green in total darkness (bioluminescent). Will make you violently ill but isn't lethal.",
-      externalUrl: "https://www.inaturalist.org/taxa/48715-Omphalotus-olearius",
+      externalUrl: "https://www.inaturalist.org/taxa/64021-Omphalotus-olearius",
       externalSource: "iNaturalist",
     },
     {

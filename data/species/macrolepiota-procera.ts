@@ -54,8 +54,8 @@ const species: SpeciesRecord = {
       distinction:
         "Much smaller (cap under 7 cm) — this is a critical difference. Contains deadly amatoxins, the same poisons found in Death Caps. The cap has pinkish-brown scales on a paler background. No movable ring on the stem. Rule of thumb: never eat a small parasol-shaped mushroom. If the cap is under 10 cm, leave it alone.",
       externalUrl:
-        "https://www.mushroomexpert.com/lepiota_brunneoincarnata.html",
-      externalSource: "MushroomExpert",
+        "https://en.wikipedia.org/wiki/Lepiota_brunneoincarnata",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "edible",

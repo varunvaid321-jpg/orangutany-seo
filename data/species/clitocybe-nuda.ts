@@ -41,8 +41,8 @@ const species: SpeciesRecord = {
       name: "Clitocybe sordida",
       distinction:
         "A smaller, thinner-fleshed species with similar violet coloring. Generally considered edible but less substantial. Cap typically under 8 cm, more fragile, with thinner flesh. The distinction is somewhat academic for foragers since both are edible when cooked, but C. sordida is not worth collecting due to its small size.",
-      externalUrl: "https://www.mushroomexpert.com/lepista_sordida.html",
-      externalSource: "MushroomExpert",
+      externalUrl: "https://en.wikipedia.org/wiki/Lepista_sordida",
+      externalSource: "Wikipedia",
     },
     {
       name: "Entoloma sinuatum (Livid Pinkgill)",

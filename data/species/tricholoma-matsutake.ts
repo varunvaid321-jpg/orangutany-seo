@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "The North American counterpart — often sold as 'matsutake' and nearly identical in appearance and aroma. Slightly lighter cap color and tends to grow with different conifers (Douglas fir, hemlock). Edible and also prized, but generally less expensive than true Japanese matsutake.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/352867-Tricholoma-murrillianum",
+        "https://www.inaturalist.org/taxa/521711-Tricholoma-murrillianum",
       externalSource: "iNaturalist",
     },
     {

@@ -36,8 +36,8 @@ const species: SpeciesRecord = {
       distinction:
         "Very similar in appearance but typically associated with moth pupae in North American coniferous forests. Slightly paler orange. Reliable distinction requires microscopic examination of spore morphology.",
       externalUrl:
-        "https://www.mushroomexpert.com/cordyceps_canadensis.html",
-      externalSource: "MushroomExpert",
+        "https://www.inaturalist.org/taxa/518873-Tolypocladium-capitatum",
+      externalSource: "iNaturalist",
     },
     {
       name: "Orange Club Fungi (Clavulinopsis species)",

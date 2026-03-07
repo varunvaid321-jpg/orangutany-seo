@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Smaller and darker orange than H. repandum, with a distinctly depressed (belly-button) center to the cap. Also edible and delicious — so even if you mix them up, you're fine. Generally found under conifers.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/124335-Hydnum-umbilicatum",
+        "https://www.inaturalist.org/taxa/48421-Hydnum-umbilicatum",
       externalSource: "iNaturalist",
     },
     {

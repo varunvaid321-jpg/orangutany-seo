@@ -35,7 +35,7 @@ const species: SpeciesRecord = {
       image: "lookalike-verpa-bohemica.jpg",
       distinction:
         "The cap hangs free from the stem like a thimble sitting on a finger — attached only at the very top. True morels have the cap fused to the stem along its full length. Cut one in half: Verpa has a cottony, stuffed stem, while morels are completely hollow. Can cause GI upset in some people.",
-      externalUrl: "https://www.inaturalist.org/taxa/54026-Verpa-bohemica",
+      externalUrl: "https://www.inaturalist.org/taxa/126131-Verpa-bohemica",
       externalSource: "iNaturalist",
     },
     {
@@ -54,8 +54,8 @@ const species: SpeciesRecord = {
       distinction:
         "Actually a true morel and perfectly edible — just a different species. Darker ridges (brown to nearly black) with more vertically oriented pits. Tends to fruit slightly earlier and in more coniferous habitats. Some foragers prefer the flavor. The main reason to distinguish them is for your own records.",
       externalUrl:
-        "https://www.mushroomexpert.com/morchella_elata.html",
-      externalSource: "MushroomExpert",
+        "https://en.wikipedia.org/wiki/Morchella_elata",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "edible-with-caution",

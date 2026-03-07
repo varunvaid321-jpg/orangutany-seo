@@ -43,8 +43,8 @@ const species: SpeciesRecord = {
       image: "lookalike-pyriforme.jpg",
       distinction:
         "Actually edible too, so less of a worry. Grows exclusively on rotting wood (stumps, logs, buried wood) rather than soil. Smoother surface without the prominent gem-like warts. Slightly smaller on average. If it's growing on wood, it's the pear-shaped species.",
-      externalUrl: "https://en.wikipedia.org/wiki/Apioperdon_pyriforme",
-      externalSource: "Wikipedia",
+      externalUrl: "https://www.inaturalist.org/taxa/972793-Apioperdon-pyriforme",
+      externalSource: "iNaturalist",
     },
     {
       name: "Giant Puffball (Calvatia gigantea)",

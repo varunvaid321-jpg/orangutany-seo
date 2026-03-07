@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       distinction:
         "Exterior is smoother with flatter warts. Interior has broader, more widely spaced veining. Aroma is more garlicky. Less common than T. aestivum. Requires microscopic spore examination for definitive distinction.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/352965-Tuber-macrosporum",
+        "https://www.inaturalist.org/taxa/1039179-Tuber-macrosporum",
       externalSource: "iNaturalist",
     },
   ],

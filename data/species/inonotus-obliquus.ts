@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "Also grows on birch but looks completely different: a smooth, whitish to grayish bracket with a distinct kidney-shaped form. Not black or charcoal-like. The two are not easily confused once you have seen both.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/54134-Fomitopsis-betulina",
+        "https://www.inaturalist.org/taxa/775410-Fomitopsis-betulina",
       externalSource: "iNaturalist",
     },
     {
@@ -44,7 +44,7 @@ const species: SpeciesRecord = {
       distinction:
         "The most common 'false Chaga' is simply a tree burl (abnormal woody growth) or a patch of fire-damaged bark. Burls are covered in bark and are the same color as the rest of the tree. Chaga has a distinctly black, cracked exterior and a rusty-orange interior when broken open.",
       externalUrl:
-        "https://en.wikipedia.org/wiki/Inonotus_obliquus",
+        "https://en.wikipedia.org/wiki/Burl",
       externalSource: "Wikipedia",
     },
   ],

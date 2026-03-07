@@ -36,7 +36,7 @@ const species: SpeciesRecord = {
       distinction:
         "An extremely similar sister species that can only be reliably distinguished by microscopic spore measurements. C. aeruginosa has slightly larger spores. Both produce the same blue-green staining. The two species are often lumped together in field identifications.",
       externalUrl:
-        "https://www.inaturalist.org/taxa/175450-Chlorociboria-aeruginosa",
+        "https://www.inaturalist.org/taxa/117999-Chlorociboria-aeruginosa",
       externalSource: "iNaturalist",
     },
     {
@@ -44,7 +44,7 @@ const species: SpeciesRecord = {
       distinction:
         "Various blue-stain fungi can discolor wood blue-gray, but the color is duller and grayish rather than the vivid turquoise of Chlorociboria. Blue-stain fungi primarily affect conifers (especially pine), while Chlorociboria prefers hardwoods.",
       externalUrl:
-        "https://en.wikipedia.org/wiki/Blue_stain",
+        "https://en.wikipedia.org/wiki/Chlorociboria",
       externalSource: "Wikipedia",
     },
   ],

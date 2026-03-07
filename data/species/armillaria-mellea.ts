@@ -50,8 +50,8 @@ const species: SpeciesRecord = {
       image: "lookalike-tabescens.jpg",
       distinction:
         "Very similar to the honey fungus and also edible when cooked. The key difference is right in the name — it lacks a ring on the stem. Cap tends to be smoother with fewer scales. Same clustered growth habit on wood. Previously classified as Armillaria tabescens.",
-      externalUrl: "https://www.mushroomexpert.com/desarmillaria_tabescens.html",
-      externalSource: "MushroomExpert",
+      externalUrl: "https://en.wikipedia.org/wiki/Desarmillaria_tabescens",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "edible-with-caution",

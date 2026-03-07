@@ -53,8 +53,8 @@ const species: SpeciesRecord = {
       distinction:
         "Psychoactive, grows on wood chips. This confusion has caused fatalities. Psilocybe cyanescens has a wavy cap margin, bruises blue when handled, and produces a dark purple-brown to black spore print. Galerina never bruises blue and has a rusty brown spore print. Always check both features before consuming any wood-chip mushroom.",
       externalUrl:
-        "https://www.mushroomexpert.com/psilocybe_cyanescens.html",
-      externalSource: "MushroomExpert",
+        "https://en.wikipedia.org/wiki/Psilocybe_cyanescens",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "deadly",

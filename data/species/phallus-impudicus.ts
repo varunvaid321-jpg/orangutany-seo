@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       distinction:
         "Young stinkhorn eggs can superficially resemble the egg stage of deadly Amanita species. Key difference: cutting a stinkhorn egg in half reveals the compressed mushroom in gelatinous jelly. An Amanita egg shows the immature cap and gills of a typical mushroom. Always slice eggs open before consuming.",
       externalUrl:
-        "https://en.wikipedia.org/wiki/Phallus_impudicus",
+        "https://en.wikipedia.org/wiki/Amanita",
       externalSource: "Wikipedia",
     },
   ],

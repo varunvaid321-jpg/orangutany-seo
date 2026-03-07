@@ -55,8 +55,8 @@ const species: SpeciesRecord = {
       distinction:
         "Has a similar tall, elongated shape with patches on the cap, but the patches are white on a dark brown-black background (the inverse of Shaggy Mane's pattern). Smells unpleasant. Not considered edible and causes gastrointestinal upset.",
       externalUrl:
-        "https://www.mushroomexpert.com/coprinopsis_picacea.html",
-      externalSource: "MushroomExpert",
+        "https://en.wikipedia.org/wiki/Coprinopsis_picacea",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "edible",

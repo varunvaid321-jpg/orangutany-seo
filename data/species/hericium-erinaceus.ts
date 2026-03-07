@@ -52,7 +52,7 @@ const species: SpeciesRecord = {
       image: "lookalike-cirrhatum.jpg",
       distinction:
         "Grows in shelf-like or tiered layers rather than a single globular mass. Spines are shorter and hang from the edges of overlapping caps. Found mainly in Europe. Edible but less common.",
-      externalUrl: "https://www.inaturalist.org/taxa/351038-Hericium-cirrhatum",
+      externalUrl: "https://www.inaturalist.org/taxa/513329-Hericium-cirrhatum",
       externalSource: "iNaturalist",
     },
   ],

@@ -50,8 +50,8 @@ const species: SpeciesRecord = {
       image: "lookalike-luridus.jpg",
       distinction:
         "Another blue-bruising bolete with reddish pores — but the cap is dark brown to olive-brown (not pale), and the stem reticulation is darker and coarser. Actually edible when thoroughly cooked, though many foragers avoid it. Grows in similar habitats.",
-      externalUrl: "https://www.mushroomexpert.com/boletus_luridus.html",
-      externalSource: "MushroomExpert",
+      externalUrl: "https://en.wikipedia.org/wiki/Suillellus_luridus",
+      externalSource: "Wikipedia",
     },
   ],
   edibility: "toxic",
