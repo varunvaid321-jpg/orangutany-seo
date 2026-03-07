@@ -29,9 +29,8 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-border/30 pt-6 text-center text-xs text-muted-foreground">
-          <p>
-            &copy; {new Date().getFullYear()} Orangutany &middot; Markham, Ontario, Canada &middot; Do not rely solely on online identification — always verify with local experts.
-          </p>
+          <p>&copy; {new Date().getFullYear()} Orangutany &middot; Markham, Ontario, Canada</p>
+          <p className="mt-1">Do not rely solely on online identification — always verify with local experts.</p>
         </div>
       </div>
     </footer>
