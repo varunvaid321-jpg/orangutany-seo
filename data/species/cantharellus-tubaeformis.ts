@@ -113,15 +113,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
-      filename: "02-detail.jpg",
-      alt: "Yellowfoot Chanterelle showing full fruiting body",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_and_Craterellus_tubaeformis.jpg",
-      author: "Ypsilon from Finland",
-      license: "CC0",
-      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    },
-    {
       filename: "03-wild.jpg",
       alt: "Yellowfoot Chanterelle (Cantharellus tubaeformis) in the wild",
       source: "Wikimedia Commons",

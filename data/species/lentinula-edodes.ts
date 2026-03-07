@@ -111,12 +111,12 @@ const species: SpeciesRecord = {
   images: [
     {
       filename: "01-field.jpg",
-      alt: "Shiitake (Lentinula edodes) wild specimen",
+      alt: "Shiitake mushrooms (Lentinula edodes) showing cap and gill detail on wood substrate",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lentinula_edodes_on_the_table.jpg",
-      author: "Peachyeung316",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Shiitake_Lentinula_edodes.jpg",
+      author: "Holger Krisp",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
       filename: "02-habitat.jpg",
@@ -128,22 +128,13 @@ const species: SpeciesRecord = {
       licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     },
     {
-      filename: "03-young.jpg",
-      alt: "Young Shiitake specimen",
+      filename: "04-field.jpg",
+      alt: "Dried shiitake mushrooms in a bowl",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Button_mushroom_and_winter_mushroom.jpg",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lentinula_edodes_on_the_table.jpg",
       author: "Peachyeung316",
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "04-field.jpg",
-      alt: "Shiitake (Lentinula edodes) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Shiitake_Lentinula_edodes.jpg",
-      author: "Holger Krisp",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
       filename: "05-field.jpg",

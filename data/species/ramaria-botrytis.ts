@@ -101,15 +101,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-field.jpg",
-      alt: "Pink-tipped Coral (Ramaria botrytis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Ramaria_botrytis_190863.jpg",
-      author: "Ron Pastorino (Ronpast)",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "02-field.jpg",
       alt: "Pink-tipped Coral (Ramaria botrytis) wild specimen",
       source: "Wikimedia Commons",

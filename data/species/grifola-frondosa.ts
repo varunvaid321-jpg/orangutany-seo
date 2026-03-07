@@ -127,15 +127,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
-      filename: "02-habitat.jpg",
-      alt: "Hen of the Woods growing in natural habitat",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hen_of_the_Woods_(22602103527).jpg",
-      author: "Katja Schulz from Washington, D. C., USA",
-      license: "CC BY 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Hen of the Woods (Grifola frondosa) wild specimen",
       source: "Wikimedia Commons",
@@ -152,15 +143,6 @@ const species: SpeciesRecord = {
       author: "The original uploader was Esagor at English Wikipedia.",
       license: "CC BY 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Hen of the Woods (Grifola frondosa) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Maitake_Mushroom_Tempura_2021_Grifola_frondosa_%E8%88%9E%E8%8C%B8%E3%81%AE%E5%A4%A9%E3%81%B7%E3%82%89.jpg",
-      author: "ウィキ太郎(WikiTaro)",
-      license: "CC0",
-      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     },
   ],
   identificationImages: {

@@ -127,24 +127,6 @@ const species: SpeciesRecord = {
       license: "CC0",
       licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     },
-    {
-      filename: "04-field.jpg",
-      alt: "Summer Cep (Boletus reticulatus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:20200611Boletus_reticulatus2.jpg",
-      author: "AnRo0002",
-      license: "CC0",
-      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Summer Cep (Boletus reticulatus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:20200611Boletus_reticulatus3.jpg",
-      author: "AnRo0002",
-      license: "CC0",
-      licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    },
   ],
 };
 

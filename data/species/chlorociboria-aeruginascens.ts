@@ -121,15 +121,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "04-field.jpg",
-      alt: "Green Elfcup (Chlorociboria aeruginascens) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorociboria_aeruginascens_1M.jpg",
-      author: "Amadej Trnkoczy",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
   ],
 };
 

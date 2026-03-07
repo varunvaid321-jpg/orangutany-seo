@@ -99,15 +99,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hypholoma-fasciculare-Alan-Rockefeller-inaturalist-14376439.jpg",
-      author: "Alan Rockefeller",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Sulphur Tuft (Hypholoma fasciculare) wild specimen",
       source: "Wikimedia Commons",

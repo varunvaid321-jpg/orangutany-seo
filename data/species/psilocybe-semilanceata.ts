@@ -40,7 +40,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Panaeolus semiovatus (Egghead Mottlegill)",
-      image: "lookalike-semiovatus.jpg",
+      image: "",
       distinction:
         "Also found in pastures but much larger and grows on dung. White to cream cap that's smooth and rounded — no nipple. Has a ring on the stem. Spore print is black with a mottled pattern on the gills.",
       externalUrl: "https://en.wikipedia.org/wiki/Panaeolus_semiovatus",

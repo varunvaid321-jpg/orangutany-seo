@@ -131,24 +131,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "04-field.jpg",
-      alt: "Green-cracking Russula (Russula virescens) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_virescens_illustration_1898.jpg",
-      author: "Book: Thomas Taylor; Artwork: Louis Charles Christopher Krieger (1873-1940)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Green-cracking Russula (Russula virescens) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
-      author: "Elisabeth Östman (1869–1933)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
   ],
 };
 

@@ -129,15 +129,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
     {
-      filename: "03-stem.jpg",
-      alt: "Fairy Ring Mushroom stem, ring, and base detail",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Marasmius_oreades_string.jpg",
-      author: "The original uploader was The Thadman at English Wikipedia.",
-      license: "CC BY-SA 2.5",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Fairy Ring Mushroom (Marasmius oreades) wild specimen",
       source: "Wikimedia Commons",

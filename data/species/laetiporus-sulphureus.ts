@@ -121,12 +121,12 @@ const species: SpeciesRecord = {
   images: [
     {
       filename: "01-shelf-orange.jpg",
-      alt: "Large Chicken of the Woods shelves with bright orange and yellow coloring on a tree",
+      alt: "Vivid orange and yellow Chicken of the Woods bracket fungus on tree bark",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_2017_G01.jpg",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_2023_G1.jpg",
       author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
     {
       filename: "02-tree-trunk.jpg",
@@ -154,15 +154,6 @@ const species: SpeciesRecord = {
       author: "Agnes Monkelbaan",
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "05-closeup.jpg",
-      alt: "Close-up of Chicken of the Woods showing suede-like orange cap surface",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_2023_G1.jpg",
-      author: "George Chernilevsky",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
   ],
   identificationImages: {

@@ -110,15 +110,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
     {
-      filename: "03-group.jpg",
-      alt: "Group of Spring Fieldcap mushrooms in the wild",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-04-29_Agrocybe_praecox_group_143839.jpg",
-      author: "This image was created by user Copyright ©2011 chemist at Mushroom Observer, a source for mycological images.You can con",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Spring Fieldcap (Agrocybe praecox) wild specimen",
       source: "Wikimedia Commons",

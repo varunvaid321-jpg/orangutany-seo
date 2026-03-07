@@ -149,15 +149,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "05-field.jpg",
-      alt: "Funeral Bell (Galerina marginata) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Galerina_marginata_63831.jpg",
-      author: "This image was created by user Dan Molter (shroomydan) at Mushroom Observer, a source for mycological images.You can con",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

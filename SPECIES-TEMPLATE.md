@@ -156,3 +156,57 @@ Add import and array entry to `data/species/index.ts` (alphabetical order).
   curl -s "https://commons.wikimedia.org/w/api.php?action=query&generator=images&titles=Genus_species&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1200&format=json&gimlimit=20"
   ```
   Fall back to search only if the article API returns too few results. Always visually verify the hero image matches the species.
+
+## Image Validation Checklist (MANDATORY for every new species page)
+
+Every image added to a species page MUST pass ALL of these checks. This is not discretionary.
+If an image fails any check, it must be rejected — do not add it to the page.
+
+### Automatic Rejection Criteria
+
+Reject any image that:
+
+| # | Check | Reject If |
+|---|-------|-----------|
+| 1 | **Species match** | Source URL/filename names a different species |
+| 2 | **Photo only** | Is an illustration, drawing, engraving, painting, diagram, or AI-generated |
+| 3 | **Mushroom visible** | Mushroom is not clearly visible, in focus, and recognizable |
+| 4 | **Not microscopy** | Shows spores under microscope or lab slides (unless dedicated spore section) |
+| 5 | **Not food/commerce** | Shows cooking scenes, tempura, kitchen bowls, storefronts |
+| 6 | **Not cropped** | Critical parts of the mushroom are cut off or hidden |
+| 7 | **Single species** | Contains multiple species without clear dominance of the target |
+| 8 | **Minimum size** | File < 60KB for gallery, < 300KB for hero |
+| 9 | **Detail match** | Detail images (cap/gills/stem) don't show the named feature close-up |
+| 10 | **Unique** | Same source image already used on another species page |
+| 11 | **Not degraded** | Specimen is collapsed, rotted, heavily aged, or unrecognizable |
+| 12 | **Lookalike correct** | Lookalike images must show the actual lookalike species, not the main species or people |
+
+### Known Bad Filename Patterns (auto-reject)
+
+These patterns in Wikimedia filenames indicate wrong content. Reject immediately:
+
+```
+Karl_Johanssvamp    → Boletus edulis Swedish cookbook illustration
+Iduns_kokbok        → Swedish cookbook illustrations (wrong species)
+Bresadola           → Historical botanical illustrations
+Bulliard            → Historical botanical illustrations
+Sowerby             → Historical botanical illustrations
+Curtis              → Historical engravings
+Atlas_champignons   → Historical illustration atlas
+spore, microscop    → Microscopy images
+ascospore, basidio  → Microscopy images
+SEM_                → Scanning electron microscopy
+lifecycle, cycle    → Lifecycle diagrams
+diagram, chart      → Scientific diagrams
+```
+
+### Display Rules (hardcoded in templates)
+
+When displaying images on the page:
+
+1. Use `object-contain` as the default for all species images — never cut off the mushroom
+2. Hero images: `object-contain` or `object-cover object-top` only if the mushroom is in the upper portion
+3. Gallery thumbnails: `object-cover` only if the mushroom remains fully recognizable; otherwise `object-contain`
+4. Card images: Always use `object-contain` with a dark background fill to avoid cropping
+5. Never allow CSS to crop, zoom, or transform an image such that the mushroom is partially hidden
+6. Mobile views must show the same mushroom visibility as desktop — no responsive breakpoint should hide the subject

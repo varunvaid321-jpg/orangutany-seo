@@ -126,15 +126,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "04-field.jpg",
-      alt: "Caterpillar Fungus (Ophiocordyceps sinensis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:VM_5591_Lanzhou_Dong_chong_xia_cao.jpg",
-      author: "User:Vmenkov",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "05-field.jpg",
       alt: "Caterpillar Fungus (Ophiocordyceps sinensis) wild specimen",
       source: "Wikimedia Commons",

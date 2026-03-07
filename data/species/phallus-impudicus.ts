@@ -119,15 +119,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
-      author: "Elisabeth Östman (1869–1933)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Common Stinkhorn (Phallus impudicus) wild specimen",
       source: "Wikimedia Commons",
