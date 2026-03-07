@@ -13,8 +13,9 @@ export function generateStaticParams() {
   return RECIPES.map((r) => ({ recipe: r.slug }));
 }
 
-export function generateMetadata({ params }: { params: { recipe: string } }): Metadata {
-  const recipe = getRecipeBySlug(params.recipe);
+export async function generateMetadata({ params }: { params: Promise<{ recipe: string }> }): Promise<Metadata> {
+  const { recipe: recipeSlug } = await params;
+  const recipe = getRecipeBySlug(recipeSlug);
   if (!recipe) return {};
   const species = allSpecies.find((s) => s.slug === recipe.speciesSlug);
   const speciesName = species ? ` (${species.commonName})` : "";
@@ -29,8 +30,9 @@ export function generateMetadata({ params }: { params: { recipe: string } }): Me
   };
 }
 
-export default function RecipePage({ params }: { params: { recipe: string } }) {
-  const recipe = getRecipeBySlug(params.recipe);
+export default async function RecipePage({ params }: { params: Promise<{ recipe: string }> }) {
+  const { recipe: recipeSlug } = await params;
+  const recipe = getRecipeBySlug(recipeSlug);
   if (!recipe) notFound();
 
   const species = allSpecies.find((s) => s.slug === recipe.speciesSlug);
