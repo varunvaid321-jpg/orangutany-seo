@@ -91,15 +91,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-field.jpg",
-      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_gemmata_51945.jpg",
-      author: "This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images.You can con",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "02-young.jpg",
       alt: "Young Jewelled Amanita specimen",
       source: "Wikimedia Commons",
@@ -116,15 +107,6 @@ const species: SpeciesRecord = {
       author: "Hans-Martin Scheibner",
       license: "CC BY 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
-      filename: "04-field.jpg",
-      alt: "Jewelled Amanita (Amanita gemmata) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
-      author: "Elisabeth Östman (1869–1933)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
     },
     {
       filename: "05-field.jpg",
