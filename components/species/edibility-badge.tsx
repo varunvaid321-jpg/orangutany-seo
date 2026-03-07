@@ -8,7 +8,7 @@ const styles: Record<string, { bg: string; text: string; label: string }> = {
 };
 
 export function EdibilityBadge({ edibility, psychoactive }: { edibility: string; psychoactive?: boolean }) {
-  const s = styles[edibility] ?? styles.inedible;
+  const s = styles[edibility] ?? { bg: "bg-gray-800/50", text: "text-gray-300", label: "Edibility Unknown" };
   const p = psychoactive ? styles.psychoactive : null;
   return (
     <span className="inline-flex items-center gap-2">
