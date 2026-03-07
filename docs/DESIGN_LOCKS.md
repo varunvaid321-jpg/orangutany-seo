@@ -14,13 +14,16 @@ These are locked design decisions. Do NOT change without explicit authorization.
 - **CRITICAL**: This is a true equirectangular raster. Do NOT replace with GBIF `tile.gbif.org/omt` tiles — those use Mercator rendering and misalign with occurrence dots.
 - **Regeneration script**: `scripts/regen-basemap.py`
 
-### Occurrence Dot Style
+### Occurrence Dot Style (LOCKED — this is the approved visual style)
+- **Method**: GBIF tile API composite (NOT matplotlib scatter)
 - **GBIF API**: `https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png`
-- **Style**: `orange.marker` — produces large red/orange circles (NOT `orangeHeat.point` which produces tiny heatmap pixels)
-- **SRS**: `EPSG:4326`
+- **Style**: `orange.marker` — produces large salmon/peach filled circles
+- **SRS**: `EPSG:4326` (matches equirectangular basemap — no misalignment)
 - **Zoom**: 1
-- **Tiles**: x=0 (180°W–0°), x=1 (0°–180°E), y=0 (both)
+- **Tiles**: x=0 (180W to 0), x=1 (0 to 180E), y=0 (both)
 - **Compositing**: `Image.alpha_composite(basemap, dots)` — basemap is RGBA, dots layer on top
+- **NEVER use**: matplotlib scatter dots (too small, wrong color, different visual feel)
+- **NEVER use**: `orangeHeat.point` style (tiny heatmap pixels, not the approved look)
 
 ### Map Validation
 - A correct map is **always > 130KB**
@@ -31,6 +34,11 @@ These are locked design decisions. Do NOT change without explicit authorization.
 - Always verify via: `https://api.gbif.org/v1/species/match?name={name}&kingdom=Fungi`
 - Use `usageKey` from the response
 - Test tile before writing: download tile, count non-transparent pixels; if 0, key is wrong
+
+### Approved Map Generator
+- **Primary**: the GBIF tile composite function in `scripts/curated-repair.py` (`download_gbif_map`)
+- **Golden reference**: see `reports/golden-map-reference.png` for the exact approved look
+- **Do NOT use**: `scripts/generate-maps.py` (matplotlib scatter — produces wrong dot style)
 
 ---
 

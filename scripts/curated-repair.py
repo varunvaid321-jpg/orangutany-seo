@@ -453,10 +453,12 @@ def process(slug):
     print(f"  Slug: {slug} | GBIF: {gbif_key}")
     print(f"{'='*60}")
 
-    # 1. Distribution map — SKIP here, use generate-maps.py instead
-    # curated-repair uses GBIF tile API which misaligns with equirectangular basemap.
-    # generate-maps.py uses direct occurrence coordinates + matplotlib (correct method).
-    print("\n[MAP] Skipped — use scripts/generate-maps.py for maps (per DESIGN_LOCKS.md)")
+    # 1. Distribution map (GBIF tile composite — approved style per DESIGN_LOCKS.md)
+    print("\n[MAP]")
+    if gbif_key:
+        download_gbif_map(gbif_key, out_dir)
+    else:
+        print("  No gbifKey — skipping map")
 
     # 2. Collect all image candidates
     print(f"\n[IMAGES] Gathering candidates for {scientific_name}...")

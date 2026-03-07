@@ -6,7 +6,7 @@
     "projection": "equirectangular",
     "gbifKey": 5243447,
     "occurrenceCount": 5000,
-    "fileSizeBytes": 151422,
+    "fileSizeBytes": 158905,
     "renderingApproved": true,
     "approved": true
   },
@@ -83,7 +83,7 @@
     "projection": "equirectangular",
     "gbifKey": 8168319,
     "occurrenceCount": 5000,
-    "fileSizeBytes": 157506,
+    "fileSizeBytes": 297776,
     "renderingApproved": true,
     "approved": true
   },
@@ -182,7 +182,7 @@
     "projection": "equirectangular",
     "gbifKey": 8936224,
     "occurrenceCount": 5000,
-    "fileSizeBytes": 147290,
+    "fileSizeBytes": 151517,
     "renderingApproved": true,
     "approved": true
   },
