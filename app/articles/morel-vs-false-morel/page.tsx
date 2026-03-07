@@ -151,6 +151,19 @@ export default function MorelVsFalseMorelPage() {
               their dangerous look-alikes. They take about 30 seconds total. If
               you forage morels, or plan to start, you need to know all three.
             </p>
+
+            {/* Side-by-side: True Morel vs False Morel */}
+            <div className="mt-6 grid grid-cols-2 gap-3">
+              <figure>
+                <img src="/images/species/morchella-esculenta/01-solo.jpg" alt="True Morel (Morchella esculenta) showing distinctive honeycomb cap pattern" className="w-full rounded-xl border border-border/30 object-cover aspect-[4/3]" loading="lazy" />
+                <figcaption className="mt-2 text-center text-xs font-semibold text-green-400">True Morel (edible)</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/species/gyromitra-esculenta/01-brain-cap.jpg" alt="False Morel (Gyromitra esculenta) showing brain-like wrinkled cap" className="w-full rounded-xl border border-border/30 object-cover aspect-[4/3]" loading="lazy" />
+                <figcaption className="mt-2 text-center text-xs font-semibold text-red-400">False Morel (toxic)</figcaption>
+              </figure>
+            </div>
+            <p className="mt-2 text-xs text-center text-muted-foreground">Honeycomb pits (left) vs brain-like wrinkles (right). Once you&apos;ve seen them side by side, the difference is unmistakable.</p>
           </section>
 
           {/* The Cut Test */}
@@ -175,6 +188,12 @@ export default function MorelVsFalseMorelPage() {
               looks stuffed. Some species have lobes and folds of flesh inside,
               others have a wispy, fibrous filling. Either way, it is not empty.
             </p>
+            {/* Cross-section detail */}
+            <figure className="mt-4">
+              <img src="/images/species/morchella-esculenta/stem-detail.jpg" alt="Cross-section of a true morel showing the completely hollow interior" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">A true morel sliced in half — completely hollow inside. No fibers, no chambers, just air.</figcaption>
+            </figure>
+
             <div className="mt-4 rounded-lg border border-amber-800/30 bg-amber-950/20 p-4">
               <p className="text-sm font-semibold text-amber-300">
                 If you only remember one thing from this article: cut it open. A
@@ -220,6 +239,18 @@ export default function MorelVsFalseMorelPage() {
               patterns. Once you have seen both side by side, the difference is
               obvious.
             </p>
+
+            {/* Cap texture comparison */}
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <figure>
+                <img src="/images/species/morchella-esculenta/cap-detail.jpg" alt="True morel cap close-up showing regular honeycomb pits and ridges" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+                <figcaption className="mt-2 text-center text-xs font-semibold text-foreground">Honeycomb pattern (true morel)</figcaption>
+              </figure>
+              <figure>
+                <img src="/images/species/gyromitra-esculenta/cap-detail.jpg" alt="False morel cap close-up showing irregular brain-like wrinkles and folds" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+                <figcaption className="mt-2 text-center text-xs font-semibold text-foreground">Brain-like wrinkles (false morel)</figcaption>
+              </figure>
+            </div>
           </section>
 
           {/* Gyromitra esculenta */}
@@ -243,6 +274,11 @@ export default function MorelVsFalseMorelPage() {
               and Sweden, where <em>G. esculenta</em> is paradoxically
               considered a traditional food in some regions.
             </p>
+            <figure className="mt-4">
+              <img src="/images/species/gyromitra-esculenta/02-forest-floor.jpg" alt="Gyromitra esculenta growing on the forest floor among leaf litter" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Gyromitra esculenta on the forest floor. The Latin name means &ldquo;edible&rdquo; — a name that has killed people.</figcaption>
+            </figure>
+
             <p className="mt-3 text-sm leading-relaxed text-foreground/80">
               Some foragers parboil <em>Gyromitra</em> multiple times and
               discard the water, claiming this removes the toxin. Gyromitrin is
@@ -276,6 +312,11 @@ export default function MorelVsFalseMorelPage() {
               inside it like a finger inside a thimble. A true morel never looks
               like this.
             </p>
+            <figure className="mt-4">
+              <img src="/images/species/morchella-esculenta/lookalike-verpa-bohemica.jpg" alt="Verpa bohemica — the false morel most likely to fool foragers, with its wrinkled cap that resembles a true morel" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Verpa bohemica — note how the cap attaches only at the top of the stem, hanging free like a thimble.</figcaption>
+            </figure>
+
             <p className="mt-3 text-sm leading-relaxed text-foreground/80">
               The cut test also works. Slice a <em>Verpa</em> lengthwise and you
               will see cottony, wispy fibers inside the stem. It is not fully

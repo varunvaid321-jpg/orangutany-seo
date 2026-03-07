@@ -83,7 +83,10 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             Death Cap (<em>Amanita phalloides</em>)
           </h2>
-          {/* TODO: Wikimedia photo */}
+          <figure className="my-4">
+            <img src="/images/species/amanita-phalloides/02-group.jpg" alt="Group of Death Cap mushrooms at various growth stages in woodland" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Death Caps at various stages of growth. Responsible for 90% of all mushroom fatalities worldwide.</figcaption>
+          </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               The Death Cap is responsible for roughly <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">90% of all mushroom
@@ -137,7 +140,10 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             Destroying Angel (<em>Amanita virosa / bisporigera</em>)
           </h2>
-          {/* TODO: Wikimedia photo */}
+          <figure className="my-4">
+            <img src="/images/species/amanita-virosa/01-white-cap.jpg" alt="Destroying Angel mushroom — pure white cap and stem, deceptively beautiful" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">The Destroying Angel. Pure white, elegant, and absolutely lethal. Contains the same amatoxins as the Death Cap.</figcaption>
+          </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               Imagine a mushroom so white and clean it looks like it belongs on a
@@ -179,7 +185,10 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             Funeral Bell (<em>Galerina marginata</em>)
           </h2>
-          {/* TODO: Wikimedia photo */}
+          <figure className="my-4">
+            <img src="/images/species/galerina-marginata/01-field.jpg" alt="Funeral Bell mushroom (Galerina marginata) growing on decaying wood — a small, nondescript brown mushroom that contains deadly amatoxins" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">The Funeral Bell — a small, generic-looking brown mushroom. Contains the exact same deadly amatoxins as the Death Cap.</figcaption>
+          </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               Foragers call it &quot;the little brown killer.&quot; And that&apos;s
@@ -222,7 +231,10 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             The 14-Year-Old in Santa Cruz
           </h2>
-          {/* TODO: Wikimedia photo */}
+          <figure className="my-4">
+            <img src="/images/species/amanita-phalloides/05-forest.jpg" alt="Death Cap mushrooms growing under oak trees in woodland — the exact habitat where they are commonly found in California parks" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">Death Caps growing in woodland under oak trees — the exact scenario that put a 14-year-old in the hospital.</figcaption>
+          </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               In 2016, a 14-year-old in Santa Cruz, California picked mushrooms
@@ -260,7 +272,10 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             False Morel (<em>Gyromitra esculenta</em>)
           </h2>
-          {/* TODO: Wikimedia photo */}
+          <figure className="my-4">
+            <img src="/images/species/gyromitra-esculenta/01-brain-cap.jpg" alt="False Morel (Gyromitra esculenta) showing the distinctive brain-like, wrinkled cap" className="w-full rounded-xl border border-border/30 object-cover" loading="lazy" />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">The False Morel&apos;s brain-like cap. Its toxin, gyromitrin, is metabolized into rocket fuel by your liver.</figcaption>
+          </figure>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>In Finland, they eat this one on purpose.</p>
             <p>
@@ -308,7 +323,6 @@ export default function MushroomsThatCanKillYouPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
             The Slow Killers: Autumn Skullcap &amp; Webcaps
           </h2>
-          {/* TODO: Wikimedia photo */}
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               Most deadly mushroom poisonings show symptoms within hours. Not the

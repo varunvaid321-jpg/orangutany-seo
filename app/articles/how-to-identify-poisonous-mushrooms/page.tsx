@@ -28,6 +28,42 @@ const SEO_QUERIES = [
   "poisonous mushroom myths",
 ];
 
+function ArticleImage({ src, alt, caption }: { src: string; alt: string; caption?: string }) {
+  return (
+    <figure className="my-6">
+      <img
+        src={src}
+        alt={alt}
+        className="w-full rounded-xl border border-border/30 object-cover"
+        loading="lazy"
+      />
+      {caption && (
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground italic">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
+function ComparisonImages({ left, right }: {
+  left: { src: string; alt: string; label: string };
+  right: { src: string; alt: string; label: string };
+}) {
+  return (
+    <div className="my-6 grid grid-cols-2 gap-3">
+      <figure>
+        <img src={left.src} alt={left.alt} className="w-full rounded-xl border border-border/30 object-cover aspect-[4/3]" loading="lazy" />
+        <figcaption className="mt-2 text-center text-xs font-semibold text-foreground">{left.label}</figcaption>
+      </figure>
+      <figure>
+        <img src={right.src} alt={right.alt} className="w-full rounded-xl border border-border/30 object-cover aspect-[4/3]" loading="lazy" />
+        <figcaption className="mt-2 text-center text-xs font-semibold text-foreground">{right.label}</figcaption>
+      </figure>
+    </div>
+  );
+}
+
 export default function HowToIdentifyPoisonousMushroomsPage() {
   return (
     <article className="mx-auto max-w-4xl px-6 py-10">
@@ -68,7 +104,23 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
             looks completely ordinary: no warning colors, no foul smell,
             nothing.
           </p>
-          {/* TODO: Add real Wikimedia photo: hands holding death cap vs paddy straw side by side */}
+
+          {/* Death Cap vs Paddy Straw side-by-side */}
+          <ComparisonImages
+            left={{
+              src: "/images/species/amanita-phalloides/01-cap-top.jpg",
+              alt: "Death Cap mushroom (Amanita phalloides) showing olive-green cap from above",
+              label: "Death Cap (deadly)",
+            }}
+            right={{
+              src: "/images/species/amanita-phalloides/lookalike-volvacea.jpg",
+              alt: "Paddy Straw Mushroom (Volvariella volvacea) — a popular edible in Southeast Asia that looks dangerously similar to the Death Cap",
+              label: "Paddy Straw Mushroom (edible)",
+            }}
+          />
+          <p className="text-xs text-center text-muted-foreground -mt-4 mb-4">
+            The Death Cap (left) and Paddy Straw Mushroom (right) look dangerously similar. This confusion kills people every year.
+          </p>
         </section>
 
         {/* The Rules That Will Get You Killed */}
@@ -167,6 +219,23 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
               </p>
             </div>
           </div>
+
+          {/* Chanterelle vs Destroying Angel — color myth */}
+          <ComparisonImages
+            left={{
+              src: "/images/species/cantharellus-cibarius/01-field.jpg",
+              alt: "Golden Chanterelle mushroom — bright orange and completely edible",
+              label: "Chanterelle (edible, bright orange)",
+            }}
+            right={{
+              src: "/images/species/amanita-virosa/01-white-cap.jpg",
+              alt: "Destroying Angel mushroom — pure white and deadly",
+              label: "Destroying Angel (deadly, pure white)",
+            }}
+          />
+          <p className="text-xs text-center text-muted-foreground -mt-4 mb-4">
+            Color tells you nothing. The bright orange Chanterelle is delicious. The pristine white Destroying Angel will kill you.
+          </p>
         </section>
 
         {/* What Actually Works */}
@@ -212,7 +281,12 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                 snapping the stem, you miss it entirely. Always dig up the full
                 mushroom with the base intact.
               </p>
-              {/* TODO: Add real Wikimedia photo: volva at base of Amanita phalloides */}
+              {/* Stem detail showing volva */}
+              <ArticleImage
+                src="/images/species/amanita-phalloides/stem-detail.jpg"
+                alt="Death Cap stem base showing the volva — a cup-like sack at the base that is the key identification feature for deadly Amanitas"
+                caption="The volva at the base of a Death Cap stem. This sits underground — if you snap the stem, you miss the one feature that could save your life."
+              />
             </div>
 
             <div className="rounded-lg border border-border bg-card p-4">
@@ -240,6 +314,33 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
           </div>
         </section>
 
+        {/* Deadly mushroom gallery */}
+        <section>
+          <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
+            Know These Deadly Species by Sight
+          </h2>
+          <p className="mb-4 text-sm leading-relaxed text-foreground/80">
+            These are the mushrooms responsible for most fatal poisonings. Study these images carefully — none of them look &ldquo;dangerous.&rdquo;
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <figure>
+              <img src="/images/species/amanita-phalloides/02-group.jpg" alt="Group of Death Cap mushrooms at various growth stages" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+              <figcaption className="mt-1.5 text-center text-xs text-foreground">Death Cap</figcaption>
+              <p className="text-center text-[10px] text-red-400 font-medium">90% of all deaths</p>
+            </figure>
+            <figure>
+              <img src="/images/species/amanita-virosa/04-young.jpg" alt="Young Destroying Angel mushroom emerging from the ground" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+              <figcaption className="mt-1.5 text-center text-xs text-foreground">Destroying Angel</figcaption>
+              <p className="text-center text-[10px] text-red-400 font-medium">Identical toxin to Death Cap</p>
+            </figure>
+            <figure>
+              <img src="/images/species/galerina-marginata/01-field.jpg" alt="Funeral Bell mushroom growing on decaying wood" className="w-full rounded-xl border border-border/30 object-cover aspect-square" loading="lazy" />
+              <figcaption className="mt-1.5 text-center text-xs text-foreground">Funeral Bell</figcaption>
+              <p className="text-center text-[10px] text-red-400 font-medium">Looks like any brown mushroom</p>
+            </figure>
+          </div>
+        </section>
+
         {/* 5 Deadliest Mistakes Beginners Make */}
         <section>
           <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
@@ -253,14 +354,14 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
               </span>
               <div>
                 <h3 className="text-sm font-semibold text-foreground">
-                  Trusting an app
+                  Relying solely on an app for edibility decisions
                 </h3>
                 <p className="mt-1 text-sm text-foreground/80">
-                  Mushroom identification apps are wrong about 20% of the time
-                  on dangerous species. That&apos;s not a rounding error,
-                  that&apos;s one in five. Apps are useful as a starting point
-                  but never as a final answer. If an app says &ldquo;likely
-                  edible,&rdquo; that means nothing.
+                  Mushroom identification apps can be wrong about dangerous species.
+                  Apps are useful as a starting point for narrowing down possibilities,
+                  but never as a final answer for whether something is safe to eat.
+                  Always cross-reference with field guides, spore prints, and ideally
+                  an experienced human mycologist.
                 </p>
               </div>
             </div>
@@ -288,7 +389,7 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
               </span>
               <div>
                 <h3 className="text-sm font-semibold text-foreground">
-                  Confusing Death Cap with paddy straw mushroom
+                  Confusing Death Cap with Paddy Straw Mushroom
                 </h3>
                 <p className="mt-1 text-sm text-foreground/80">
                   This kills people in California almost every year. The{" "}
@@ -304,7 +405,12 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                   mushrooms pick Death Caps from under oak trees and cook them
                   for their families. These are real, documented cases.
                 </p>
-                {/* TODO: Add real Wikimedia photo: Death Cap vs paddy straw mushroom comparison */}
+                {/* Death Cap gill detail vs look-alike */}
+                <ArticleImage
+                  src="/images/species/amanita-phalloides/gills-detail.jpg"
+                  alt="Death Cap gills — pure white gills that remain white throughout the mushroom's life, a key difference from the Paddy Straw Mushroom whose gills turn pinkish-brown"
+                  caption="Death Cap gills stay pure white. Paddy Straw Mushroom gills turn pinkish-brown — this difference saves lives."
+                />
               </div>
             </div>
 
@@ -323,6 +429,19 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
                   habitats. &ldquo;Looks like a store mushroom&rdquo; is not an
                   identification method.
                 </p>
+                {/* Death Cap vs Field Mushroom comparison */}
+                <ComparisonImages
+                  left={{
+                    src: "/images/species/amanita-phalloides/03-young.jpg",
+                    alt: "Young Death Cap mushroom — can look like a common button mushroom to untrained eyes",
+                    label: "Young Death Cap (deadly)",
+                  }}
+                  right={{
+                    src: "/images/species/amanita-phalloides/lookalike-campestris.jpg",
+                    alt: "Field Mushroom (Agaricus campestris) — common edible species that can be confused with Death Cap",
+                    label: "Field Mushroom (edible)",
+                  }}
+                />
               </div>
             </div>
 
