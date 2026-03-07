@@ -12,6 +12,10 @@ const cardIdx = cardImageIndex as Record<string, number>;
 // All non-species content to search across
 const contentItems: ContentEntry[] = [...articles, ...guides, ...authors];
 
+const authorNameMap: Record<string, string> = Object.fromEntries(
+  authors.map((a) => [a.slug.replace("/authors/", ""), a.title])
+);
+
 function getCounts(species: SpeciesRecord[]) {
   const edible = species.filter((s) => s.edibility === "edible").length;
   const caution = species.filter((s) => s.edibility === "edible-with-caution").length;
@@ -121,6 +125,8 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
           else if (s.taxonomy.genus.toLowerCase().includes(q)) score = 50;
           else if (s.taxonomy.family.toLowerCase().includes(q)) score = 40;
           else if (s.seoQueries.some((sq) => sq.toLowerCase().includes(q))) score = 30;
+          else if (s.range?.toLowerCase().includes(q)) score = 25;
+          else if (s.habitat?.toLowerCase().includes(q)) score = 22;
           else if (s.summary.toLowerCase().includes(q)) score = 20;
           else if (s.description.toLowerCase().includes(q)) score = 10;
 
@@ -152,9 +158,22 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter") e.currentTarget.blur(); }}
             placeholder="Search species, articles, guides, authors..."
-            className="w-full rounded-xl border-2 border-primary/40 bg-card pl-12 pr-4 py-3.5 text-base text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-lg shadow-primary/5"
+            className="w-full rounded-xl border-2 border-primary/40 bg-card pl-12 pr-12 py-3.5 text-base text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-lg shadow-primary/5"
           />
+          {search.trim() && (
+            <button
+              type="button"
+              onClick={() => { /* search is live, blur to dismiss keyboard on mobile */ document.activeElement instanceof HTMLElement && document.activeElement.blur(); }}
+              className="absolute right-3 top-1/2 -translate-y-1/2 rounded-lg bg-primary p-1.5 text-background transition hover:bg-primary/90"
+              aria-label="Search"
+            >
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          )}
         </div>
       </div>
 
@@ -190,9 +209,14 @@ export function MushroomGrid({ species }: { species: SpeciesRecord[] }) {
                 <span className={`mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium ${TYPE_COLORS[item.type] ?? "bg-zinc-500/15 text-zinc-300"}`}>
                   {TYPE_LABELS[item.type] ?? item.type}
                 </span>
-                <div className="min-w-0">
-                  <p className="font-medium text-foreground">{item.title}</p>
-                  <p className="mt-0.5 line-clamp-1 text-sm text-foreground/60">{item.summary}</p>
+                <div className="min-w-0 flex-1">
+                  <p className="font-medium text-foreground leading-snug">{item.title}</p>
+                  <p className="mt-0.5 text-sm text-foreground/60 line-clamp-2">{item.summary}</p>
+                  {item.author && (
+                    <p className="mt-1 text-xs text-muted-foreground">
+                      by {authorNameMap[item.author] ?? item.author}
+                    </p>
+                  )}
                 </div>
               </Link>
             ))}

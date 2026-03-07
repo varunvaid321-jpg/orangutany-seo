@@ -136,57 +136,21 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             </h2>
             <div className="space-y-3">
               {species.identification.cap && (
-                <div className="overflow-hidden rounded-lg border border-border bg-card">
-                  {species.identificationImages?.cap && (
-                    <div className="bg-[#1a1a1a]">
-                      <img
-                        src={`${imgBase}/${species.identificationImages.cap}`}
-                        alt={`${species.commonName} cap detail`}
-                        className="aspect-[2/1] w-full object-contain"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <div className="p-3">
-                    <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Cap</h3>
-                    <p className="text-sm text-foreground/80">{species.identification.cap}</p>
-                  </div>
+                <div className="rounded-lg border border-border bg-card p-3">
+                  <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Cap</h3>
+                  <p className="text-sm text-foreground/80">{species.identification.cap}</p>
                 </div>
               )}
               {species.identification.gills && (
-                <div className="overflow-hidden rounded-lg border border-border bg-card">
-                  {species.identificationImages?.gills && (
-                    <div className="bg-[#1a1a1a]">
-                      <img
-                        src={`${imgBase}/${species.identificationImages.gills}`}
-                        alt={`${species.commonName} gills detail`}
-                        className="aspect-[2/1] w-full object-contain"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <div className="p-3">
-                    <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Gills</h3>
-                    <p className="text-sm text-foreground/80">{species.identification.gills}</p>
-                  </div>
+                <div className="rounded-lg border border-border bg-card p-3">
+                  <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Gills</h3>
+                  <p className="text-sm text-foreground/80">{species.identification.gills}</p>
                 </div>
               )}
               {species.identification.stem && (
-                <div className="overflow-hidden rounded-lg border border-border bg-card">
-                  {species.identificationImages?.stem && (
-                    <div className="bg-[#1a1a1a]">
-                      <img
-                        src={`${imgBase}/${species.identificationImages.stem}`}
-                        alt={`${species.commonName} stem and base detail`}
-                        className="aspect-[2/1] w-full object-contain"
-                        loading="lazy"
-                      />
-                    </div>
-                  )}
-                  <div className="p-3">
-                    <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Stem</h3>
-                    <p className="text-sm text-foreground/80">{species.identification.stem}</p>
-                  </div>
+                <div className="rounded-lg border border-border bg-card p-3">
+                  <h3 className="mb-1 text-sm font-semibold uppercase tracking-wider text-primary">Stem</h3>
+                  <p className="text-sm text-foreground/80">{species.identification.stem}</p>
                 </div>
               )}
               {species.identification.sporePrint && (
