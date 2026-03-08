@@ -1087,5 +1087,115 @@
     "fileSizeBytes": 99213,
     "renderingApproved": true,
     "approved": true
+  },
+  "cantharellus-formosus": {
+    "speciesSlug": "cantharellus-formosus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5466954,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 49488,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "amanita-rubescens": {
+    "speciesSlug": "amanita-rubescens",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 7496350,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 125813,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "russula-brevipes": {
+    "speciesSlug": "russula-brevipes",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 7240188,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 78153,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "clitocybe-nebularis": {
+    "speciesSlug": "clitocybe-nebularis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2531072,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 105471,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "imleria-badia": {
+    "speciesSlug": "imleria-badia",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 7832732,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 91772,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "agaricus-arvensis": {
+    "speciesSlug": "agaricus-arvensis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5243403,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 102919,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "agaricus-xanthodermus": {
+    "speciesSlug": "agaricus-xanthodermus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5243412,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 91069,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "hypholoma-lateritium": {
+    "speciesSlug": "hypholoma-lateritium",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2533424,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 108327,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "laccaria-laccata": {
+    "speciesSlug": "laccaria-laccata",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2530926,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 149352,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "pleurotus-pulmonarius": {
+    "speciesSlug": "pleurotus-pulmonarius",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2526548,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 134302,
+    "renderingApproved": true,
+    "approved": true
   }
 }

@@ -1,6 +1,8 @@
 // Auto-generated species index
 import agaricusBisporus from "./agaricus-bisporus";
+import agaricusArvensis from "./agaricus-arvensis";
 import agaricusCampestris from "./agaricus-campestris";
+import agaricusXanthodermus from "./agaricus-xanthodermus";
 import agrocybePraecox from "./agrocybe-praecox";
 import amanitaCaesarea from "./amanita-caesarea";
 import amanitaCitrina from "./amanita-citrina";
@@ -9,6 +11,7 @@ import amanitaJacksonii from "./amanita-jacksonii";
 import amanitaMuscaria from "./amanita-muscaria";
 import amanitaPantherina from "./amanita-pantherina";
 import amanitaPhalloides from "./amanita-phalloides";
+import amanitaRubescens from "./amanita-rubescens";
 import amanitaVirosa from "./amanita-virosa";
 import armillariaMellea from "./armillaria-mellea";
 import auriculariaAuriculaJudae from "./auricularia-auricula-judae";
@@ -18,6 +21,7 @@ import boletusReticulatus from "./boletus-reticulatus";
 import calocybeGambosa from "./calocybe-gambosa";
 import calvatiaGigantea from "./calvatia-gigantea";
 import cantharellusCibarius from "./cantharellus-cibarius";
+import cantharellusFormosus from "./cantharellus-formosus";
 import cantharellusCinnabarinus from "./cantharellus-cinnabarinus";
 import cantharellusTubaeformis from "./cantharellus-tubaeformis";
 import cerioporusSquamosus from "./cerioporus-squamosus";
@@ -25,6 +29,7 @@ import chlorociboriaAeruginascens from "./chlorociboria-aeruginascens";
 import chlorophyllumMolybdites from "./chlorophyllum-molybdites";
 import chlorophyllumRhacodes from "./chlorophyllum-rhacodes";
 import clathrusRuber from "./clathrus-ruber";
+import clitocybeNebularis from "./clitocybe-nebularis";
 import clitocybeDealbata from "./clitocybe-dealbata";
 import clitocybeNuda from "./clitocybe-nuda";
 import conocybeFilaris from "./conocybe-filaris";
@@ -48,10 +53,13 @@ import gyromitraEsculenta from "./gyromitra-esculenta";
 import hericiumErinaceus from "./hericium-erinaceus";
 import hydnumRepandum from "./hydnum-repandum";
 import hygrocybeCoccinea from "./hygrocybe-coccinea";
+import hypholomaLateritium from "./hypholoma-lateritium";
 import hypholomaFasciculare from "./hypholoma-fasciculare";
 import inocybeAeruginascens from "./inocybe-aeruginascens";
 import inocybeErubescens from "./inocybe-erubescens";
+import imleriaBadia from "./imleria-badia";
 import inonotusObliquus from "./inonotus-obliquus";
+import laccariaLaccata from "./laccaria-laccata";
 import lactariusDeliciosus from "./lactarius-deliciosus";
 import laetiporusSulphureus from "./laetiporus-sulphureus";
 import leccinumAurantiacum from "./leccinum-aurantiacum";
@@ -75,6 +83,7 @@ import paxillusInvolutus from "./paxillus-involutus";
 import phallusHadriani from "./phallus-hadriani";
 import phallusImpudicus from "./phallus-impudicus";
 import pleurotusOstreatus from "./pleurotus-ostreatus";
+import pleurotusPulmonarius from "./pleurotus-pulmonarius";
 import pluteusSalicinus from "./pluteus-salicinus";
 import podostromaCornuDamae from "./podostroma-cornu-damae";
 import psilocybeAzurescens from "./psilocybe-azurescens";
@@ -87,6 +96,7 @@ import psilocybeStuntzii from "./psilocybe-stuntzii";
 import psilocybeTampanensis from "./psilocybe-tampanensis";
 import ramariaBotrytis from "./ramaria-botrytis";
 import rubroboletusSatanas from "./rubroboletus-satanas";
+import russulaBrevipes from "./russula-brevipes";
 import russulaCyanoxantha from "./russula-cyanoxantha";
 import russulaEmetica from "./russula-emetica";
 import russulaVirescens from "./russula-virescens";
@@ -110,8 +120,10 @@ import xeromphalinaCampanella from "./xeromphalina-campanella";
 import type { SpeciesRecord } from "@/lib/types";
 
 export const allSpecies: SpeciesRecord[] = [
+  agaricusArvensis,
   agaricusBisporus,
   agaricusCampestris,
+  agaricusXanthodermus,
   agrocybePraecox,
   amanitaCaesarea,
   amanitaCitrina,
@@ -120,6 +132,7 @@ export const allSpecies: SpeciesRecord[] = [
   amanitaMuscaria,
   amanitaPantherina,
   amanitaPhalloides,
+  amanitaRubescens,
   amanitaVirosa,
   armillariaMellea,
   auriculariaAuriculaJudae,
@@ -129,6 +142,7 @@ export const allSpecies: SpeciesRecord[] = [
   calocybeGambosa,
   calvatiaGigantea,
   cantharellusCibarius,
+  cantharellusFormosus,
   cantharellusCinnabarinus,
   cantharellusTubaeformis,
   cerioporusSquamosus,
@@ -136,6 +150,7 @@ export const allSpecies: SpeciesRecord[] = [
   chlorophyllumMolybdites,
   chlorophyllumRhacodes,
   clathrusRuber,
+  clitocybeNebularis,
   clitocybeDealbata,
   clitocybeNuda,
   conocybeFilaris,
@@ -159,10 +174,13 @@ export const allSpecies: SpeciesRecord[] = [
   hericiumErinaceus,
   hydnumRepandum,
   hygrocybeCoccinea,
+  hypholomaLateritium,
   hypholomaFasciculare,
   inocybeAeruginascens,
   inocybeErubescens,
+  imleriaBadia,
   inonotusObliquus,
+  laccariaLaccata,
   lactariusDeliciosus,
   laetiporusSulphureus,
   leccinumAurantiacum,
@@ -186,6 +204,7 @@ export const allSpecies: SpeciesRecord[] = [
   phallusHadriani,
   phallusImpudicus,
   pleurotusOstreatus,
+  pleurotusPulmonarius,
   pluteusSalicinus,
   podostromaCornuDamae,
   psilocybeAzurescens,
@@ -198,6 +217,7 @@ export const allSpecies: SpeciesRecord[] = [
   psilocybeTampanensis,
   ramariaBotrytis,
   rubroboletusSatanas,
+  russulaBrevipes,
   russulaCyanoxantha,
   russulaEmetica,
   russulaVirescens,

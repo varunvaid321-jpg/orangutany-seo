@@ -175,19 +175,30 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                 Easy to Confuse With
               </h2>
               <div className="space-y-3">
-                {species.lookAlikes.map((la) => (
+                {species.lookAlikes.map((la) => {
+                  const linkedSpecies = la.slug ? getSpeciesBySlug(la.slug) : undefined;
+                  const laImage = linkedSpecies && linkedSpecies.images.length > 0
+                    ? `/images/species/${la.slug}/${linkedSpecies.images[0].filename}`
+                    : la.image ? `${imgBase}/${la.image}` : undefined;
+                  return (
                   <div key={la.name} className="overflow-hidden rounded-lg border border-border bg-card">
                     <div className="flex flex-col sm:flex-row gap-0">
-                      {la.image && (
+                      {laImage && (
                         <img
-                          src={`${imgBase}/${la.image}`}
+                          src={laImage}
                           alt={la.name}
                           className="h-40 w-full object-contain bg-[#1a1a1a] sm:h-auto sm:w-36 flex-shrink-0"
                           loading="lazy"
                         />
                       )}
                       <div className="flex flex-col justify-center p-3">
-                        <h3 className="text-sm font-semibold text-foreground">{la.name}</h3>
+                        {la.slug && linkedSpecies ? (
+                          <Link href={`/mushrooms/${la.slug}`} className="text-sm font-semibold text-primary hover:underline">
+                            {la.name}
+                          </Link>
+                        ) : (
+                          <h3 className="text-sm font-semibold text-foreground">{la.name}</h3>
+                        )}
                         <p className="mt-1 text-xs leading-relaxed text-foreground/80">{la.distinction}</p>
                         {la.externalUrl && (
                           <a
@@ -202,7 +213,8 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                       </div>
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           )}
