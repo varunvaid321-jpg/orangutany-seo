@@ -1,3 +1,6 @@
+# Remove old /social-posts page (replaced by /social)
+/social-posts /social 301
+
 # Redirects from old root-level URLs to new /articles/ and /guides/ paths
 # Added March 7 2026 after URL restructure left 9 old URLs as 404s
 /how-to-identify-poisonous-mushrooms /articles/how-to-identify-poisonous-mushrooms 301

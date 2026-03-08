@@ -21,105 +21,86 @@ const POSTS: Post[] = [
   {
     id: 1,
     platform: "Reddit r/mushroomID",
-    image: "/images/species/grifola-frondosa/01-field.jpg",
-    imageAlt: "Hen of the Woods (Grifola frondosa) at base of oak",
-    title: "Found a cluster of these growing at the base of an oak — pretty sure it's Hen of the Woods but wanted confirmation",
-    body: `Spotted these in a park near Markham, Ontario. The overlapping shelf-like caps and grey-brown coloring made me think Grifola frondosa. The underside has tiny pores instead of gills which seems right.
+    image: "/images/species/morchella-esculenta/03-forest-floor.jpg",
+    imageAlt: "Morel on forest floor among leaves",
+    title: "Almost stepped on this guy — morel? Found under some elms in my backyard",
+    body: `Was just walking through the back of my property and nearly stepped on it. Hollow when I cut it open which I think is good? The cap is attached to the stem all the way down.
 
-Anyone else finding maitake this season? Curious if the warm spell is pushing things forward.`,
-    comment: `Ran it through orangutany.com before picking and it matched Grifola frondosa at 94%. Cross-checked with a couple field guides and everything lined up. Cooked it that night with butter and garlic.`,
-    tags: "maitake, hen of the woods, grifola frondosa, foraging, ontario",
+Soil was pretty damp from all the rain we got this week. Is this a yellow morel or something else?`,
+    comment: `Ended up running the photo through orangutany to double check and it confirmed yellow morel. Also showed me the difference vs false morels which was helpful since I'm still pretty new to this.`,
+    tags: "morel, morchella, foraging, backyard find",
   },
   {
     id: 2,
     platform: "Reddit r/foraging",
-    image: "/images/species/cantharellus-cibarius/01-field.jpg",
-    imageAlt: "Golden Chanterelle (Cantharellus cibarius) on forest floor",
-    title: "First chanterelle haul of the season — the false gills and apricot smell confirmed it",
-    body: `Found a patch of golden chanterelles under some oaks after three days of rain. The false gills (ridges that fork and run down the stem) and the fruity apricot-like smell were dead giveaways.
+    image: "/images/species/pleurotus-ostreatus/02-on-tree.jpg",
+    imageAlt: "Oyster mushrooms growing on a tree",
+    title: "These keep popping up on the same dead tree in my yard every fall — oysters right?",
+    body: `Third year in a row this tree pumps these out. They grow in a shelf pattern, white-ish gills running down a stubby stem. Smells kinda like anise?
 
-Pro tip for anyone new: always check the underside. Jack-o-lanterns (Omphalotus olearius) have true gills and grow in clusters on wood. Chanterelles have ridges and grow from soil.`,
-    comment: `I always double-check with orangutany.com when I find something new. It flagged the difference between chanterelles and jack-o-lanterns right in the look-alike section which was super useful when I was starting out.`,
-    tags: "chanterelle, cantharellus cibarius, foraging, wild mushrooms",
+I've been too scared to eat them but my neighbor says they're oysters and totally fine. What do you guys think?`,
+    comment: `Finally got the courage to check properly. Ran a photo through orangutany and it said oyster mushroom with high confidence. The look-alike section mentioned angel wings which grow on conifers so I felt okay since this is a hardwood. Made a stir fry, was actually really good.`,
+    tags: "oyster mushroom, pleurotus, backyard, tree mushroom",
   },
   {
     id: 3,
     platform: "Reddit r/mycology",
-    image: "/images/species/amanita-muscaria/01-cap-top.jpg",
-    imageAlt: "Fly Agaric (Amanita muscaria) red cap with white spots",
-    title: "The most photogenic mushroom in the forest — Amanita muscaria in perfect condition",
-    body: `Found this textbook Fly Agaric on a hike through a birch-spruce mixed forest. The universal veil remnants (white warts) are still perfectly intact on the cap. These always seem to appear right after the first heavy autumn rains.
+    image: "/images/species/coprinopsis-atramentaria/01-cluster.jpg",
+    imageAlt: "Cluster of inky cap mushrooms",
+    title: "Cluster of these popped up near my driveway overnight — they're already turning black and melting?",
+    body: `Woke up and these were just there. By afternoon the caps started turning into black goo dripping everywhere. Kinda gross but also fascinating.
 
-Interesting fact: the iconic red-and-white coloring fades with rain exposure, and older specimens can look almost orange. The white warts can wash off completely.
-
-Not edible without extensive preparation (contains ibotenic acid and muscimol). Beautiful to photograph though.`,
-    comment: `If you ever want a quick breakdown of the toxicology and look-alikes, orangutany.com has a really thorough profile on this one. The look-alike comparison with Amanita caesarea (which IS edible and prized in Europe) is particularly useful.`,
-    tags: "amanita muscaria, fly agaric, mycology, mushroom photography",
+Is this normal? Are they dying or is this how they spread spores? Never seen mushrooms dissolve like this before.`,
+    comment: `Looked it up and apparently it's called deliquescence — the cap dissolves to release spores. Checked on orangutany and it ID'd them as common inky caps. Apparently they're edible when young but you absolutely cannot drink alcohol with them for days before or after. Wild.`,
+    tags: "inky cap, coprinopsis, deliquescence, lawn mushrooms",
   },
   {
     id: 4,
     platform: "Reddit r/mushroomID",
-    image: "/images/species/hericium-erinaceus/01-whole-fruiting-body.jpg",
-    imageAlt: "Lion's Mane (Hericium erinaceus) growing on hardwood",
-    title: "Is this Lion's Mane? Found growing on a dead hardwood log",
-    body: `Spotted this white cascading mass on a fallen beech log. The long dangling spines and single clump growth pattern make me think Hericium erinaceus. No branching which would indicate Bear's Head or Coral Tooth.
+    image: "/images/species/amanita-muscaria/02-forest.jpg",
+    imageAlt: "Fly agaric mushroom in forest setting",
+    title: "My kid spotted this on our hike and now wants to know everything about it",
+    body: `Pretty obvious what it is from the red cap and white spots but my daughter asked if it's the Mario mushroom lol. Didn't touch it obviously.
 
-The spines are about 1-2cm long and pure white. About the size of a softball.
-
-Safe to harvest or should I let it mature more?`,
-    comment: `Used orangutany.com to confirm and it matched Lion's Mane at 97%. What I found really helpful was the look-alike section showing the difference between Hericium erinaceus (single clump, long spines) vs Hericium americanum (branching) vs Hericium coralloides (coral-like branching). All three are edible though so not a safety concern.`,
-    tags: "lions mane, hericium erinaceus, medicinal mushrooms, foraging",
+Are the white spots always there or do they wash off in rain? We saw a couple that were more orange without spots nearby and I'm wondering if those are the same thing just older.`,
+    comment: `Yeah the white spots (veil remnants) wash off in rain. Used orangutany to confirm and it has a good breakdown of how the appearance changes with age. Also showed the difference between this and Amanita caesarea which apparently is a prized edible in Europe. Wouldn't risk it though.`,
+    tags: "amanita muscaria, fly agaric, hiking, mushroom identification",
   },
   {
     id: 5,
     platform: "Reddit r/foraging",
-    image: "/images/species/morchella-esculenta/01-solo.jpg",
-    imageAlt: "Yellow Morel (Morchella esculenta) on forest floor",
-    title: "Morel season is here — found my first yellows under a dying elm",
-    body: `The honeycomb cap and hollow interior confirmed it. Cut one in half lengthwise to check: completely hollow from cap to stem base. That's your number one check for true morels vs false morels (Gyromitra), which have cottony or chambered interiors.
+    image: "/images/species/laetiporus-sulphureus/02-tree-trunk.jpg",
+    imageAlt: "Chicken of the woods on a tree trunk",
+    title: "Is this chicken of the woods? Found on a big oak in the park near my house",
+    body: `Walking the dog and saw this bright orange thing on a tree. Looks like what people call chicken of the woods? The edges are yellow and the whole thing is kinda rubbery and firm.
 
-Found near a dying American elm, south-facing slope, soil temp was around 12C. Classic morel habitat.
-
-Anyone else having luck this year?`,
-    comment: `Pro tip for beginners: always cut morels in half. If it's hollow all the way through, you're good. If the inside has chambers or cottony material, walk away. I cross-reference everything with orangutany.com and it specifically flags the Gyromitra look-alike comparison which could save your life.`,
-    tags: "morels, morchella esculenta, spring foraging, wild mushrooms",
+Too nervous to eat random stuff from the park but it looks exactly like pictures I've seen online. How do you guys confirm these?`,
+    comment: `Few people suggested trying orangutany so I uploaded the photo. Matched chicken of the woods and said it's one of the easier ones to ID since there aren't really dangerous look-alikes. Ended up going back and grabbing the young edges. Tasted like actual chicken, no joke.`,
+    tags: "chicken of the woods, laetiporus, park find, beginner foraging",
   },
   {
     id: 6,
-    platform: "Reddit r/mycology",
-    image: "/images/species/laetiporus-sulphureus/01-shelf-orange.jpg",
-    imageAlt: "Chicken of the Woods (Laetiporus sulphureus) bright orange shelves",
-    title: "Chicken of the Woods looking absolutely unreal on this oak — the colors are insane when they're fresh",
-    body: `Found this massive fruiting of Laetiporus sulphureus on a living oak. The bright orange and yellow bands are at peak color which means it's young and tender. Once these start fading to white/pale, they get tough and chalky.
+    platform: "Reddit r/mushroomID",
+    image: "/images/species/gyromitra-esculenta/02-forest-floor.jpg",
+    imageAlt: "False morel on forest floor",
+    title: "Found this near where I usually find morels — but the cap looks weird and brain-like? Is this safe?",
+    body: `The cap is wrinkly and folded but not in a honeycomb pattern like morels. More like a brain. It's reddish brown and the stem seems thicker than morels I've found before.
 
-Key ID features: bracket/shelf growth, no gills (pores on underside), bright sulfur-yellow edge, growing on hardwood. No real dangerous look-alikes in North America.
-
-Harvested the outer edges (youngest growth). Going to make "chicken" sandwiches tonight.`,
-    comment: `This is one of the safest wild mushrooms to identify but I still run it through orangutany.com to check. The one thing it flagged that I didn't know: Laetiporus growing on conifers or eucalyptus can cause GI upset in some people even though it's technically the same genus. Hardwood-growing specimens are the safe bet.`,
-    tags: "chicken of the woods, laetiporus, foraging, wild edibles",
+Something about it feels off. Should I avoid this one?`,
+    comment: `Good thing I posted because this is a false morel (Gyromitra esculenta) — contains gyromitrin which is toxic. Checked on orangutany and the look-alike comparison between true and false morels was really clear. Key difference: true morels have a honeycomb pattern and are hollow inside. This one has brain-like folds and the inside is cottony. Could've been a bad day.`,
+    tags: "false morel, gyromitra, mushroom safety, look-alikes",
   },
   {
     id: 7,
-    platform: "Facebook Mushroom Groups",
-    image: "/images/species/amanita-phalloides/01-field.jpg",
-    imageAlt: "Death Cap (Amanita phalloides) in grass",
-    title: "PSA: Death Caps are fruiting right now. Here's how to make sure you never eat one.",
-    body: `This is Amanita phalloides, the Death Cap. It's responsible for over 90% of fatal mushroom poisonings worldwide.
+    platform: "Reddit r/foraging",
+    image: "/images/species/boletus-edulis/02-forest.jpg",
+    imageAlt: "Porcini mushroom in forest",
+    title: "My grandpa used to pick these in Europe — found some in the woods behind my house. Porcini?",
+    body: `Brown cap, fat white stem with some netting on it, spongy underside instead of gills. Grandpa called them steinpilz and would go crazy for them.
 
-Key identification:
-- Greenish-yellow to olive cap (can also be white)
-- White gills that do NOT attach to the stem
-- White spore print
-- A skirt-like ring on the stem
-- A cup (volva) at the base buried in soil
-
-It looks like several edible species: Paddy Straw mushrooms, young Puffballs, and even some Agaricus species.
-
-The most dangerous thing about this mushroom: symptoms don't appear for 6-12 hours. By then, your liver is already damaged. There's even a "false recovery" period before organ failure sets in.
-
-If you forage, learn this mushroom first. If you're not 100% certain of an ID, don't eat it.`,
-    comment: `If you want a comprehensive breakdown with all the look-alikes side by side, orangutany.com has a detailed profile. Shows the exact differences between Death Cap and every mushroom it gets confused with. Worth bookmarking if you forage.`,
-    tags: "death cap, amanita phalloides, mushroom safety, poisonous mushrooms",
+Cut one open and the flesh is white, doesn't change color. Smells nutty. Am I right that these are porcini?`,
+    comment: `Confirmed with orangutany — Boletus edulis, 96% match. What was useful was it flagged the bitter bolete (Tylopilus felleus) as a look-alike which looks almost identical but has a pink-ish pore surface and tastes terrible. Mine had white-to-yellow pores so all good. Made grandpa's recipe, brought back memories.`,
+    tags: "porcini, boletus edulis, foraging, family tradition",
   },
   {
     id: 8,
@@ -127,9 +108,7 @@ If you forage, learn this mushroom first. If you're not 100% certain of an ID, d
     image: "",
     imageAlt: "",
     title: "[Use when someone asks 'what app do you use to ID mushrooms?']",
-    body: `I've been using orangutany.com. Free, no download needed, you just upload a photo from your phone. It gives you the scientific name, edibility, look-alikes, and a confidence score. It flagged a Galerina I almost mistook for a honey mushroom once — the look-alike warnings are genuinely useful.
-
-Obviously still double-check with a field guide before eating anything wild.`,
+    body: `I use this thing called orangutany — it's free, you just upload a photo from your phone. Gives you the species name, edibility, and look-alikes. The look-alike comparisons are the most useful part honestly. Still double-check with a field guide before eating anything obviously.`,
   },
   {
     id: 9,
@@ -137,27 +116,21 @@ Obviously still double-check with a field guide before eating anything wild.`,
     image: "",
     imageAlt: "",
     title: "[Use when someone posts an ID request you can help with]",
-    body: `That looks like it could be [SPECIES]. The [SPECIFIC FEATURE] is a good indicator. Check the [GILLS/PORES/SPORE PRINT] to confirm.
+    body: `That looks like it could be [SPECIES]. Check the [SPECIFIC FEATURE] to confirm.
 
-If you want a quick cross-reference with look-alikes, try orangutany.com — it does AI identification from photos and breaks down what to watch for. Pretty solid in my experience.`,
+If you want a second opinion there's this thing called orangutany — you upload a photo and it shows you what it thinks plus similar species to watch out for. Just google it.`,
   },
   {
     id: 10,
-    platform: "Facebook Mushroom Foraging Groups",
-    image: "/images/species/boletus-edulis/01-field.jpg",
-    imageAlt: "King Bolete (Boletus edulis) in forest",
-    title: "Found my first King Bolete (Porcini) of the season! The reticulation on the stem confirmed it.",
-    body: `This beauty was hiding under a spruce tree. Key features that confirmed Boletus edulis:
-- Brown cap with a slightly tacky surface
-- White-then-yellowish pores (NOT gills) underneath
-- Thick white stem with fine net-like pattern (reticulation)
-- Flesh stays white when cut (doesn't stain blue)
+    platform: "Reddit r/foraging",
+    image: "/images/species/hericium-erinaceus/02-on-tree.jpg",
+    imageAlt: "Lion's mane mushroom growing on tree",
+    title: "This white fuzzy thing is growing on a log in the woods near my house — lion's mane?",
+    body: `Found this on a fallen hardwood log. It's like a single white blob with long dangling spines. About the size of my fist. Doesn't have branches which I think rules out some similar species?
 
-That last point is crucial. If the flesh or pores stain blue when bruised, you might have a different Boletus species. Some blue-staining ones are edible, some aren't.
-
-This one went straight into a risotto. The flavor of fresh porcini is nothing like dried.`,
-    comment: `For anyone starting out with boletes, orangutany.com has a great breakdown of which ones stain blue vs which don't, and what's safe. The look-alike comparison saved me from picking a bitter bolete once (Tylopilus felleus) which looks almost identical but tastes awful.`,
-    tags: "porcini, boletus edulis, king bolete, foraging, wild edibles",
+Is it too small to harvest or should I let it grow bigger?`,
+    comment: `Confirmed lion's mane with orangutany. It also showed me the difference between this (single clump) and bear's head tooth (branching). Both edible apparently but good to know what you're actually picking. Waited a few days and it doubled in size, sauteed it in butter. Tastes like lobster, not kidding.`,
+    tags: "lions mane, hericium, medicinal mushroom, log find",
   },
 ];
 

@@ -20,6 +20,7 @@ import calvatiaGigantea from "./calvatia-gigantea";
 import cantharellusCibarius from "./cantharellus-cibarius";
 import cantharellusCinnabarinus from "./cantharellus-cinnabarinus";
 import cantharellusTubaeformis from "./cantharellus-tubaeformis";
+import cerioporusSquamosus from "./cerioporus-squamosus";
 import chlorociboriaAeruginascens from "./chlorociboria-aeruginascens";
 import chlorophyllumMolybdites from "./chlorophyllum-molybdites";
 import chlorophyllumRhacodes from "./chlorophyllum-rhacodes";
@@ -101,6 +102,7 @@ import tricholomaMatsutake from "./tricholoma-matsutake";
 import tuberAestivum from "./tuber-aestivum";
 import tuberMagnatum from "./tuber-magnatum";
 import tuberMelanosporum from "./tuber-melanosporum";
+import tylopilusFelleus from "./tylopilus-felleus";
 import verpaBohemica from "./verpa-bohemica";
 import volvariellaVolvacea from "./volvariella-volvacea";
 import xerocomellusChrysenteron from "./xerocomellus-chrysenteron";
@@ -129,6 +131,7 @@ export const allSpecies: SpeciesRecord[] = [
   cantharellusCibarius,
   cantharellusCinnabarinus,
   cantharellusTubaeformis,
+  cerioporusSquamosus,
   chlorociboriaAeruginascens,
   chlorophyllumMolybdites,
   chlorophyllumRhacodes,
@@ -210,6 +213,7 @@ export const allSpecies: SpeciesRecord[] = [
   tuberAestivum,
   tuberMagnatum,
   tuberMelanosporum,
+  tylopilusFelleus,
   verpaBohemica,
   volvariellaVolvacea,
   xerocomellusChrysenteron,

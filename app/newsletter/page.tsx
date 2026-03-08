@@ -117,8 +117,7 @@ export default function NewsletterPage() {
 
           {status === "error" && (
             <p className="text-xs text-red-400 text-center">
-              Something went wrong. Try again or email us at{" "}
-              <a href="mailto:noreply@orangutany.com" className="underline">noreply@orangutany.com</a>.
+              Something went wrong. Please try again later.
             </p>
           )}
 

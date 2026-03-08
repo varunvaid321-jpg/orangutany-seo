@@ -43,13 +43,8 @@ export function Header() {
     <header className="border-b border-border/50 px-4 sm:px-6">
       {/* Row 1: logo + Hi/Logout */}
       <div className="mx-auto flex max-w-5xl items-center justify-between py-3">
-        <Link href="/" className="flex items-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/logo-guide.png"
-            alt="Orangutany Guide"
-            className="h-12 w-auto"
-          />
+        <Link href="/" className="font-[family-name:var(--font-heading)] text-lg sm:text-2xl font-bold text-foreground whitespace-nowrap">
+          Orangutany <span className="text-primary">Guide</span>
         </Link>
         {userName ? (
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">

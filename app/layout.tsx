@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     "mycology",
     "wild mushroom safety",
     "orangutany",
+    "orangutany mushroom",
+    "orangutany mushroom ID",
+    "orangutany mushroom app",
+    "orangutany mushroom identifier",
+    "orangutany mushroom scanner",
+    "orangutany foraging",
+    "orangutany mushroom guide",
   ],
   openGraph: {
     siteName: "Orangutany",

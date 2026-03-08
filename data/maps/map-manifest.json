@@ -1065,5 +1065,27 @@
     "fileSizeBytes": 72103,
     "renderingApproved": true,
     "approved": true
+  },
+  "cerioporus-squamosus": {
+    "speciesSlug": "cerioporus-squamosus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2547092,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 128586,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "tylopilus-felleus": {
+    "speciesSlug": "tylopilus-felleus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2524910,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 99213,
+    "renderingApproved": true,
+    "approved": true
   }
 }

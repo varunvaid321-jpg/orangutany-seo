@@ -33,6 +33,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Bitter Bolete (Tylopilus felleus)",
+      slug: "tylopilus-felleus",
       image: "lookalike-felleus.jpg",
       distinction:
         "The classic porcini impostor. Looks almost identical at first glance — brown cap, bulbous stem, pore surface. But the net pattern on the stem is darker (brownish, not white), the pores turn pinkish with age, and one tiny taste will tell you everything: it's intensely bitter. A single piece can ruin an entire pot of risotto.",

@@ -7,7 +7,17 @@ export function websiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Orangutany",
-    alternateName: "Orangutany Mushroom Identification",
+    alternateName: [
+      "Orangutany Mushroom Identification",
+      "Orangutany Mushroom ID",
+      "Orangutany Mushroom",
+      "Orangutany Mushroom App",
+      "Orangutany Mushroom Identifier",
+      "Orangutany Foraging Guide",
+      "Orangutany Mushroom Scanner",
+      "Orangutany Mushroom Guide",
+      "Orangutany ID",
+    ],
     url: BASE,
     description:
       "Mushroom identification for people who love mushrooms. 100+ species with real photos, safety data, look-alikes, and foraging guides. Precision-engineered in Canada.",
@@ -24,6 +34,12 @@ export function organizationSchema() {
   return {
     "@type": "Organization",
     name: "Orangutany",
+    alternateName: [
+      "Orangutany Mushroom ID",
+      "Orangutany Mushroom App",
+      "Orangutany Mushroom Identifier",
+      "Orangutany Foraging",
+    ],
     url: "https://orangutany.com",
     logo: "https://orangutany.com/icon.png",
     description:
