@@ -733,69 +733,96 @@ export default function LogoPage() {
             {/* Option D: Mushroom-head character */}
             <div className="text-center">
               <div className="text-[10px] font-bold uppercase tracking-[2px] text-[#c8956c] mb-3">Option D — Mushroom Character</div>
-              <div className="mx-auto flex h-32 w-32 items-center justify-center overflow-hidden rounded-[28px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-xl ring-1 ring-[rgba(100,140,100,0.2)]">
+              <div className="mx-auto flex h-32 w-32 items-center justify-center overflow-hidden rounded-[28px] bg-[#0e1a0e] shadow-xl ring-1 ring-[rgba(200,149,108,0.3)]">
                 <svg viewBox="0 0 100 100" className="h-24 w-24">
-                  {/* Mushroom cap head */}
-                  <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
-                  <ellipse cx="50" cy="35" rx="32" ry="22" fill="url(#capShine)" />
-                  {/* Cap spots */}
-                  <circle cx="38" cy="28" r="4" fill="#f0e4cc" opacity="0.4" />
-                  <circle cx="55" cy="24" r="3" fill="#f0e4cc" opacity="0.3" />
-                  <circle cx="65" cy="32" r="2.5" fill="#f0e4cc" opacity="0.35" />
-                  {/* Cap underside / face area */}
-                  <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
-                  {/* Eyes */}
-                  <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
-                  <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
-                  {/* Body / stem */}
-                  <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
-                  {/* Arms */}
-                  <rect x="32" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
-                  <rect x="56" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
-                  {/* Legs */}
-                  <rect x="43" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
-                  <rect x="52" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
-                  {/* Shoes */}
-                  <ellipse cx="45" cy="72" rx="5" ry="3" fill="#c8956c" />
-                  <ellipse cx="55" cy="72" rx="5" ry="3" fill="#c8956c" />
                   <defs>
-                    <radialGradient id="capShine" cx="40%" cy="30%">
-                      <stop offset="0%" stopColor="#fff" stopOpacity="0.15" />
+                    <radialGradient id="capShine" cx="35%" cy="25%">
+                      <stop offset="0%" stopColor="#fff" stopOpacity="0.25" />
                       <stop offset="100%" stopColor="#fff" stopOpacity="0" />
                     </radialGradient>
+                    <radialGradient id="bgGlow" cx="50%" cy="50%">
+                      <stop offset="0%" stopColor="#1a3a1a" stopOpacity="0.5" />
+                      <stop offset="100%" stopColor="#050d05" stopOpacity="0" />
+                    </radialGradient>
                   </defs>
+                  {/* Subtle bg glow */}
+                  <circle cx="50" cy="50" r="48" fill="url(#bgGlow)" />
+                  {/* Mushroom cap head — vibrant orange */}
+                  <ellipse cx="50" cy="32" rx="34" ry="23" fill="#e8a44a" />
+                  <ellipse cx="50" cy="32" rx="34" ry="23" fill="url(#capShine)" />
+                  {/* Cap outline */}
+                  <ellipse cx="50" cy="32" rx="34" ry="23" fill="none" stroke="#b37a2e" strokeWidth="1.2" />
+                  {/* Cap spots — bright white */}
+                  <circle cx="36" cy="25" r="4.5" fill="#ffffff" opacity="0.6" />
+                  <circle cx="54" cy="21" r="3.5" fill="#ffffff" opacity="0.5" />
+                  <circle cx="67" cy="29" r="3" fill="#ffffff" opacity="0.45" />
+                  <circle cx="42" cy="18" r="2" fill="#ffffff" opacity="0.35" />
+                  {/* Cap underside / face area */}
+                  <rect x="36" y="33" width="28" height="8" rx="3" fill="#ffffff" />
+                  <rect x="36" y="33" width="28" height="8" rx="3" fill="none" stroke="#ddd" strokeWidth="0.5" />
+                  {/* Eyes — large, expressive */}
+                  <circle cx="43" cy="37" r="2.5" fill="#1a1a1a" />
+                  <circle cx="57" cy="37" r="2.5" fill="#1a1a1a" />
+                  {/* Eye shine */}
+                  <circle cx="44" cy="36" r="0.8" fill="#ffffff" />
+                  <circle cx="58" cy="36" r="0.8" fill="#ffffff" />
+                  {/* Smile */}
+                  <path d="M 46 39 Q 50 42 54 39" fill="none" stroke="#1a1a1a" strokeWidth="1" strokeLinecap="round" />
+                  {/* Body / stem — bright white */}
+                  <rect x="40" y="41" width="20" height="22" rx="5" fill="#ffffff" />
+                  <rect x="40" y="41" width="20" height="22" rx="5" fill="none" stroke="#ddd" strokeWidth="0.5" />
+                  {/* Arms */}
+                  <rect x="28" y="47" width="14" height="5" rx="2.5" fill="#ffffff" />
+                  <rect x="58" y="47" width="14" height="5" rx="2.5" fill="#ffffff" />
+                  {/* Hands — copper */}
+                  <circle cx="28" cy="49.5" r="3" fill="#e8a44a" />
+                  <circle cx="72" cy="49.5" r="3" fill="#e8a44a" />
+                  {/* Legs */}
+                  <rect x="42" y="61" width="6" height="13" rx="3" fill="#ffffff" />
+                  <rect x="52" y="61" width="6" height="13" rx="3" fill="#ffffff" />
+                  {/* Shoes — vibrant copper */}
+                  <ellipse cx="44" cy="75" rx="6" ry="3.5" fill="#e8a44a" />
+                  <ellipse cx="56" cy="75" rx="6" ry="3.5" fill="#e8a44a" />
                 </svg>
               </div>
               <div className="mt-2 text-[10px] text-[#c4b49a]">Friendly character with mushroom cap head</div>
               <div className="mt-3 flex items-end justify-center gap-3">
                 <div className="flex flex-col items-center">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-lg ring-1 ring-[rgba(100,140,100,0.2)]">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-[14px] bg-[#0e1a0e] shadow-lg ring-1 ring-[rgba(200,149,108,0.3)]">
                     <svg viewBox="0 0 100 100" className="h-12 w-12">
-                      <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
-                      <circle cx="38" cy="28" r="4" fill="#f0e4cc" opacity="0.4" />
-                      <circle cx="55" cy="24" r="3" fill="#f0e4cc" opacity="0.3" />
-                      <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
-                      <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
-                      <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
-                      <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
-                      <rect x="32" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
-                      <rect x="56" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
-                      <rect x="43" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
-                      <rect x="52" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
-                      <ellipse cx="45" cy="72" rx="5" ry="3" fill="#c8956c" />
-                      <ellipse cx="55" cy="72" rx="5" ry="3" fill="#c8956c" />
+                      <ellipse cx="50" cy="32" rx="34" ry="23" fill="#e8a44a" />
+                      <circle cx="36" cy="25" r="4.5" fill="#ffffff" opacity="0.6" />
+                      <circle cx="54" cy="21" r="3.5" fill="#ffffff" opacity="0.5" />
+                      <circle cx="67" cy="29" r="3" fill="#ffffff" opacity="0.45" />
+                      <rect x="36" y="33" width="28" height="8" rx="3" fill="#ffffff" />
+                      <circle cx="43" cy="37" r="2.5" fill="#1a1a1a" />
+                      <circle cx="57" cy="37" r="2.5" fill="#1a1a1a" />
+                      <circle cx="44" cy="36" r="0.8" fill="#ffffff" />
+                      <circle cx="58" cy="36" r="0.8" fill="#ffffff" />
+                      <path d="M 46 39 Q 50 42 54 39" fill="none" stroke="#1a1a1a" strokeWidth="1" strokeLinecap="round" />
+                      <rect x="40" y="41" width="20" height="22" rx="5" fill="#ffffff" />
+                      <rect x="28" y="47" width="14" height="5" rx="2.5" fill="#ffffff" />
+                      <rect x="58" y="47" width="14" height="5" rx="2.5" fill="#ffffff" />
+                      <circle cx="28" cy="49.5" r="3" fill="#e8a44a" />
+                      <circle cx="72" cy="49.5" r="3" fill="#e8a44a" />
+                      <rect x="42" y="61" width="6" height="13" rx="3" fill="#ffffff" />
+                      <rect x="52" y="61" width="6" height="13" rx="3" fill="#ffffff" />
+                      <ellipse cx="44" cy="75" rx="6" ry="3.5" fill="#e8a44a" />
+                      <ellipse cx="56" cy="75" rx="6" ry="3.5" fill="#e8a44a" />
                     </svg>
                   </div>
                   <span className="mt-1 text-[8px] text-[#555]">180px</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow ring-1 ring-[rgba(100,140,100,0.2)]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-[#0e1a0e] shadow ring-1 ring-[rgba(200,149,108,0.3)]">
                     <svg viewBox="0 0 100 100" className="h-7 w-7">
-                      <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
-                      <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
-                      <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
-                      <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
-                      <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
+                      <ellipse cx="50" cy="32" rx="34" ry="23" fill="#e8a44a" />
+                      <circle cx="36" cy="25" r="4.5" fill="#fff" opacity="0.6" />
+                      <circle cx="54" cy="21" r="3.5" fill="#fff" opacity="0.5" />
+                      <rect x="36" y="33" width="28" height="8" rx="3" fill="#ffffff" />
+                      <circle cx="43" cy="37" r="2.5" fill="#1a1a1a" />
+                      <circle cx="57" cy="37" r="2.5" fill="#1a1a1a" />
+                      <rect x="40" y="41" width="20" height="22" rx="5" fill="#ffffff" />
                     </svg>
                   </div>
                   <span className="mt-1 text-[8px] text-[#555]">120px</span>
