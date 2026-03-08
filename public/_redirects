@@ -1,0 +1,15 @@
+# Redirects from old root-level URLs to new /articles/ and /guides/ paths
+# Added March 7 2026 after URL restructure left 9 old URLs as 404s
+/how-to-identify-poisonous-mushrooms /articles/how-to-identify-poisonous-mushrooms 301
+/mushrooms-that-can-kill-you /articles/mushrooms-that-can-kill-you 301
+/dog-ate-mushroom /articles/dog-ate-mushroom 301
+/mushrooms-in-your-yard /articles/mushrooms-in-your-yard 301
+/australian-mushroom-poisoning /articles/australian-mushroom-poisoning 301
+/psychoactive-mushrooms-science /articles/psychoactive-mushrooms-science 301
+/why-mushrooms-grow-in-circles /articles/why-mushrooms-grow-in-circles 301
+/most-dangerous-mushrooms /articles/most-dangerous-mushrooms 301
+/best-edible-mushrooms /articles/best-edible-mushrooms 301
+/mushrooms-by-region /articles/mushrooms-by-region 301
+/beginners-guide-to-mushroom-foraging /guides/beginners-guide-to-mushroom-foraging 301
+/mushroom-foraging-by-season /guides/mushroom-foraging-by-season 301
+/edible-wild-mushrooms-trail /guides/edible-wild-mushrooms-trail 301
