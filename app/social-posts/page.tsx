@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 export const metadata: Metadata = {
   title: "Social Posts — Orangutany Content Bank",
@@ -190,11 +190,9 @@ export default function SocialPostsPage() {
 
             {post.image && (
               <div className="relative mb-4 overflow-hidden rounded-xl border border-border">
-                <Image
+                <img
                   src={post.image}
                   alt={post.imageAlt}
-                  width={800}
-                  height={500}
                   className="w-full object-cover"
                   style={{ maxHeight: 400 }}
                 />
