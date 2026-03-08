@@ -8,8 +8,19 @@ export function Header() {
   const [userName, setUserName] = useState<string | null>(null);
   const pathname = usePathname();
 
+  // Sub-article links that should NOT trigger the parent "Articles" highlight
+  const articleSubLinks = [
+    "/articles/most-dangerous-mushrooms",
+    "/articles/best-edible-mushrooms",
+    "/articles/cooking-wild-mushrooms",
+  ];
+
   function navClass(href: string) {
-    const active = pathname === href || pathname.startsWith(href + "/");
+    let active = pathname === href || pathname.startsWith(href + "/");
+    // If this is the /articles hub link, don't highlight when a sub-article nav link is active
+    if (href === "/articles" && articleSubLinks.some((sub) => pathname === sub || pathname.startsWith(sub + "/"))) {
+      active = false;
+    }
     return `text-xs sm:text-sm transition whitespace-nowrap shrink-0 ${active ? "text-foreground font-semibold" : "text-muted-foreground hover:text-foreground"}`;
   }
 
