@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 export const metadata: Metadata = {
   title: "Brand Reference — Orangutany",
@@ -370,7 +370,7 @@ export default function LogoPage() {
           <p className="mt-2 text-xs text-[#c4b49a]">The Orangutany wordmark. Always use this file. Do not recreate, stretch, or recolor.</p>
           <div className="mt-10 flex flex-col items-center gap-8">
             <div className="rounded-2xl border border-[rgba(100,140,100,0.15)] bg-[#0e1a0e] p-12">
-              <Image src="/images/logo.png" alt="Orangutany logo" width={320} height={128} className="h-auto w-[320px]" />
+              <img src="/images/logo.png" alt="Orangutany logo" className="h-auto w-[320px]" />
             </div>
             <div className="flex gap-3">
               <span className="rounded border border-[rgba(200,149,108,0.2)] px-3 py-1 text-[10px] text-[#c4b49a]">PNG</span>
@@ -395,7 +395,7 @@ export default function LogoPage() {
                 <span className="absolute left-3 top-2.5 z-10 rounded bg-[rgba(14,26,14,0.85)] px-2 py-0.5 text-[10px] font-bold text-[#c8956c]">#{num}</span>
                 <span className="absolute right-3 top-2.5 z-10 text-[9px] uppercase tracking-[1px] text-[#555]">{tag}</span>
                 <div className="flex min-h-[220px] flex-col items-center justify-center bg-[#0e1a0e] px-6 py-9">
-                  <Image src="/images/logo.png" alt="Orangutany logo" width={200} height={80} className="h-auto w-[200px]" />
+                  <img src="/images/logo.png" alt="Orangutany logo" className="h-auto w-[200px]" />
                   {render()}
                 </div>
               </div>
@@ -504,7 +504,7 @@ export default function LogoPage() {
             {/* Dark forest (primary) */}
             <div className="overflow-hidden rounded-xl border border-[rgba(100,140,100,0.15)]">
               <div className="flex h-40 items-center justify-center bg-[#0e1a0e]">
-                <Image src="/images/logo.png" alt="Logo on dark" width={200} height={80} className="h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on dark" className="h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">Dark Forest</span>
@@ -516,7 +516,7 @@ export default function LogoPage() {
             {/* True black */}
             <div className="overflow-hidden rounded-xl border border-[rgba(100,140,100,0.15)]">
               <div className="flex h-40 items-center justify-center bg-[#000000]">
-                <Image src="/images/logo.png" alt="Logo on black" width={200} height={80} className="h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on black" className="h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">True Black</span>
@@ -527,7 +527,7 @@ export default function LogoPage() {
             {/* White */}
             <div className="overflow-hidden rounded-xl border border-[rgba(100,140,100,0.15)]">
               <div className="flex h-40 items-center justify-center bg-[#ffffff]">
-                <Image src="/images/logo.png" alt="Logo on white" width={200} height={80} className="h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on white" className="h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">White</span>
@@ -546,7 +546,7 @@ export default function LogoPage() {
                   backgroundColor: "#fff",
                 }}
               >
-                <Image src="/images/logo.png" alt="Logo on transparent" width={200} height={80} className="h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on transparent" className="h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">Transparent</span>
@@ -557,7 +557,7 @@ export default function LogoPage() {
             {/* Copper */}
             <div className="overflow-hidden rounded-xl border border-[rgba(100,140,100,0.15)]">
               <div className="flex h-40 items-center justify-center bg-[#c8956c]">
-                <Image src="/images/logo.png" alt="Logo on copper" width={200} height={80} className="h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on copper" className="h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">Copper</span>
@@ -569,7 +569,7 @@ export default function LogoPage() {
             <div className="overflow-hidden rounded-xl border border-[rgba(100,140,100,0.15)]">
               <div className="relative flex h-40 items-center justify-center bg-gradient-to-br from-[#2d4a2d] via-[#1a3a1a] to-[#0e1a0e]">
                 <div className="absolute inset-0 bg-[rgba(0,0,0,0.4)]" />
-                <Image src="/images/logo.png" alt="Logo on photo" width={200} height={80} className="relative z-10 h-auto w-[200px]" />
+                <img src="/images/logo.png" alt="Logo on photo" className="relative z-10 h-auto w-[200px]" />
               </div>
               <div className="bg-[#0e1a0e] border-t border-[rgba(100,140,100,0.1)] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[1.5px] text-[#c8956c]">Photo / Gradient</span>
@@ -606,7 +606,7 @@ export default function LogoPage() {
                   </div>
                   {/* Header */}
                   <div className="flex items-center justify-between border-b border-[rgba(100,140,100,0.1)] px-4 py-2.5">
-                    <Image src="/images/logo.png" alt="Logo" width={100} height={40} className="h-auto w-[100px]" />
+                    <img src="/images/logo.png" alt="Logo" className="h-auto w-[100px]" />
                     <div className="flex gap-2">
                       <div className="h-5 w-5 rounded-full bg-[rgba(200,149,108,0.15)]" />
                     </div>
@@ -649,7 +649,7 @@ export default function LogoPage() {
                 <div className="bg-[#0e1a0e]">
                   {/* Nav */}
                   <div className="flex items-center justify-between border-b border-[rgba(100,140,100,0.1)] px-5 py-3">
-                    <Image src="/images/logo.png" alt="Logo" width={120} height={48} className="h-auto w-[120px]" />
+                    <img src="/images/logo.png" alt="Logo" className="h-auto w-[120px]" />
                     <div className="flex gap-4">
                       {["Species", "Articles", "Guides"].map((t) => (
                         <span key={t} className="text-[10px] text-[#c4b49a]">{t}</span>
@@ -686,61 +686,190 @@ export default function LogoPage() {
           <h2 className="text-center font-[family-name:var(--font-sora)] text-lg uppercase tracking-[4px] text-[#c8956c]">App Icon</h2>
           <p className="mt-2 text-center text-xs text-[#c4b49a]">iOS and Android home screen icon. Forest background with copper mushroom mark.</p>
 
-          <div className="mt-10 flex flex-wrap items-end justify-center gap-8">
-            {/* Large icon */}
-            <div className="flex flex-col items-center">
-              <div className="flex h-32 w-32 items-center justify-center rounded-[28px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-xl ring-1 ring-[rgba(100,140,100,0.2)]">
-                <span className="text-5xl">🍄</span>
-              </div>
-              <span className="mt-3 text-[10px] text-[#c4b49a]">1024 x 1024</span>
-              <span className="text-[9px] text-[#555]">App Store / Play Store</span>
-            </div>
-
-            {/* Medium icon */}
-            <div className="flex flex-col items-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-lg ring-1 ring-[rgba(100,140,100,0.2)]">
-                <span className="text-2xl">🍄</span>
-              </div>
-              <span className="mt-3 text-[10px] text-[#c4b49a]">180 x 180</span>
-              <span className="text-[9px] text-[#555]">iPhone @3x</span>
-            </div>
-
-            {/* Small icon */}
-            <div className="flex flex-col items-center">
-              <div className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow ring-1 ring-[rgba(100,140,100,0.2)]">
-                <span className="text-base">🍄</span>
-              </div>
-              <span className="mt-3 text-[10px] text-[#c4b49a]">120 x 120</span>
-              <span className="text-[9px] text-[#555]">iPhone @2x</span>
-            </div>
-
-            {/* Favicon */}
-            <div className="flex flex-col items-center">
-              <div className="flex h-6 w-6 items-center justify-center rounded-[4px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] ring-1 ring-[rgba(100,140,100,0.2)]">
-                <span className="text-[10px]">🍄</span>
-              </div>
-              <span className="mt-3 text-[10px] text-[#c4b49a]">32 x 32</span>
-              <span className="text-[9px] text-[#555]">Favicon</span>
+          {/* 3 Photo Options */}
+          <div className="mt-10">
+            <div className="text-center text-[10px] font-bold uppercase tracking-[2px] text-[#c4b49a] mb-6">App Icon Photo Options</div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+              {[
+                { src: "/images/species/amanita-caesarea/cap-detail.jpg", label: "Option A", desc: "Caesar's Mushroom, emerging from volva" },
+                { src: "/images/species/amanita-caesarea/01-mature-cap.jpg", label: "Option B", desc: "Caesar's Mushroom, mature group" },
+                { src: "/images/species/amanita-muscaria/01-cap-top.jpg", label: "Option C", desc: "Fly Agaric, classic red cap" },
+              ].map((opt) => (
+                <div key={opt.label} className="text-center">
+                  <div className="text-[10px] font-bold uppercase tracking-[2px] text-[#c8956c] mb-3">{opt.label}</div>
+                  {/* Large icon */}
+                  <div className="mx-auto h-32 w-32 overflow-hidden rounded-[28px] shadow-xl ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <img src={opt.src} alt={opt.desc} className="h-full w-full object-cover" />
+                  </div>
+                  <div className="mt-2 text-[10px] text-[#c4b49a]">{opt.desc}</div>
+                  {/* Size variants */}
+                  <div className="mt-4 flex items-end justify-center gap-3">
+                    <div className="flex flex-col items-center">
+                      <div className="h-16 w-16 overflow-hidden rounded-[14px] shadow-lg ring-1 ring-[rgba(100,140,100,0.2)]">
+                        <img src={opt.src} alt={opt.desc} className="h-full w-full object-cover" />
+                      </div>
+                      <span className="mt-1 text-[8px] text-[#555]">180px</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <div className="h-10 w-10 overflow-hidden rounded-[9px] shadow ring-1 ring-[rgba(100,140,100,0.2)]">
+                        <img src={opt.src} alt={opt.desc} className="h-full w-full object-cover" />
+                      </div>
+                      <span className="mt-1 text-[8px] text-[#555]">120px</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <div className="h-6 w-6 overflow-hidden rounded-[4px] ring-1 ring-[rgba(100,140,100,0.2)]">
+                        <img src={opt.src} alt={opt.desc} className="h-full w-full object-cover" />
+                      </div>
+                      <span className="mt-1 text-[8px] text-[#555]">32px</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
-          {/* Icon on home screen mockup */}
+          {/* Illustrated icon concepts */}
+          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            {/* Option D: Mushroom-head character */}
+            <div className="text-center">
+              <div className="text-[10px] font-bold uppercase tracking-[2px] text-[#c8956c] mb-3">Option D — Mushroom Character</div>
+              <div className="mx-auto flex h-32 w-32 items-center justify-center overflow-hidden rounded-[28px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-xl ring-1 ring-[rgba(100,140,100,0.2)]">
+                <svg viewBox="0 0 100 100" className="h-24 w-24">
+                  {/* Mushroom cap head */}
+                  <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
+                  <ellipse cx="50" cy="35" rx="32" ry="22" fill="url(#capShine)" />
+                  {/* Cap spots */}
+                  <circle cx="38" cy="28" r="4" fill="#f0e4cc" opacity="0.4" />
+                  <circle cx="55" cy="24" r="3" fill="#f0e4cc" opacity="0.3" />
+                  <circle cx="65" cy="32" r="2.5" fill="#f0e4cc" opacity="0.35" />
+                  {/* Cap underside / face area */}
+                  <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
+                  {/* Eyes */}
+                  <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
+                  <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
+                  {/* Body / stem */}
+                  <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
+                  {/* Arms */}
+                  <rect x="32" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
+                  <rect x="56" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
+                  {/* Legs */}
+                  <rect x="43" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
+                  <rect x="52" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
+                  {/* Shoes */}
+                  <ellipse cx="45" cy="72" rx="5" ry="3" fill="#c8956c" />
+                  <ellipse cx="55" cy="72" rx="5" ry="3" fill="#c8956c" />
+                  <defs>
+                    <radialGradient id="capShine" cx="40%" cy="30%">
+                      <stop offset="0%" stopColor="#fff" stopOpacity="0.15" />
+                      <stop offset="100%" stopColor="#fff" stopOpacity="0" />
+                    </radialGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div className="mt-2 text-[10px] text-[#c4b49a]">Friendly character with mushroom cap head</div>
+              <div className="mt-3 flex items-end justify-center gap-3">
+                <div className="flex flex-col items-center">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-lg ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <svg viewBox="0 0 100 100" className="h-12 w-12">
+                      <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
+                      <circle cx="38" cy="28" r="4" fill="#f0e4cc" opacity="0.4" />
+                      <circle cx="55" cy="24" r="3" fill="#f0e4cc" opacity="0.3" />
+                      <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
+                      <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
+                      <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
+                      <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
+                      <rect x="32" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
+                      <rect x="56" y="46" width="12" height="4" rx="2" fill="#f0e4cc" />
+                      <rect x="43" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
+                      <rect x="52" y="59" width="5" height="12" rx="2" fill="#f0e4cc" />
+                      <ellipse cx="45" cy="72" rx="5" ry="3" fill="#c8956c" />
+                      <ellipse cx="55" cy="72" rx="5" ry="3" fill="#c8956c" />
+                    </svg>
+                  </div>
+                  <span className="mt-1 text-[8px] text-[#555]">180px</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <svg viewBox="0 0 100 100" className="h-7 w-7">
+                      <ellipse cx="50" cy="35" rx="32" ry="22" fill="#c8956c" />
+                      <rect x="38" y="35" width="24" height="6" rx="2" fill="#f0e4cc" />
+                      <circle cx="44" cy="38" r="2" fill="#0e1a0e" />
+                      <circle cx="56" cy="38" r="2" fill="#0e1a0e" />
+                      <rect x="42" y="41" width="16" height="20" rx="4" fill="#f0e4cc" />
+                    </svg>
+                  </div>
+                  <span className="mt-1 text-[8px] text-[#555]">120px</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Option E: O arch monogram */}
+            <div className="text-center">
+              <div className="text-[10px] font-bold uppercase tracking-[2px] text-[#c8956c] mb-3">Option E — &ldquo;O&rdquo; Monogram</div>
+              <div className="mx-auto flex h-32 w-32 items-center justify-center overflow-hidden rounded-[28px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-xl ring-1 ring-[rgba(100,140,100,0.2)]">
+                <svg viewBox="0 0 100 100" className="h-24 w-24">
+                  {/* O arch */}
+                  <path d="M 50 15 C 25 15, 15 35, 15 55 C 15 75, 25 85, 50 85 C 75 85, 85 75, 85 55 C 85 35, 75 15, 50 15 Z M 50 28 C 65 28, 72 40, 72 55 C 72 70, 65 78, 50 78 C 35 78, 28 70, 28 55 C 28 40, 35 28, 50 28 Z" fill="#c8956c" />
+                  {/* Small mushroom inside the O */}
+                  <ellipse cx="50" cy="48" rx="12" ry="8" fill="#f0e4cc" />
+                  <rect x="47" y="48" width="6" height="14" rx="2" fill="#f0e4cc" opacity="0.8" />
+                </svg>
+              </div>
+              <div className="mt-2 text-[10px] text-[#c4b49a]">Copper &ldquo;O&rdquo; arch with mushroom silhouette</div>
+              <div className="mt-3 flex items-end justify-center gap-3">
+                <div className="flex flex-col items-center">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-[14px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow-lg ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <svg viewBox="0 0 100 100" className="h-12 w-12">
+                      <path d="M 50 15 C 25 15, 15 35, 15 55 C 15 75, 25 85, 50 85 C 75 85, 85 75, 85 55 C 85 35, 75 15, 50 15 Z M 50 28 C 65 28, 72 40, 72 55 C 72 70, 65 78, 50 78 C 35 78, 28 70, 28 55 C 28 40, 35 28, 50 28 Z" fill="#c8956c" />
+                      <ellipse cx="50" cy="48" rx="12" ry="8" fill="#f0e4cc" />
+                      <rect x="47" y="48" width="6" height="14" rx="2" fill="#f0e4cc" opacity="0.8" />
+                    </svg>
+                  </div>
+                  <span className="mt-1 text-[8px] text-[#555]">180px</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-[9px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] shadow ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <svg viewBox="0 0 100 100" className="h-7 w-7">
+                      <path d="M 50 15 C 25 15, 15 35, 15 55 C 15 75, 25 85, 50 85 C 75 85, 85 75, 85 55 C 85 35, 75 15, 50 15 Z M 50 28 C 65 28, 72 40, 72 55 C 72 70, 65 78, 50 78 C 35 78, 28 70, 28 55 C 28 40, 35 28, 50 28 Z" fill="#c8956c" />
+                      <ellipse cx="50" cy="48" rx="12" ry="8" fill="#f0e4cc" />
+                      <rect x="47" y="48" width="6" height="14" rx="2" fill="#f0e4cc" opacity="0.8" />
+                    </svg>
+                  </div>
+                  <span className="mt-1 text-[8px] text-[#555]">120px</span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-[4px] bg-gradient-to-br from-[#1a2a1a] to-[#0e1a0e] ring-1 ring-[rgba(100,140,100,0.2)]">
+                    <svg viewBox="0 0 100 100" className="h-4 w-4">
+                      <path d="M 50 15 C 25 15, 15 35, 15 55 C 15 75, 25 85, 50 85 C 75 85, 85 75, 85 55 C 85 35, 75 15, 50 15 Z M 50 28 C 65 28, 72 40, 72 55 C 72 70, 65 78, 50 78 C 35 78, 28 70, 28 55 C 28 40, 35 28, 50 28 Z" fill="#c8956c" />
+                    </svg>
+                  </div>
+                  <span className="mt-1 text-[8px] text-[#555]">32px</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Home screen mockup with Option A */}
           <div className="mt-12 flex justify-center">
             <div className="rounded-2xl border border-[#222] bg-[#111] px-8 py-6">
-              <div className="text-center text-[9px] uppercase tracking-[2px] text-[#555]">Home Screen</div>
+              <div className="text-center text-[9px] uppercase tracking-[2px] text-[#555]">Home Screen Preview (Option A)</div>
               <div className="mt-4 grid grid-cols-4 gap-5">
                 {[
-                  { icon: "📸", name: "Camera", bg: "#333" },
-                  { icon: "🍄", name: "Orangutany", bg: "linear-gradient(135deg, #1a2a1a, #0e1a0e)", active: true },
-                  { icon: "🗺️", name: "Maps", bg: "#333" },
-                  { icon: "☁️", name: "Weather", bg: "#333" },
+                  { name: "Camera", bg: "#333", isPhoto: false },
+                  { name: "Orangutany", bg: "", isPhoto: true, active: true },
+                  { name: "Maps", bg: "#333", isPhoto: false },
+                  { name: "Weather", bg: "#333", isPhoto: false },
                 ].map((app) => (
                   <div key={app.name} className="flex flex-col items-center gap-1">
                     <div
-                      className={`flex h-12 w-12 items-center justify-center rounded-xl ${app.active ? "ring-2 ring-[#c8956c] ring-offset-1 ring-offset-[#111]" : ""}`}
-                      style={{ background: app.bg }}
+                      className={`flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl ${app.active ? "ring-2 ring-[#c8956c] ring-offset-1 ring-offset-[#111]" : ""}`}
+                      style={app.isPhoto ? {} : { background: app.bg }}
                     >
-                      <span className="text-xl">{app.icon}</span>
+                      {app.isPhoto ? (
+                        <img src="/images/species/amanita-caesarea/cap-detail.jpg" alt="Orangutany" className="h-full w-full object-cover" />
+                      ) : (
+                        <span className="text-xl text-[#666]">{app.name === "Camera" ? "📸" : app.name === "Maps" ? "🗺️" : "☁️"}</span>
+                      )}
                     </div>
                     <span className={`text-[8px] ${app.active ? "font-semibold text-[#c8956c]" : "text-[#666]"}`}>{app.name}</span>
                   </div>
