@@ -17,12 +17,6 @@ export default function Home() {
         <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
           Mushroom identification,<br className="hidden sm:block" /> done right.
         </h1>
-        {/* Style #20: Line + Word */}
-        <div className="flex items-center justify-center gap-2.5 mt-4">
-          <div className="h-px w-6 bg-primary" />
-          <span className="text-[11px] uppercase tracking-[3px] text-primary">Guide</span>
-          <div className="h-px w-6 bg-primary" />
-        </div>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
           Machine learning trained on millions of verified observations. Real photographs, global distribution maps, toxic look-alikes, and safety data for every species. The identification experience mushroom foragers deserve.
         </p>

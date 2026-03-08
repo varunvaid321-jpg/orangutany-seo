@@ -43,8 +43,15 @@ export function Header() {
     <header className="border-b border-border/50 px-4 sm:px-6">
       {/* Row 1: logo + Hi/Logout */}
       <div className="mx-auto flex max-w-5xl items-center justify-between py-3">
-        <Link href="/" className="font-[family-name:var(--font-heading)] text-lg sm:text-2xl font-bold text-foreground whitespace-nowrap">
-          Orangutany <span className="text-primary">Guide</span>
+        <Link href="/" className="flex flex-col items-start">
+          <span className="font-[family-name:var(--font-heading)] text-lg sm:text-2xl font-bold text-foreground whitespace-nowrap">
+            Orangutany
+          </span>
+          <div className="flex items-center gap-1.5 -mt-0.5">
+            <div className="h-px w-4 bg-primary" />
+            <span className="text-[9px] uppercase tracking-[2px] text-primary">Guide</span>
+            <div className="h-px w-4 bg-primary" />
+          </div>
         </Link>
         {userName ? (
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
