@@ -54,6 +54,18 @@ export default function MostDangerousPage() {
         knowing what they look like could save your life, or your dog&apos;s.
       </p>
 
+      <figure className="my-8">
+        <img
+          src="/articles/most-dangerous-mushrooms/01.jpg"
+          alt="Death cap mushroom (Amanita phalloides) with its pale greenish-yellow cap and white stem in a forest"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          The death cap (Amanita phalloides), responsible for the majority of fatal mushroom poisonings worldwide — Photo: George Chernilevsky / <a href="https://commons.wikimedia.org/wiki/File:Amanita_phalloides_2011_G1.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+        </figcaption>
+      </figure>
+
       <div className="mt-8 space-y-6">
         {dangerous.map((species, i) => (
           <Link
@@ -80,12 +92,36 @@ export default function MostDangerousPage() {
           </Link>
         ))}
 
+        <figure className="my-8">
+          <img
+            src="/articles/most-dangerous-mushrooms/02.jpg"
+            alt="Fly agaric mushroom (Amanita muscaria) with its iconic red cap and white spots in a forest"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            The fly agaric (Amanita muscaria), perhaps the most recognizable toxic mushroom on Earth — Photo: JJ Harrison / <a href="https://commons.wikimedia.org/wiki/File:Amanita_muscaria_Marriott_Falls_1.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
+
         {DANGEROUS_SLUGS.length > dangerous.length && (
           <p className="text-sm text-muted-foreground">
             More species coming soon. We&apos;re building detailed guides for all {DANGEROUS_SLUGS.length} species.
           </p>
         )}
       </div>
+
+      <figure className="my-8">
+        <img
+          src="/articles/most-dangerous-mushrooms/03.jpg"
+          alt="Deadly galerina mushrooms (Galerina marginata) growing in a cluster on decaying wood"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Deadly galerina (Galerina marginata), a small brown mushroom that contains the same lethal amatoxins as the death cap — Photo: Mushroom Observer / <a href="https://commons.wikimedia.org/wiki/File:Galerina_marginata_(Batsch)_K%C3%BChner_274503.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+        </figcaption>
+      </figure>
 
       <section className="mt-12 rounded-xl border border-border bg-card p-6 text-center">
         <p className="text-sm text-foreground/70">

@@ -58,7 +58,17 @@ export default function PsychoactiveMushroomsSciencePage() {
           </p>
         </header>
 
-        {/* TODO: photo */}
+        <figure className="my-8">
+          <img
+            src="/articles/psychoactive-mushrooms-science/01.jpg"
+            alt="Psilocybe cubensis mushrooms growing in their natural habitat"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Psilocybe cubensis, the most widely studied psilocybin mushroom — Photo: Robert van der Horst / <a href="https://commons.wikimedia.org/wiki/File:Psilocybe_Cubensis_Imire_(Psilocybe_Cubensis_Zimbabwe)_10.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
 
         <div className="mt-8 space-y-10 text-base leading-loose text-foreground/80">
           {/* --- Opening --- */}
@@ -158,6 +168,18 @@ export default function PsychoactiveMushroomsSciencePage() {
             </div>
           </section>
 
+          <figure className="my-8">
+            <img
+              src="/articles/psychoactive-mushrooms-science/02.jpg"
+              alt="Psilocybe semilanceata (liberty cap) mushrooms growing in grass"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Psilocybe semilanceata (liberty cap), common in European grasslands — Photo: Alan Rockefeller / <a href="https://commons.wikimedia.org/wiki/File:Psilocybe_semilanceata_334074499.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+            </figcaption>
+          </figure>
+
           {/* --- Microdosing --- */}
           <section>
             <h2 className="text-xl font-bold text-foreground">
@@ -244,7 +266,17 @@ export default function PsychoactiveMushroomsSciencePage() {
               Amanita muscaria: The Other Psychoactive Mushroom
             </h2>
 
-            {/* TODO: photo */}
+            <figure className="my-8">
+              <img
+                src="/articles/psychoactive-mushrooms-science/03.jpg"
+                alt="Amanita muscaria (fly agaric) with bright red cap and white spots on a forest floor"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Amanita muscaria (fly agaric), historically significant but pharmacologically distinct from psilocybin mushrooms — Photo: Ermell / <a href="https://commons.wikimedia.org/wiki/File:Fliegenpilz_(Amanita_muscaria)_-20191027-RM-120138.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-3">
               <p>

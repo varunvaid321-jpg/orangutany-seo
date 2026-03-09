@@ -55,6 +55,18 @@ export default function BestEdiblePage() {
         is essential before eating any wild species.
       </p>
 
+      <figure className="my-8">
+        <img
+          src="/articles/best-edible-mushrooms/01.jpg"
+          alt="Golden chanterelle mushrooms (Cantharellus cibarius) growing on a forest floor"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Golden chanterelles (Cantharellus cibarius) — one of the most prized edible wild mushrooms worldwide — Photo: Michel Langeveld / <a href="https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_152635310.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+        </figcaption>
+      </figure>
+
       <div className="mt-8 space-y-6">
         {edible.map((species, i) => (
           <Link
@@ -81,12 +93,36 @@ export default function BestEdiblePage() {
           </Link>
         ))}
 
+        <figure className="my-8">
+          <img
+            src="/articles/best-edible-mushrooms/02.jpg"
+            alt="Porcini mushroom (Boletus edulis) growing in a Bavarian forest"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            A porcini (Boletus edulis) in its natural forest habitat — Photo: Holger Krisp / <a href="https://commons.wikimedia.org/wiki/File:(Gemeine_Steinpilz)_Boletus_edulis.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+          </figcaption>
+        </figure>
+
         {EDIBLE_SLUGS.length > edible.length && (
           <p className="text-sm text-muted-foreground">
             More species coming soon. We&apos;re building detailed guides for all {EDIBLE_SLUGS.length} species.
           </p>
         )}
       </div>
+
+      <figure className="my-8">
+        <img
+          src="/articles/best-edible-mushrooms/03.jpg"
+          alt="Morel mushroom (Morchella esculenta) with its distinctive honeycomb cap"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          A morel (Morchella esculenta) — highly sought after by foragers for its distinctive honeycomb texture and rich flavor — Photo: Holger Krisp / <a href="https://commons.wikimedia.org/wiki/File:Speise_Morchel_Morchella_esculenta.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+        </figcaption>
+      </figure>
 
       <section className="mt-12 rounded-xl border border-border bg-card p-6 text-center">
         <p className="text-sm text-foreground/70">

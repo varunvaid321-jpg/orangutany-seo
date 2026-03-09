@@ -1,3 +1,4 @@
+import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
@@ -15,21 +16,21 @@ export const metadata: Metadata = {
   },
 };
 
-const REGIONS: { name: string; keywords: string[]; description: string }[] = [
+const REGIONS: { name: string; keywords: string[]; description: React.ReactNode }[] = [
   {
     name: "North America",
     keywords: ["North America", "United States", "Canada", "Eastern North America", "Western North America", "Pacific Northwest"],
-    description: "From Morels in the Midwest to Chanterelles in the Pacific Northwest, the most commonly foraged species across the US and Canada.",
+    description: <>From <Link href="/mushrooms/morchella-esculenta" className="text-primary underline hover:text-primary/80 transition">Morels</Link> in the Midwest to <Link href="/mushrooms/cantharellus-cibarius" className="text-primary underline hover:text-primary/80 transition">Chanterelles</Link> in the Pacific Northwest, the most commonly foraged species across the US and Canada.</>,
   },
   {
     name: "Europe",
     keywords: ["Europe", "European", "Northern Hemisphere", "temperate"],
-    description: "Home to centuries of foraging tradition. Porcini in Italy, Chanterelles in Scandinavia, Death Caps in England.",
+    description: <>Home to centuries of foraging tradition. <Link href="/mushrooms/boletus-edulis" className="text-primary underline hover:text-primary/80 transition">Porcini</Link> in Italy, Chanterelles in Scandinavia, <Link href="/mushrooms/amanita-phalloides" className="text-primary underline hover:text-primary/80 transition">Death Caps</Link> in England.</>,
   },
   {
     name: "Asia",
     keywords: ["Asia", "China", "Japan", "Siberia", "Asian"],
-    description: "Traditional medicine meets gourmet cuisine. Shiitake, Reishi, Matsutake, and thousands more.",
+    description: <>Traditional medicine meets gourmet cuisine. Shiitake, <Link href="/mushrooms/ganoderma-lucidum" className="text-primary underline hover:text-primary/80 transition">Reishi</Link>, <Link href="/mushrooms/tricholoma-matsutake" className="text-primary underline hover:text-primary/80 transition">Matsutake</Link>, and thousands more.</>,
   },
   {
     name: "Southern Hemisphere",
@@ -55,6 +56,18 @@ export default function MushroomsByRegionPage() {
         Every species page includes a global distribution map showing where it&apos;s been found, using occurrence data from <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">GBIF</a>.
         Here&apos;s a quick way to explore mushrooms by the region you&apos;re in.
       </p>
+
+      <figure className="my-8">
+        <img
+          src="/articles/mushrooms-by-region/01.jpg"
+          alt="Boletus edulis (porcini) growing on the forest floor in a European woodland"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Boletus edulis (porcini) on the forest floor in Poland — Photo: Staszek99 / <a href="https://commons.wikimedia.org/wiki/File:Boletus_edulis_-_Note%C4%87_Forest.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+        </figcaption>
+      </figure>
 
       <div className="mt-8 space-y-10">
         {REGIONS.map((region) => {
@@ -98,6 +111,30 @@ export default function MushroomsByRegionPage() {
           );
         })}
       </div>
+
+      <figure className="my-8">
+        <img
+          src="/articles/mushrooms-by-region/02.jpg"
+          alt="Cookeina sulcipes, a bright cup fungus growing on tropical forest wood among mosses"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Cookeina sulcipes, a tropical cup fungus found in rainforests across Southeast Asia — Photo: K.PORNCHAI / <a href="https://commons.wikimedia.org/wiki/File:Cookeina_sulcipes-Mosses.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+        </figcaption>
+      </figure>
+
+      <figure className="my-8">
+        <img
+          src="/articles/mushrooms-by-region/03.jpg"
+          alt="Golden chanterelle mushroom growing among moss on a northern forest floor"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          A golden chanterelle (Cantharellus cibarius) in a northern forest — Photo: Arthur Kaljas / <a href="https://commons.wikimedia.org/wiki/File:Chanterelle_in_the_forest.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+        </figcaption>
+      </figure>
 
       <section className="mt-12 rounded-xl border border-border bg-card p-6 text-center">
         <p className="text-sm text-foreground/70">

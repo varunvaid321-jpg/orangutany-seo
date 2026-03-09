@@ -79,7 +79,7 @@ export default function HowToFindMorelsPage() {
         {/* --- Opening Story --- */}
         <div className="mt-6 space-y-4 text-sm leading-relaxed text-foreground/80">
           <p>
-            Let me tell you about my first morel season, because it will make you feel better about
+            Let me tell you about my first <Link href="/mushrooms/morchella-esculenta" className="text-primary underline hover:text-primary/80 transition">morel</Link> season, because it will make you feel better about
             yours.
           </p>
           <p>
@@ -115,6 +115,18 @@ export default function HowToFindMorelsPage() {
           </p>
         </div>
 
+        <figure className="my-8">
+          <img
+            src="/articles/how-to-find-morels/01.jpg"
+            alt="Yellow morel mushroom (Morchella esculenta) growing in its natural forest habitat"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            A yellow morel (Morchella esculenta) in the wild — Photo: iNaturalist user / <a href="https://commons.wikimedia.org/wiki/File:Morchella_esculenta_36771789.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+          </figcaption>
+        </figure>
+
         {/* --- What Morels Actually Look Like --- */}
         <hr className="my-8 border-border" />
         <section>
@@ -132,7 +144,7 @@ export default function HowToFindMorelsPage() {
             </p>
             <p>
               Here&apos;s the single most important identification step: cut one in half lengthwise.
-              A true morel is completely hollow inside — confusing them with false morels can lead to serious{" "}
+              A true morel is completely hollow inside — confusing them with <Link href="/mushrooms/gyromitra-esculenta" className="text-primary underline hover:text-primary/80 transition">false morels</Link> can lead to serious{" "}
               <a href="https://www.ncbi.nlm.nih.gov/books/NBK537111/" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">mushroom toxicity</a>. It is completely hollow inside, from the tip of the cap all the way down
               through the stem. It&apos;s like a little cave in there. The cap is also attached
               directly to the stem at its base, not hanging free like a skirt. If the inside is
@@ -208,6 +220,18 @@ export default function HowToFindMorelsPage() {
             </p>
           </div>
         </section>
+
+        <figure className="my-8">
+          <img
+            src="/articles/how-to-find-morels/02.jpg"
+            alt="Morel mushroom emerging from leaf litter on the forest floor in spring"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            A morel pushing through leaf litter on the forest floor — Photo: NPS Photo / <a href="https://commons.wikimedia.org/wiki/File:Morel_mushroom_growing_on_the_forest_floor_in_spring._(941fc6b5-82a0-4d58-8cd2-f350a7b93e51).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+          </figcaption>
+        </figure>
 
         {/* --- Soil Temperature --- */}
         <hr className="my-8 border-border" />
@@ -310,6 +334,18 @@ export default function HowToFindMorelsPage() {
             </p>
           </div>
         </section>
+
+        <figure className="my-8">
+          <img
+            src="/articles/how-to-find-morels/03.jpg"
+            alt="Morel mushroom growing among spring vegetation on the forest floor"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Morels blend into the forest floor, making them a challenge to spot — Photo: NPS Photo / <a href="https://commons.wikimedia.org/wiki/File:Morel_mushroom_growing_on_the_forest_floor_in_spring._(9e1e7ca5-ffb9-4a50-8cae-befae225414e).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+          </figcaption>
+        </figure>
 
         {/* --- The Mesh Bag Trick --- */}
         <hr className="my-8 border-border" />

@@ -66,7 +66,17 @@ export default function DogAteMushroomPage() {
           </p>
         </section>
 
-        <img src="/images/species/lycoperdon-perlatum/01-cluster-gems.jpg" alt="Mushrooms growing in lawn where dogs play" className="my-6 rounded-lg w-full max-h-56 object-contain" loading="lazy" />
+        <figure className="my-8">
+          <img
+            src="/articles/dog-ate-mushroom/01.jpg"
+            alt="Chlorophyllum molybdites, the most common lawn mushroom that poisons dogs"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Chlorophyllum molybdites — the most common cause of mushroom poisoning in dogs in North America — Photo: Juan Carlos Fonseca Mata / <a href="https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_(Agaricaceae).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
 
         {/* Right Now: What to Do in the First Hour */}
         <section>
@@ -139,7 +149,17 @@ export default function DogAteMushroomPage() {
           </div>
         </section>
 
-        <img src="/images/species/agaricus-campestris/01-field-group.jpg" alt="Common lawn mushrooms that dogs might encounter" className="my-6 rounded-lg w-full max-h-56 object-contain" loading="lazy" />
+        <figure className="my-8">
+          <img
+            src="/articles/dog-ate-mushroom/02.jpg"
+            alt="Amanita phalloides death cap mushroom, deadly to dogs"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Amanita phalloides (death cap) — the #1 mushroom killer of dogs, often found under oak trees in yards — Photo: inyucho / <a href="https://commons.wikimedia.org/wiki/File:Amanita_phalloides_(1467453255).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 2.0)
+          </figcaption>
+        </figure>
 
         {/* How Bad Is This, Really? */}
         <section>
@@ -237,7 +257,17 @@ export default function DogAteMushroomPage() {
             The Yard Mushrooms That Actually Kill Dogs
           </h2>
 
-          <img src="/images/species/amanita-phalloides/01-cap-top.jpg" alt="Death Cap mushroom, deadly to dogs" className="my-4 rounded-lg w-full max-h-64 object-contain" loading="lazy" />
+          <figure className="my-8">
+          <img
+            src="/articles/dog-ate-mushroom/03.jpg"
+            alt="Wild mushrooms growing in a residential lawn — a common hazard for dogs"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Mushrooms growing in a residential lawn — these can appear overnight after rain and pose a risk to curious dogs — Photo: J.smith / <a href="https://commons.wikimedia.org/wiki/File:Mushrooms_in_the_grass.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
 
           <div className="space-y-6">
             <div className="rounded-xl border border-red-800/30 bg-red-950/20 p-4">

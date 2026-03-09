@@ -67,6 +67,18 @@ export default function MushroomsInYourYardPage() {
           </p>
         </div>
 
+        <figure className="my-8">
+          <img
+            src="/articles/mushrooms-in-your-yard/01.jpg"
+            alt="Small mushrooms growing in green grass on a residential lawn"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Mushrooms fruiting in a lawn after rain — Photo: J.smith / <a href="https://commons.wikimedia.org/wiki/File:Mushrooms_in_the_grass.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
+
         {/* --- Why Mushrooms Suddenly Appear --- */}
         <hr className="my-8 border-border" />
         <section>
@@ -261,6 +273,18 @@ export default function MushroomsInYourYardPage() {
           </div>
         </section>
 
+        <figure className="my-8">
+          <img
+            src="/articles/mushrooms-in-your-yard/02.jpg"
+            alt="Chlorophyllum molybdites (green-spored parasol) mushroom growing in grass"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Chlorophyllum molybdites, the most common cause of mushroom poisoning in North America — Photo: Juan Carlos Fonseca Mata / <a href="https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites_(Agaricaceae).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
+
         {/* --- Can My Dog Eat Yard Mushrooms? --- */}
         <hr className="my-8 border-border" />
         <section>
@@ -315,6 +339,18 @@ export default function MushroomsInYourYardPage() {
             </p>
           </div>
         </section>
+
+        <figure className="my-8">
+          <img
+            src="/articles/mushrooms-in-your-yard/03.jpg"
+            alt="A fairy ring of mushrooms growing in a circle on a residential lawn"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            A fairy ring on a suburban lawn in Virginia — Photo: Famartin / <a href="https://commons.wikimedia.org/wiki/File:2017-08-03_11_23_16_A_fairy_ring_(fruiting_bodies_of_a_mushroom_growing_in_a_circle_within_a_lawn)_along_Ladybank_Lane_in_the_Chantilly_Highlands_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
 
         {/* --- Should You Remove Them? --- */}
         <hr className="my-8 border-border" />

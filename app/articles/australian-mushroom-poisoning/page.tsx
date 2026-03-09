@@ -85,7 +85,17 @@ export default function AustralianMushroomPoisoningPage() {
             , the death cap mushroom.
           </p>
 
-          {/* TODO: photo */}
+          <figure className="my-8">
+            <img
+              src="/articles/australian-mushroom-poisoning/01.jpg"
+              alt="Amanita phalloides death cap mushroom growing on a forest floor"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              A death cap mushroom (Amanita phalloides) in its natural habitat — Photo: _Alicja_ / <a href="https://commons.wikimedia.org/wiki/File:Amanita-Phalloides-Forest-2802335.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC0)
+            </figcaption>
+          </figure>
 
           <p>
             This is the full story: what happened at that lunch, how the
@@ -195,7 +205,17 @@ export default function AustralianMushroomPoisoningPage() {
               medical help, the damage is already done.
             </p>
 
-            {/* TODO: photo */}
+            <figure className="my-8">
+              <img
+                src="/articles/australian-mushroom-poisoning/02.jpg"
+                alt="Paddy straw mushrooms (Volvariella volvacea), an edible species that closely resembles the deadly death cap"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Paddy straw mushrooms (Volvariella volvacea) — the edible lookalike that makes death caps so dangerous to foragers from Southeast Asia — Photo: Fumikas Sagisavas / <a href="https://commons.wikimedia.org/wiki/File:Straw_mushrooms.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC0)
+              </figcaption>
+            </figure>
 
             <div className="rounded-xl border border-border bg-card p-5 space-y-4">
               <h3 className="text-base font-semibold text-foreground">
@@ -280,7 +300,17 @@ export default function AustralianMushroomPoisoningPage() {
               mushrooms having been dried in it.
             </p>
 
-            {/* TODO: photo */}
+            <figure className="my-8">
+              <img
+                src="/articles/australian-mushroom-poisoning/03.jpg"
+                alt="McCartin Street in Leongatha, Victoria, Australia — the quiet rural town where the poisoning occurred"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                McCartin Street, Leongatha, Victoria — the small town at the center of the case — Photo: Melburnian / <a href="https://commons.wikimedia.org/wiki/File:Leongatha_McCartin_Street.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+              </figcaption>
+            </figure>
 
             <p>
               In November 2023, Erin Patterson was arrested and charged with
@@ -412,8 +442,6 @@ export default function AustralianMushroomPoisoningPage() {
                 becoming unpleasant as the mushroom ages.
               </li>
             </ul>
-
-            {/* TODO: photo */}
 
             <p>
               For a complete identification guide with images, see our{" "}
