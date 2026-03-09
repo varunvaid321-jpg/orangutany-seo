@@ -33,6 +33,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Birch Polypore (Fomitopsis betulina)",
+      slug: "fomitopsis-betulina",
       distinction:
         "Also grows on birch but looks completely different: a smooth, whitish to grayish bracket with a distinct kidney-shaped form. Not black or charcoal-like. The two are not easily confused once you have seen both.",
       externalUrl:

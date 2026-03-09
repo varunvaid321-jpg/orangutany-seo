@@ -33,6 +33,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Amethyst Deceiver (Laccaria amethystina)",
+      slug: "laccaria-amethystina",
       image: "lookalike-amethystina.jpg",
       distinction:
         "The purple version of The Deceiver. Entirely violet to amethyst-purple when fresh, fading to buff with age. Same widely-spaced gills and tough fibrous stem. Also edible. Found in the same habitats, often growing alongside L. laccata.",

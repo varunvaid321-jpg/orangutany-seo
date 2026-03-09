@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "We love mushrooms as much as you do. 100+ species with real photos, safety data, look-alikes, distribution maps, and honest foraging guides. Precision-engineered in Canada.",
   metadataBase: new URL("https://guide.orangutany.com"),
-  alternates: { canonical: "/" },
+  alternates: {},
   keywords: [
     "mushroom identification",
     "mushroom ID app",

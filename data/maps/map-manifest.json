@@ -1197,5 +1197,126 @@
     "fileSizeBytes": 134302,
     "renderingApproved": true,
     "approved": true
+  },
+  "xylaria-polymorpha": {
+    "speciesSlug": "xylaria-polymorpha",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 8956209,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 123994,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "daldinia-concentrica": {
+    "speciesSlug": "daldinia-concentrica",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2576893,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 120044,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "tremella-mesenterica": {
+    "speciesSlug": "tremella-mesenterica",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 11945016,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 166058,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "tremella-fuciformis": {
+    "speciesSlug": "tremella-fuciformis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5237434,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 112575,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "lactarius-indigo": {
+    "speciesSlug": "lactarius-indigo",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 7240044,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 73100,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "amanita-fulva": {
+    "speciesSlug": "amanita-fulva",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 7765582,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 109813,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "laccaria-amethystina": {
+    "speciesSlug": "laccaria-amethystina",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2530983,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 102794,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "hygrophoropsis-aurantiaca": {
+    "speciesSlug": "hygrophoropsis-aurantiaca",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2525710,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 117738,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "fomitopsis-betulina": {
+    "speciesSlug": "fomitopsis-betulina",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 9819973,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 123317,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "hericium-coralloides": {
+    "speciesSlug": "hericium-coralloides",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5248532,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 136799,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "lactarius-torminosus": {
+    "speciesSlug": "lactarius-torminosus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 8122710,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 108130,
+    "renderingApproved": true,
+    "approved": true
   }
 }

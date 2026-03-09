@@ -39,6 +39,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Tremella mesenterica (Yellow Brain Fungus)",
+      slug: "tremella-mesenterica",
       distinction:
         "A bright yellow to orange gelatinous fungus on dead hardwood. The color alone distinguishes it: Wood Ear is brown, Yellow Brain is bright yellow. T. mesenterica also has a more irregular, brain-like folded shape rather than a clean ear form. Edible but flavorless.",
       externalUrl: "https://en.wikipedia.org/wiki/Tremella_mesenterica",
