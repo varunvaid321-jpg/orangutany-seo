@@ -118,7 +118,7 @@ export default function MostExpensiveMushroomsPage() {
           <p>
             The room smells like garlic and wet earth and old money. It is
             November in Alba, Italy, and inside a converted palazzo, fifty or so
-            people in good wool coats are watching a white truffle the size of a
+            people in good wool coats are watching a <Link href="/mushrooms/tuber-magnatum" className="text-primary underline hover:text-primary/80 transition">white truffle</Link> the size of a
             man&apos;s fist rotate slowly on a velvet pedestal. The auctioneer
             speaks in Italian, then English, then Mandarin. The bids climb in
             increments of five thousand euros. At 78,000 euros, roughly $85,000
@@ -141,6 +141,18 @@ export default function MostExpensiveMushroomsPage() {
             obsession. This is what that looks like.
           </p>
         </section>
+
+        <figure className="my-8">
+          <img
+            src="/articles/most-expensive-mushrooms/01.jpg"
+            alt="White truffle (Tuber magnatum) freshly unearthed, showing its irregular pale surface"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            A freshly unearthed white truffle (Tuber magnatum) from Italy — Photo: Marco Plassio / <a href="https://commons.wikimedia.org/wiki/File:Tuber_magnatum.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
 
         {/* ── European White Truffle ── */}
         <section className="mt-10">
@@ -195,6 +207,18 @@ export default function MostExpensiveMushroomsPage() {
           </div>
         </section>
 
+        <figure className="my-8">
+          <img
+            src="/articles/most-expensive-mushrooms/02.jpg"
+            alt="Ophiocordyceps sinensis specimens showing the mummified caterpillar with fungal stalk"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Caterpillar fungus (Ophiocordyceps sinensis), worth more than gold by weight — Photo: Nicolas Merky / <a href="https://commons.wikimedia.org/wiki/File:Cordyceps_sinensis.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+          </figcaption>
+        </figure>
+
         {/* ── Cordyceps ── */}
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
@@ -203,7 +227,7 @@ export default function MostExpensiveMushroomsPage() {
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
               If you are talking strictly about price per pound, wild Tibetan
-              cordyceps may be the most expensive fungus on the planet: $20,000
+              <Link href="/mushrooms/ophiocordyceps-sinensis" className="text-primary underline hover:text-primary/80 transition">cordyceps</Link> may be the most expensive fungus on the planet: $20,000
               to $50,000 per pound, depending on grade and origin. Top-grade
               specimens from the Qinghai-Tibet Plateau have sold for more than
               three times the price of gold by weight.
@@ -244,6 +268,18 @@ export default function MostExpensiveMushroomsPage() {
           </div>
         </section>
 
+        <figure className="my-8">
+          <img
+            src="/articles/most-expensive-mushrooms/03.jpg"
+            alt="Fresh matsutake mushrooms (Tricholoma matsutake) with thick white stems and brown caps"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Matsutake mushrooms (Tricholoma matsutake), prized in Japanese cuisine and culture — Photo: Tomomarusan / <a href="https://commons.wikimedia.org/wiki/File:Matsutake.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 2.5)
+          </figcaption>
+        </figure>
+
         {/* ── Matsutake ── */}
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground">
@@ -251,7 +287,7 @@ export default function MostExpensiveMushroomsPage() {
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              In Japan, the first matsutake of the season is treated with a
+              In Japan, the first <Link href="/mushrooms/tricholoma-matsutake" className="text-primary underline hover:text-primary/80 transition">matsutake</Link> of the season is treated with a
               reverence that Americans reserve for maybe a newborn child.
               Top-grade Japanese matsutake, firm and unopened, with the stem
               still intact, sells for $1,000 to $2,000 per pound. Single
@@ -297,12 +333,25 @@ export default function MostExpensiveMushroomsPage() {
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              The Perigord truffle is the one you probably picture when someone
+              The <Link href="/mushrooms/tuber-melanosporum" className="text-primary underline hover:text-primary/80 transition">Perigord truffle</Link> is the one you probably picture when someone
               says &quot;truffle&quot;: dark, rough-skinned, veined with white
               marbling inside. It retails for $800 to $1,500 per pound, less
               than the white truffle but still enough to make a small plate of
               pasta cost $200 at a Manhattan restaurant.
             </p>
+
+            <figure className="my-8">
+              <img
+                src="/articles/most-expensive-mushrooms/04.jpg"
+                alt="Black Perigord truffle (Tuber melanosporum) showing its dark, rough exterior"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Black Perigord truffle (Tuber melanosporum), the &quot;black diamond&quot; of French cuisine — Photo: sgillies / <a href="https://commons.wikimedia.org/wiki/File:Diamant_noir_Tuber_melanosporum.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 2.0)
+              </figcaption>
+            </figure>
+
             <p>
               Unlike the white truffle, the Perigord can be cultivated, sort of.
               Farmers inoculate the roots of young oak and hazelnut trees with
@@ -340,12 +389,25 @@ export default function MostExpensiveMushroomsPage() {
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              Dried morels sell for $30 to $90 per pound. Fresh ones, in season,
+              Dried <Link href="/mushrooms/morchella-esculenta" className="text-primary underline hover:text-primary/80 transition">morels</Link> sell for $30 to $90 per pound. Fresh ones, in season,
               are cheaper but still command a premium at farmers&apos; markets
               and high-end restaurants. These are not truffle prices. But morels
               have something truffles do not: a gold-rush economy built on
               disaster.
             </p>
+
+            <figure className="my-8">
+              <img
+                src="/articles/most-expensive-mushrooms/05.jpg"
+                alt="A morel mushroom (Morchella species) with its distinctive honeycomb cap growing in the wild"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                A wild morel (Morchella sp.) in Connecticut — Photo: Doug McGrady / <a href="https://commons.wikimedia.org/wiki/File:Morchella_sp._(Morel_mushroom),_Killingly,_CT_(31324413294).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 2.0)
+              </figcaption>
+            </figure>
+
             <p>
               After a major forest fire, morels fruit in extraordinary abundance
               the following spring. Nobody fully understands why. The prevailing
@@ -382,11 +444,24 @@ export default function MostExpensiveMushroomsPage() {
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              Golden chanterelles are the workhorse of the wild mushroom market.
+              Golden <Link href="/mushrooms/cantharellus-cibarius" className="text-primary underline hover:text-primary/80 transition">chanterelles</Link> are the workhorse of the wild mushroom market.
               At $15 to $30 per pound fresh, they are accessible enough for a
               home cook splurging on a weeknight dinner but expensive enough to
               sustain a commercial picking economy.
             </p>
+
+            <figure className="my-8">
+              <img
+                src="/articles/most-expensive-mushrooms/06.jpg"
+                alt="Golden chanterelle mushrooms (Cantharellus cibarius) on the forest floor"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Golden chanterelles (Cantharellus cibarius) in a Bavarian forest — Photo: Andreas Kunze / <a href="https://commons.wikimedia.org/wiki/File:2007-07-14_Cantharellus_cibarius.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+              </figcaption>
+            </figure>
+
             <p>
               The Pacific Northwest is the epicenter. Oregon and Washington
               produce the bulk of North American chanterelles, and during a good
@@ -421,11 +496,24 @@ export default function MostExpensiveMushroomsPage() {
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
             <p>
-              Lion&apos;s mane is the odd one out on this list. At $8 to $15 per
+              <Link href="/mushrooms/hericium-erinaceus" className="text-primary underline hover:text-primary/80 transition">Lion&apos;s mane</Link> is the odd one out on this list. At $8 to $15 per
               pound fresh, it is not expensive in the way truffles or cordyceps
               are. It is here because of what happened to its price in a
               different form.
             </p>
+
+            <figure className="my-8">
+              <img
+                src="/articles/most-expensive-mushrooms/07.jpg"
+                alt="Lion's mane mushroom (Hericium erinaceus) with white cascading spines growing on a tree"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Lion&apos;s mane (Hericium erinaceus) with its distinctive cascading spines — Photo: Daniel Gillies / <a href="https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_101875852.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+              </figcaption>
+            </figure>
+
             <p>
               Five years ago, most Americans had never heard of lion&apos;s mane.
               Now it is in every supplement aisle, every wellness brand, every
@@ -462,8 +550,8 @@ export default function MostExpensiveMushroomsPage() {
             </p>
             <p>
               Fungi fall into two broad categories based on how they eat.
-              Saprotrophic fungi decompose dead organic matter. Think button
-              mushrooms, shiitake, oyster mushrooms, lion&apos;s mane. These can
+              Saprotrophic fungi decompose dead organic matter. Think <Link href="/mushrooms/agaricus-bisporus" className="text-primary underline hover:text-primary/80 transition">button
+              mushrooms</Link>, <Link href="/mushrooms/lentinula-edodes" className="text-primary underline hover:text-primary/80 transition">shiitake</Link>, <Link href="/mushrooms/pleurotus-ostreatus" className="text-primary underline hover:text-primary/80 transition">oyster mushrooms</Link>, lion&apos;s mane. These can
               be cultivated because you can give them what they need: a bag of
               sterilized sawdust or straw, some moisture, and a dark room. The
               supply is industrial. The prices are low.
@@ -474,7 +562,7 @@ export default function MostExpensiveMushroomsPage() {
               <a href="https://www.gbif.org" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">species distribution data</a>. The fungus provides the tree with water and minerals.
               The tree provides the fungus with sugars. Neither can thrive
               without the other. White truffles, matsutake, chanterelles, and
-              porcini are all mycorrhizal. You cannot replicate the relationship
+              <Link href="/mushrooms/boletus-edulis" className="text-primary underline hover:text-primary/80 transition">porcini</Link> are all mycorrhizal. You cannot replicate the relationship
               in a lab or a greenhouse. You need the tree, the soil, the
               bacteria, the climate, and decades of an undisturbed ecosystem.
             </p>

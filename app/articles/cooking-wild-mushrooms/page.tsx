@@ -77,6 +77,18 @@ export default function CookingWildMushroomsPage() {
         </div>
       </div>
 
+      <figure className="my-8">
+        <img
+          src="/articles/cooking-wild-mushrooms/01.jpg"
+          alt="Golden chanterelle mushrooms sizzling in a frying pan"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Chanterelles being fried in a pan — Photo: Poxnar / <a href="https://commons.wikimedia.org/wiki/File:Pan_fried_chanterelles.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+        </figcaption>
+      </figure>
+
       {/* Recipe grid — clickable cards */}
       <div className="grid gap-4 sm:grid-cols-2">
         {RECIPES.map((recipe) => {
@@ -119,6 +131,30 @@ export default function CookingWildMushroomsPage() {
           );
         })}
       </div>
+
+      <figure className="my-8">
+        <img
+          src="/articles/cooking-wild-mushrooms/02.jpg"
+          alt="Fresh porcini mushroom (Boletus edulis) with its thick white stem and brown cap"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Fresh porcini (Boletus edulis), one of the most prized wild edible mushrooms — Photo: Bff / <a href="https://commons.wikimedia.org/wiki/File:Boletus_edulis20130728_095.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+        </figcaption>
+      </figure>
+
+      <figure className="my-8">
+        <img
+          src="/articles/cooking-wild-mushrooms/03.jpg"
+          alt="Pork chops simmering in chanterelle mushroom sauce with green onions and herbs"
+          className="w-full rounded-xl"
+          loading="lazy"
+        />
+        <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+          Pork chops in chanterelle sauce — Photo: Harvest / <a href="https://commons.wikimedia.org/wiki/File:Saute_and_sauce_pan.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+        </figcaption>
+      </figure>
 
       {/* Closing safety rules */}
       <div className="mt-10 space-y-3">

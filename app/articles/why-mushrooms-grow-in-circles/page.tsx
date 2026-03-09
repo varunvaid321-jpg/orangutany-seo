@@ -217,7 +217,7 @@ export default function WhyMushroomsGrowInCirclesPage() {
           <div className="mt-4 text-sm leading-relaxed text-foreground/80">
             <p>
               Common fairy ring species include{" "}
-              <em>Marasmius oreades</em> (the classic fairy ring mushroom, see <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a> for identification details),{" "}
+              <Link href="/mushrooms/marasmius-oreades" className="text-primary underline hover:text-primary/80 transition"><em>Marasmius oreades</em></Link> (the classic fairy ring mushroom, see <a href="https://www.mushroomexpert.com" className="text-primary underline hover:text-primary/80 transition" target="_blank" rel="noopener noreferrer">MushroomExpert.com</a> for identification details),{" "}
               <em>Chlorophyllum</em>, <em>Agaricus</em> (like the{" "}
               <Link
                 href="/mushrooms/agaricus-campestris"

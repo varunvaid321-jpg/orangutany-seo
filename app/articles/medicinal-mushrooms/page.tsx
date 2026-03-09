@@ -91,10 +91,10 @@ export default function MedicinalMushroomsPage() {
               Last January I spent three days at SupplySide West in Las Vegas,
               wandering the convention floor with a press badge and a growing
               sense of fatigue. Every third booth was selling a mushroom product.
-              Lion&apos;s mane gummies for &ldquo;brain power.&rdquo; Reishi
-              tinctures for &ldquo;immune optimization.&rdquo; Chaga coffee that
+              <Link href="/mushrooms/hericium-erinaceus" className="text-primary underline hover:text-primary/80 transition">Lion&apos;s mane</Link> gummies for &ldquo;brain power.&rdquo; <Link href="/mushrooms/ganoderma-lucidum" className="text-primary underline hover:text-primary/80 transition">Reishi</Link>
+              tinctures for &ldquo;immune optimization.&rdquo; <Link href="/mushrooms/inonotus-obliquus" className="text-primary underline hover:text-primary/80 transition">Chaga</Link> coffee that
               would, according to its label, &ldquo;support cellular health.&rdquo;
-              A cordyceps energy shot promised to &ldquo;unlock peak athletic
+              A <Link href="/mushrooms/ophiocordyceps-sinensis" className="text-primary underline hover:text-primary/80 transition">cordyceps</Link> energy shot promised to &ldquo;unlock peak athletic
               performance.&rdquo; One company had a banner that literally read
               &ldquo;Nature&apos;s Pharmacy.&rdquo;
             </p>
@@ -120,6 +120,18 @@ export default function MedicinalMushroomsPage() {
               gaps that the supplement industry would rather you not think about?
             </p>
           </section>
+
+          <figure className="my-8">
+            <img
+              src="/articles/medicinal-mushrooms/01.jpg"
+              alt="Lion's mane mushroom (Hericium erinaceus) with its distinctive cascading white spines growing on a tree"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Lion&apos;s mane (Hericium erinaceus), the medicinal mushroom with the strongest cognitive research — Photo: iNaturalist user / <a href="https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_101875852.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+            </figcaption>
+          </figure>
 
           {/* --- Lion's Mane --- */}
           <section>
@@ -179,7 +191,7 @@ export default function MedicinalMushroomsPage() {
             </h2>
             <div className="mt-4 space-y-3">
               <p>
-                Turkey tail contains a compound called PSK
+                <Link href="/mushrooms/trametes-versicolor" className="text-primary underline hover:text-primary/80 transition">Turkey tail</Link> contains a compound called PSK
                 (polysaccharopeptide, also known as krestin), which has been
                 approved as an adjunct cancer therapy in Japan since the 1980s.
                 Read that again. This is not some fringe supplement claim. PSK
@@ -219,6 +231,18 @@ export default function MedicinalMushroomsPage() {
               </p>
             </div>
           </section>
+
+          <figure className="my-8">
+            <img
+              src="/articles/medicinal-mushrooms/02.jpg"
+              alt="Reishi mushroom (Ganoderma lucidum) with its glossy reddish-brown cap growing on a log"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Reishi (Ganoderma lucidum), the &ldquo;mushroom of immortality&rdquo; — Photo: Eric Steinert / <a href="https://commons.wikimedia.org/wiki/File:Ganoderma_lucidum_01.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+            </figcaption>
+          </figure>
 
           {/* --- Reishi --- */}
           <section>
@@ -272,6 +296,18 @@ export default function MedicinalMushroomsPage() {
               </p>
             </div>
           </section>
+
+          <figure className="my-8">
+            <img
+              src="/articles/medicinal-mushrooms/03.jpg"
+              alt="Turkey tail mushroom (Trametes versicolor) showing its colorful concentric bands growing on a log"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Turkey tail (Trametes versicolor), the only medicinal mushroom with pharmaceutical approval in Japan — Photo: NorbertNagel / <a href="https://commons.wikimedia.org/wiki/File:Trametes_versicolor_-_Coriolus_versicolor_-_Polyporus_versicolor_-_Schmetterlingstramete_-_Bunte_Tramete_-_Schmetterlingsporling_-_01.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+            </figcaption>
+          </figure>
 
           {/* --- Chaga --- */}
           <section>
@@ -431,7 +467,7 @@ export default function MedicinalMushroomsPage() {
                 evidence is strong enough that I consider it a worthwhile bet.
               </p>
               <p>
-                Beyond that, I cook with fresh shiitake mushrooms several times
+                Beyond that, I cook with fresh <Link href="/mushrooms/lentinula-edodes" className="text-primary underline hover:text-primary/80 transition">shiitake</Link> mushrooms several times
                 a week. That is it. I do not take reishi, chaga, or cordyceps
                 supplements. The evidence does not justify the cost for me
                 personally. If the research changes, I will change my mind.
@@ -465,7 +501,7 @@ export default function MedicinalMushroomsPage() {
               </p>
               <p>
                 These were not exotic species. The studies included shiitake,
-                oyster, maitake, white button, and cremini mushrooms. The kind
+                <Link href="/mushrooms/pleurotus-ostreatus" className="text-primary underline hover:text-primary/80 transition">oyster</Link>, maitake, white button, and cremini mushrooms. The kind
                 you buy at the grocery store for a few dollars a pound.
               </p>
               <p>

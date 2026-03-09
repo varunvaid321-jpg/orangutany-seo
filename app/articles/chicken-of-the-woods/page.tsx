@@ -66,7 +66,7 @@ export default function ChickenOfTheWoodsPage() {
         {/* Opening personal story */}
         <section>
           <p className="text-base leading-relaxed text-foreground/90">
-            The first time I found chicken of the woods, I genuinely thought
+            The first time I found <Link href="/mushrooms/laetiporus-sulphureus" className="text-primary underline hover:text-primary/80 transition">chicken of the woods</Link>, I genuinely thought
             someone had stuck a painted shelf onto a fallen oak log. It was
             mid-August, somewhere along the Bruce Trail north of Toronto, and
             this thing was screaming orange. Not subtle orange, not
@@ -89,6 +89,18 @@ export default function ChickenOfTheWoodsPage() {
             bag, and practically jogged back to the car.
           </p>
         </section>
+
+        <figure className="my-8">
+          <img
+            src="/articles/chicken-of-the-woods/01.jpg"
+            alt="Chicken of the woods (Laetiporus sulphureus) growing in bright orange shelves on a tree trunk"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Chicken of the woods (Laetiporus sulphureus) fruiting on a tree — the unmistakable bright orange brackets — Photo: Andreas Eichler / <a href="https://commons.wikimedia.org/wiki/File:2015.07.04.-06-Eilenburg_Ost--Gemeiner_Schwefelporling.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
 
         {/* What It Looks Like */}
         <section>
@@ -180,6 +192,18 @@ export default function ChickenOfTheWoodsPage() {
           </p>
         </section>
 
+        <figure className="my-8">
+          <img
+            src="/articles/chicken-of-the-woods/03.jpg"
+            alt="Laetiporus sulphureus growing on a tree stump in a forest setting"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Chicken of the woods on a fallen tree — the same stump can produce flushes year after year — Photo: Agnes Monkelbaan / <a href="https://commons.wikimedia.org/wiki/File:Zwavelzwam_(Laetiporus_sulphureus)._Locatie,_Stuttebosch_in_de_lendevallei._27-08-2020._(actm.)_01.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+          </figcaption>
+        </figure>
+
         {/* Cooking It Right */}
         <section>
           <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
@@ -214,6 +238,18 @@ export default function ChickenOfTheWoodsPage() {
           </p>
         </section>
 
+        <figure className="my-8">
+          <img
+            src="/articles/chicken-of-the-woods/02.jpg"
+            alt="Cooked chicken of the woods mushroom dish"
+            className="w-full rounded-xl"
+            loading="lazy"
+          />
+          <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+            Chicken of the woods prepared as a dish — when young and tender, the texture closely resembles actual chicken — Photo: George Chernilevsky / <a href="https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_dish_2010_G1.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public Domain)
+          </figcaption>
+        </figure>
+
         {/* Look-alikes */}
         <section>
           <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
@@ -247,7 +283,7 @@ export default function ChickenOfTheWoodsPage() {
                 Jack O&apos;Lantern (<em>Omphalotus olearius</em>)
               </h3>
               <p className="mt-1 text-sm text-foreground/80">
-                Jack O&apos;Lanterns are orange and grow on wood, which is where
+                <Link href="/mushrooms/omphalotus-olearius" className="text-primary underline hover:text-primary/80 transition">Jack O&apos;Lanterns</Link> are orange and grow on wood, which is where
                 the similarity ends. They have true gills (not pores), they grow
                 in clusters of individual capped mushrooms with stems, and they
                 are shaped completely differently from the shelf-like brackets
