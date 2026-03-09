@@ -78,24 +78,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-field.jpg",
-      alt: "Blue Ringer / Stuntz's Blue Legs (Psilocybe stuntzii) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_stuntzii_spores_1000x.jpg",
-      author: "Alan Rockefeller",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
-    },
-    {
-      filename: "02-gills.jpg",
-      alt: "Blue Ringer / Stuntz's Blue Legs underside showing gill structure",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_stuntzii_gills.JPG",
-      author: "Lightworkerpeace",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Blue Ringer / Stuntz's Blue Legs (Psilocybe stuntzii) wild specimen",
       source: "Wikimedia Commons",
