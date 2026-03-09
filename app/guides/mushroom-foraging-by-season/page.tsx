@@ -82,7 +82,17 @@ export default function MushroomForagingBySeasonPage() {
             </p>
           </header>
 
-          {/* TODO: photo. hero image, seasonal mushroom collage or a forest floor with mixed species in autumn light */}
+          <figure className="my-8">
+            <img
+              src="/guides/mushroom-foraging-by-season/01.jpg"
+              alt="A gilled mushroom on a misty autumn forest floor, surrounded by fallen leaves and morning dew"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Autumn mushroom on the forest floor — Photo: Roberto Arias / <a href="https://commons.wikimedia.org/wiki/File:Gilled_mushroom_on_an_autumn_morning_(Unsplash).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC0)
+            </figcaption>
+          </figure>
 
           {/* Opening */}
           <section className="mb-12">
@@ -114,7 +124,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">March</h3>
 
-              {/* TODO: photo. scarlet elf cups on mossy sticks in early spring woodland, still-bare branches overhead */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/02.jpg"
+                  alt="Scarlet elf cup mushrooms (Sarcoscypha coccinea) growing on mossy sticks in early spring woodland"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Scarlet elf cups (Sarcoscypha coccinea) on mossy branches — Photo: Ryane Snow / <a href="https://commons.wikimedia.org/wiki/File:Sarcoscypha_coccinea_74716.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -138,7 +158,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">April</h3>
 
-              {/* TODO: photo. morels emerging from river-bottom soil among fallen cottonwood leaves, warm spring light */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/03.jpg"
+                  alt="Morel mushrooms (Morchella esculenta) emerging from soil in spring"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Spring morel mushrooms emerging from the forest floor — Photo: A much better place / <a href="https://commons.wikimedia.org/wiki/File:Spring_morel_mushrooms.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -170,7 +200,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">May</h3>
 
-              {/* TODO: photo. peak morel flush in a northern hardwood forest, dryad's saddle visible on a dead elm in the background */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/04.jpg"
+                  alt="Dryad's saddle (Polyporus squamosus) growing on dead wood, showing its distinctive scaly cap pattern"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Dryad&rsquo;s saddle (Polyporus squamosus) on dead hardwood — Photo: Dan Molter / <a href="https://commons.wikimedia.org/wiki/File:Polyporus_squamosus_Molter.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -206,7 +246,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">June</h3>
 
-              {/* TODO: photo. early chanterelles in a southeastern US hardwood forest, dappled light, Spanish moss visible */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/05.jpg"
+                  alt="Golden chanterelles (Cantharellus cibarius) growing in a group on the forest floor"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Chanterelles (Cantharellus cibarius) on the forest floor — Photo: Tom / <a href="https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_forest_group.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -235,7 +285,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">July</h3>
 
-              {/* TODO: photo. peak chanterelle harvest in a basket, black trumpets beside them, Pacific Northwest forest floor */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/06.jpg"
+                  alt="Black trumpet mushrooms (Craterellus cornucopioides) growing in clusters on the forest floor"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Black trumpets (Craterellus cornucopioides) in the wild — Photo: Marko Vainu / <a href="https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_Eestis.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -270,7 +330,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">August</h3>
 
-              {/* TODO: photo. giant puffball in a meadow next to a parasol mushroom, late summer golden hour */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/07.jpg"
+                  alt="Giant puffball mushroom (Calvatia gigantea) sitting in a green meadow"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Giant puffball (Calvatia gigantea) in a meadow — Photo: Holger Krisp / <a href="https://commons.wikimedia.org/wiki/File:Riesenbovist_Calvatia_gigantea.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -317,7 +387,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">September</h3>
 
-              {/* TODO: photo. porcini and matsutake side by side on a mossy log, golden fall light filtering through conifers */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/08.jpg"
+                  alt="Porcini mushroom (Boletus edulis) with its brown cap and thick white stem in a natural setting"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Porcini (Boletus edulis) in autumn — Photo: Bernard Spragg / <a href="https://commons.wikimedia.org/wiki/File:Boletus_edulis_(penny_bun,_cep,_porcino_or_porcini)_(40828913842).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -359,7 +439,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">October</h3>
 
-              {/* TODO: photo. blewits in leaf litter showing their purple color, fly agaric in the background under birch */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/09.jpg"
+                  alt="Fly agaric mushroom (Amanita muscaria) with its iconic red cap and white spots in an autumn setting"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Fly agaric (Amanita muscaria), the iconic autumn mushroom — Photo: Bernard Spragg / <a href="https://commons.wikimedia.org/wiki/File:Amanita_muscaria_fly_agaric.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -408,7 +498,17 @@ export default function MushroomForagingBySeasonPage() {
             <div className="mt-6 rounded-lg border border-border bg-card p-6 sm:p-8">
               <h3 className="font-heading text-xl font-semibold">November</h3>
 
-              {/* TODO: photo. oyster mushrooms on dead wood in late autumn, bare branches, muted light */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/10.jpg"
+                  alt="Oyster mushrooms (Pleurotus ostreatus) growing in overlapping clusters on a dead tree in late autumn"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Oyster mushrooms (Pleurotus ostreatus) on dead wood — Photo: Dominicus Johannes Bergsma / <a href="https://commons.wikimedia.org/wiki/File:Gewone_oesterzwam_(Pleurotus_ostreatus)_31-12-2020_(d.j.b.)_03.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
@@ -447,7 +547,17 @@ export default function MushroomForagingBySeasonPage() {
                 December &ndash; February
               </h3>
 
-              {/* TODO: photo. velvet shank mushrooms on a snow-dusted log, frozen woodland scene */}
+              <figure className="my-8">
+                <img
+                  src="/guides/mushroom-foraging-by-season/11.jpg"
+                  alt="Velvet shank mushrooms (Flammulina velutipes) growing on a log in winter, with orange caps and dark velvety stems"
+                  className="w-full rounded-xl"
+                  loading="lazy"
+                />
+                <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                  Velvet shank (Flammulina velutipes), a winter-fruiting mushroom — Photo: frankenstoen / <a href="https://commons.wikimedia.org/wiki/File:Flammulina_velutipes_(Enokitake,_winter_mushroom).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 2.0)
+                </figcaption>
+              </figure>
 
               <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
                 <p>

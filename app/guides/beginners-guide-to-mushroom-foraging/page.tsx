@@ -43,51 +43,81 @@ const SPECIES = [
   {
     name: "Chicken of the Woods",
     slug: "laetiporus-sulphureus",
+    image: "/guides/beginners-guide-to-mushroom-foraging/03.jpg",
+    imageAlt: "Bright orange Chicken of the Woods (Laetiporus sulphureus) shelf mushrooms growing on a tree trunk",
+    imageCaption: 'Chicken of the Woods in the wild — Photo: Andreas Eichler / <a href="https://commons.wikimedia.org/wiki/File:2017.05.13.-04-Bruehl_Rohrhof--Laetiporus_sulphureus_(Gemeiner_Schwefelporling).jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)',
     text: `This is the one that got me into foraging. Bright orange and yellow shelves growing right out of a tree trunk; you genuinely cannot miss it. It has no gills, no stem, and nothing else in the forest looks like it. The texture when cooked is shockingly similar to chicken breast. Find it on oaks, cherry, and willow from late summer through fall. If the edges are still tender and bright, you're golden. If it's dried out and chalky, leave it.`,
   },
   {
     name: "Chanterelles",
     slug: "cantharellus-cibarius",
+    image: "/guides/beginners-guide-to-mushroom-foraging/04.jpg",
+    imageAlt: "Golden chanterelles (Cantharellus cibarius) growing on the forest floor among moss and leaves",
+    imageCaption: 'Golden chanterelles in their natural habitat — Photo: George Chernilevsky / <a href="https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_2009_G3.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (Public domain)',
     text: `Golden, funnel-shaped, and they smell like apricots. Honestly, the smell alone is worth the hike. The key identification feature is the "false gills": instead of thin blade-like gills, chanterelles have blunt, forking ridges that run down the stem. They grow on the ground near hardwoods, especially oaks and beeches. The main look-alike is the jack-o-lantern mushroom, which grows in clusters on wood and has true gills. Once you've seen both side by side, you'll never confuse them.`,
   },
   {
     name: "Porcini (King Bolete)",
     slug: "boletus-edulis",
+    image: "/guides/beginners-guide-to-mushroom-foraging/05.jpg",
+    imageAlt: "A thick sturdy porcini mushroom (Boletus edulis) growing on the forest floor",
+    imageCaption: 'Porcini in the wild — Photo: Bernie / <a href="https://commons.wikimedia.org/wiki/File:AD2009Sep13_Boletus_edulis_01.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (Public domain)',
     text: `Thick, sturdy stem with a brown cap and a spongy pore surface underneath instead of gills. That sponge layer is your best friend; it immediately tells you you're in bolete territory. Porcini grow on the ground near conifers and some hardwoods. They're one of the most prized culinary mushrooms in the world, and finding a fresh one feels like finding buried treasure. Check for worm holes in the stem; older specimens get buggy fast.`,
   },
   {
     name: "Giant Puffball",
     slug: "calvatia-gigantea",
+    image: "/guides/beginners-guide-to-mushroom-foraging/06.jpg",
+    imageAlt: "A massive white giant puffball mushroom (Calvatia gigantea) in a grassy meadow",
+    imageCaption: 'Giant puffball in a meadow — Photo: Holger Krisp / <a href="https://commons.wikimedia.org/wiki/File:Riesenbovist_Calvatia_gigantea.JPG" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)',
     text: `Here's the rule: if it's bigger than your head, round, white, and pure white inside when you slice it open, it's a giant puffball and it's edible. That's it. If the inside has any color (yellow, brown, purple) or if you can see the outline of a tiny mushroom forming inside, put it down. Slice them into steaks and pan-fry in butter. They grow in meadows, lawns, and field edges from late summer into fall.`,
   },
   {
     name: "Oyster Mushroom",
     slug: "pleurotus-ostreatus",
+    image: "/guides/beginners-guide-to-mushroom-foraging/07.jpg",
+    imageAlt: "Oyster mushrooms (Pleurotus ostreatus) growing in overlapping shelf clusters on dead wood",
+    imageCaption: 'Oyster mushrooms on dead wood — Photo: Dominicus Johannes Bergsma / <a href="https://commons.wikimedia.org/wiki/File:Gewone_oesterzwam_(Pleurotus_ostreatus)_25-12-2020_(d.j.b.)_01.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)',
     text: `These grow in overlapping shelf clusters on dead or dying hardwoods, especially beech, aspen, and oak. White to pale gray, with a short offset stem and gills that run down to the attachment point. They're one of the easiest mushrooms to identify in the wild and one of the most versatile in the kitchen. You can find them almost year-round in mild climates. The angel wing mushroom looks similar but grows on conifers and is thinner; stick to hardwoods and you're safe.`,
   },
   {
     name: "Morels",
     slug: "morchella-esculenta",
+    image: "/guides/beginners-guide-to-mushroom-foraging/08.jpg",
+    imageAlt: "A wild morel mushroom (Morchella esculenta) with its distinctive honeycomb cap on the forest floor",
+    imageCaption: 'Wild morel in spring — Photo: U.S. Fish and Wildlife Service / <a href="https://commons.wikimedia.org/wiki/File:Wild_morel_sponge_mushroom_morchella_esculenta_vaporarius.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (Public domain)',
     text: `The holy grail for a lot of foragers. Honeycomb-textured cap, hollow from top to bottom when you slice them lengthwise. That hollow interior is the critical ID check; false morels (Gyromitra species) have cottony or chambered insides. Morels fruit in spring, often near dead elms, tulip poplars, and in old orchards. They're also notorious for popping up in burn areas the year after a forest fire. Learn the false morels before you go morel hunting. This one matters.`,
   },
   {
     name: "Lion's Mane",
     slug: "hericium-erinaceus",
+    image: "/guides/beginners-guide-to-mushroom-foraging/09.jpg",
+    imageAlt: "Wild Lion's Mane mushroom (Hericium erinaceus) with white cascading spines growing on a tree",
+    imageCaption: 'Lion\'s Mane in the wild — Photo: Robert Volpe / <a href="https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_wild.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)',
     text: `Look, this mushroom looks like a white waterfall of icicles hanging off a tree. There is nothing else in the forest that looks remotely like it. It grows on dead or dying hardwoods, especially beech and oak. It has a mild, sweet, lobster-like flavor and a meaty texture. It's also one of the mushrooms with the most research behind its potential cognitive benefits, but I'm a forager, not a doctor. I just know it tastes incredible sauteed in butter with garlic.`,
   },
   {
     name: "Hen of the Woods (Maitake)",
     slug: "grifola-frondosa",
+    image: "/guides/beginners-guide-to-mushroom-foraging/10.jpg",
+    imageAlt: "A large Hen of the Woods mushroom (Grifola frondosa) rosette growing at the base of a tree",
+    imageCaption: 'Hen of the Woods at the base of a tree — Photo: George Chernilevsky / <a href="https://commons.wikimedia.org/wiki/File:Grifola_frondosa_2014_G1.jpg" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (Public domain)',
     text: `A massive rosette of overlapping gray-brown caps growing at the base of oak trees. These can get huge. I've seen specimens over 20 pounds. They fruit in fall, often returning to the same tree year after year. The texture holds up beautifully when cooked, with crispy edges and a rich, earthy flavor. Some foragers guard their maitake trees like state secrets. Once you find a productive one, you'll understand why.`,
   },
   {
     name: "Hedgehog Mushroom",
     slug: "hydnum-repandum",
+    image: "/guides/beginners-guide-to-mushroom-foraging/11.jpg",
+    imageAlt: "Hedgehog mushroom (Hydnum repandum) showing its distinctive teeth-like spines underneath the cap",
+    imageCaption: 'Hedgehog mushroom showing its teeth — Photo: Holger Krisp / <a href="https://commons.wikimedia.org/wiki/File:Semmel-Stoppelpilz_Semmelgelber_Stacheling_Hydnum_repandum.JPG" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)',
     text: `Instead of gills or pores, the underside of the cap is covered in tiny teeth-like spines. That's the whole ID. Nothing dangerous has teeth like that. The cap is pale orange to cream-colored, and they grow on the ground in mixed forests. Mild, nutty flavor. These are maybe the single safest wild mushroom for a beginner to learn because the teeth feature is so distinctive and there are no dangerous look-alikes with that characteristic.`,
   },
   {
     name: "Black Trumpet",
     slug: "craterellus-cornucopioides",
+    image: "/guides/beginners-guide-to-mushroom-foraging/12.jpg",
+    imageAlt: "Dark funnel-shaped Black Trumpet mushrooms (Craterellus cornucopioides) growing in leaf litter",
+    imageCaption: 'Black trumpets in leaf litter — Photo: Marko Vainu / <a href="https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_Eestis.JPG" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)',
     text: `Dark gray to black, funnel-shaped, thin-fleshed, and growing in clusters on the ground near oaks and beeches. They have no gills; the outer surface is smooth or slightly wrinkled. They're hard to spot because they blend in with leaf litter, but the smell gives them away: rich, fruity, almost smoky. There are no dangerous look-alikes. Dried black trumpets are incredible crumbled over pasta. The French call them "trumpets of death" because of the color, which is terrible marketing for an amazing mushroom.`,
   },
 ];
@@ -114,7 +144,17 @@ export default function BeginnersGuidePage() {
 
         {/* Opening */}
         <section className="mt-8 space-y-4 text-sm leading-relaxed text-foreground/80">
-          {/* TODO: photo, person with basket on a wooded trail in autumn light */}
+          <figure className="my-8">
+            <img
+              src="/guides/beginners-guide-to-mushroom-foraging/01.jpg"
+              alt="A basket full of freshly foraged wild mushrooms in the forest"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              A forager&apos;s haul — Photo: AS Photography / <a href="https://commons.wikimedia.org/wiki/File:Basket_full_of_mushrooms_(54817225577).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+            </figcaption>
+          </figure>
 
           <p>
             I picked up mushroom foraging in October 2024 because a friend
@@ -198,7 +238,17 @@ export default function BeginnersGuidePage() {
             Where to Go (And Where Not To)
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
-            {/* TODO: photo, forest trail after rain, damp leaf litter */}
+            <figure className="my-8">
+              <img
+                src="/guides/beginners-guide-to-mushroom-foraging/02.jpg"
+                alt="Wild mushrooms growing on a damp forest floor among leaf litter"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Mushrooms on the forest floor after rain — Photo: U.S. Forest Service Northern Region / <a href="https://commons.wikimedia.org/wiki/File:Unidentified_mushrooms_growing_on_the_forest_floor,_Tally_Lake_Ranger_District_(52517824795).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+              </figcaption>
+            </figure>
 
             <p>
               <strong className="text-foreground">
@@ -260,7 +310,12 @@ export default function BeginnersGuidePage() {
                 key={species.slug}
                 className="border-l-2 border-primary pl-5 py-3"
               >
-                {/* TODO: photo. {species.name} in natural habitat */}
+                {species.image && (
+                  <figure className="my-4">
+                    <img src={species.image} alt={species.imageAlt} className="w-full rounded-xl" loading="lazy" />
+                    <figcaption className="mt-2 text-center text-xs text-muted-foreground" dangerouslySetInnerHTML={{ __html: species.imageCaption || "" }} />
+                  </figure>
+                )}
                 <div className="flex items-baseline gap-3">
                   <span className="text-xs font-bold text-green-400">
                     #{i + 1}
@@ -288,7 +343,17 @@ export default function BeginnersGuidePage() {
             The Mistakes I Made (So You Don&apos;t Have To)
           </h2>
           <div className="mt-4 space-y-4 text-sm leading-relaxed text-foreground/80">
-            {/* TODO: photo, hands holding a phone with mushroom ID app, slightly out of focus */}
+            <figure className="my-8">
+              <img
+                src="/guides/beginners-guide-to-mushroom-foraging/13.jpg"
+                alt="A mushroom collector foraging in an autumn forest near Berlin, Germany"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                A forager searching the forest floor — Photo: onnola / <a href="https://commons.wikimedia.org/wiki/File:Mushroom_collector_in_a_forest,_south_of_Berlin_in_Brandenburg,_2012-10-21_140012.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 2.0)
+              </figcaption>
+            </figure>
 
             <p>
               Honestly, I&apos;m a little embarrassed writing this section. But
@@ -413,7 +478,17 @@ export default function BeginnersGuidePage() {
 
         {/* Closing */}
         <section className="mt-10 space-y-4 text-sm leading-relaxed text-foreground/80">
-          {/* TODO: photo, wide shot of forest floor with scattered mushrooms */}
+          <figure className="my-8">
+            <img
+              src="/guides/beginners-guide-to-mushroom-foraging/14.jpg"
+              alt="A wild mushroom on the forest floor bathed in soft autumn morning light"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Autumn morning on the forest floor — Photo: Roberto Arias / <a href="https://commons.wikimedia.org/wiki/File:Gilled_mushroom_on_an_autumn_morning_(Unsplash).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC0)
+            </figcaption>
+          </figure>
 
           <p>
             Foraging changed how I see the forest. What used to be just trees
