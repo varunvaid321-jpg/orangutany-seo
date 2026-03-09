@@ -24,6 +24,13 @@ Static SEO site for mushroom species identification. Next.js static export, depl
 - `docs/DESIGN_LOCKS.md` — Locked design decisions and quality checklist
 - `scripts/curated-repair.py` — Approved map generator
 
+## MANDATORY: After Adding New Species — Regenerate Lookup
+After adding or modifying species in the guide database, you MUST regenerate the species lookup used by the main app (orangutany.com) for scan result linking:
+```
+/Users/varunvaid/amushroom/scripts/regenerate-species-lookup.sh
+```
+Then commit the updated `species-lookup.json` in the amushroom repo. Also add a story entry for the new species in `mushroom-stories.json` (curated fun fact shown as "Did You Know?" in scan results). Commit both files via PR. Skipping this means new species won't appear as guide links, show look-alike images, or display fun facts in scan results.
+
 ## MANDATORY: Species Page Quality Gate
 
 **Before showing ANY new or modified species page to the user on localhost, you MUST complete every check below. No exceptions. Do not skip checks because "it's probably fine." These rules exist because every single one of these bugs has shipped to production.**
