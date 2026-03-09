@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export function Header() {
-  const [userName, setUserName] = useState<string | null>(null);
   const pathname = usePathname();
 
   // Sub-article links that should NOT trigger the parent "Articles" highlight
@@ -24,51 +22,19 @@ export function Header() {
     return `text-xs sm:text-sm transition whitespace-nowrap shrink-0 ${active ? "text-foreground font-semibold" : "text-muted-foreground hover:text-foreground"}`;
   }
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const param = params.get("user");
-    if (param) {
-      sessionStorage.setItem("orangutany_user", param);
-      setUserName(param);
-      const url = new URL(window.location.href);
-      url.searchParams.delete("user");
-      window.history.replaceState({}, "", url.toString());
-    } else {
-      const stored = sessionStorage.getItem("orangutany_user");
-      if (stored) setUserName(stored);
-    }
-  }, []);
-
   return (
     <header className="border-b border-border/50 px-4 sm:px-6">
-      {/* Row 1: logo + Hi/Logout */}
+      {/* Row 1: logo + back to app */}
       <div className="mx-auto flex max-w-5xl items-center justify-between py-3">
         <Link href="/" className="font-[family-name:var(--font-heading)] text-lg sm:text-2xl font-bold text-foreground whitespace-nowrap">
           Orangutany <span className="text-primary">Guide</span>
         </Link>
-        {userName ? (
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-            <span className="text-xs sm:text-sm font-semibold text-primary whitespace-nowrap">
-              Hi, {userName}
-            </span>
-            <button
-              onClick={() => {
-                sessionStorage.removeItem("orangutany_user");
-                setUserName(null);
-              }}
-              className="text-xs text-muted-foreground hover:text-foreground transition whitespace-nowrap"
-            >
-              Log out
-            </button>
-          </div>
-        ) : (
-          <a
-            href="https://orangutany.com"
-            className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0"
-          >
-            Sign in
-          </a>
-        )}
+        <a
+          href="https://orangutany.com"
+          className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0"
+        >
+          Go to Orangutany Mushroom ID &rarr;
+        </a>
       </div>
       {/* Row 2: Identify + nav links */}
       <div className="mx-auto max-w-5xl border-t border-border/30">
