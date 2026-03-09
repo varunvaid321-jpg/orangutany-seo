@@ -36,6 +36,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Brick Cap (Hypholoma lateritium)",
+      slug: "hypholoma-lateritium",
       distinction:
         "A related species considered edible in some regions. Brick Cap has a brick-red to reddish-brown cap center (not orange-brown), lacks the greenish gill tinge, and has a milder (not intensely bitter) taste. Also grows in clusters on dead wood.",
     },

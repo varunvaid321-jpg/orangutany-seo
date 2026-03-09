@@ -41,6 +41,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Yellow-staining Mushroom (Agaricus xanthodermus)",
+      slug: "agaricus-xanthodermus",
       image: "lookalike-xanthodermus.jpg",
       distinction:
         "Looks very similar — same white cap, same habitat. The giveaway: cut the base of the stem or scratch the cap surface. If it stains bright chrome yellow and smells like ink or chemicals (phenol), it's Agaricus xanthodermus. Causes nasty gastrointestinal distress. Field Mushrooms don't stain yellow and smell pleasantly mushroomy.",

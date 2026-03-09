@@ -33,7 +33,6 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Peppery Milkcap (Lactarius piperatus)",
-      slug: "lactarius-piperatus",
       image: "lookalike-piperatus.jpg",
       distinction:
         "Very similar in size, shape, and white coloration, and also has an acrid/peppery taste. The critical difference: break a gill or cut the flesh of Lactarius piperatus and it will exude copious white latex (milk). Russula brevipes produces no milk whatsoever. This is the single most reliable way to tell them apart in the field.",
@@ -43,7 +42,6 @@ const species: SpeciesRecord = {
     },
     {
       name: "Russula delica",
-      slug: "russula-delica",
       image: "lookalike-delica.jpg",
       distinction:
         "Extremely similar white Russula, essentially the European counterpart to R. brevipes. Distinguished primarily by geographic range (R. delica is European, R. brevipes is North American) and subtle microscopic spore differences. If you're in Europe finding a large white funnel-shaped Russula, it's more likely R. delica.",

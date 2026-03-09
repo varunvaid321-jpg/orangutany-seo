@@ -33,6 +33,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Yellow Stainer (Agaricus xanthodermus)",
+      slug: "agaricus-xanthodermus",
       image: "lookalike-xanthodermus.jpg",
       distinction:
         "The critical look-alike to learn. Similar size and white appearance, but stains a harsh chrome-yellow at the cap edge and especially at the stem base when cut or rubbed. The definitive test is the smell: Yellow Stainer has an unpleasant chemical, ink, or phenol odor — completely different from the sweet anise of Horse Mushroom. Causes significant gastrointestinal distress in most people.",

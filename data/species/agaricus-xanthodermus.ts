@@ -33,6 +33,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Horse Mushroom (Agaricus arvensis)",
+      slug: "agaricus-arvensis",
       image: "lookalike-arvensis.jpg",
       distinction:
         "Also stains slightly yellowish, but the color is a dull ochre-yellow, not the intense chrome-yellow of the Yellow Stainer. Crucially, the Horse Mushroom smells of anise (aniseed) — a pleasant, sweet smell — not chemicals. The base of the stem does not turn chrome-yellow when cut. Edible and excellent.",
@@ -71,7 +72,7 @@ const species: SpeciesRecord = {
       text: "Data from the UK's National Poisons Information Service shows that Agaricus xanthodermus accounts for roughly 50% of all mushroom poisoning inquiries in Britain. A 2012 study published in Clinical Toxicology reviewed a decade of NPIS records and found the Yellow Stainer was identified or suspected in more cases than all other toxic species combined. The typical victim: a confident amateur who 'knew' they were picking field mushrooms from their garden.",
       location: "United Kingdom",
       source: "Clinical Toxicology",
-      sourceUrl: "https://pubmed.ncbi.nlm.nih.gov/",
+      sourceUrl: "https://en.wikipedia.org/wiki/Agaricus_xanthodermus",
     },
     {
       title: "Australia's Worst Offender",

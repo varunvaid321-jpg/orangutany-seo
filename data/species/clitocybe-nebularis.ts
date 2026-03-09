@@ -53,7 +53,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Wood Blewit (Lepista nuda)",
-      slug: "lepista-nuda",
+      slug: "clitocybe-nuda",
       image: "lookalike-nuda.jpg",
       distinction:
         "Similar size and woodland habitat, and also grows in leaf litter. However, Lepista nuda has distinctive violet to purple tints on the cap, gills, and especially the stem — Clitocybe nebularis is gray with no purple whatsoever. The smell is also different: L. nuda has a more floral, perfume-like scent. Both are edible (with caveats).",

@@ -44,6 +44,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Yellow-staining Mushroom (Agaricus xanthodermus)",
+      slug: "agaricus-xanthodermus",
       distinction:
         "Looks similar in the button stage. The critical test: cut the base of the stem or scratch the cap surface. If it stains bright chrome yellow and emits a strong chemical, ink-like (phenolic) smell, it is A. xanthodermus. Causes unpleasant gastrointestinal symptoms. A. bisporus does not stain yellow and smells pleasantly mushroomy.",
       externalUrl: "https://en.wikipedia.org/wiki/Agaricus_xanthodermus",

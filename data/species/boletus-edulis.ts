@@ -52,6 +52,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Bay Bolete (Imleria badia)",
+      slug: "imleria-badia",
       image: "lookalike-badia.jpg",
       distinction:
         "Another edible look-alike, common in European pine forests. Dark chestnut-brown cap, but the stem lacks the white net pattern of true porcini. The pore surface bruises blue-green when pressed — porcini pores don't. Smaller overall, with thinner flesh.",

@@ -42,6 +42,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Clouded Funnel (Clitocybe nebularis)",
+      slug: "clitocybe-nebularis",
       distinction:
         "Similar size and grayish-white color, but the Clouded Funnel has decurrent gills (running down the stem), a white spore print, and a distinctly funnel-shaped mature cap. The Livid Pinkgill has sinuate gills and a salmon-pink spore print.",
     },
