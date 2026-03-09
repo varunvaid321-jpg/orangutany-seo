@@ -31,7 +31,7 @@ export function Header() {
         </Link>
         <a
           href="https://orangutany.com"
-          className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0"
+          className="hidden sm:inline text-xs sm:text-sm text-muted-foreground hover:text-foreground transition whitespace-nowrap shrink-0"
         >
           Go to Orangutany Mushroom ID &rarr;
         </a>
