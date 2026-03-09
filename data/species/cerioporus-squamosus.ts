@@ -49,6 +49,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Birch Polypore (Fomitopsis betulina)",
+      slug: "fomitopsis-betulina",
       image: "lookalike-fomitopsis.jpg",
       distinction:
         "Smooth, white to gray-brown brackets exclusively on birch trees. No scales, no stem, much smoother surface. Not edible — tough and bitter.",

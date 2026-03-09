@@ -12,6 +12,7 @@ import amanitaMuscaria from "./amanita-muscaria";
 import amanitaPantherina from "./amanita-pantherina";
 import amanitaPhalloides from "./amanita-phalloides";
 import amanitaRubescens from "./amanita-rubescens";
+import amanitaFulva from "./amanita-fulva";
 import amanitaVirosa from "./amanita-virosa";
 import armillariaMellea from "./armillaria-mellea";
 import auriculariaAuriculaJudae from "./auricularia-auricula-judae";
@@ -42,25 +43,32 @@ import cortinariusRubellus from "./cortinarius-rubellus";
 import craterellusCornucopioides from "./craterellus-cornucopioides";
 import craterellusTubaeformis from "./craterellus-tubaeformis";
 import cyclocybeAegerita from "./cyclocybe-aegerita";
+import daldiniaConcentrica from "./daldinia-concentrica";
 import entolomaSinuatum from "./entoloma-sinuatum";
 import fistulinaHepatica from "./fistulina-hepatica";
 import flammulinaVelutipes from "./flammulina-velutipes";
+import fomitopsisBetulina from "./fomitopsis-betulina";
 import galerinaMarginata from "./galerina-marginata";
 import ganodermaLucidum from "./ganoderma-lucidum";
 import grifolaFrondosa from "./grifola-frondosa";
 import gymnopilusJunonius from "./gymnopilus-junonius";
 import gyromitraEsculenta from "./gyromitra-esculenta";
+import hericiumCoralloides from "./hericium-coralloides";
 import hericiumErinaceus from "./hericium-erinaceus";
 import hydnumRepandum from "./hydnum-repandum";
 import hygrocybeCoccinea from "./hygrocybe-coccinea";
+import hygrophoropsisAurantiaca from "./hygrophoropsis-aurantiaca";
 import hypholomaLateritium from "./hypholoma-lateritium";
 import hypholomaFasciculare from "./hypholoma-fasciculare";
 import inocybeAeruginascens from "./inocybe-aeruginascens";
 import inocybeErubescens from "./inocybe-erubescens";
 import imleriaBadia from "./imleria-badia";
 import inonotusObliquus from "./inonotus-obliquus";
+import laccariaAmethystina from "./laccaria-amethystina";
 import laccariaLaccata from "./laccaria-laccata";
 import lactariusDeliciosus from "./lactarius-deliciosus";
+import lactariusIndigo from "./lactarius-indigo";
+import lactariusTorminosus from "./lactarius-torminosus";
 import laetiporusSulphureus from "./laetiporus-sulphureus";
 import leccinumAurantiacum from "./leccinum-aurantiacum";
 import leccinumScabrum from "./leccinum-scabrum";
@@ -107,6 +115,8 @@ import strophariaRugosoannulata from "./stropharia-rugosoannulata";
 import suillusGranulatus from "./suillus-granulatus";
 import suillusLuteus from "./suillus-luteus";
 import trametesVersicolor from "./trametes-versicolor";
+import tremellaFuciformis from "./tremella-fuciformis";
+import tremellaMesenterica from "./tremella-mesenterica";
 import tricholomaEquestre from "./tricholoma-equestre";
 import tricholomaMatsutake from "./tricholoma-matsutake";
 import tuberAestivum from "./tuber-aestivum";
@@ -117,6 +127,7 @@ import verpaBohemica from "./verpa-bohemica";
 import volvariellaVolvacea from "./volvariella-volvacea";
 import xerocomellusChrysenteron from "./xerocomellus-chrysenteron";
 import xeromphalinaCampanella from "./xeromphalina-campanella";
+import xylariaPolymorpha from "./xylaria-polymorpha";
 import type { SpeciesRecord } from "@/lib/types";
 
 export const allSpecies: SpeciesRecord[] = [
@@ -133,6 +144,7 @@ export const allSpecies: SpeciesRecord[] = [
   amanitaPantherina,
   amanitaPhalloides,
   amanitaRubescens,
+  amanitaFulva,
   amanitaVirosa,
   armillariaMellea,
   auriculariaAuriculaJudae,
@@ -163,25 +175,32 @@ export const allSpecies: SpeciesRecord[] = [
   craterellusCornucopioides,
   craterellusTubaeformis,
   cyclocybeAegerita,
+  daldiniaConcentrica,
   entolomaSinuatum,
   fistulinaHepatica,
   flammulinaVelutipes,
+  fomitopsisBetulina,
   galerinaMarginata,
   ganodermaLucidum,
   grifolaFrondosa,
   gymnopilusJunonius,
   gyromitraEsculenta,
+  hericiumCoralloides,
   hericiumErinaceus,
   hydnumRepandum,
   hygrocybeCoccinea,
+  hygrophoropsisAurantiaca,
   hypholomaLateritium,
   hypholomaFasciculare,
   inocybeAeruginascens,
   inocybeErubescens,
   imleriaBadia,
   inonotusObliquus,
+  laccariaAmethystina,
   laccariaLaccata,
   lactariusDeliciosus,
+  lactariusIndigo,
+  lactariusTorminosus,
   laetiporusSulphureus,
   leccinumAurantiacum,
   leccinumScabrum,
@@ -228,6 +247,8 @@ export const allSpecies: SpeciesRecord[] = [
   suillusGranulatus,
   suillusLuteus,
   trametesVersicolor,
+  tremellaFuciformis,
+  tremellaMesenterica,
   tricholomaEquestre,
   tricholomaMatsutake,
   tuberAestivum,
@@ -238,6 +259,7 @@ export const allSpecies: SpeciesRecord[] = [
   volvariellaVolvacea,
   xerocomellusChrysenteron,
   xeromphalinaCampanella,
+  xylariaPolymorpha,
 ];
 
 export function getSpeciesBySlug(slug: string): SpeciesRecord | undefined {

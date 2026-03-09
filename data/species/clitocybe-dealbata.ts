@@ -90,12 +90,12 @@ const species: SpeciesRecord = {
   images: [
     {
       filename: "01-field.jpg",
-      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
+      alt: "Clitocybe rivulosa (Ivory Funnel) cluster showing white funnel-shaped caps and gills in grass",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Bresadola_-_Clitocybe_dealbata.png",
-      author: "Giacomo Bresadola",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_rivulosa_20081116w.JPG",
+      author: "Strobilomyces",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
       filename: "02-field.jpg",

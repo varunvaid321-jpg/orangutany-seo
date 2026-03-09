@@ -1,8 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { allSpecies } from "@/data/species";
 import { EdibilityBadge } from "@/components/species/edibility-badge";
 import { getCardImage } from "@/lib/card-image";
 import { RECIPES } from "@/data/recipes";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const featured = allSpecies.slice(0, 6);

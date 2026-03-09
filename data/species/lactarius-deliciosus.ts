@@ -39,6 +39,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Lactarius torminosus (Woolly Milk Cap)",
+      slug: "lactarius-torminosus",
       distinction:
         "Has a pinkish-orange cap with a distinctly shaggy, woolly margin (hairy fringes on the cap edge). The latex is WHITE, not orange. This is the critical distinction: if the milk is white, it is not L. deliciosus. L. torminosus is associated with birch, not pine, and causes significant gastrointestinal upset if eaten raw (though it is consumed after extensive preparation in Finland and Russia).",
       externalUrl: "https://en.wikipedia.org/wiki/Lactarius_torminosus",

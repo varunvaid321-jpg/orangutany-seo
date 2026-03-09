@@ -43,6 +43,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "False Chanterelle (Hygrophoropsis aurantiaca)",
+      slug: "hygrophoropsis-aurantiaca",
       image: "lookalike-hygrophoropsis.jpg",
       distinction:
         "Thinner-fleshed and more orange than golden. Has TRUE gills that are thin, crowded, and forking — not the blunt waxy ridges of real chanterelles. Cap surface is often finely fuzzy or velvety. Lacks the fruity apricot scent. Grows on decaying wood and woody debris, not mycorrhizally from soil. Generally considered non-toxic but unpalatable.",

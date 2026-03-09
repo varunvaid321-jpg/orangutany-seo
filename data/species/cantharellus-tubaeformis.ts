@@ -37,6 +37,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Hygrophoropsis aurantiaca (False Chanterelle)",
+      slug: "hygrophoropsis-aurantiaca",
       distinction:
         "Has true, thin, blade-like gills rather than blunt ridges. Cap is more uniformly orange and often slightly fuzzy. Grows on decaying wood rather than soil. Can cause mild GI upset in some people.",
       externalUrl: "https://en.wikipedia.org/wiki/Hygrophoropsis_aurantiaca",
