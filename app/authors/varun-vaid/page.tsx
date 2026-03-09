@@ -4,7 +4,7 @@ import { allSpecies } from "@/data/species";
 import { getCardImage } from "@/lib/card-image";
 
 export const metadata: Metadata = {
-  title: "Varun Vaid, Mushroom Guide Author & Forager | Orangutany",
+  title: "Varun Vaid, Mushroom Guide Author & Forager",
   description:
     "Varun Vaid is a software engineer, amateur mycologist, and mushroom forager based in Markham, Ontario. He writes species guides and identification articles for Orangutany.",
   alternates: { canonical: "/authors/varun-vaid" },

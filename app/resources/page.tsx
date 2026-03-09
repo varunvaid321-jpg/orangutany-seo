@@ -4,7 +4,7 @@ import { websiteSchema } from "@/lib/schema";
 
 export const metadata = {
   title:
-    "Mushroom Identification Resources - Books, Websites, Apps | Orangutany Guide",
+    "Mushroom Identification Resources - Books, Websites, Apps",
   description:
     "Curated list of the best mushroom identification resources: field guides, websites, apps, and mycological societies.",
   alternates: { canonical: "/resources" },

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/shared/breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Arjun Mehra, Ethnomycologist & Field Researcher | Orangutany",
+  title: "Arjun Mehra, Ethnomycologist & Field Researcher",
   description:
     "Arjun Mehra is an ethnomycologist from Rajasthan who studies traditional mushroom use in the Aravalli hills and across South Asia.",
   alternates: { canonical: "/authors/arjun-mehra" },

@@ -4,7 +4,7 @@ import { organizationSchema } from "@/lib/schema";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Authors - Orangutany Mushroom Guide",
+  title: "Authors - Mushroom Guide",
   description:
     "Meet the writers behind the Orangutany mushroom guide. Foragers, scientists, and journalists who know their fungi.",
   alternates: { canonical: "/authors" },

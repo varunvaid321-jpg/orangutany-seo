@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sofia Andersson, Investigative Journalist & Fungi Writer | Orangutany",
+  title: "Sofia Andersson, Investigative Journalist & Fungi Writer",
   description:
     "Sofia Andersson is a long-form journalist based in Stockholm, Sweden who writes investigative features on mushroom poisoning cases for Orangutany.",
   alternates: { canonical: "/authors/sofia-andersson" },

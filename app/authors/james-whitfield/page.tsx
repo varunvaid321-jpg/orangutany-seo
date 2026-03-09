@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "James Whitfield, Beginner Foraging Guide Writer | Orangutany",
+  title: "James Whitfield, Beginner Foraging Guide Writer",
   description:
     "James Whitfield is an outdoor recreation coordinator in Asheville, NC who writes beginner-friendly mushroom foraging guides for Orangutany.",
   alternates: { canonical: "/authors/james-whitfield" },

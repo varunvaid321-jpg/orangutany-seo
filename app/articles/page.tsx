@@ -6,7 +6,7 @@ import { websiteSchema } from "@/lib/schema";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Mushroom Articles - Safety, Foraging, Science | Orangutany Guide",
+  title: "Mushroom Articles - Safety, Foraging, Science",
   description:
     "In-depth articles on mushroom safety, foraging tips, real poisoning cases, and mycology science. Written by experts and field practitioners.",
   alternates: { canonical: "/articles" },
