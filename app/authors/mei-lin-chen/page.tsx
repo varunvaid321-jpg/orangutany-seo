@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mei Lin Chen, Psychedelic Science Writer | Orangutany",
+  title: "Mei Lin Chen, Psychedelic Science Writer",
   description:
     "Mei Lin Chen is a science writer based in San Francisco covering psychedelics, neuroscience, and what mushrooms do to the brain for Orangutany.",
   alternates: { canonical: "/authors/mei-lin-chen" },

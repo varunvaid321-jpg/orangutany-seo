@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Daniel Okafor, Veterinary Mycology Writer | Orangutany",
+  title: "Daniel Okafor, Veterinary Mycology Writer",
   description:
     "Daniel Okafor is a registered veterinary technician in Portland, OR who writes about mushroom poisoning in dogs and pet safety for Orangutany.",
   alternates: { canonical: "/authors/daniel-okafor" },

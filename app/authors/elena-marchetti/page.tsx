@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Elena Marchetti, Forensic Mycology Writer | Orangutany",
+  title: "Elena Marchetti, Forensic Mycology Writer",
   description:
     "Elena Marchetti is a freelance journalist based in Brooklyn, NY who covers mushroom poisoning cases, forensic mycology, and the darker side of fungi for Orangutany.",
   alternates: { canonical: "/authors/elena-marchetti" },

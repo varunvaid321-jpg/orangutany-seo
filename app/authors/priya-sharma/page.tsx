@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Priya Sharma, Fungal Ecology Writer | Orangutany",
+  title: "Priya Sharma, Fungal Ecology Writer",
   description:
     "Priya Sharma is an environmental scientist in Vancouver, BC who writes about mushroom ecology, seasonal foraging, and fungal biodiversity for Orangutany.",
   alternates: { canonical: "/authors/priya-sharma" },
