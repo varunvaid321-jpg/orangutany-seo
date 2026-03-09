@@ -87,7 +87,17 @@ export default function EdibleWildMushroomsTrailPage() {
             </p>
           </header>
 
-          {/* TODO: photo. hero image of a misty Hoh River Trail with golden chanterelles visible in the moss beside the path */}
+          <figure className="my-8">
+            <img
+              src="/guides/edible-wild-mushrooms-trail/01.jpg"
+              alt="Lush green Hoh Rainforest trail in Olympic National Park, Washington State, with towering moss-draped trees and dense fern understory"
+              className="w-full rounded-xl"
+              loading="lazy"
+            />
+            <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+              Hoh Rainforest, Olympic National Park — Photo: Doug Kerr / <a href="https://commons.wikimedia.org/wiki/File:Hoh_Rainforest_-_Olympic_National_Park_-_Washington_State_(9780003142).jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 2.0)
+            </figcaption>
+          </figure>
 
           {/* Opening */}
           <section className="prose-section mb-12">
@@ -129,7 +139,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Cantharellus cibarius
             </p>
 
-            {/* TODO: photo. golden chanterelles emerging from deep green moss on the Hoh River Trail, soft diffused light through old-growth canopy */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/02.jpg"
+                alt="A cluster of golden chanterelle mushrooms (Cantharellus cibarius) growing together on the forest floor"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Golden chanterelles in their natural habitat — Photo: Phobulos / <a href="https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_-_group.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -184,7 +204,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Boletus edulis
             </p>
 
-            {/* TODO: photo. thick-stemmed porcini in an alpine meadow, Dolomites or Colorado Rockies backdrop, early morning light */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/03.jpg"
+                alt="A thick-stemmed porcini mushroom (Boletus edulis) with its characteristic brown cap growing on the forest floor"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                King bolete (porcini) in a European forest — Photo: Arthur Kaljas / <a href="https://commons.wikimedia.org/wiki/File:Penny_bun.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -236,7 +266,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Laetiporus sulphureus
             </p>
 
-            {/* TODO: photo. bright orange and yellow shelf fungus erupting from a dead oak trunk, dappled Appalachian forest light */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/04.jpg"
+                alt="Bright orange and yellow chicken of the woods (Laetiporus sulphureus) shelf fungus growing on a dead oak tree trunk"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Chicken of the woods erupting from a dead oak — Photo: Henk Monster / <a href="https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_(Chicken_of_the_Woods_or_Sulphur_shelf,_D%3D_Schwefelporling,_F%3D_Polypore_soufr%C3%A9,_NL%3D_Zwavelzwam)_white_spores_and_causes_brown_rot,_at_a_dead_trunk_of_an_Oak_tree_at_Schaarsbergen_-_panoramio.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -286,7 +326,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Morchella esculenta
             </p>
 
-            {/* TODO: photo. honeycomb-capped morels emerging from blackened soil in a post-fire Cascades landscape, spring green pushing through ash */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/05.jpg"
+                alt="Wild morel mushroom (Morchella esculenta) with its distinctive honeycomb-ridged cap emerging from the soil"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                A wild morel emerging from the ground — Photo: U.S. Fish and Wildlife Service / <a href="https://commons.wikimedia.org/wiki/File:Wild_morel_sponge_mushroom_morchella_esculenta_vaporarius.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (Public domain)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -340,7 +390,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Pleurotus ostreatus
             </p>
 
-            {/* TODO: photo. cluster of pale oyster mushrooms fanning out from a fallen alder log, overcast February Pacific Northwest forest */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/06.jpg"
+                alt="A cluster of pale oyster mushrooms (Pleurotus ostreatus) fanning out from a tree trunk in winter"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Oyster mushrooms fruiting on a tree in late December — Photo: Dominicus Johannes Bergsma / <a href="https://commons.wikimedia.org/wiki/File:Gewone_oesterzwam_(Pleurotus_ostreatus)_25-12-2020_(d.j.b.)_01.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 4.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -393,7 +453,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Craterellus cornucopioides
             </p>
 
-            {/* TODO: photo. dark funnel-shaped black trumpets nestled in oak leaf litter, almost invisible, someone's hand parting the leaves to reveal them */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/07.jpg"
+                alt="Dark funnel-shaped black trumpet mushrooms (Craterellus cornucopioides) growing among forest floor debris"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Black trumpets nestled in the forest floor — Photo: Igorgrujovski / <a href="https://commons.wikimedia.org/wiki/File:Black_Trumpet.JPG" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -443,7 +513,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Hydnum repandum
             </p>
 
-            {/* TODO: photo. hedgehog mushroom flipped upside down to show the tiny teeth/spines underneath, held in a forager's hand, forest background */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/08.jpg"
+                alt="Hedgehog mushroom (Hydnum repandum) showing its distinctive spiny teeth on the underside of the cap"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Hedgehog mushroom with its signature teeth — Photo: Martin / <a href="https://commons.wikimedia.org/wiki/File:Hydnum_repandum_102029247.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 4.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -494,7 +574,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Hericium erinaceus
             </p>
 
-            {/* TODO: photo. white, shaggy lion's mane growing from a wound on a dead beech tree, soft backlight making the spines glow */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/09.jpg"
+                alt="White lion's mane mushroom (Hericium erinaceus) with cascading icicle-like spines growing from a beech tree"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Lion&rsquo;s mane on a beech tree in January — Photo: Henk Monster / <a href="https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_(Bearded_Tooth_or_Lion%27s_Mane_Mushroom,_D%3D_Igel-Stachelbart_or_L%C3%B6wenm%C3%A4hne,_F%3D_Hydne_h%C3%A9risson,_NL%3D_Pruikzwam)_white_spores_and_causes_white_rot,_at_Lichtenbeek._Even_mid_Januari_still_there._Look_at_-_panoramio.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY 3.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -547,7 +637,17 @@ export default function EdibleWildMushroomsTrailPage() {
               Grifola frondosa
             </p>
 
-            {/* TODO: photo. massive hen of the woods mushroom at the base of an oak, showing the overlapping gray-brown fronds, a hand or knife for scale */}
+            <figure className="my-8">
+              <img
+                src="/guides/edible-wild-mushrooms-trail/10.jpg"
+                alt="Multiple large hen of the woods mushrooms (Grifola frondosa) with overlapping gray-brown fronds growing at the base of an oak tree"
+                className="w-full rounded-xl"
+                loading="lazy"
+              />
+              <figcaption className="mt-2 text-center text-xs text-muted-foreground">
+                Hen of the woods at the base of an oak — Photo: Keith Miklas / <a href="https://commons.wikimedia.org/wiki/File:Many_Grifola_frondosa_at_the_base_of_an_oak_tree.jpg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wikimedia Commons</a> (CC BY-SA 3.0)
+              </figcaption>
+            </figure>
 
             <div className="mt-4 space-y-4 text-muted-foreground leading-relaxed">
               <p>
