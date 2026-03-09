@@ -37,8 +37,8 @@ Then commit the updated `species-lookup.json` in the amushroom repo. Also add a 
 
 ### Images (VIEW every file — size checks are NOT enough)
 1. Open and visually inspect every image — confirm it's a real photograph of the correct species
-2. Reject: sketches/illustrations (Bresadola, Vittadini, Doerstling), cartoons, icon sheets, book covers, frog feet, flowers, wrong species
-3. Hero image: mushroom must be centered and prominent, not tiny in a corner of foliage
+2. Reject: sketches/illustrations (Bresadola, Vittadini, Doerstling), cartoons, icon sheets, book covers, frog feet, flowers, wrong species, microscopy/spore images, phylogenetic tree diagrams, cladograms, scientific charts/graphs, spore prints as sole subject
+3. Hero image: must be a real photograph showing the whole mushroom in field or hand — no microscopy, no diagrams, no lab images, no illustrations. Mushroom must be centered and prominent, not tiny in a corner of foliage
 4. No duplicates between hero and look-alike images
 5. No scientific figure labels (A, B, C, D) burned into photos
 6. If look-alike species exists in DB, verify its hero auto-loads correctly. If not in DB, a distinct downloaded photo must exist
