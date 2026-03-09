@@ -43,7 +43,7 @@ export function Header() {
             href="https://orangutany.com"
             className="rounded-full bg-primary px-3 py-1 text-xs sm:px-4 sm:py-1.5 sm:text-sm font-medium text-background transition hover:bg-primary/90 whitespace-nowrap shrink-0"
           >
-            Identify
+            Scan Photo
           </a>
           <Link href="/mushrooms" className={navClass("/mushrooms")}>
             Species
