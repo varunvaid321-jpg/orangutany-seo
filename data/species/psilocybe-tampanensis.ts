@@ -78,17 +78,8 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-field.jpg",
-      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_tampanensis_spores.jpg",
-      author: "Alan Rockefeller",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "02-field.jpg",
-      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) wild specimen",
+      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) cultivated fruiting bodies",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe.tampanensis.two.jpg",
       author: "Workman",
@@ -97,21 +88,12 @@ const species: SpeciesRecord = {
     },
     {
       filename: "03-field.jpg",
-      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) wild specimen",
+      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) specimens with spore prints",
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe.tampanensis.one.jpg",
       author: "Workman",
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "04-field.jpg",
-      alt: "Philosopher's Stone / Magic Truffle (Psilocybe tampanensis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Karl_Johanssvamp,_Iduns_kokbok.png",
-      author: "Elisabeth Östman (1869–1933)",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
     },
   ],
 };
