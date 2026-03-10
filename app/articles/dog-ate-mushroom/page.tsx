@@ -584,6 +584,59 @@ export default function DogAteMushroomPage() {
         </section>
       </div>
 
+      {/* JSON-LD FAQPage schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What should I do if my dog ate a mushroom?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Call your vet or ASPCA Animal Poison Control (888-426-4435) immediately. Do NOT try to make your dog vomit unless a vet tells you to. Grab the mushroom or take photos of it (cap, gills, base, and where it was growing). Note the time the dog ate it, and head to the vet — don't wait for symptoms.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are yard mushrooms poisonous to dogs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "About 99% of yard mushrooms won't kill your dog and most cause nothing worse than an upset stomach. But the remaining 1% includes Death Caps (Amanita phalloides) and Galerina marginata, which contain amatoxins that destroy the liver and can be fatal. Since you can't easily tell which type your dog ate, always treat it as an emergency.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are the symptoms of mushroom poisoning in dogs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Symptoms depend on the mushroom type. Fast onset (30 min - 2 hours) with vomiting and diarrhea usually means GI irritants. Delayed onset (6-12 hours) with vomiting and bloody diarrhea is a red flag for deadly amatoxin poisoning. A 'false recovery' at 12-24 hours where the dog seems better is especially dangerous — the toxins are still destroying the liver. Liver failure follows at 48-72 hours.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which yard mushrooms can kill dogs?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The most dangerous yard mushrooms for dogs are Death Cap (Amanita phalloides), which grows under oaks, and Galerina marginata, a small brown mushroom that grows on wood chips and mulch. Both contain lethal amatoxins. Amanita muscaria (the red one with white spots) causes neurological symptoms but is usually survivable with vet care.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I prevent my dog from eating mushrooms in the yard?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Walk your yard daily, especially after rain — mushrooms can appear overnight. Pick them before letting your dog out. Keep dogs on leash in wooded areas during mushroom season (fall and spring). Train the 'leave it' command. For chronic mushroom-eating dogs, consider a basket muzzle on walks.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD Article schema */}
       <script
         type="application/ld+json"

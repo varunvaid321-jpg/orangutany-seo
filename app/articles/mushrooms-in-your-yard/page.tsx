@@ -42,6 +42,57 @@ export default function MushroomsInYourYardPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Why are mushrooms suddenly growing in my yard?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The fungus has been living in your soil for months or years. What you see popping up is the fruiting body — the mushroom's way of spreading spores. Rain plus warm temperatures triggers fruiting. It's completely normal and actually means your soil is healthy — the mushrooms are breaking down dead roots, old mulch, and buried wood.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can my dog eat yard mushrooms?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Assume no. Most yard mushrooms won't kill a dog, but Amanita species occasionally pop up in residential yards (especially under imported trees), and Galerina marginata — a small, boring-looking brown mushroom containing the same deadly amatoxins as the Death Cap — grows in mulch beds and wood chip paths. If your dog eats a yard mushroom, grab a sample, take a photo, and call your vet immediately.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Should I remove mushrooms from my yard?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "You can pick them, but they'll come back. The mushrooms you see are just temporary fruiting bodies — the actual organism is the mycelium network underground. To permanently remove it you'd have to dig up your entire lawn and replace the soil. They're not hurting your grass or spreading disease. If you have dogs or small kids, just pick them after rain as a practical precaution.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are the most common mushrooms found in lawns?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The most common yard mushrooms include fairy ring mushrooms (Marasmius oreades) that form circles in grass, ink caps (Coprinopsis atramentaria) that melt into black goo, shaggy manes (Coprinus comatus), common puffballs (Lycoperdon perlatum), the green-spored parasol (Chlorophyllum molybdites — the most common cause of mushroom poisoning in North America), and stinkhorns.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which yard mushroom is actually dangerous?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Death Cap (Amanita phalloides) is the one to worry about. It was introduced to North America on the roots of imported European oaks and grows in residential yards, especially in California, the Pacific Northwest, and parts of the East Coast. It looks like a normal white-to-greenish mushroom with no warning colors or foul smell, but one mushroom contains enough amatoxin to kill an adult human.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
 
       <article>
         <header>

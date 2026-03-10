@@ -42,6 +42,38 @@ export default async function RecipePage({ params }: { params: Promise<{ recipe:
   const heroSrc = cardImage?.src ?? `/images/species/${species.slug}/${species.images[0]?.filename ?? "01-field.jpg"}`;
   const galleryImages = species.images.slice(0, 5);
 
+  // Parse prepTime like "45 min", "30 min", "20 min (plus 1 hr chill)" into ISO 8601
+  const prepMinutes = parseInt(recipe.prepTime.match(/(\d+)\s*min/)?.[1] ?? "0", 10);
+  // Estimate cook time as ~60% of total, prep as ~40% (these are total times in the data)
+  const cookMinutes = Math.round(prepMinutes * 0.6);
+  const prepOnlyMinutes = prepMinutes - cookMinutes;
+
+  const recipeJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: recipe.recipeName,
+    description: recipe.recipeIntro.slice(0, 200),
+    image: `https://guide.orangutany.com${heroSrc}`,
+    author: {
+      "@type": "Organization",
+      name: "Orangutany",
+      url: "https://orangutany.com",
+    },
+    prepTime: `PT${prepOnlyMinutes}M`,
+    cookTime: `PT${cookMinutes}M`,
+    totalTime: `PT${prepMinutes}M`,
+    recipeYield: `${recipe.servings} servings`,
+    recipeIngredient: recipe.ingredients,
+    recipeInstructions: recipe.steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      text: step,
+    })),
+    recipeCategory: "Dinner",
+    recipeCuisine: "Wild Mushroom",
+    keywords: `${species.commonName}, ${species.scientificName}, wild mushroom recipe, ${recipe.recipeName.toLowerCase()}, foraging recipe`,
+  };
+
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
       <script
@@ -60,6 +92,7 @@ export default async function RecipePage({ params }: { params: Promise<{ recipe:
               author: "Varun Vaid",
               authorSlug: "varun-vaid",
             }),
+            recipeJsonLd,
           ]),
         }}
       />
