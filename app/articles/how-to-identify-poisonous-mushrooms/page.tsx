@@ -566,6 +566,59 @@ export default function HowToIdentifyPoisonousMushroomsPage() {
         </section>
       </div>
 
+      {/* JSON-LD FAQPage schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How can you tell if a mushroom is poisonous?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "There is no single rule to tell if a mushroom is poisonous. Folk rules like 'if you can peel the cap it's safe' or 'if bugs eat it, it's safe for humans' are dangerously wrong. What actually works: learn 5 species perfectly (including dangerous ones), always check the spore print, dig up the full mushroom to check for a volva at the base, and get a local field guide for your specific region.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does cooking destroy mushroom poison?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. Amatoxins, the deadly compounds in Death Caps and Funeral Bells, survive boiling, frying, baking, and drying. Heat does nothing to them. You cannot cook your way out of amatoxin poisoning.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are the deadliest mistakes beginners make when identifying mushrooms?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The 5 deadliest mistakes are: (1) relying solely on an app for edibility decisions, (2) picking without checking the base for a volva, (3) confusing Death Cap with Paddy Straw Mushroom, (4) assuming it's safe because it looks like a store-bought mushroom, and (5) not seeking medical help fast enough after eating an unknown mushroom.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What should you do if you eat a poisonous mushroom?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Call poison control immediately (1-800-222-1222 in the US). Don't wait for symptoms — by the time you feel sick, liver damage is already underway. Save a sample or take a photo of the mushroom. Go to the ER and specifically say 'possible amatoxin exposure' so doctors triage it correctly.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is the silver spoon test for poisonous mushrooms real?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. The idea that a silver spoon turns black when stirred with a poisonous mushroom has no chemical basis whatsoever. It is a complete myth that has no place in mushroom identification.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD Article schema */}
       <script
         type="application/ld+json"

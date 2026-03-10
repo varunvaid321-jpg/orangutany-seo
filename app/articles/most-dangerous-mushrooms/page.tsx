@@ -123,6 +123,42 @@ export default function MostDangerousPage() {
         </figcaption>
       </figure>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is the most dangerous mushroom in the world?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Death Cap (Amanita phalloides) is the most dangerous mushroom in the world, responsible for the majority of fatal mushroom poisonings worldwide. It contains amatoxins that destroy the liver and has no antidote. It looks deceptively similar to several popular edible species.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are the 10 most dangerous mushrooms?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The 10 most dangerous mushrooms are: (1) Death Cap (Amanita phalloides), (2) Destroying Angel (Amanita virosa), (3) Fly Agaric (Amanita muscaria), (4) Funeral Bell (Galerina marginata), (5) Fool's Conecap (Conocybe filaris), (6) False Morel (Gyromitra esculenta), (7) Deadly Webcap (Cortinarius rubellus), (8) Eastern Destroying Angel (Amanita bisporigera), (9) Poison Fire Coral (Podostroma cornu-damae), and (10) Deadly Dapperling (Lepiota brunneoincarnata).",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What toxin makes mushrooms deadly?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Amatoxins are responsible for the vast majority of fatal mushroom poisonings. They are found in Death Caps, Destroying Angels, Funeral Bells, and several other species. Amatoxins destroy the liver over several days and survive cooking, drying, and freezing. There is no reliable antidote.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
       <section className="mt-12 rounded-xl border border-border bg-card p-6 text-center">
         <p className="text-sm text-foreground/70">
           Found a mushroom you can&apos;t identify?{" "}

@@ -481,7 +481,60 @@ export default function MushroomsThatCanKillYouPage() {
         </section>
       </article>
 
-      {/* ── JSON-LD ── */}
+      {/* ── JSON-LD FAQPage ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is the deadliest mushroom in the world?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Death Cap (Amanita phalloides) is responsible for roughly 90% of all mushroom fatalities worldwide. It contains amatoxins that destroy the liver over a 3-phase timeline: initial vomiting at 6-12 hours, a deceptive false recovery on day 2, then liver failure on day 3.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How does a Death Cap mushroom kill you?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Death Cap poisoning follows a three-phase timeline. First, violent stomach cramps and vomiting 6-12 hours after eating. Then a bizarre false recovery where you feel fine for a day or two. But phase three is already underway: your liver is failing. Most victims who reach phase three need a liver transplant or die within a week.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can the Destroying Angel mushroom kill you?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. The Destroying Angel (Amanita virosa/bisporigera) contains the exact same amatoxins as the Death Cap and is equally lethal. It is pure white and elegant-looking, and when young it even smells like roses. It grows in gardens, parks, and suburban yards — not just forests.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What does a Funeral Bell mushroom look like?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Funeral Bell (Galerina marginata) is a small, nondescript brown mushroom that grows on decaying wood. It looks like hundreds of other harmless species and is sometimes confused with psilocybin mushrooms. Despite its ordinary appearance, it contains the same deadly amatoxins as the Death Cap.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What do all fatal mushroom poisoning cases have in common?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The common thread in fatal mushroom poisonings is overconfidence, not ignorance. Victims include experienced chefs, lifelong foragers, and immigrants who confused local species with edible ones from their home countries. The deadly mushrooms specifically look similar to edible species, and the same species can vary in appearance depending on age, weather, and location.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
+      {/* ── JSON-LD Article ── */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

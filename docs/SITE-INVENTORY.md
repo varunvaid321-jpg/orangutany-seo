@@ -1,7 +1,7 @@
 # Guide Site Inventory — guide.orangutany.com
 
-**Last verified: 2026-03-07**
-**Total indexed pages: ~140**
+**Last verified: 2026-03-09**
+**Total indexed pages: 184 (sitemap)**
 
 ## RULES (MANDATORY — read before ANY page change)
 
@@ -13,7 +13,7 @@
 6. **No orphan images**: `public/images/species/` dirs must match species in `data/species.ts`
 7. **Social page (`/social`)**: noindex, not in sitemap, not in nav — private content bank only
 
-## Species Pages (106)
+## Species Pages (130)
 
 Source of truth: `data/species.ts` → `allSpecies` array
 Route: `/mushrooms/[slug]`
@@ -24,7 +24,7 @@ All 106 species have matching image directories. The `index` folder in images is
 ### Full species list (alphabetical)
 agaricus-bisporus, agaricus-campestris, agrocybe-praecox, amanita-caesarea, amanita-citrina, amanita-gemmata, amanita-jacksonii, amanita-muscaria, amanita-pantherina, amanita-phalloides, amanita-virosa, armillaria-mellea, auricularia-auricula-judae, boletus-edulis, boletus-pinophilus, boletus-reticulatus, calocybe-gambosa, calvatia-gigantea, cantharellus-cibarius, cantharellus-cinnabarinus, cantharellus-tubaeformis, chlorociboria-aeruginascens, chlorophyllum-molybdites, chlorophyllum-rhacodes, clathrus-ruber, clitocybe-dealbata, clitocybe-nuda, conocybe-filaris, coprinopsis-atramentaria, coprinus-comatus, coprinus-picaceus, cordyceps-militaris, cortinarius-orellanus, cortinarius-rubellus, craterellus-cornucopioides, craterellus-tubaeformis, cyclocybe-aegerita, entoloma-sinuatum, fistulina-hepatica, flammulina-velutipes, galerina-marginata, ganoderma-lucidum, grifola-frondosa, gymnopilus-junonius, gyromitra-esculenta, hericium-erinaceus, hydnum-repandum, hygrocybe-coccinea, hypholoma-fasciculare, inocybe-aeruginascens, inocybe-erubescens, inonotus-obliquus, lactarius-deliciosus, laetiporus-sulphureus, leccinum-aurantiacum, leccinum-scabrum, lentinula-edodes, lepiota-brunneoincarnata, lepista-saeva, leucocoprinus-birnbaumii, lycoperdon-perlatum, lycoperdon-pyriforme, macrolepiota-procera, marasmius-oreades, morchella-elata, morchella-esculenta, mutinus-caninus, mycena-haematopus, omphalotus-olearius, ophiocordyceps-sinensis, panaeolus-cyanescens, paxillus-involutus, phallus-hadriani, phallus-impudicus, pleurotus-ostreatus, pluteus-salicinus, podostroma-cornu-damae, psilocybe-azurescens, psilocybe-caerulescens, psilocybe-cubensis, psilocybe-cyanescens, psilocybe-mexicana, psilocybe-semilanceata, psilocybe-stuntzii, psilocybe-tampanensis, ramaria-botrytis, rubroboletus-satanas, russula-cyanoxantha, russula-emetica, russula-virescens, scleroderma-citrinum, sparassis-crispa, stereum-hirsutum, stropharia-rugosoannulata, suillus-granulatus, suillus-luteus, trametes-versicolor, tricholoma-equestre, tricholoma-matsutake, tuber-aestivum, tuber-magnatum, tuber-melanosporum, verpa-bohemica, volvariella-volvacea, xerocomellus-chrysenteron, xeromphalina-campanella
 
-## Articles (16)
+## Articles (26)
 
 Source of truth: `lib/content-index.ts` → `articles` array
 Hub: `/articles`
@@ -47,6 +47,16 @@ Hub: `/articles`
 | /articles/most-expensive-mushrooms | Rare/valuable species |
 | /articles/cooking-wild-mushrooms | Recipe hub (8 sub-recipes) |
 | /articles/medicinal-mushrooms | Medicinal fungi overview |
+| /articles/california-death-cap-outbreak | 2025 CA death cap outbreak |
+| /articles/ai-mushroom-identification-apps | AI ID app accuracy study |
+| /articles/psilocybin-therapy-fda-approval | Psilocybin FDA approval race |
+| /articles/death-caps-spreading-north-america | Invasive death cap spread |
+| /articles/post-fire-morel-hunting | Post-wildfire morel ecology |
+| /articles/largest-living-organism-fungus | Oregon Armillaria record |
+| /articles/mycoremediation-fungi-cleaning-pollution | Fungi pollution cleanup |
+| /articles/climate-change-mushroom-season | Climate phenology shifts |
+| /articles/mushroom-poisoning-immigrant-communities | Cultural lookalike danger |
+| /articles/truffle-fraud-problem | Truffle industry fraud |
 
 ## Recipes (8, under /articles/cooking-wild-mushrooms/)
 
@@ -105,13 +115,17 @@ Old root-level URLs → new paths (301):
 ## What's NOT on the site yet (potential future content)
 
 ### Missing article topics (high search volume, no overlap with existing)
-- Mushroom cultivation at home
+- Mushroom cultivation at home (huge search volume)
 - Mushroom nutrition and health benefits (distinct from medicinal)
 - Mushroom photography tips
 - Foraging laws by country/state
 - How to dry and preserve wild mushrooms
 - Mushroom dyeing (textile use)
 - Bioluminescent mushrooms
+- Mushroom supplements review (ties to medicinal mushrooms article)
+- Regional foraging deep dives (Ontario, Pacific Northwest, UK, Europe)
+- Seasonal "what's fruiting now" checklists by region
+- More comparison/vs pages (Chanterelle vs Jack O'Lantern, King Bolete vs Bitter Bolete, etc.)
 
 ### Missing species (notable gaps)
 - Hydnellum peckii (bleeding tooth — has image dir but no data entry? verify)
@@ -125,3 +139,9 @@ Old root-level URLs → new paths (301):
 - Advanced foraging techniques
 - Spore printing guide
 - Mushroom growing for beginners
+
+### Schema/SEO enhancements (nice-to-have, not blocking)
+- Recipe schema (schema.org/Recipe) on 8 recipe pages — enables rich cards in search
+- Article schema on orangutany.com /learn/[slug] pages
+- BreadcrumbList schema on more guide site pages
+- FAQPage schema on safety/ID articles for FAQ rich results
