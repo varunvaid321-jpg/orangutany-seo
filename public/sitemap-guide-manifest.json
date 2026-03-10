@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-10T01:29:22.106Z",
+  "generated": "2026-03-10T04:39:14.532Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
-  "total": 176,
+  "total": 177,
   "entries": [
     {
       "path": "/",
@@ -678,6 +678,13 @@
     },
     {
       "path": "/mushrooms/phallus-impudicus",
+      "lastmod": "2026-03-10",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/pisolithus-arhizus",
       "lastmod": "2026-03-10",
       "changefreq": "monthly",
       "priority": 0.8,

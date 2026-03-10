@@ -90,6 +90,7 @@ import panaeolusCyanescens from "./panaeolus-cyanescens";
 import paxillusInvolutus from "./paxillus-involutus";
 import phallusHadriani from "./phallus-hadriani";
 import phallusImpudicus from "./phallus-impudicus";
+import pisolithusArhizus from "./pisolithus-arhizus";
 import pleurotusOstreatus from "./pleurotus-ostreatus";
 import pleurotusPulmonarius from "./pleurotus-pulmonarius";
 import pluteusSalicinus from "./pluteus-salicinus";
@@ -222,6 +223,7 @@ export const allSpecies: SpeciesRecord[] = [
   paxillusInvolutus,
   phallusHadriani,
   phallusImpudicus,
+  pisolithusArhizus,
   pleurotusOstreatus,
   pleurotusPulmonarius,
   pluteusSalicinus,
