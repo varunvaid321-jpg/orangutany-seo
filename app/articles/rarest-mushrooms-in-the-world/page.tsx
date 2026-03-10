@@ -268,22 +268,22 @@ export default function RarestMushroomsPage() {
           <figure className="my-6">
             <img
               src={`${IMG}/02-caterpillar-fungus.jpg`}
-              alt="Ophiocordyceps sinensis fruiting from a mummified caterpillar larva in alpine grassland"
+              alt="Freshly unearthed Ophiocordyceps sinensis specimens with soil still attached, showing caterpillar bodies and emerging fruiting stalks"
               className="w-full rounded-xl"
               loading="lazy"
             />
             <figcaption className="mt-2 text-center text-xs text-muted-foreground">
-              Caterpillar Fungus sprouting from its host larva. Photo: Francois
-              Nguyen /{" "}
+              Freshly unearthed Caterpillar Fungus specimens showing the
+              mummified larvae and emerging stalks. Photo: Fumikas Sagisavas /{" "}
               <a
-                href="https://commons.wikimedia.org/wiki/File:Ophiocordyceps_sinensis_(31).jpg"
+                href="https://commons.wikimedia.org/wiki/File:Freshly_unearthed_Cordyceps_sinensis.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
                 Wikimedia Commons
               </a>{" "}
-              (CC BY 2.0)
+              (CC0)
             </figcaption>
           </figure>
         </section>
@@ -352,10 +352,10 @@ export default function RarestMushroomsPage() {
               and broadleaf forests of New Zealand and a few sites in India. Its
               vivid indigo color, caused by azulene pigments chemically
               identical to compounds found in chamomile, makes it instantly
-              recognizable but impossible to miss how rarely it fruits.
+              recognizable, but it fruits so unpredictably and sparingly that sightings remain genuinely rare.
             </p>
             <p>
-              In 1990, New Zealand placed this mushroom on the $50 banknote
+              In 2002, New Zealand placed this mushroom on the $50 banknote
               alongside the kokako bird — making it one of the only fungi ever
               depicted on legal currency anywhere in the world. For New
               Zealanders, the blue mushroom has become a symbol of the
@@ -456,10 +456,9 @@ export default function RarestMushroomsPage() {
             </p>
             <p>
               Despite its horrifying appearance, Hydnellum peckii is not toxic,
-              just extremely bitter and thoroughly inedible. The red pigment,
-              atromentin, has been found to have anticoagulant properties
-              similar to heparin, which has attracted pharmaceutical research
-              interest. In the Pacific Northwest, Indigenous peoples reportedly
+              just extremely bitter and thoroughly inedible. The pigments responsible for the red droplets have been studied
+              for potential anticoagulant properties, which has attracted
+              pharmaceutical research interest. In the Pacific Northwest, Indigenous peoples reportedly
               used related species as textile dye sources.
             </p>
             <p>
@@ -529,22 +528,22 @@ export default function RarestMushroomsPage() {
           <figure className="my-6">
             <img
               src={`${IMG}/07-ferla-mushroom.jpg`}
-              alt="Pleurotus nebrodensis, the Ferla Mushroom, growing alongside its host plant Cachrys ferulacea in the Madonie Mountains of Sicily"
+              alt="Pleurotus nebrodensis, the Ferla Mushroom, growing wild in alpine grassland on Chelmos mountain, Greece"
               className="w-full rounded-xl"
               loading="lazy"
             />
             <figcaption className="mt-2 text-center text-xs text-muted-foreground">
-              The Ferla Mushroom showing its elegant trumpet-shaped form.
-              Photo: Mushroom Observer /{" "}
+              Wild Ferla Mushroom in its natural alpine grassland habitat,
+              Chelmos mountain, Greece. Photo: Tasos266 /{" "}
               <a
-                href="https://commons.wikimedia.org/wiki/File:Pleurotus_nebrodensis_30057.jpg"
+                href="https://commons.wikimedia.org/wiki/File:Pleurotus_nebrodensis_in_Chelmos_mountain.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
                 Wikimedia Commons
               </a>{" "}
-              (CC BY-SA 3.0)
+              (CC BY-SA 4.0)
             </figcaption>
           </figure>
         </section>
@@ -636,7 +635,7 @@ export default function RarestMushroomsPage() {
           <figure className="my-6">
             <img
               src={`${IMG}/09-bioluminescent.jpg`}
-              alt="Mycena chlorophos, a bioluminescent mushroom glowing pale green in darkness on fallen wood"
+              alt="Mycena chlorophos, pale green bioluminescent mushroom growing on fallen wood"
               className="w-full rounded-xl"
               loading="lazy"
             />
@@ -674,8 +673,9 @@ export default function RarestMushroomsPage() {
             </p>
             <p>
               Agarikon has the longest documented history of medicinal use of
-              any mushroom. The ancient Greek physician Dioscorides described it
-              in De Materia Medica in 65 AD as elixirium ad longam vitam — the
+              any mushroom. The ancient Greek physician Dioscorides referenced it
+              in De Materia Medica around 65 AD, and medieval European
+              physicians later called it elixirium ad longam vitam — the
               elixir of long life. For over 2,000 years it was a staple of
               European pharmacopoeias, prescribed for tuberculosis, fevers, and
               chronic infections. Indigenous peoples of the Pacific Northwest
@@ -685,7 +685,7 @@ export default function RarestMushroomsPage() {
             <p>
               Paul Stamets, the mycologist whose work inspired a character in
               Star Trek: Discovery, has championed agarikon research. His lab
-              found that extracts show potent activity against poxviruses,
+              found that extracts show promising activity against poxviruses,
               tuberculosis bacteria, and H5N1 influenza in bioassays — making
               it a candidate for biodefense applications. The irony is that by
               the time modern science confirmed its millennia-old medicinal

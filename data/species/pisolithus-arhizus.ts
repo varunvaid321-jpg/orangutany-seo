@@ -99,7 +99,7 @@ const species: SpeciesRecord = {
   stories: [
     {
       title: "The Mushroom That Saved a Mine",
-      text: "In the early 2000s, a copper mine in Portugal's Alentejo region was required by law to revegetate its waste tailings before closing. Pine seedlings planted in the toxic, acidite soil kept dying. A mycologist from the University of Lisbon suggested inoculating the seedlings with Pisolithus spores before planting. Within three years, survival rates jumped from under 20% to over 75%. The technique became standard practice for mine reclamation across southern Europe.",
+      text: "In the early 2000s, a copper mine in Portugal's Alentejo region was required by law to revegetate its waste tailings before closing. Pine seedlings planted in the toxic, acidic soil kept dying. A mycologist from the University of Lisbon suggested inoculating the seedlings with Pisolithus spores before planting. Within three years, survival rates jumped from under 20% to over 75%. The technique became standard practice for mine reclamation across southern Europe.",
       location: "Alentejo, Portugal",
       source: "Applied Soil Ecology",
     },

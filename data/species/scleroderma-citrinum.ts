@@ -42,6 +42,15 @@ const species: SpeciesRecord = {
         "Much larger (often football-sized or bigger), with smooth white skin and pure white interior. No scales or warts on the surface. Young specimens are unmistakable, but very small Giant Puffballs could theoretically be confused with large Earthballs. The interior color is always the definitive test.",
     },
     {
+      name: "Dyeball (Pisolithus arhizus)",
+      slug: "pisolithus-arhizus",
+      distinction:
+        "Similar round shape and tough exterior, but Dyeball is typically larger and more irregular, with an interior composed of small pea-sized compartments (peridioles) at different stages of maturity rather than the solid dark purple-black flesh of Earthball. Dyeball also has bright yellow rhizomorphs at the base and a strong chemical odor. Inedible but not toxic.",
+      externalUrl:
+        "https://www.inaturalist.org/taxa/126088-Pisolithus-arhizus",
+      externalSource: "iNaturalist",
+    },
+    {
       name: "Leopard Earthball (Scleroderma areolatum)",
       distinction:
         "Smaller with a thinner skin and finer, more leopard-spot-like scales. Also toxic, so the distinction is mainly of academic interest. Similar dark interior.",
