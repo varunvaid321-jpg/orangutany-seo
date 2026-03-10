@@ -46,6 +46,7 @@ Then commit the updated `species-lookup.json` in the amushroom repo. Also add a 
 8. **Independent agent image review (MANDATORY)** — Before showing the page to the user, launch a separate agent to independently verify every image meets quality standards: real photograph (not illustration), correct species, no near-duplicates, technically meaningful (each photo shows something distinct — different angle, life stage, cross-section, habitat, or use case). The reviewing agent must visually open and inspect each image file. No image passes without this independent check.
 9. No scientific figure labels (A, B, C, D) burned into photos
 10. If look-alike species exists in DB, verify its hero auto-loads correctly. If not in DB, a distinct downloaded photo must exist
+11. **Verify look-alike images render on localhost** — After starting the dev server, open the actual page in a browser and confirm look-alike section shows real images (not blank boxes). Restart dev server if images don't load. Never ship a page with broken/missing look-alike images.
 
 ### External Links
 7. Verify EVERY iNaturalist taxon ID via API: `https://api.inaturalist.org/v1/taxa?q=NAME&rank=species` — AI-generated IDs are wrong >80% of the time

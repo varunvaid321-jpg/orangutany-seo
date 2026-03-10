@@ -141,16 +141,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
     },
-{
-      filename: "03-cluster.jpg",
-      alt: "Cluster of Dyeball mushrooms growing in disturbed soil",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Pisolithus_arhizus_2.jpg",
-      author: "Strobilomyces",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
-    },
     {
       filename: "04-mature.jpg",
       alt: "Mature Pisolithus arhizus with cracked exterior releasing spores",
