@@ -30,10 +30,17 @@ pre {
   overflow-x: auto;
 }
 
-/* Bump article body text from 14px (text-sm) to ~15.4px (+10%) */
+/* Bump all article body text by ~10% for mobile readability */
 article .text-sm {
   font-size: 0.9625rem;
   line-height: 1.7;
+}
+article .text-lg {
+  font-size: 1.2375rem;
+  line-height: 1.9;
+}
+article .text-xs {
+  font-size: 0.825rem;
 }
 
 ::selection {
