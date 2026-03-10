@@ -29,16 +29,16 @@ agaricus-bisporus, agaricus-campestris, agrocybe-praecox, amanita-caesarea, aman
 Source of truth: `lib/content-index.ts` → `articles` array
 Hub: `/articles`
 
-| Slug | Topic |
-|------|-------|
-| /articles/how-to-identify-poisonous-mushrooms | Poisonous mushroom ID guide |
-| /articles/mushrooms-that-can-kill-you | Fatal species overview |
-| /articles/dog-ate-mushroom | Pet mushroom poisoning guide |
-| /articles/mushrooms-in-your-yard | Lawn/yard mushroom ID |
+| Slug | Topic | Schema |
+|------|-------|--------|
+| /articles/how-to-identify-poisonous-mushrooms | Poisonous mushroom ID guide | FAQPage |
+| /articles/mushrooms-that-can-kill-you | Fatal species overview | FAQPage |
+| /articles/dog-ate-mushroom | Pet mushroom poisoning guide | FAQPage |
+| /articles/mushrooms-in-your-yard | Lawn/yard mushroom ID | FAQPage |
 | /articles/australian-mushroom-poisoning | Australia-specific poisoning cases |
 | /articles/psychoactive-mushrooms-science | Psilocybin science overview |
 | /articles/why-mushrooms-grow-in-circles | Fairy rings explained |
-| /articles/most-dangerous-mushrooms | Top dangerous species ranked |
+| /articles/most-dangerous-mushrooms | Top dangerous species ranked | FAQPage |
 | /articles/best-edible-mushrooms | Top edible species ranked |
 | /articles/mushrooms-by-region | Regional species guide |
 | /articles/chicken-of-the-woods | COTW deep dive |
@@ -61,6 +61,7 @@ Hub: `/articles`
 ## Recipes (8, under /articles/cooking-wild-mushrooms/)
 
 Source of truth: `data/recipes.ts`
+Schema: All 8 have `schema.org/Recipe` JSON-LD (added March 2026)
 
 chanterelle-risotto, porcini-pappardelle, morels-cream-toast, lions-mane-crab-cakes, maitake-miso-roasted, black-trumpet-butter-steak, chicken-of-the-woods-tacos, oyster-mushroom-katsu
 
@@ -140,8 +141,8 @@ Old root-level URLs → new paths (301):
 - Spore printing guide
 - Mushroom growing for beginners
 
-### Schema/SEO enhancements (nice-to-have, not blocking)
-- Recipe schema (schema.org/Recipe) on 8 recipe pages — enables rich cards in search
+### Schema/SEO enhancements
+- ~~Recipe schema (schema.org/Recipe) on 8 recipe pages~~ ✅ Done March 2026
+- ~~FAQPage schema on safety/ID articles~~ ✅ Done March 2026 (5 articles)
 - Article schema on orangutany.com /learn/[slug] pages
 - BreadcrumbList schema on more guide site pages
-- FAQPage schema on safety/ID articles for FAQ rich results
