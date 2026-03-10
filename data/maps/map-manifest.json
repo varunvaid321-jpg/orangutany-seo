@@ -1318,5 +1318,16 @@
     "fileSizeBytes": 108130,
     "renderingApproved": true,
     "approved": true
+  },
+  "pisolithus-arhizus": {
+    "speciesSlug": "pisolithus-arhizus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2525455,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 118914,
+    "renderingApproved": true,
+    "approved": true
   }
 }
