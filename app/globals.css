@@ -30,6 +30,12 @@ pre {
   overflow-x: auto;
 }
 
+/* Bump article body text from 14px (text-sm) to ~15.4px (+10%) */
+article .text-sm {
+  font-size: 0.9625rem;
+  line-height: 1.7;
+}
+
 ::selection {
   background: rgba(200, 149, 108, 0.3);
 }
