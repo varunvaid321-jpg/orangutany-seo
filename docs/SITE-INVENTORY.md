@@ -1,7 +1,7 @@
 # Guide Site Inventory — guide.orangutany.com
 
-**Last verified: 2026-03-09**
-**Total indexed pages: 184 (sitemap)**
+**Last verified: 2026-03-10**
+**Total indexed pages: 185 (sitemap)**
 
 ## RULES (MANDATORY — read before ANY page change)
 
@@ -13,7 +13,7 @@
 6. **No orphan images**: `public/images/species/` dirs must match species in `data/species.ts`
 7. **Social page (`/social`)**: noindex, not in sitemap, not in nav — private content bank only
 
-## Species Pages (130)
+## Species Pages (131)
 
 Source of truth: `data/species.ts` → `allSpecies` array
 Route: `/mushrooms/[slug]`

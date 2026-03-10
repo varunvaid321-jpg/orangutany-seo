@@ -1,7 +1,7 @@
 # Orangutany Guide (guide.orangutany.com) — Claude Code Guidelines
 
 ## Project Overview
-Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 129 species pages.
+Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 131 species pages.
 
 ## Tech Stack
 - **Framework**: Next.js (App Router, static export)
@@ -40,8 +40,12 @@ Then commit the updated `species-lookup.json` in the amushroom repo. Also add a 
 2. Reject: sketches/illustrations (Bresadola, Vittadini, Doerstling), cartoons, icon sheets, book covers, frog feet, flowers, wrong species, microscopy/spore images, phylogenetic tree diagrams, cladograms, scientific charts/graphs, spore prints as sole subject
 3. Hero image: must be a real photograph showing the whole mushroom in field or hand — no microscopy, no diagrams, no lab images, no illustrations. Mushroom must be centered and prominent, not tiny in a corner of foliage
 4. No duplicates between hero and look-alike images
-5. No scientific figure labels (A, B, C, D) burned into photos
-6. If look-alike species exists in DB, verify its hero auto-loads correctly. If not in DB, a distinct downloaded photo must exist
+5. **No near-duplicate photos** — if two images show the same angle, same specimen, or same composition, keep only the better one. Every gallery photo must show something visually distinct (different angle, different specimen, different stage, cross-section, habitat context, usage/dye, etc.)
+6. **Reject bad-quality Wikimedia photos** — common problem authors: "Strobilomyces" (often low-quality or overly similar shots). Always preview downloaded images before including. If the photo looks like a slightly different crop of another photo in the gallery, drop it.
+7. **Use any resource for best pics** — Wikimedia Commons, iNaturalist (CC-licensed research-grade), Mushroom Observer. Quality over quantity. 4 great photos beats 6 mediocre ones.
+8. **Independent agent image review (MANDATORY)** — Before showing the page to the user, launch a separate agent to independently verify every image meets quality standards: real photograph (not illustration), correct species, no near-duplicates, technically meaningful (each photo shows something distinct — different angle, life stage, cross-section, habitat, or use case). The reviewing agent must visually open and inspect each image file. No image passes without this independent check.
+9. No scientific figure labels (A, B, C, D) burned into photos
+10. If look-alike species exists in DB, verify its hero auto-loads correctly. If not in DB, a distinct downloaded photo must exist
 
 ### External Links
 7. Verify EVERY iNaturalist taxon ID via API: `https://api.inaturalist.org/v1/taxa?q=NAME&rank=species` — AI-generated IDs are wrong >80% of the time
