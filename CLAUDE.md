@@ -14,6 +14,30 @@ Static SEO site for mushroom species identification. Next.js static export, depl
 - **NEVER push directly to main.** Every change — code, config, docs, CLAUDE.md, everything — must go through a PR. Create a branch, commit, push the branch, open a PR, merge. No exceptions, no shortcuts, no "it's just a doc update."
 - Batch related changes into one PR
 
+## PR Report (MANDATORY — every PR must include this)
+Every PR description must contain a structured report. Format depends on the type of change:
+
+### For bug fixes — Issue/Root Cause/Fix table:
+```
+| Issue | Root Cause | Fix |
+|-------|-----------|-----|
+| Short description | Why it happened | What was changed |
+```
+
+### For new features — Code Change Summary:
+- What the feature does (1-2 sentences)
+- Files added/modified and why
+- Any new dependencies, env vars, or config changes
+
+### For all PRs — End-to-End Test Results:
+```
+| # | Test Case | Expected | Result |
+|---|-----------|----------|--------|
+| 1 | Description | Expected outcome | PASS/FAIL |
+```
+Include boundary conditions: invalid input, missing fields, special characters, error states.
+If a test fails, document the fix and re-test result.
+
 ## Key Files
 - `data/species/*.ts` — Species data (SpeciesRecord type from `lib/types.ts`)
 - `data/species/index.ts` — Species registry (imports + allSpecies array)
