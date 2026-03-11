@@ -1,7 +1,7 @@
 # Orangutany Guide (guide.orangutany.com) — Claude Code Guidelines
 
 ## Project Overview
-Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 131 species pages.
+Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 131 species pages, 27 articles.
 
 ## Tech Stack
 - **Framework**: Next.js (App Router, static export)
@@ -10,8 +10,8 @@ Static SEO site for mushroom species identification. Next.js static export, depl
 - **Deploy**: Cloudflare Pages (`npx wrangler pages deploy out --project-name orangutany-guide`)
 - **Data**: TypeScript files in `data/species/`, registered in `data/species/index.ts`
 
-## Git Workflow
-- All changes via PR — never push directly to main
+## Git Workflow (MANDATORY — no exceptions)
+- **NEVER push directly to main.** Every change — code, config, docs, CLAUDE.md, everything — must go through a PR. Create a branch, commit, push the branch, open a PR, merge. No exceptions, no shortcuts, no "it's just a doc update."
 - Batch related changes into one PR
 
 ## Key Files
