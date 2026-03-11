@@ -94,7 +94,7 @@ export default function ArticlesPage() {
 
       {categories.map((cat) => (
           <section key={cat.label} className="mt-10">
-            <h2 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">
+            <h2 className="text-sm font-bold uppercase tracking-wider text-primary mb-4">
               {cat.label}
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
