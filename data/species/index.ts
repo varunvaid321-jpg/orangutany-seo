@@ -11,6 +11,7 @@ import amanitaJacksonii from "./amanita-jacksonii";
 import amanitaMuscaria from "./amanita-muscaria";
 import amanitaPantherina from "./amanita-pantherina";
 import amanitaPhalloides from "./amanita-phalloides";
+import amanitaNovinupta from "./amanita-novinupta";
 import amanitaRubescens from "./amanita-rubescens";
 import amanitaFulva from "./amanita-fulva";
 import amanitaVirosa from "./amanita-virosa";
@@ -132,6 +133,7 @@ import xylariaPolymorpha from "./xylaria-polymorpha";
 import type { SpeciesRecord } from "@/lib/types";
 
 export const allSpecies: SpeciesRecord[] = [
+  chlorociboriaAeruginascens,
   agaricusArvensis,
   agaricusBisporus,
   agaricusCampestris,
@@ -144,6 +146,7 @@ export const allSpecies: SpeciesRecord[] = [
   amanitaMuscaria,
   amanitaPantherina,
   amanitaPhalloides,
+  amanitaNovinupta,
   amanitaRubescens,
   amanitaFulva,
   amanitaVirosa,
@@ -159,7 +162,6 @@ export const allSpecies: SpeciesRecord[] = [
   cantharellusCinnabarinus,
   cantharellusTubaeformis,
   cerioporusSquamosus,
-  chlorociboriaAeruginascens,
   chlorophyllumMolybdites,
   chlorophyllumRhacodes,
   clathrusRuber,
