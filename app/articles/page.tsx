@@ -93,11 +93,11 @@ export default function ArticlesPage() {
       </p>
 
       {categories.map((cat) => (
-          <section key={cat.label} className="mt-8">
-            <h2 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">
+          <section key={cat.label} className="mt-10">
+            <h2 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">
               {cat.label}
             </h2>
-            <div className="space-y-1">
+            <div className="grid gap-4 sm:grid-cols-2">
               {cat.slugs.map((slug) => {
                 const a = articleMap.get(slug);
                 if (!a) return null;
@@ -105,10 +105,14 @@ export default function ArticlesPage() {
                   <Link
                     key={slug}
                     href={slug}
-                    className="flex items-baseline justify-between gap-4 rounded-lg px-3 py-2.5 transition hover:bg-card hover:border-primary/30 border border-transparent"
+                    className="rounded-lg border border-border bg-card p-4 transition hover:border-primary/50 hover:shadow-sm"
                   >
-                    <span className="text-sm font-medium text-foreground">{a.title}</span>
-                    <span className="hidden sm:block shrink-0 text-xs text-muted-foreground/60 max-w-[40%] text-right line-clamp-1">{a.summary}</span>
+                    <h3 className="text-sm font-semibold text-foreground">
+                      {a.title}
+                    </h3>
+                    <p className="mt-1 text-xs text-muted-foreground line-clamp-2">
+                      {a.summary}
+                    </p>
                   </Link>
                 );
               })}
