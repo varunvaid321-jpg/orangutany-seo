@@ -105,7 +105,8 @@ Before creating ANY new species file, check if it already exists:
 ### Distribution Map
 22. Map file exists, manifest entry has approved=true and renderingApproved=true
 23. Map file > 130KB (131KB = basemap only = no dots)
-24. **Visually open and inspect the map image** — verify dots are on land (not ocean), dots match known species range (e.g., European species shouldn't show dots only in South America), and overall distribution looks plausible
+24. **ALWAYS generate maps using `python3 scripts/curated-repair.py <slug>`** — NEVER write inline Python or use single-tile GBIF calls. The approved script uses 2 tiles at zoom 0 with @2x resolution for correct alignment. Inline map generation has produced misaligned maps with dots in the ocean multiple times.
+25. **Visually open and inspect the map image** — verify dots are on land (not ocean), dots match known species range (e.g., European species shouldn't show dots only in South America), and overall distribution looks plausible. If dots appear in water, the map was generated incorrectly — delete it and regenerate with the approved script.
 
 ### Build & Render
 25. `npm run build` passes

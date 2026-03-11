@@ -1106,7 +1106,7 @@
     "projection": "equirectangular",
     "gbifKey": 5452054,
     "occurrenceCount": 5000,
-    "fileSizeBytes": 150634,
+    "fileSizeBytes": 139143,
     "renderingApproved": true,
     "approved": true
   },
@@ -1117,7 +1117,7 @@
     "projection": "equirectangular",
     "gbifKey": 7496350,
     "occurrenceCount": 5000,
-    "fileSizeBytes": 236353,
+    "fileSizeBytes": 214050,
     "renderingApproved": true,
     "approved": true
   },
