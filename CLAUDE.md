@@ -55,6 +55,13 @@ After adding or modifying species in the guide database, you MUST regenerate the
 ```
 Then commit the updated `species-lookup.json` in the amushroom repo. Also add a story entry for the new species in `mushroom-stories.json` (curated fun fact shown as "Did You Know?" in scan results). Commit both files via PR. Skipping this means new species won't appear as guide links, show look-alike images, or display fun facts in scan results.
 
+## MANDATORY: Before Adding a Species
+Before creating ANY new species file, check if it already exists:
+1. Search `data/species/index.ts` and `data/species/*.ts` for the species name (common and scientific)
+2. If it exists, tell the user immediately — do NOT silently rewrite it
+3. Confirm with the user whether they want to improve the existing page or meant a different species
+4. Common name confusion happens (e.g., "Blushing Bride" = A. novinupta, NOT "The Blusher" = A. rubescens) — always verify the exact species before starting work
+
 ## MANDATORY: Species Page Quality Gate
 
 **Before showing ANY new or modified species page to the user on localhost, you MUST complete every check below. No exceptions. Do not skip checks because "it's probably fine." These rules exist because every single one of these bugs has shipped to production.**

@@ -47,6 +47,12 @@ const species: SpeciesRecord = {
       distinction:
         "Brown to tan cap rather than yellow. Warts tend to be more regularly arranged. Has a distinctly rimmed, collar-like volva. Contains the same class of toxins but usually in higher concentrations.",
     },
+    {
+      name: "The Blusher (Amanita rubescens)",
+      slug: "amanita-rubescens",
+      distinction:
+        "Pinkish-brown cap with greyish warts. The key tell: all damaged flesh turns pink to reddish. Jewelled Amanita does not blush. The Blusher is edible when cooked, making correct distinction important for foragers.",
+    },
   ],
   edibility: "toxic",
   edibilityNote:
