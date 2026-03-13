@@ -40,6 +40,8 @@ const species: SpeciesRecord = {
       name: "Suillus bovinus (Jersey Cow Bolete)",
       distinction:
         "Duller, more pinkish-brown cap. Pores are larger and more angular, often compound (divided by thin walls). Stem lacks the granular dots. Also edible but with softer texture. Found under pines like S. granulatus.",
+      externalUrl: "https://www.inaturalist.org/taxa/337850-Suillus-bovinus",
+      externalSource: "iNaturalist",
     },
     {
       name: "Boletus edulis (King Bolete)",

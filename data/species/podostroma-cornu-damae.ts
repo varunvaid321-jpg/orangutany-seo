@@ -33,9 +33,13 @@ const species: SpeciesRecord = {
       name: "Clavulinopsis coral fungi",
       distinction:
         "Various edible or harmless coral fungi can be yellow, orange, or pinkish. They tend to be more delicate, more branched, and less intensely red than Poison Fire Coral. However, color overlap exists, and in East Asian forests, any red coral-like fungus should be treated with extreme caution.",
+      externalUrl:
+        "https://www.inaturalist.org/taxa/55244-Clavulinopsis",
+      externalSource: "iNaturalist",
     },
     {
       name: "Ramaria botrytis (Cauliflower Coral)",
+      slug: "ramaria-botrytis",
       distinction:
         "A large, much-branched coral fungus with white to pinkish branches and purple-pink tips. Much larger and more extensively branched than Podostroma. Grows on the ground in broadleaf forests. Considered edible.",
     },
@@ -43,6 +47,8 @@ const species: SpeciesRecord = {
       name: "Trichoderma cornu-damae",
       distinction:
         "The anamorph (asexual stage) of the same organism. Can appear as a reddish stromatic growth on wood. Equally toxic. Taxonomy is complex and some authorities consider them the same species in different reproductive states.",
+      externalUrl: "https://www.inaturalist.org/taxa/894836-Trichoderma-cornu-damae",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "deadly",

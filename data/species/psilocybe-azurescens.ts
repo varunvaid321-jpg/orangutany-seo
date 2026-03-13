@@ -46,6 +46,8 @@ const species: SpeciesRecord = {
       name: "Stropharia ambigua (Questionable Stropharia)",
       distinction:
         "Non-psychoactive. A larger, pale yellowish mushroom found in similar coastal PNW habitats on wood debris. Has white remnants of a universal veil on the cap, a more prominent ring, and does not bruise blue. Spore print is dark purple-brown.",
+      externalUrl: "https://www.inaturalist.org/taxa/53284-Stropharia-ambigua",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

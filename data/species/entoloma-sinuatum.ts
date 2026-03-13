@@ -31,6 +31,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "St. George's Mushroom (Calocybe gambosa)",
+      slug: "calocybe-gambosa",
       distinction:
         "Fruits in spring (April-May), not autumn. Has a white spore print and gills that remain white. Strong mealy smell. If you find something similar in autumn, it is not St. George's.",
     },

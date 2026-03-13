@@ -32,6 +32,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Phallus impudicus (Common Stinkhorn)",
+      slug: "phallus-impudicus",
       distinction:
         "Very similar in shape and ecology, but has a white volva (not pinkish-purple). More commonly found in deciduous woodlands rather than sandy or open habitats. Both species are technically edible in the egg stage and repulsive in the mature stage.",
     },
@@ -39,9 +40,12 @@ const species: SpeciesRecord = {
       name: "Phallus ravenelii (Ravenel's Stinkhorn)",
       distinction:
         "Found in eastern North America. Similar shape, but the head has a smoother, more granular surface and the volva is white to pale. Often found in garden mulch and disturbed areas. The head texture and volva color distinguish it.",
+      externalUrl: "https://www.inaturalist.org/taxa/125743-Phallus-ravenelii",
+      externalSource: "iNaturalist",
     },
     {
       name: "Clathrus ruber (Lattice Stinkhorn)",
+      slug: "clathrus-ruber",
       distinction:
         "Also a stinkhorn with foul-smelling gleba, but forms a distinctive red lattice or cage structure rather than a phallic stalk. Impossible to confuse visually once seen, though the smell is similar.",
     },

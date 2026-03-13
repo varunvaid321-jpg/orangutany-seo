@@ -39,6 +39,8 @@ const species: SpeciesRecord = {
       name: "Grey Spotted Amanita (Amanita excelsa var. spissa)",
       distinction:
         "Similar brown cap with grayish warts, but the warts are gray rather than pure white, the volva is less distinctly rimmed, and the flesh does not cause toxic reactions. Often grows in the same habitats.",
+      externalUrl: "https://www.inaturalist.org/taxa/119999-Amanita-excelsa",
+      externalSource: "iNaturalist",
     },
     {
       name: "Fly Agaric (Amanita muscaria)",

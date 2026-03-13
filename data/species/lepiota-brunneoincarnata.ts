@@ -45,6 +45,8 @@ const species: SpeciesRecord = {
       name: "Lepiota cristata (Stinking Dapperling)",
       distinction:
         "A small Lepiota with reddish-brown concentric scales and a strong, unpleasant rubber or chemical smell. Also toxic but not known to be lethal. Very difficult to distinguish from Lepiota brunneoincarnata without microscopy.",
+      externalUrl: "https://www.inaturalist.org/taxa/58694-Lepiota-cristata",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "deadly",

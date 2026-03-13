@@ -40,11 +40,15 @@ const species: SpeciesRecord = {
       name: "Panaeolus antillarum (White Dung Mushroom)",
       distinction:
         "Non-psychoactive. Very similar habitat and shape, but P. antillarum is larger, with a smooth white cap that does not bruise blue, and a black spore print. The absence of blue bruising is the key difference.",
+      externalUrl: "https://www.inaturalist.org/taxa/348989-Panaeolus-antillarum",
+      externalSource: "iNaturalist",
     },
     {
       name: "Panaeolus papilionaceus (Petticoat Mottlegill)",
       distinction:
         "Non-psychoactive. Similar size and habitat. Has distinctive tooth-like veil remnants hanging from the cap margin (the \"petticoat\"). Does not bruise blue. Spore print is black. The veil remnants and lack of bruising separate it.",
+      externalUrl: "https://www.inaturalist.org/taxa/118263-Panaeolus-papilionaceus",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

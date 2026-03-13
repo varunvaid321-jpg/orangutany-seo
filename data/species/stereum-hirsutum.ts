@@ -40,11 +40,15 @@ const species: SpeciesRecord = {
       name: "Stereum gausapatum (Bleeding Oak Crust)",
       distinction:
         "Very similar in appearance, but the underside of S. gausapatum bleeds red when scratched or damaged. S. hirsutum does not change color when scratched. Found almost exclusively on oak. Test by scratching the fresh underside with a fingernail.",
+      externalUrl: "https://www.inaturalist.org/taxa/332685-Stereum-gausapatum",
+      externalSource: "iNaturalist",
     },
     {
       name: "Stereum complicatum (Crowded Parchment)",
       distinction:
         "Similar growth habit on dead wood, but forms smaller, more crowded, and more tightly overlapping shelves. Often more uniformly tan or buff without the bright golden zoning. Common in eastern North America on hardwood branches.",
+      externalUrl: "https://www.inaturalist.org/taxa/196842-Stereum-complicatum",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "inedible",

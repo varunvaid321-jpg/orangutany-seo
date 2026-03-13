@@ -40,6 +40,8 @@ const species: SpeciesRecord = {
       name: "Agrocybe pediades (Common Fieldcap)",
       distinction:
         "Very similar, also edible. Slightly smaller, lacks the ring on the stem, and tends to fruit in open grasslands rather than wood chip beds. Spore print is brown. Distinguished mainly by the absence of a ring and the grassland habitat preference.",
+      externalUrl: "https://www.inaturalist.org/taxa/118393-Agrocybe-pediades",
+      externalSource: "iNaturalist",
     },
     {
       name: "Inocybe species (Fibercaps)",

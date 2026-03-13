@@ -34,14 +34,19 @@ const species: SpeciesRecord = {
       name: "Leucocoprinus cretaceus (White Houseplant Mushroom)",
       distinction:
         "Very similar in size, shape, and habitat (also appears in potted plants), but entirely white rather than yellow. Same genus, same ecological role. Also considered mildly toxic.",
+      externalUrl: "https://www.inaturalist.org/taxa/525049-Leucocoprinus-cretaceus",
+      externalSource: "iNaturalist",
     },
     {
       name: "Lepiota cristata (Stinking Dapperling)",
       distinction:
         "Much more dangerous (potentially deadly). Found outdoors in garden soils. Smaller, white to cream with reddish-brown scales on the cap center. Has a distinctive unpleasant chemical odor. Not yellow. Not found in houseplants.",
+      externalUrl: "https://www.inaturalist.org/taxa/58694-Lepiota-cristata",
+      externalSource: "iNaturalist",
     },
     {
       name: "Bolbitius titubans (Yellow Fieldcap)",
+      slug: "bolbitius-titubans",
       distinction:
         "Also bright yellow, but found outdoors on grass, dung, or straw, not in houseplants. Has a slimy, viscid cap that dissolves quickly (deliquescent). Spore print is rusty brown, not white. Much more fragile.",
     },

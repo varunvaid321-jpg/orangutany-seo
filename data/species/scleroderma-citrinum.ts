@@ -54,6 +54,8 @@ const species: SpeciesRecord = {
       name: "Leopard Earthball (Scleroderma areolatum)",
       distinction:
         "Smaller with a thinner skin and finer, more leopard-spot-like scales. Also toxic, so the distinction is mainly of academic interest. Similar dark interior.",
+      externalUrl: "https://www.inaturalist.org/taxa/203805-Scleroderma-areolatum",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

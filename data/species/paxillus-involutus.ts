@@ -33,16 +33,22 @@ const species: SpeciesRecord = {
       name: "Velvet Rollrim (Tapinella atrotomentosa)",
       distinction:
         "Grows on dead conifer wood (not from soil), has a dark brown to black velvety stem base, and is significantly larger and more robust. Also inedible but causes different issues.",
+      externalUrl: "https://www.inaturalist.org/taxa/154450-Tapinella-atrotomentosa",
+      externalSource: "iNaturalist",
     },
     {
       name: "Ugly Milkcap (Lactarius turpis)",
       distinction:
         "Similar dark brown funnel shape, but exudes white milk when gills are cut or broken. Cap surface is distinctly slimy and olive-green to dark brown. Also associated with birch trees.",
+      externalUrl: "https://www.inaturalist.org/taxa/382886-Lactarius-turpis",
+      externalSource: "iNaturalist",
     },
     {
       name: "Brown Funnel Cap (Infundibulicybe gibba)",
       distinction:
         "Much thinner-fleshed and smaller, with a pale tan to buff cap and white gills. Does not bruise brown. Cap margin is not inrolled in the same way. Generally considered edible.",
+      externalUrl: "https://www.inaturalist.org/taxa/921916-Infundibulicybe-gibba",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

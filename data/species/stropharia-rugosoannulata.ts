@@ -37,7 +37,8 @@ const species: SpeciesRecord = {
         "Some Agaricus species have similar cap shapes and dark spore prints. Distinguished by the chocolate-brown (not purple-black) spore print, pink to brown gills (not lilac-gray), and lack of the distinctive cogwheel ring. Agaricus species also tend to have a more distinctly mushroomy or anise-like odor.",
     },
     {
-      name: "Hypholoma sublateritium (Brick Cap)",
+      name: "Brick Cap (Hypholoma lateritium)",
+      slug: "hypholoma-lateritium",
       distinction:
         "Also reddish-capped and found on wood. Smaller (3-8 cm cap), grows in dense clusters on hardwood stumps. Has a mild to slightly bitter taste and lacks the thick cogwheel ring. Spore print is purple-brown. Generally considered edible but inferior.",
     },
@@ -45,6 +46,8 @@ const species: SpeciesRecord = {
       name: "Stropharia aeruginosa (Verdigris Agaric)",
       distinction:
         "Same genus, similar shape and ring structure. Distinguished by its blue-green to verdigris-colored cap with slimy white scales. Not considered edible. The color is unmistakable.",
+      externalUrl: "https://www.inaturalist.org/taxa/55583-Stropharia-aeruginosa",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "edible",

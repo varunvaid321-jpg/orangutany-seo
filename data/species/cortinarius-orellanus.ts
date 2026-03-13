@@ -45,6 +45,8 @@ const species: SpeciesRecord = {
       name: "Cortinarius cinnamomeus (Cinnamon Webcap)",
       distinction:
         "A smaller, more yellowish-brown Cortinarius that is not considered dangerously toxic. Cap is more olive-yellow than reddish-brown. Grows in similar habitats. Still best avoided, as the Cortinarius genus is notoriously difficult to identify to species level.",
+      externalUrl: "https://www.inaturalist.org/taxa/155225-Cortinarius-cinnamomeus",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "deadly",
