@@ -117,24 +117,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-cluster-log.jpg",
-      alt: "Cluster of oyster mushrooms with gray-brown caps growing on a log",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:20210718_Pleurotus_ostreatus_21-35.jpg",
-      author: "Zinnmann",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "02-on-tree.jpg",
-      alt: "Oyster mushrooms fruiting in overlapping shelves on a standing alder tree",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gewone_oesterzwam_(Pleurotus_ostreatus)._Paddenstoel_op_els_03.JPG",
-      author: "Famberhorst",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "03-winter.jpg",
       alt: "Oyster mushrooms growing on a tree trunk in winter conditions",
       source: "Wikimedia Commons",

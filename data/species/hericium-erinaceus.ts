@@ -140,15 +140,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "02-on-tree.jpg",
-      alt: "Lion's Mane mushroom growing on a tree trunk in the wild",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_101875852.jpg",
-      author: "Daniel Gillies",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
-    },
-    {
       filename: "03-close-up.jpg",
       alt: "Close-up of Lion's Mane showing white hanging spines and texture",
       source: "Wikimedia Commons",

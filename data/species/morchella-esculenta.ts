@@ -161,16 +161,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "05-closeup.jpg",
-      alt: "Close-up of morel mushroom showing detailed pit and ridge texture",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Morchella_esculenta_70269680.jpg",
-      author: "iNaturalist user",
-      license: "CC0",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",
