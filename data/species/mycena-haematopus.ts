@@ -37,6 +37,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Mycena galericulata (Common Bonnet)",
+      slug: "mycena-galericulata",
       distinction:
         "Similar size and habitat on wood. Pinkish-brown cap, but does NOT exude latex when the stem is broken. The tougher, more elastic stem and lack of bleeding reaction distinguish it. Very common and easily confused visually until you break the stem.",
     },

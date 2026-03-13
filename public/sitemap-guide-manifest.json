@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-13T00:39:43.441Z",
+  "generated": "2026-03-13T02:40:08.937Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
-  "total": 179,
+  "total": 185,
   "entries": [
     {
       "path": "/",
@@ -180,6 +180,13 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/bolbitius-titubans",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/boletus-edulis",
       "lastmod": "2026-03-13",
       "changefreq": "monthly",
@@ -299,6 +306,13 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/coprinellus-micaceus",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/coprinopsis-atramentaria",
       "lastmod": "2026-03-13",
       "changefreq": "monthly",
@@ -321,6 +335,13 @@
     },
     {
       "path": "/mushrooms/cordyceps-militaris",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/cortinarius-vanduzerensis",
       "lastmod": "2026-03-13",
       "changefreq": "monthly",
       "priority": 0.8,
@@ -418,7 +439,21 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/gliophorus-chromolimoneus",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/gymnopilus-junonius",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/gymnopilus-viridans",
       "lastmod": "2026-03-13",
       "changefreq": "monthly",
       "priority": 0.8,
@@ -636,6 +671,13 @@
     },
     {
       "path": "/mushrooms/mutinus-caninus",
+      "lastmod": "2026-03-13",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/mycena-galericulata",
       "lastmod": "2026-03-13",
       "changefreq": "monthly",
       "priority": 0.8,
