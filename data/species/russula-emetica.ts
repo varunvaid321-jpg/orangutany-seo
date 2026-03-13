@@ -33,16 +33,22 @@ const species: SpeciesRecord = {
       name: "Beechwood Sickener (Russula nobilis)",
       distinction:
         "Very similar red cap and white gills, but grows exclusively with beech trees rather than conifers. Equally emetic. Some mycologists previously classified it as a variety of Russula emetica.",
+      externalUrl: "https://www.inaturalist.org/taxa/49446-Russula-nobilis",
+      externalSource: "iNaturalist",
     },
     {
       name: "Russula silvicola (Woodland Sickener)",
       distinction:
         "Another red-capped emetic Russula found in mixed and coniferous forests. Extremely difficult to distinguish from R. emetica without microscopy. Also causes vomiting. The practical advice is the same: avoid red Russulas with a peppery taste.",
+      externalUrl: "https://www.inaturalist.org/taxa/203672-Russula-silvicola",
+      externalSource: "iNaturalist",
     },
     {
       name: "Russula integra",
       distinction:
         "A brown-red to dark red Russula that is actually edible. Mild taste (not peppery), cream to ochre spore print, and typically grows with spruce. The taste test is key: edible Russulas taste mild, while The Sickener burns like raw chili on the tongue.",
+      externalUrl: "https://www.inaturalist.org/taxa/62735-Russula-integra",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

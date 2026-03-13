@@ -44,6 +44,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Scleroderma citrinum (Common Earthball)",
+      slug: "scleroderma-citrinum",
       distinction:
         "Toxic. Superficially similar in shape and size. Distinguished by the thick, tough, yellowish rind, dark purple-black interior (even when young), and growth on soil rather than wood. Earthballs never have the white interior of an edible puffball.",
     },

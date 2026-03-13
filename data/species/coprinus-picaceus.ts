@@ -46,6 +46,8 @@ const species: SpeciesRecord = {
       name: "Coprinellus domesticus (Firerug Inkcap)",
       distinction:
         "Smaller, orange-brown cap, grows on decaying wood indoors and outdoors. Lacks the dramatic black-and-white pattern. Found in damper environments, often on rotting timber in buildings.",
+      externalUrl: "https://www.inaturalist.org/taxa/203062-Coprinellus-domesticus",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "inedible",

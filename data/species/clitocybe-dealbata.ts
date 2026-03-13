@@ -31,6 +31,7 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Fairy Ring Champignon (Marasmius oreades)",
+      slug: "marasmius-oreades",
       distinction:
         "The most dangerous confusion. Marasmius oreades has a buff to tan cap (not white), a very tough and wiry stem that bends without breaking, and widely spaced gills. The Ivory Funnel has a white cap, a fragile stem, and crowded gills. They can grow side by side in the same fairy ring.",
     },
@@ -38,11 +39,15 @@ const species: SpeciesRecord = {
       name: "Sweetbread Mushroom (Clitopilus prunulus)",
       distinction:
         "Similar size and white color, but Clitopilus prunulus has pink-tinged gills at maturity, a pink spore print, and a strong mealy smell. It grows in woodland rather than open grass. Edible but easily confused with toxic white Clitocybes.",
+      externalUrl: "https://www.inaturalist.org/taxa/64708-Clitopilus-prunulus",
+      externalSource: "iNaturalist",
     },
     {
       name: "Fool's Funnel (Clitocybe rivulosa)",
       distinction:
         "Extremely similar and possibly the same species; some mycologists treat them as synonyms. Clitocybe rivulosa tends to be slightly larger with a more distinctly funnel-shaped cap. Equally toxic, containing the same muscarine levels.",
+      externalUrl: "https://www.inaturalist.org/taxa/1525557-Collybia-rivulosa",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",

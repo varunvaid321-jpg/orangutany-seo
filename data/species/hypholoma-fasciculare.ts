@@ -33,6 +33,8 @@ const species: SpeciesRecord = {
       name: "Sheathed Woodtuft (Kuehneromyces mutabilis)",
       distinction:
         "An edible species that also grows in clusters on dead wood. Sheathed Woodtuft has a distinctive ring on the stem, a two-toned cap (dark when wet, pale when dry), and brown (not purple-brown) spore print. Gills never have the greenish tinge. The ring is the key feature.",
+      externalUrl: "https://www.inaturalist.org/taxa/153033-Kuehneromyces-mutabilis",
+      externalSource: "iNaturalist",
     },
     {
       name: "Brick Cap (Hypholoma lateritium)",

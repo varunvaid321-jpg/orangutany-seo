@@ -33,14 +33,19 @@ const species: SpeciesRecord = {
       name: "Sulphur Knight (Tricholoma sulphureum)",
       distinction:
         "Superficially similar yellow coloring but has a strong, unpleasant sulfurous or gaslight smell that is impossible to miss. The bad odor is a reliable separator. Sulphur Knight is also toxic.",
+      externalUrl: "https://www.inaturalist.org/taxa/408299-Tricholoma-sulphureum",
+      externalSource: "iNaturalist",
     },
     {
       name: "Tricholoma auratum",
       distinction:
         "Very closely related and possibly conspecific (the same species). Similar yellow coloring and habitat preferences. Some mycologists treat them as the same species; the toxicity concerns apply equally.",
+      externalUrl: "https://www.inaturalist.org/taxa/118215-Tricholoma-equestre",
+      externalSource: "iNaturalist",
     },
     {
       name: "Greencracked Brittlegill (Russula virescens)",
+      slug: "russula-virescens",
       distinction:
         "Has a green-cracked cap surface (like dried mud) and brittle white gills. Completely different texture: Russula gills snap cleanly when pressed. A prized edible with no known toxicity.",
     },

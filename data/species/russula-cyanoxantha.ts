@@ -47,6 +47,8 @@ const species: SpeciesRecord = {
       name: "Russula ionochlora",
       distinction:
         "Similar violet-green coloring but smaller overall. Gills are brittle, not flexible. Less variable in cap color. The flexible-gill test is the definitive separator.",
+      externalUrl: "https://www.inaturalist.org/taxa/118183-Russula-ionochlora",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "edible",

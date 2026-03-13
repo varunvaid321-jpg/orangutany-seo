@@ -40,9 +40,12 @@ const species: SpeciesRecord = {
       name: "Psilocybe allenii",
       distinction:
         "Also psychoactive, also on wood chips in the Pacific Northwest. Very similar but P. allenii has a less wavy cap margin and slightly different microscopic features (different pleurocystidia). Practically, both species contain psilocybin and grow in the same habitats. Spore print is also dark purple-brown.",
+      externalUrl: "https://www.inaturalist.org/taxa/348831-Psilocybe-allenii",
+      externalSource: "iNaturalist",
     },
     {
       name: "Hypholoma fasciculare (Sulphur Tuft)",
+      slug: "hypholoma-fasciculare",
       distinction:
         "Bitter and mildly toxic. Grows in clusters on wood. Has a sulfur-yellow to greenish-yellow cap (not brown), greenish gills, and a bitter taste. Does not bruise blue. Spore print is purple-brown. The yellow coloring is distinctive.",
     },

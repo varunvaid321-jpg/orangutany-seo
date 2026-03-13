@@ -52,6 +52,8 @@ const species: SpeciesRecord = {
       name: "Gymnopilus luteofolius (Yellow-gilled Gymnopilus)",
       distinction:
         "Also in the genus Gymnopilus and also found on wood. Smaller (2-8 cm cap), with purplish to wine-colored scales on the cap and a purplish spore deposit. Some collections contain psilocybin. Distinguished by the purple tones and smaller stature.",
+      externalUrl: "https://www.inaturalist.org/taxa/350919-Gymnopilus-luteofolius",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",
