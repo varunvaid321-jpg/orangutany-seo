@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { allSpecies } from "@/data/species";
 import { getCardImage } from "@/lib/card-image";
 import { DistributionMap } from "@/components/species/distribution-map";
+import { ImageGallery } from "@/components/species/image-gallery";
 import { articleSchema } from "@/lib/schema";
 import { Breadcrumb, breadcrumbJsonLd } from "@/components/shared/breadcrumb";
 import { CtaBlock } from "@/components/shared/cta-block";
@@ -140,22 +141,8 @@ export default async function RecipePage({ params }: { params: Promise<{ recipe:
 
       {/* Photo gallery */}
       {galleryImages.length > 1 && (
-        <div className="grid grid-cols-5 gap-1 rounded-xl overflow-hidden mb-8">
-          {galleryImages.map((img) => (
-            <div key={img.filename} className="relative group">
-              <img
-                src={`/images/species/${species.slug}/${img.filename}`}
-                alt={img.alt}
-                className="aspect-square w-full object-cover"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition flex items-end">
-                <p className="text-[8px] text-white/0 group-hover:text-white/90 transition p-1.5 leading-tight">
-                  {img.alt}
-                </p>
-              </div>
-            </div>
-          ))}
+        <div className="mb-8">
+          <ImageGallery images={galleryImages} slug={species.slug} />
         </div>
       )}
 

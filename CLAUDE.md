@@ -125,7 +125,13 @@ Before creating ANY new species file, check if it already exists:
 - NEVER use matplotlib scatter dots
 - SRS: EPSG:4326, zoom 0, style orange.marker
 
+## API Key Security (MANDATORY)
+- **NEVER store API keys, secrets, or tokens in memory files, CLAUDE.md, or any committed file**
+- All secrets live in `/Users/varunvaid/amushroom/.env.production` (gitignored, local only)
+- Reference keys by env var name (e.g., `$CLOUDFLARE_API_KEY`), never by value
+- When you need a key value, read it from `.env.production` at runtime
+
 ## Deploy Command
 ```
-CLOUDFLARE_ACCOUNT_ID=e03e2882012ddf881ecf0753cf8a7c92 CLOUDFLARE_API_KEY=c2d4f6647e67eadcbd5e74d88f68469eca5b1 CLOUDFLARE_EMAIL=vvaid365@icloud.com npx wrangler pages deploy out --project-name orangutany-guide
+source /Users/varunvaid/amushroom/.env.production && CLOUDFLARE_ACCOUNT_ID=e03e2882012ddf881ecf0753cf8a7c92 CLOUDFLARE_API_KEY=$CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL=vvaid365@icloud.com npx wrangler pages deploy out --project-name orangutany-guide
 ```
