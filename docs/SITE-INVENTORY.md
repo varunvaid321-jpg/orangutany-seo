@@ -13,13 +13,13 @@
 6. **No orphan images**: `public/images/species/` dirs must match species in `data/species.ts`
 7. **Social page (`/social`)**: noindex, not in sitemap, not in nav — private content bank only
 
-## Species Pages (131)
+## Species Pages (137)
 
 Source of truth: `data/species.ts` → `allSpecies` array
 Route: `/mushrooms/[slug]`
 Images: `/public/images/species/[slug]/`
 
-All 106 species have matching image directories. The `index` folder in images is NOT a species.
+All 137 species have matching image directories. The `index` folder in images is NOT a species.
 
 ### Full species list (alphabetical)
 agaricus-bisporus, agaricus-campestris, agrocybe-praecox, amanita-caesarea, amanita-citrina, amanita-gemmata, amanita-jacksonii, amanita-muscaria, amanita-pantherina, amanita-phalloides, amanita-virosa, armillaria-mellea, auricularia-auricula-judae, boletus-edulis, boletus-pinophilus, boletus-reticulatus, calocybe-gambosa, calvatia-gigantea, cantharellus-cibarius, cantharellus-cinnabarinus, cantharellus-tubaeformis, chlorociboria-aeruginascens, chlorophyllum-molybdites, chlorophyllum-rhacodes, clathrus-ruber, clitocybe-dealbata, clitocybe-nuda, conocybe-filaris, coprinopsis-atramentaria, coprinus-comatus, coprinus-picaceus, cordyceps-militaris, cortinarius-orellanus, cortinarius-rubellus, craterellus-cornucopioides, craterellus-tubaeformis, cyclocybe-aegerita, entoloma-sinuatum, fistulina-hepatica, flammulina-velutipes, galerina-marginata, ganoderma-lucidum, grifola-frondosa, gymnopilus-junonius, gyromitra-esculenta, hericium-erinaceus, hydnum-repandum, hygrocybe-coccinea, hypholoma-fasciculare, inocybe-aeruginascens, inocybe-erubescens, inonotus-obliquus, lactarius-deliciosus, laetiporus-sulphureus, leccinum-aurantiacum, leccinum-scabrum, lentinula-edodes, lepiota-brunneoincarnata, lepista-saeva, leucocoprinus-birnbaumii, lycoperdon-perlatum, lycoperdon-pyriforme, macrolepiota-procera, marasmius-oreades, morchella-elata, morchella-esculenta, mutinus-caninus, mycena-haematopus, omphalotus-olearius, ophiocordyceps-sinensis, panaeolus-cyanescens, paxillus-involutus, phallus-hadriani, phallus-impudicus, pleurotus-ostreatus, pluteus-salicinus, podostroma-cornu-damae, psilocybe-azurescens, psilocybe-caerulescens, psilocybe-cubensis, psilocybe-cyanescens, psilocybe-mexicana, psilocybe-semilanceata, psilocybe-stuntzii, psilocybe-tampanensis, ramaria-botrytis, rubroboletus-satanas, russula-cyanoxantha, russula-emetica, russula-virescens, scleroderma-citrinum, sparassis-crispa, stereum-hirsutum, stropharia-rugosoannulata, suillus-granulatus, suillus-luteus, trametes-versicolor, tricholoma-equestre, tricholoma-matsutake, tuber-aestivum, tuber-magnatum, tuber-melanosporum, verpa-bohemica, volvariella-volvacea, xerocomellus-chrysenteron, xeromphalina-campanella
