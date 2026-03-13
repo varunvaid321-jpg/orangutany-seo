@@ -1,7 +1,7 @@
 # Orangutany Guide (guide.orangutany.com) — Claude Code Guidelines
 
 ## Project Overview
-Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 131 species pages, 27 articles.
+Static SEO site for mushroom species identification. Next.js static export, deployed to Cloudflare Pages via wrangler. Currently 137 species pages, 27 articles.
 
 ## Tech Stack
 - **Framework**: Next.js (App Router, static export)
