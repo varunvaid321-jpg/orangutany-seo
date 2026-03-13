@@ -34,6 +34,9 @@ const species: SpeciesRecord = {
       name: "Mycena sanguinolenta (Bleeding Bonnet)",
       distinction:
         "Very similar bleeding reaction, but much smaller (cap under 1 cm) and grows on leaf litter and soil rather than on wood. The latex is similar in color but less copious. Requires careful observation of substrate and size.",
+      externalUrl:
+        "https://www.inaturalist.org/taxa/118253-Mycena-sanguinolenta",
+      externalSource: "iNaturalist",
     },
     {
       name: "Mycena galericulata (Common Bonnet)",
@@ -45,6 +48,9 @@ const species: SpeciesRecord = {
       name: "Mycena inclinata (Clustered Bonnet)",
       distinction:
         "Also grows in clusters on wood, similar size. Distinguished by a distinctly rancid or sour odor, a pale toothed margin, and the complete absence of red latex. The stem base often has a yellowish tinge.",
+      externalUrl:
+        "https://www.inaturalist.org/taxa/63453-Mycena-inclinata",
+      externalSource: "iNaturalist",
     },
   ],
   edibility: "inedible",
