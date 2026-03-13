@@ -43,6 +43,12 @@ const species: SpeciesRecord = {
         "Toxic. Also orange, also grows in clusters at the base of trees. Jack O'Lanterns have true decurrent gills that run down the stem, a cream to pale yellow spore print, and lack the ring. Gymnopilus has attached gills, a prominent ring, and a rusty orange spore print.",
     },
     {
+      name: "Green-Staining Gymnopilus (Gymnopilus viridans)",
+      slug: "gymnopilus-viridans",
+      distinction:
+        "A rare Pacific Northwest species that develops greenish stains on the cap and stem with handling or age. Smaller than G. junonius (caps 3–10 cm), grows on conifer wood rather than hardwood, and lacks the prominent membranous ring. Also contains psilocybin. The green staining reaction is the key distinguishing feature.",
+    },
+    {
       name: "Gymnopilus luteofolius (Yellow-gilled Gymnopilus)",
       distinction:
         "Also in the genus Gymnopilus and also found on wood. Smaller (2-8 cm cap), with purplish to wine-colored scales on the cap and a purplish spore deposit. Some collections contain psilocybin. Distinguished by the purple tones and smaller stature.",

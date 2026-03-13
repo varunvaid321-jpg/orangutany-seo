@@ -266,7 +266,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                         <img
                           src={getCardImage(r)!.src}
                           alt={getCardImage(r)!.alt}
-                          className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
+                          className="aspect-[3/2] w-full object-cover object-center transition group-hover:scale-105"
                           loading="lazy"
                         />
                       ) : (

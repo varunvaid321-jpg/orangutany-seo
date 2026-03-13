@@ -1,4 +1,37 @@
 {
+  "coprinellus-micaceus": {
+    "speciesSlug": "coprinellus-micaceus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2534578,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 141764,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "gymnopilus-viridans": {
+    "speciesSlug": "gymnopilus-viridans",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 3343088,
+    "occurrenceCount": 2,
+    "fileSizeBytes": 36280,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "cortinarius-vanduzerensis": {
+    "speciesSlug": "cortinarius-vanduzerensis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 3349103,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 45713,
+    "renderingApproved": true,
+    "approved": true
+  },
   "agaricus-bisporus": {
     "speciesSlug": "agaricus-bisporus",
     "mapVersion": "1.0",
@@ -1338,6 +1371,39 @@
     "gbifKey": 2525455,
     "occurrenceCount": 5000,
     "fileSizeBytes": 118995,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "gliophorus-chromolimoneus": {
+    "speciesSlug": "gliophorus-chromolimoneus",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2538850,
+    "occurrenceCount": 100,
+    "fileSizeBytes": 39014,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "mycena-galericulata": {
+    "speciesSlug": "mycena-galericulata",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2526880,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 113332,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "bolbitius-titubans": {
+    "speciesSlug": "bolbitius-titubans",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 9127230,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 132057,
     "renderingApproved": true,
     "approved": true
   }

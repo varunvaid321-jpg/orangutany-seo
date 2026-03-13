@@ -17,6 +17,7 @@ import amanitaFulva from "./amanita-fulva";
 import amanitaVirosa from "./amanita-virosa";
 import armillariaMellea from "./armillaria-mellea";
 import auriculariaAuriculaJudae from "./auricularia-auricula-judae";
+import bolbitiusTitubans from "./bolbitius-titubans";
 import boletusEdulis from "./boletus-edulis";
 import boletusPinophilus from "./boletus-pinophilus";
 import boletusReticulatus from "./boletus-reticulatus";
@@ -35,10 +36,12 @@ import clitocybeNebularis from "./clitocybe-nebularis";
 import clitocybeDealbata from "./clitocybe-dealbata";
 import clitocybeNuda from "./clitocybe-nuda";
 import conocybeFilaris from "./conocybe-filaris";
+import coprinellusMicaceus from "./coprinellus-micaceus";
 import coprinopsisAtramentaria from "./coprinopsis-atramentaria";
 import coprinusComatus from "./coprinus-comatus";
 import coprinusPicaceus from "./coprinus-picaceus";
 import cordycepsMilitaris from "./cordyceps-militaris";
+import cortinariusVanduzerensis from "./cortinarius-vanduzerensis";
 import cortinariusOrellanus from "./cortinarius-orellanus";
 import cortinariusRubellus from "./cortinarius-rubellus";
 import craterellusCornucopioides from "./craterellus-cornucopioides";
@@ -52,7 +55,9 @@ import fomitopsisBetulina from "./fomitopsis-betulina";
 import galerinaMarginata from "./galerina-marginata";
 import ganodermaLucidum from "./ganoderma-lucidum";
 import grifolaFrondosa from "./grifola-frondosa";
+import gliophorusChromolimoneus from "./gliophorus-chromolimoneus";
 import gymnopilusJunonius from "./gymnopilus-junonius";
+import gymnopilusViridans from "./gymnopilus-viridans";
 import gyromitraEsculenta from "./gyromitra-esculenta";
 import hericiumCoralloides from "./hericium-coralloides";
 import hericiumErinaceus from "./hericium-erinaceus";
@@ -84,6 +89,7 @@ import marasmiusOreades from "./marasmius-oreades";
 import morchellaElata from "./morchella-elata";
 import morchellaEsculenta from "./morchella-esculenta";
 import mutinusCaninus from "./mutinus-caninus";
+import mycenaGalericulata from "./mycena-galericulata";
 import mycenaHaematopus from "./mycena-haematopus";
 import omphalotusOlearius from "./omphalotus-olearius";
 import ophiocordycepsSinensis from "./ophiocordyceps-sinensis";
@@ -152,6 +158,7 @@ export const allSpecies: SpeciesRecord[] = [
   amanitaVirosa,
   armillariaMellea,
   auriculariaAuriculaJudae,
+  bolbitiusTitubans,
   boletusEdulis,
   boletusPinophilus,
   boletusReticulatus,
@@ -169,10 +176,12 @@ export const allSpecies: SpeciesRecord[] = [
   clitocybeDealbata,
   clitocybeNuda,
   conocybeFilaris,
+  coprinellusMicaceus,
   coprinopsisAtramentaria,
   coprinusComatus,
   coprinusPicaceus,
   cordycepsMilitaris,
+  cortinariusVanduzerensis,
   cortinariusOrellanus,
   cortinariusRubellus,
   craterellusCornucopioides,
@@ -186,7 +195,9 @@ export const allSpecies: SpeciesRecord[] = [
   galerinaMarginata,
   ganodermaLucidum,
   grifolaFrondosa,
+  gliophorusChromolimoneus,
   gymnopilusJunonius,
+  gymnopilusViridans,
   gyromitraEsculenta,
   hericiumCoralloides,
   hericiumErinaceus,
@@ -218,6 +229,7 @@ export const allSpecies: SpeciesRecord[] = [
   morchellaElata,
   morchellaEsculenta,
   mutinusCaninus,
+  mycenaGalericulata,
   mycenaHaematopus,
   omphalotusOlearius,
   ophiocordycepsSinensis,
