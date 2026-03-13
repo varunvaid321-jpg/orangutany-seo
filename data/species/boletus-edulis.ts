@@ -164,16 +164,6 @@ const species: SpeciesRecord = {
       license: "CC BY 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
-    {
-      filename: "05-dutch.jpg",
-      alt: "Porcini mushroom in Dutch botanical garden showing bulbous stem base",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Eekhoorntjesbrood_(Boletus_edulis)._Locatie,_De_Kruidhof_Buitenpost_01.jpg",
-      author: "Dominicus Johannes Bergsma",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

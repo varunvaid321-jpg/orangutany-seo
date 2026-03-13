@@ -148,15 +148,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
-      filename: "04-field.jpg",
-      alt: "Golden Chanterelle (Cantharellus cibarius) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cantharellus_cibarius_(1)_(50545288211).jpg",
-      author: "Dr. Hans-Günter Wagner",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
       filename: "05-field.jpg",
       alt: "Golden Chanterelle (Cantharellus cibarius) wild specimen",
       source: "Wikimedia Commons",
