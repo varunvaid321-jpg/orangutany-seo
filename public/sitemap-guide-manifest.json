@@ -1,1300 +1,1300 @@
 {
-  "generated": "2026-03-13T02:40:08.937Z",
+  "generated": "2026-03-15T00:41:52.484Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
   "total": 185,
   "entries": [
     {
       "path": "/",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 1,
       "indexable": true
     },
     {
       "path": "/mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 0.9,
       "indexable": true
     },
     {
       "path": "/articles",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 0.9,
       "indexable": true
     },
     {
       "path": "/guides",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 0.9,
       "indexable": true
     },
     {
       "path": "/authors",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 0.9,
       "indexable": true
     },
     {
       "path": "/resources",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "weekly",
       "priority": 0.9,
       "indexable": true
     },
     {
       "path": "/mushrooms/chlorociboria-aeruginascens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/agaricus-arvensis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/agaricus-bisporus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/agaricus-campestris",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/agaricus-xanthodermus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/agrocybe-praecox",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-caesarea",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-citrina",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-gemmata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-jacksonii",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-muscaria",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-pantherina",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-phalloides",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-novinupta",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-rubescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-fulva",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/amanita-virosa",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/armillaria-mellea",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/auricularia-auricula-judae",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/bolbitius-titubans",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/boletus-edulis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/boletus-pinophilus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/boletus-reticulatus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/calocybe-gambosa",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/calvatia-gigantea",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cantharellus-cibarius",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cantharellus-formosus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cantharellus-cinnabarinus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cantharellus-tubaeformis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cerioporus-squamosus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/chlorophyllum-molybdites",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/chlorophyllum-rhacodes",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/clathrus-ruber",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/clitocybe-nebularis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/clitocybe-dealbata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/clitocybe-nuda",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/conocybe-filaris",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/coprinellus-micaceus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/coprinopsis-atramentaria",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/coprinus-comatus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/coprinus-picaceus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cordyceps-militaris",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cortinarius-vanduzerensis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cortinarius-orellanus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cortinarius-rubellus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/craterellus-cornucopioides",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/craterellus-tubaeformis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/cyclocybe-aegerita",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/daldinia-concentrica",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/entoloma-sinuatum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/fistulina-hepatica",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/flammulina-velutipes",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/fomitopsis-betulina",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/galerina-marginata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/ganoderma-lucidum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/grifola-frondosa",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/gliophorus-chromolimoneus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/gymnopilus-junonius",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/gymnopilus-viridans",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/gyromitra-esculenta",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hericium-coralloides",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hericium-erinaceus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hydnum-repandum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hygrocybe-coccinea",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hygrophoropsis-aurantiaca",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hypholoma-lateritium",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/hypholoma-fasciculare",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/inocybe-aeruginascens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/inocybe-erubescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/imleria-badia",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/inonotus-obliquus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/laccaria-amethystina",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/laccaria-laccata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lactarius-deliciosus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lactarius-indigo",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lactarius-torminosus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/laetiporus-sulphureus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/leccinum-aurantiacum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/leccinum-scabrum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lentinula-edodes",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lepiota-brunneoincarnata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lepista-saeva",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/leucocoprinus-birnbaumii",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lycoperdon-perlatum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/lycoperdon-pyriforme",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/macrolepiota-procera",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/marasmius-oreades",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/morchella-elata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/morchella-esculenta",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/mutinus-caninus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/mycena-galericulata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/mycena-haematopus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/omphalotus-olearius",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/ophiocordyceps-sinensis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/panaeolus-cyanescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/paxillus-involutus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/phallus-hadriani",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/phallus-impudicus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/pisolithus-arhizus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/pleurotus-ostreatus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/pleurotus-pulmonarius",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/pluteus-salicinus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/podostroma-cornu-damae",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-azurescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-caerulescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-cubensis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-cyanescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-mexicana",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-semilanceata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-stuntzii",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/psilocybe-tampanensis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/ramaria-botrytis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/rubroboletus-satanas",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/russula-brevipes",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/russula-cyanoxantha",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/russula-emetica",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/russula-virescens",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/scleroderma-citrinum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/sparassis-crispa",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/stereum-hirsutum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/stropharia-rugosoannulata",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/suillus-granulatus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/suillus-luteus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/trametes-versicolor",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tremella-fuciformis",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tremella-mesenterica",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tricholoma-equestre",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tricholoma-matsutake",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tuber-aestivum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tuber-magnatum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tuber-melanosporum",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/tylopilus-felleus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/verpa-bohemica",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/volvariella-volvacea",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/xerocomellus-chrysenteron",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/xeromphalina-campanella",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/mushrooms/xylaria-polymorpha",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
       "indexable": true
     },
     {
       "path": "/articles/how-to-identify-poisonous-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/mushrooms-that-can-kill-you",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/dog-ate-mushroom",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/mushrooms-in-your-yard",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/australian-mushroom-poisoning",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/psychoactive-mushrooms-science",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/why-mushrooms-grow-in-circles",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/most-dangerous-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/best-edible-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/mushrooms-by-region",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/chicken-of-the-woods",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/how-to-find-morels",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/morel-vs-false-morel",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/most-expensive-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/rarest-mushrooms-in-the-world",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/cooking-wild-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/medicinal-mushrooms",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/california-death-cap-outbreak",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/ai-mushroom-identification-apps",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/psilocybin-therapy-fda-approval",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/death-caps-spreading-north-america",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/post-fire-morel-hunting",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/largest-living-organism-fungus",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/mycoremediation-fungi-cleaning-pollution",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/climate-change-mushroom-season",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/mushroom-poisoning-immigrant-communities",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/articles/truffle-fraud-problem",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/guides/beginners-guide-to-mushroom-foraging",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/guides/mushroom-foraging-by-season",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/guides/edible-wild-mushrooms-trail",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.7,
       "indexable": true
     },
     {
       "path": "/authors/varun-vaid",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/elena-marchetti",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/james-whitfield",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/priya-sharma",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/daniel-okafor",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/mei-lin-chen",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/sofia-andersson",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/authors/arjun-mehra",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.5,
       "indexable": true
     },
     {
       "path": "/identify-a-mushroom",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.6,
       "indexable": true
     },
     {
       "path": "/attribution",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.6,
       "indexable": true
     },
     {
       "path": "/newsletter",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.6,
       "indexable": true
     },
     {
       "path": "/about",
-      "lastmod": "2026-03-13",
+      "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.6,
       "indexable": true
