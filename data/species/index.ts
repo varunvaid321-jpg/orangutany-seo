@@ -129,6 +129,7 @@ import tremellaMesenterica from "./tremella-mesenterica";
 import tricholomaEquestre from "./tricholoma-equestre";
 import tricholomaMatsutake from "./tricholoma-matsutake";
 import tuberAestivum from "./tuber-aestivum";
+import tuberBorchii from "./tuber-borchii";
 import tuberMagnatum from "./tuber-magnatum";
 import tuberMelanosporum from "./tuber-melanosporum";
 import tylopilusFelleus from "./tylopilus-felleus";
@@ -270,6 +271,7 @@ export const allSpecies: SpeciesRecord[] = [
   tricholomaEquestre,
   tricholomaMatsutake,
   tuberAestivum,
+  tuberBorchii,
   tuberMagnatum,
   tuberMelanosporum,
   tylopilusFelleus,
