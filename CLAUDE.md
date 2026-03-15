@@ -55,6 +55,13 @@ After adding or modifying species in the guide database, you MUST regenerate the
 ```
 Then commit the updated `species-lookup.json` in the amushroom repo. Also add a story entry for the new species in `mushroom-stories.json` (curated fun fact shown as "Did You Know?" in scan results). Commit both files via PR. Skipping this means new species won't appear as guide links, show look-alike images, or display fun facts in scan results.
 
+### Look-Alike Image Rules (MANDATORY)
+- **"Don't Confuse With" images in scan results come ONLY from the look-alike species' own page hero** — never from separate `lookalike-*.jpg` files.
+- If the look-alike species has a page in our guide → its hero image shows automatically via `species-lookup.json`.
+- If the look-alike species is NOT in our guide → text-only card, no image.
+- **When you add a new species page, regenerate `species-lookup.json` immediately** — this makes the new species' hero image appear as a look-alike image on every other species that references it. Old saved scans also pick it up automatically (server re-enriches on load).
+- Never create or reference `lookalike-*.jpg` files for scan result use. The regeneration script is the single source of truth.
+
 ## MANDATORY: Before Adding a Species
 Before creating ANY new species file, check if it already exists:
 1. Search `data/species/index.ts` and `data/species/*.ts` for the species name (common and scientific)
