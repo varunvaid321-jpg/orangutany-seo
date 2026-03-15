@@ -35,7 +35,7 @@ const jsonLd = {
   dateModified: "2025-01-15",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://orangutany.com/articles/australian-mushroom-poisoning",
+    "@id": "https://guide.orangutany.com/articles/australian-mushroom-poisoning",
   },
 };
 
@@ -283,7 +283,7 @@ export default function AustralianMushroomPoisoningPage() {
             <p>
               Victoria Police launched a homicide investigation almost
               immediately. The speed and severity of the symptoms, combined with
-              the fact that that Erin and her children were unharmed, raised
+              the fact that Erin and her children were unharmed, raised
               suspicion from the start.
             </p>
             <p>

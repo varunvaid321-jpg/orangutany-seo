@@ -31,7 +31,7 @@ export default function MushroomsThatCanKillYouPage() {
       "The deadliest mushrooms in the world, told through real poisoning cases. Death Cap, Destroying Angel, Funeral Bell, how they kill and who they've killed.",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://orangutany.com/articles/mushrooms-that-can-kill-you",
+      "@id": "https://guide.orangutany.com/articles/mushrooms-that-can-kill-you",
     },
   };
 

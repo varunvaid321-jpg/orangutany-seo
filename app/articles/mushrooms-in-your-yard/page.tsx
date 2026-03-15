@@ -31,7 +31,7 @@ const jsonLd = {
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://orangutany.com/articles/mushrooms-in-your-yard",
+    "@id": "https://guide.orangutany.com/articles/mushrooms-in-your-yard",
   },
 };
 
