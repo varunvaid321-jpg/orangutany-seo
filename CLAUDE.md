@@ -131,6 +131,14 @@ Before creating ANY new species file, check if it already exists:
 - Reference keys by env var name (e.g., `$CLOUDFLARE_API_KEY`), never by value
 - When you need a key value, read it from `.env.production` at runtime
 
+## Database Change Rules (MANDATORY)
+- **Before ANY destructive DB operation** (DELETE, DROP, UPDATE on production data), save a backup of the affected data to `backups/` as a dated JSON file (e.g., `backups/table_name_2026-03-14.json`)
+- Backup file must include: table name, timestamp, reason, row count, and full row data
+- Commit the backup file in the same PR that performs the change
+- PR description must reference the backup file path (e.g., "Backup: `backups/table_name_2026-03-14.json`")
+- Never delete or modify backup files after creation — they are permanent records
+- Backups with real user PII (emails, names) must NOT be committed to git — keep them local in `backups/` only. Test data backups can be committed.
+
 ## Deploy Command
 ```
 source /Users/varunvaid/amushroom/.env.production && CLOUDFLARE_ACCOUNT_ID=e03e2882012ddf881ecf0753cf8a7c92 CLOUDFLARE_API_KEY=$CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL=vvaid365@icloud.com npx wrangler pages deploy out --project-name orangutany-guide
