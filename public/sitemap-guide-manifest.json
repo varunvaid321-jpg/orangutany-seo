@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-15T03:48:20.585Z",
+  "generated": "2026-03-15T04:19:38.101Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
-  "total": 188,
+  "total": 191,
   "entries": [
     {
       "path": "/",
@@ -453,6 +453,13 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/gymnopilus-luteofolius",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/gymnopilus-viridans",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
@@ -628,6 +635,13 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/lepiota-cristata",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/lepista-saeva",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
@@ -776,6 +790,13 @@
     },
     {
       "path": "/mushrooms/podostroma-cornu-damae",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/psilocybe-allenii",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,

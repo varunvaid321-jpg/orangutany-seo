@@ -49,11 +49,10 @@ const species: SpeciesRecord = {
         "A rare Pacific Northwest species that develops greenish stains on the cap and stem with handling or age. Smaller than G. junonius (caps 3–10 cm), grows on conifer wood rather than hardwood, and lacks the prominent membranous ring. Also contains psilocybin. The green staining reaction is the key distinguishing feature.",
     },
     {
-      name: "Gymnopilus luteofolius (Yellow-gilled Gymnopilus)",
+      name: "Yellow-gilled Gymnopilus (Gymnopilus luteofolius)",
+      slug: "gymnopilus-luteofolius",
       distinction:
         "Also in the genus Gymnopilus and also found on wood. Smaller (2-8 cm cap), with purplish to wine-colored scales on the cap and a purplish spore deposit. Some collections contain psilocybin. Distinguished by the purple tones and smaller stature.",
-      externalUrl: "https://www.inaturalist.org/taxa/350919-Gymnopilus-luteofolius",
-      externalSource: "iNaturalist",
     },
   ],
   edibility: "toxic",
