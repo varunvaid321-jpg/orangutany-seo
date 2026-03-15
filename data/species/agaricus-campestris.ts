@@ -123,6 +123,15 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
+      filename: "05-field.jpg",
+      alt: "Field Mushroom (Agaricus campestris) showing cap, stem, and pink gills in grass",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-08-07_Agaricus_campestris_cropped.jpg",
+      author: "Andreas Kunze",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
+    },
+    {
       filename: "01-field.jpg",
       alt: "Field Mushroom (Agaricus campestris) wild specimen",
       source: "Wikimedia Commons",
@@ -146,15 +155,6 @@ const species: SpeciesRecord = {
       source: "Wikimedia Commons",
       sourceUrl: "https://commons.wikimedia.org/wiki/File:2012-07-11_Agaricus_campestris_group_236668.jpg",
       author: "This image was created by user Christine Braaten (wintersbefore) at Mushroom Observer, a source for mycological images.Y",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Field Mushroom (Agaricus campestris) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:2010-08-07_Agaricus_campestris_cropped.jpg",
-      author: "Andreas Kunze",
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
