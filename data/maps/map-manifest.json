@@ -1418,6 +1418,17 @@
     "renderingApproved": true,
     "approved": true
   },
+  "kuehneromyces-mutabilis": {
+    "speciesSlug": "kuehneromyces-mutabilis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2533962,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 101889,
+    "renderingApproved": true,
+    "approved": true
+  },
   "tuber-borchii": {
     "speciesSlug": "tuber-borchii",
     "mapVersion": "1.0",
