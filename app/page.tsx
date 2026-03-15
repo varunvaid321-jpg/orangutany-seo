@@ -186,16 +186,18 @@ export default function Home() {
         Featured Species
       </h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {featured.map((s) => (
+        {featured.map((s) => {
+          const card = getCardImage(s);
+          return (
           <Link
             key={s.slug}
             href={`/mushrooms/${s.slug}`}
             className="group overflow-hidden rounded-xl border border-border bg-card transition hover:border-primary/50"
           >
-            {getCardImage(s) && (
+            {card && (
               <img
-                src={getCardImage(s)!.src}
-                alt={getCardImage(s)!.alt}
+                src={card.src}
+                alt={card.alt}
                 className="aspect-[3/2] w-full object-cover object-top transition group-hover:scale-105"
                 loading="lazy"
               />
@@ -209,7 +211,8 @@ export default function Home() {
               <p className="mt-2 line-clamp-2 text-sm text-foreground/70">{s.summary}</p>
             </div>
           </Link>
-        ))}
+          );
+        })}
       </div>
 
       <div className="mt-6 text-center">
