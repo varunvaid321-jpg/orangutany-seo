@@ -7,7 +7,7 @@ import { DistributionMapSection } from "@/components/species/distribution-map";
 import { getAuthor } from "@/lib/authors";
 import Link from "next/link";
 import { getCardImage } from "@/lib/card-image";
-import { speciesFaqSchema } from "@/lib/schema";
+import { speciesFaqSchema, speciesBreadcrumbSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return allSpecies.map((s) => ({ slug: s.slug }));
@@ -385,6 +385,11 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(speciesFaqSchema(species)) }}
+          />
+          {/* Breadcrumb JSON-LD */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(speciesBreadcrumbSchema(species)) }}
           />
         </aside>
       </div>
