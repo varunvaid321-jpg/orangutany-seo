@@ -35,7 +35,7 @@ const jsonLd = {
   dateModified: "2025-11-02",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://orangutany.com/guides/beginners-guide-to-mushroom-foraging",
+    "@id": "https://guide.orangutany.com/guides/beginners-guide-to-mushroom-foraging",
   },
 };
 

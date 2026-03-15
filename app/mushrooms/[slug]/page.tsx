@@ -47,7 +47,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             <span className="text-xs text-muted-foreground">
               {species.edibility === "deadly" && "fatal if ingested"}
               {species.edibility === "toxic" && "causes poisoning"}
-              {species.edibility === "edible-with-caution" && "must be be cooked properly"}
+              {species.edibility === "edible-with-caution" && "must be cooked properly"}
               {species.edibility === "inedible" && "not a food mushroom"}
             </span>
           )}
