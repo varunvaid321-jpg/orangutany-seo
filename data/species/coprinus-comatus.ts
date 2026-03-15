@@ -141,15 +141,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Shaggy Mane in late deliquescent stage showing black ink dripping from gills",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus-3_hg.jpg",
-      author: "Hannes Grobe/Hannes Grobe (talk)",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Shaggy Mane (Coprinus comatus) wild specimen",
       source: "Wikimedia Commons",
@@ -157,15 +148,6 @@ const species: SpeciesRecord = {
       author: "Dr. Hans-Günter Wagner",
       license: "CC BY-SA 2.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Shaggy Mane (Coprinus comatus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Coprinus_comatus_Aberystwyth_141025.jpg",
-      author: "Kieran Roy Powell",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
   ],
   identificationImages: {

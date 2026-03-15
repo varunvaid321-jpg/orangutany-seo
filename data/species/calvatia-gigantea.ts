@@ -152,15 +152,6 @@ const species: SpeciesRecord = {
       license: "CC BY 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
-    {
-      filename: "05-pukurau.jpg",
-      alt: "Giant Puffball from New Zealand showing smooth white surface",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Calvatia_gigantea,_Pukurau.jpg",
-      author: "R. E. Beever",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
   ],
 };
 

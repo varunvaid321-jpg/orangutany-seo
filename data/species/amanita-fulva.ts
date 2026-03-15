@@ -143,26 +143,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
-      filename: "03-russia.jpg",
-      alt: "Amanita fulva specimen in Leningrad Oblast forest, Russia",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Amanita_Fulva_LO_(img1).jpg",
-      author: "Florstein",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "04-detail.jpg",
-      alt: "Amanita fulva showing tawny cap color and slender ringless stem",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Amanita_fulva_lowpx.jpg",
-      author: "Hankwang",
-      license: "CC BY 1.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/1.0",
-    },
-    {
       filename: "05-habitat.jpg",
       alt: "Amanita fulva mushroom with visible volval sac at base growing among forest moss",
       source: "Wikimedia Commons",

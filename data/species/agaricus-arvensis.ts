@@ -144,17 +144,7 @@ const species: SpeciesRecord = {
       license: "CC0",
       licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0",
     },
-    {
-      filename: "03-group.jpg",
-      alt: "Group of Horse Mushrooms at different growth stages with one cap flipped to show brown gills",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Agaricus_arvensis_-_December_2024_-_Sarah_Stierch_01.jpg",
-      author: "Sarah Stierch",
-      license: "CC0",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0",
-    },
-    {
+{
       filename: "04-cogwheel.jpg",
       alt: "Horse Mushrooms in grass showing the distinctive cogwheel pattern on the underside of the double ring",
       source: "Wikimedia Commons",

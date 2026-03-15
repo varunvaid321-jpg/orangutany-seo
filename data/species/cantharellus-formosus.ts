@@ -129,13 +129,12 @@ const species: SpeciesRecord = {
   images: [
     {
       filename: "01-classic.jpg",
-      alt: "Pacific Golden Chanterelle (Cantharellus formosus) showing golden-orange funnel shape on forest floor",
+      alt: "Pacific Golden Chanterelle (Cantharellus formosus) growing in moss on forest floor",
       source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Cantharellus_formosus_171027.jpg",
-      author: "Noah Siegel",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:2004-10-24_Cantharellus_formosus_Corner_133063.jpg",
+      author: "Sava Krstic",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
       filename: "02-habitat.jpg",
@@ -166,16 +165,6 @@ const species: SpeciesRecord = {
       author: "Noah Siegel",
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "05-gills.jpg",
-      alt: "Underside view of Pacific Golden Chanterelle showing blunt forking ridges instead of true gills",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:2008-09-07_Cantharellus_formosus_crop.jpg",
-      author: "Strobilomyces",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
   ],
   identificationImages: {

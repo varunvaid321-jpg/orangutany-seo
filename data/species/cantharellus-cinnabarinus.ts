@@ -115,15 +115,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
     {
-      filename: "04-field.jpg",
-      alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-07-12_Cantharellus_cinnabarinus_71498.jpg",
-      author: "This image was created by user Hamilton (ham) at Mushroom Observer, a source for mycological images.You can contact this",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "05-field.jpg",
       alt: "Cinnabar Chanterelle (Cantharellus cinnabarinus) wild specimen",
       source: "Wikimedia Commons",

@@ -115,15 +115,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Pine Bolete (Boletus pinophilus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boletus_pinophilus_(45645751825).jpg",
-      author: "Lukas from London, England",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Pine Bolete (Boletus pinophilus) wild specimen",
       source: "Wikimedia Commons",

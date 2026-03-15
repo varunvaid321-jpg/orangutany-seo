@@ -128,15 +128,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Reishi (Ganoderma lucidum) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Ganoderma_lucidum_(1).jpg",
-      author: "François Nguyen",
-      license: "CC BY 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Reishi (Ganoderma lucidum) wild specimen",
       source: "Wikimedia Commons",

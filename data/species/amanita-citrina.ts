@@ -100,15 +100,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
     },
     {
-      filename: "03-field.jpg",
-      alt: "False Death Cap (Amanita citrina) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_citrina_1.jpg",
-      author: "Karelj",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
-    {
       filename: "04-field.jpg",
       alt: "False Death Cap (Amanita citrina) wild specimen",
       source: "Wikimedia Commons",

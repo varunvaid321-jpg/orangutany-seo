@@ -154,26 +154,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "04-group.jpg",
-      alt: "Group of Yellow Stainer mushrooms growing in garden grass",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Karbolchampignon_Agaricus_xanthodermus.jpg",
-      author: "H. Krisp",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
-      filename: "05-gills.jpg",
-      alt: "Underside of Yellow Stainer mushroom showing pink to brown gills and white ring on stem",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Agaricus_xanthodermus_G4.jpg",
-      author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

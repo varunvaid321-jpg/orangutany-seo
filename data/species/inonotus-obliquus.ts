@@ -121,33 +121,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 2.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
-    {
-      filename: "03-field.jpg",
-      alt: "Chaga (Inonotus obliquus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_Mushroom_-_Inonotus_obliquus_(40358524662).jpg",
-      author: "Björn S...",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
-      filename: "04-field.jpg",
-      alt: "Chaga (Inonotus obliquus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chaga_Mushroom_-_Inonotus_obliquus_(45112059032).jpg",
-      author: "Björn S...",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Chaga (Inonotus obliquus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus_(35578063011).jpg",
-      author: "Björn S...",
-      license: "CC BY-SA 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
-    },
   ],
 };
 

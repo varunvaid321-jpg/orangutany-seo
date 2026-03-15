@@ -122,15 +122,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
     {
-      filename: "03-stem.jpg",
-      alt: "Green-spored Parasol / The Vomiter stem, ring, and base detail",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chlorophyllum_molybdites-fairy_ring.jpg",
-      author: "peterwchen",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
-    },
-    {
       filename: "04-young.jpg",
       alt: "Young Green-spored Parasol / The Vomiter specimen",
       source: "Wikimedia Commons",

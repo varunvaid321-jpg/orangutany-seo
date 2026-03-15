@@ -138,16 +138,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Uprooted Blushing Bride showing full stem with collar-like volva remnants at base and pinkish cap",
-      source: "Wikimedia Commons / Mushroom Observer",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Amanita_novinupta_96574.jpg",
-      author: "Ron Pastorino",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "04-blushing.jpg",
       alt: "Blushing Bride Amanita showing prominent pink blushing on cap and gills with visible stem",
       source: "iNaturalist",

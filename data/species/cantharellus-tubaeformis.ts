@@ -123,15 +123,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
     },
     {
-      filename: "04-closeup.jpg",
-      alt: "Yellowfoot Chanterelle close-up field photograph",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cantharellus_tubaeformis_(1).jpg",
-      author: "Rosendahl",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
-    },
-    {
       filename: "05-specimen.jpg",
       alt: "Yellowfoot Chanterelle mushroom, field identification reference",
       source: "Wikimedia Commons",

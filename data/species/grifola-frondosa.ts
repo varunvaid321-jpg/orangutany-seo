@@ -136,15 +136,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Forager holding a massive Hen of the Woods cluster in the forest",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Grifola_frondosa_2014_G3.jpg",
-      author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
-    {
       filename: "07-habitat.jpg",
       alt: "Hen of the Woods growing at oak tree base showing natural habitat",
       source: "Wikimedia Commons",
