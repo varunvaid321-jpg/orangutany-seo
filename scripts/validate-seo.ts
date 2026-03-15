@@ -109,6 +109,22 @@ if (fs.existsSync(coordPath)) {
   fail("docs/seo/sitemap-coordination.json not found");
 }
 
+// 5. Look-alike image paths must be filenames, not full paths
+console.log("\n[5] Look-alike image path check");
+import { allSpecies } from "../data/species";
+let laImageErrors = 0;
+for (const sp of allSpecies) {
+  for (const la of sp.lookAlikes) {
+    if (la.image && la.image.includes("/")) {
+      fail(`${sp.slug}: look-alike "${la.name}" image is a path ("${la.image}") — must be filename only`);
+      laImageErrors++;
+    }
+  }
+}
+if (laImageErrors === 0) {
+  pass(`All look-alike image fields are filenames (${allSpecies.length} species checked)`);
+}
+
 // Summary
 console.log(`\n${"=".repeat(40)}`);
 console.log(`Results: ${errors} errors, ${warnings} warnings`);

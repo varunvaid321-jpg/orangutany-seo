@@ -88,6 +88,7 @@ Before creating ANY new species file, check if it already exists:
 10. Look-alike slugs only reference species that exist in index.ts
 11. Add bidirectional cross-links: if A lists B as look-alike, check if B should list A
 12. All slugs resolve via getSpeciesBySlug()
+13. **Look-alike `image` field must be FILENAME ONLY** (e.g., `"lookalike-species-name.jpg"`), never a full path. The template prepends `/images/species/{slug}/` automatically. A full path like `"/images/species/slug/file.jpg"` causes a double-path bug and broken images.
 
 ### Content
 13. No fabricated stories (specific unverifiable people, exact Reddit upvote counts, "viral" claims)
