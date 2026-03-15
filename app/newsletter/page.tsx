@@ -12,7 +12,7 @@ const COUNTRIES = [
 
 export default function NewsletterPage() {
   const [form, setForm] = useState({ name: "", email: "", country: "", website: "" });
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "already" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,7 +24,8 @@ export default function NewsletterPage() {
         body: JSON.stringify(form),
       });
       if (res.ok) {
-        setStatus("success");
+        const data = await res.json();
+        setStatus(data.alreadySubscribed ? "already" : "success");
       } else {
         setStatus("error");
       }
@@ -55,6 +56,15 @@ export default function NewsletterPage() {
             <a href="https://orangutany.com" className="text-primary hover:underline">
               identifying a mushroom
             </a>.
+          </p>
+        </div>
+      ) : status === "already" ? (
+        <div className="mt-8 rounded-xl border border-primary/30 bg-card p-6 text-center">
+          <p className="text-lg font-semibold text-primary">You&apos;re already on the list.</p>
+          <p className="mt-2 text-sm text-foreground/70">
+            This email is already subscribed to the Orangutany Quarterly.
+            Check your inbox for previous editions, or explore the{" "}
+            <a href="/articles" className="text-primary hover:underline">articles</a>.
           </p>
         </div>
       ) : (
