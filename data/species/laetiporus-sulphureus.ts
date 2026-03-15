@@ -137,20 +137,7 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
-    {
-      filename: "06-young.jpg",
-      alt: "Young soft yellow Chicken of the Woods cascading down tree trunk",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Laetiporus_sulphureus_2010_G1.jpg",
-      author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "",
-    },
   ],
-  identificationImages: {
-    cap: "cap-detail.jpg",
-    gills: "pores-detail.jpg",
-  },
 };
 
 export default species;

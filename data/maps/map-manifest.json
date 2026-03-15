@@ -1472,5 +1472,38 @@
     "fileSizeBytes": 51988,
     "renderingApproved": true,
     "approved": true
+  },
+  "psilocybe-caerulescens": {
+    "speciesSlug": "psilocybe-caerulescens",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5242497,
+    "occurrenceCount": 100,
+    "fileSizeBytes": 47846,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "psilocybe-mexicana": {
+    "speciesSlug": "psilocybe-mexicana",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5242538,
+    "occurrenceCount": 100,
+    "fileSizeBytes": 40812,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "psilocybe-tampanensis": {
+    "speciesSlug": "psilocybe-tampanensis",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5242500,
+    "occurrenceCount": 100,
+    "fileSizeBytes": 37091,
+    "renderingApproved": true,
+    "approved": true
   }
 }

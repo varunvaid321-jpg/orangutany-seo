@@ -103,15 +103,6 @@ const species: SpeciesRecord = {
       license: "CC BY 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
-    {
-      filename: "01-field.jpg",
-      alt: "Scarlet Caterpillar Club (Cordyceps militaris) orange fruiting body in natural habitat among moss and grass",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_militaris_(GB%3D_Scarlet_Caterpillarclub,_D%3D_Orangegelbe_Puppenkernkeule,_NL%3D_Rupsendoder)_at_Deelerwoud_in_the_moss_-_panoramio.jpg",
-      author: "Henk Monster",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
   ],
 };
 

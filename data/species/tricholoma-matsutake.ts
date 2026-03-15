@@ -174,7 +174,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
   ],
-  identificationImages: {},
 };
 
 export default species;

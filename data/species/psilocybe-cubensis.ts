@@ -141,15 +141,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
     {
-      filename: "03-magic-mushroom.jpg",
-      alt: "Mature Psilocybe cubensis specimen showing classic magic mushroom form",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_cubensis-_The_Magic_Mushroom_-_Flickr_-_Dick_Culbert.jpg",
-      author: "Dick Culbert",
-      license: "CC BY 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
-    },
-    {
       filename: "04-wild-specimen.jpg",
       alt: "Wild Psilocybe cubensis fruiting body showing cap and stem details",
       source: "Wikimedia Commons",
@@ -168,11 +159,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/4.0",
     },
   ],
-  identificationImages: {
-    cap: "cap-detail.jpg",
-    gills: "gills-detail.jpg",
-    stem: "stem-detail.jpg",
-  },
 };
 
 export default species;

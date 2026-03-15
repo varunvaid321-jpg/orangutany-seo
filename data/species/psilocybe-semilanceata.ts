@@ -131,7 +131,6 @@ const species: SpeciesRecord = {
     { filename: "04-ireland.jpg", alt: "Liberty cap mushroom found in Mayo, Ireland", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_Semilanceata_-_Mayo,_Ireland.jpg", author: "Unknown", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/" },
     { filename: "05-group.jpg", alt: "Group of Psilocybe semilanceata liberty caps in field", source: "Wikimedia Commons", sourceUrl: "https://commons.wikimedia.org/wiki/File:Psilocybe_semilanceata_group.JPG", author: "Unknown", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/" },
   ],
-  identificationImages: {},
 };
 
 export default species;

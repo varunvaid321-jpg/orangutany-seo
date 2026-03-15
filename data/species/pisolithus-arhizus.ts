@@ -151,16 +151,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
     },
-    {
-      filename: "05-natural-dye.jpg",
-      alt: "Pisolithus arhizus used as a natural dye source, showing the dark spore mass",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Pisolithus_arhizus_fungus_as_natural_dye.jpg",
-      author: "Tocekas",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
-    },
   ],
 };
 
