@@ -62,6 +62,15 @@ Before creating ANY new species file, check if it already exists:
 3. Confirm with the user whether they want to improve the existing page or meant a different species
 4. Common name confusion happens (e.g., "Blushing Bride" = A. novinupta, NOT "The Blusher" = A. rubescens) — always verify the exact species before starting work
 
+## MANDATORY: Agent Prompts Must Include Critical Rules
+When spawning sub-agents (research, image download, etc.), they do NOT read CLAUDE.md automatically. You MUST include these rules directly in the agent prompt:
+1. **Verify EVERY iNaturalist taxon ID via API**: `https://api.inaturalist.org/v1/taxa?q=NAME&rank=species` — AI-generated IDs are wrong >80% of the time. Never guess.
+2. **Look-alike `image` field must be FILENAME ONLY** (e.g., `"lookalike-species-name.jpg"`), never a full path.
+3. **Tell the agent which look-alike species already exist in our DB** (provide slugs) so it knows which need external links vs internal slugs.
+4. **No illustrations, diagrams, or microscopy images** — only real field photographs.
+5. **Verify all Wikipedia/MushroomExpert/external links resolve** — no 404s.
+6. **GBIF key must be verified via API**: `https://api.gbif.org/v1/species/match?name=NAME&kingdom=Fungi`
+
 ## MANDATORY: Species Page Quality Gate
 
 **Before showing ANY new or modified species page to the user on localhost, you MUST complete every check below. No exceptions. Do not skip checks because "it's probably fine." These rules exist because every single one of these bugs has shipped to production.**
