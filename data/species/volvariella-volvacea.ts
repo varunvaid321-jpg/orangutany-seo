@@ -106,15 +106,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Paddy Straw Mushroom (Volvariella volvacea) multiple specimens on straw cultivation bed",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Volv_volvacea_yogya_DSC_0969.jpg",
-      author: "Kembangraps",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Paddy Straw Mushroom (Volvariella volvacea) showing volva and pink gills",
       source: "Wikimedia Commons",

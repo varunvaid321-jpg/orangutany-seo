@@ -165,10 +165,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
   ],
-  identificationImages: {
-    cap: "02-closeup.jpg",
-    gills: "03-gills.jpg",
-  },
 };
 
 export default species;

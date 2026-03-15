@@ -165,9 +165,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
   ],
-  identificationImages: {
-    cap: "cap-detail.jpg",
-  },
 };
 
 export default species;

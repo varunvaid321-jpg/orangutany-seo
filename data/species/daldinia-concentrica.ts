@@ -173,11 +173,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
     },
   ],
-  identificationImages: {
-    cap: "surface-detail.jpg",
-    gills: "cross-section-detail.jpg",
-    stem: "base-detail.jpg",
-  },
 };
 
 export default species;

@@ -163,11 +163,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
   ],
-  identificationImages: {
-    cap: "02-fronds.jpg",
-    gills: "03-large.jpg",
-    stem: "04-base-of-oak.jpg",
-  },
 };
 
 export default species;

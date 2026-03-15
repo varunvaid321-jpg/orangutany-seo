@@ -99,15 +99,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by/2.0",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:2009-10-07_Craterellus_tubaeformis_Leotia_lubrica.jpg",
-      author: "Andreas Kunze",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Trumpet Chanterelle (Craterellus tubaeformis) wild specimen",
       source: "Wikimedia Commons",
