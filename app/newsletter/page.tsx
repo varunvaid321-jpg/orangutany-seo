@@ -11,7 +11,7 @@ const COUNTRIES = [
 ];
 
 export default function NewsletterPage() {
-  const [form, setForm] = useState({ name: "", email: "", country: "" });
+  const [form, setForm] = useState({ name: "", email: "", country: "", website: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -106,6 +106,18 @@ export default function NewsletterPage() {
               ))}
             </select>
           </div>
+
+          {/* Honeypot — hidden from real users, bots fill it */}
+          <input
+            type="text"
+            name="website"
+            value={form.website}
+            onChange={(e) => setForm({ ...form, website: e.target.value })}
+            tabIndex={-1}
+            autoComplete="off"
+            className="absolute -left-[9999px] h-0 w-0 opacity-0"
+            aria-hidden="true"
+          />
 
           <button
             type="submit"
