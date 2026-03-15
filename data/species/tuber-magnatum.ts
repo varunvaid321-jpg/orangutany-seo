@@ -32,10 +32,9 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Bianchetto Truffle (Tuber borchii)",
+      slug: "tuber-borchii",
       distinction:
         "Much smaller (1-4 cm), with a stronger, almost chemical garlic odor that some find unpleasant. Interior marbling is less defined. Significantly less valuable. Often sold fraudulently as young T. magnatum. The smell test is the best distinction: T. borchii smells harsh and almost like natural gas, while T. magnatum is complex and pleasant.",
-      externalUrl: "https://en.wikipedia.org/wiki/Tuber_borchii",
-      externalSource: "Wikipedia",
     },
     {
       name: "Oregon White Truffle (Tuber oregonense)",

@@ -1417,5 +1417,16 @@
     "fileSizeBytes": 93001,
     "renderingApproved": true,
     "approved": true
+  },
+  "tuber-borchii": {
+    "speciesSlug": "tuber-borchii",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 5258463,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 51988,
+    "renderingApproved": true,
+    "approved": true
   }
 }

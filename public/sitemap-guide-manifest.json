@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-15T00:41:52.484Z",
+  "generated": "2026-03-15T03:28:47.375Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
-  "total": 185,
+  "total": 187,
   "entries": [
     {
       "path": "/",
@@ -488,6 +488,13 @@
       "indexable": true
     },
     {
+      "path": "/mushrooms/hydnellum-peckii",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
       "path": "/mushrooms/hygrocybe-coccinea",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
@@ -944,6 +951,13 @@
     },
     {
       "path": "/mushrooms/tuber-aestivum",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/tuber-borchii",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,
