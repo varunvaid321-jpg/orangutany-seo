@@ -71,6 +71,7 @@ import inocybeAeruginascens from "./inocybe-aeruginascens";
 import inocybeErubescens from "./inocybe-erubescens";
 import imleriaBadia from "./imleria-badia";
 import inonotusObliquus from "./inonotus-obliquus";
+import kuehneromycesMutabilis from "./kuehneromyces-mutabilis";
 import laccariaAmethystina from "./laccaria-amethystina";
 import laccariaLaccata from "./laccaria-laccata";
 import lactariusDeliciosus from "./lactarius-deliciosus";
@@ -213,6 +214,7 @@ export const allSpecies: SpeciesRecord[] = [
   inocybeErubescens,
   imleriaBadia,
   inonotusObliquus,
+  kuehneromycesMutabilis,
   laccariaAmethystina,
   laccariaLaccata,
   lactariusDeliciosus,

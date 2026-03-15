@@ -42,11 +42,9 @@ const species: SpeciesRecord = {
     },
     {
       name: "Sheathed Woodtuft (Kuehneromyces mutabilis)",
+      slug: "kuehneromyces-mutabilis",
       distinction:
         "Edible but could cause confusion. Grows in clusters on wood, has a ring. However, the cap is distinctly two-toned (darker in the center, paler at the margin) and hygrophanous. Smaller overall. Stem is scaly below the ring.",
-      externalUrl:
-        "https://www.first-nature.com/fungi/kuehneromyces-mutabilis.php",
-      externalSource: "First Nature",
     },
   ],
   edibility: "edible",

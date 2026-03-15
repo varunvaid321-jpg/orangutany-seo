@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-15T03:28:47.375Z",
+  "generated": "2026-03-15T03:48:20.585Z",
   "canonical_host": "https://orangutany.com",
   "guide_host": "https://guide.orangutany.com",
-  "total": 187,
+  "total": 188,
   "entries": [
     {
       "path": "/",
@@ -545,6 +545,13 @@
     },
     {
       "path": "/mushrooms/inonotus-obliquus",
+      "lastmod": "2026-03-15",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "indexable": true
+    },
+    {
+      "path": "/mushrooms/kuehneromyces-mutabilis",
       "lastmod": "2026-03-15",
       "changefreq": "monthly",
       "priority": 0.8,

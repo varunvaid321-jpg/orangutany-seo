@@ -32,12 +32,9 @@ const species: SpeciesRecord = {
   lookAlikes: [
     {
       name: "Sheathed Woodtuft (Kuehneromyces mutabilis)",
-      image: "lookalike-kuehneromyces.jpg",
+      slug: "kuehneromyces-mutabilis",
       distinction:
         "Popular edible in Europe. Grows in similar clusters on wood. Key differences: Kuehneromyces has a scaly stem below the ring (Galerina's stem is smooth or silky), and the cap dries from the center in a distinctive two-tone pattern. However, the two can grow side by side on the same log — expert-level identification only.",
-      externalUrl:
-        "https://www.inaturalist.org/taxa/153033-Kuehneromyces-mutabilis",
-      externalSource: "iNaturalist",
     },
     {
       name: "Honey Mushroom (Armillaria mellea)",
