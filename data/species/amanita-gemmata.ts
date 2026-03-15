@@ -106,15 +106,6 @@ const species: SpeciesRecord = {
       licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Jewelled Amanita (Amanita gemmata) composite showing multiple specimens with yellow caps",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_gemmata_von_hms.jpg",
-      author: "Hans-Martin Scheibner",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Jewelled Amanita (Amanita gemmata) mature specimen in forest",
       source: "Wikimedia Commons",

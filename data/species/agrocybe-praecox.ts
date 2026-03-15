@@ -120,15 +120,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "05-field.jpg",
-      alt: "Spring Fieldcap (Agrocybe praecox) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:2011-05-17_Agrocybe_praecox_(Pers.)_Fayod_146356.jpg",
-      author: "This image was created by user Herbert Baker (Herbert Baker) at Mushroom Observer, a source for mycological images.You c",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
   ],
 };
 

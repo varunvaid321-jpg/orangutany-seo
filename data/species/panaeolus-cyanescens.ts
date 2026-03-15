@@ -115,6 +115,24 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
+    {
+      filename: "02-field.jpg",
+      alt: "Blue Meanies (Panaeolus cyanescens) cluster growing on dung in grass",
+      source: "iNaturalist",
+      sourceUrl: "https://www.inaturalist.org/observations/130463478",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "Blue Meanies (Panaeolus cyanescens) showing blue-staining stems among ferns",
+      source: "iNaturalist",
+      sourceUrl: "https://www.inaturalist.org/observations/27971575",
+      author: "Alan Rockefeller",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    },
   ],
 };
 

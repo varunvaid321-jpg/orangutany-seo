@@ -129,15 +129,6 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
-    {
-      filename: "02-habitat.jpg",
-      alt: "Honey Fungus growing in natural habitat",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Boot_lace_rhizomorphs_of_the_Honey_Fungus._Armillaria_mellea._Lainsahw_Woods,_East_Ayrshire.jpg",
-      author: "Rosser1954",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
   ],
   identificationImages: {
     cap: "cap-detail.jpg",

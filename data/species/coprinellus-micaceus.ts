@@ -146,16 +146,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "01-cluster.jpg",
-      alt: "Two young Coprinellus micaceus specimens growing from mossy wood showing honey-brown egg-shaped caps",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Coprinellus_micaceus_104697766.jpg",
-      author: "iNaturalist user",
-      license: "CC0",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0",
-    },
-    {
       filename: "02-mica-granules.jpg",
       alt: "Cluster of mature Coprinellus micaceus caps showing darkening gills beginning to deliquesce among grass",
       source: "Wikimedia Commons",
@@ -164,16 +154,6 @@ const species: SpeciesRecord = {
       author: "Humoyun Mehriddinov",
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
-      filename: "03-habitat-stump.jpg",
-      alt: "Large flush of Coprinellus micaceus fruiting on a moss-covered tree stump in Hoge Veluwe National Park",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Lots_of_Coprinellus_micaceus_(Gewone_glimmerinktzwam)_at_these_stump_at_Hoge_Veluwe_National_Park_-_panoramio.jpg",
-      author: "Panoramio user",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
     {
       filename: "06-deliquescing.jpg",

@@ -99,13 +99,13 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-field.jpg",
+      filename: "05-field.jpg",
       alt: "Caterpillar Fungus (Ophiocordyceps sinensis) wild specimen",
       source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cordyceps_sinensis.jpg",
-      author: "Nicolas Merky",
-      license: "CC BY-SA 3.0 de",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Yarchagumba.JPG",
+      author: "Phurwa Dhondup",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
       filename: "02-field.jpg",
@@ -115,24 +115,6 @@ const species: SpeciesRecord = {
       author: "The original uploader was Rafti Institute at English Wikipedia.",
       license: "CC BY 2.5",
       licenseUrl: "https://creativecommons.org/licenses/by/2.5",
-    },
-    {
-      filename: "03-field.jpg",
-      alt: "Caterpillar Fungus (Ophiocordyceps sinensis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:CordycepsSinensis.jpg",
-      author: "L. Shyamal",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Caterpillar Fungus (Ophiocordyceps sinensis) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Yarchagumba.JPG",
-      author: "Phurwa Dhondup",
-      license: "CC BY-SA 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
   ],
 };

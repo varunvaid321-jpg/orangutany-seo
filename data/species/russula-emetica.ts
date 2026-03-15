@@ -102,6 +102,24 @@ const species: SpeciesRecord = {
       license: "CC BY-SA 4.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
+    {
+      filename: "02-field.jpg",
+      alt: "The Sickener (Russula emetica) mature specimen in moss showing pink-red cap and white gills",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_emetica_The_sickener.jpg",
+      author: "peupleloup",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0",
+    },
+    {
+      filename: "03-field.jpg",
+      alt: "The Sickener (Russula emetica) young button-stage specimen in autumn leaf litter",
+      source: "Wikimedia Commons",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Russula_emetica_a1.JPG",
+      author: "Jerzy Opioła",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    },
   ],
 };
 

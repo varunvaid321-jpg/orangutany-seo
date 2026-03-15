@@ -124,15 +124,6 @@ const species: SpeciesRecord = {
       licenseUrl: "http://www.gnu.org/copyleft/fdl.html",
     },
     {
-      filename: "03-field.jpg",
-      alt: "Button Mushroom (Agaricus bisporus) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_mushroom.jpg",
-      author: "Мыць Денис",
-      license: "Public domain",
-      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    },
-    {
       filename: "04-field.jpg",
       alt: "Button Mushroom (Agaricus bisporus) wild specimen",
       source: "Wikimedia Commons",

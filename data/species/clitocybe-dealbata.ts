@@ -103,15 +103,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
     },
     {
-      filename: "02-field.jpg",
-      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_(32275792405).jpg",
-      author: "Dick Culbert from Gibsons, B.C., Canada",
-      license: "CC BY 2.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/2.0",
-    },
-    {
       filename: "03-field.jpg",
       alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
       source: "Wikimedia Commons",
@@ -128,15 +119,6 @@ const species: SpeciesRecord = {
       author: "James Lindsey",
       license: "CC BY-SA 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0",
-    },
-    {
-      filename: "05-field.jpg",
-      alt: "Ivory Funnel (Clitocybe dealbata) wild specimen",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Clitocybe_dealbata_1.jpg",
-      author: "Archenzo",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
     },
   ],
 };

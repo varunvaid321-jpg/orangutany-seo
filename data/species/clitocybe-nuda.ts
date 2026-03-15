@@ -106,15 +106,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-habitat.jpg",
-      alt: "Wood Blewit wild specimen in natural habitat",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Edible_fungi_in_basket_2022_G5.jpg",
-      author: "George Chernilevsky",
-      license: "CC BY 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/4.0",
-    },
-    {
       filename: "02-detail.jpg",
       alt: "Wood Blewit showing full fruiting body",
       source: "Wikimedia Commons",
@@ -140,15 +131,6 @@ const species: SpeciesRecord = {
       author: "steve b",
       license: "CC0",
       licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    },
-    {
-      filename: "05-specimen.jpg",
-      alt: "Wood Blewit mushroom, field identification reference",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Lepista_nuda_167462660.jpg",
-      author: "Michel Langeveld",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
   ],
 };

@@ -144,15 +144,6 @@ const species: SpeciesRecord = {
       licenseUrl: "",
     },
     {
-      filename: "04-young.jpg",
-      alt: "Young Amanita virosa specimen showing egg-shaped cap before opening",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Amanita_virosa_07.jpg",
-      author: "Sigma 64",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
       filename: "05-group.jpg",
       alt: "Group of Destroying Angel mushrooms growing together in deciduous forest",
       source: "Wikimedia Commons",

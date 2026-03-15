@@ -132,15 +132,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "02-habitat.jpg",
-      alt: "Field Mushroom growing in natural habitat",
-      source: "Wikimedia Commons",
-      sourceUrl: "https://commons.wikimedia.org/wiki/File:Agaricus_campestris_(Field-_or_Meadow_Mushroom,_D%3D_Wiesenegerling_or_Wiesen-Champignon,_NL%3D_Gewone_weidechampignon)_near_Steenderen_-_panoramio.jpg",
-      author: "Henk Monster",
-      license: "CC BY 3.0",
-      licenseUrl: "https://creativecommons.org/licenses/by/3.0",
-    },
-    {
       filename: "03-gills.jpg",
       alt: "Field Mushroom underside showing gill structure",
       source: "Wikimedia Commons",

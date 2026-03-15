@@ -124,16 +124,6 @@ const species: SpeciesRecord = {
   ],
   images: [
     {
-      filename: "01-classic.jpg",
-      alt: "Clitocybe nebularis Clouded Funnel mushroom showing gray cap with characteristic cloudy bloom",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:Clitocybe_nebularis_2011_G1.jpg",
-      author: "George Chernilevsky",
-      license: "Public domain",
-      licenseUrl: "",
-    },
-    {
       filename: "02-group.jpg",
       alt: "Group of Clouded Funnel mushrooms growing in leaf litter showing typical clustering habit",
       source: "Wikimedia Commons",
@@ -142,6 +132,16 @@ const species: SpeciesRecord = {
       author: "Holger Krisp",
       license: "CC BY 3.0",
       licenseUrl: "https://creativecommons.org/licenses/by/3.0",
+    },
+    {
+      filename: "01-classic.jpg",
+      alt: "Clitocybe nebularis Clouded Funnel mushroom showing gray cap with characteristic cloudy bloom",
+      source: "Wikimedia Commons",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Clitocybe_nebularis_2011_G1.jpg",
+      author: "George Chernilevsky",
+      license: "Public domain",
+      licenseUrl: "",
     },
     {
       filename: "03-gills.jpg",
