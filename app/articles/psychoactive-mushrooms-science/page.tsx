@@ -32,7 +32,7 @@ const jsonLd = {
   dateModified: "2025-12-05",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://orangutany.com/articles/psychoactive-mushrooms-science",
+    "@id": "https://guide.orangutany.com/articles/psychoactive-mushrooms-science",
   },
 };
 

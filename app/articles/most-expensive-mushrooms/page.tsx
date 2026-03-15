@@ -58,7 +58,7 @@ const articleJsonLd = {
   datePublished: "2026-03-06",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://orangutany.com/articles/most-expensive-mushrooms",
+    "@id": "https://guide.orangutany.com/articles/most-expensive-mushrooms",
   },
 };
 
