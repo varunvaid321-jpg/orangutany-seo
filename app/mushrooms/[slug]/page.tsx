@@ -12,16 +12,40 @@ export function generateStaticParams() {
   return allSpecies.map((s) => ({ slug: s.slug }));
 }
 
+/** Short common name for titles/H2s — uses part before "/" for multi-name species */
+function titleName(commonName: string): string {
+  return commonName.includes("/") ? commonName.split("/")[0].trim() : commonName;
+}
+
+function edibilityWord(edibility: string): string {
+  switch (edibility) {
+    case "edible": return "Edibility";
+    case "edible-with-caution": return "Safety";
+    case "toxic": return "Toxicity";
+    case "deadly": return "Toxicity";
+    case "inedible": return "Uses";
+    default: return "Edibility";
+  }
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const species = getSpeciesBySlug(slug);
   if (!species) return {};
+  const short = titleName(species.commonName);
+  const suffix = `Identification, ${edibilityWord(species.edibility)} & Look-alikes`;
+  const title = `${short} (${species.scientificName}) – ${suffix}`;
+  const edibilityIntro = species.edibility === "deadly" ? "Deadly."
+    : species.edibility === "toxic" ? "Toxic — not safe to eat."
+    : species.edibility === "edible-with-caution" ? "Edible with caution."
+    : species.edibility === "edible" ? "Edible."
+    : "Not edible.";
   return {
-    title: `${species.commonName} (${species.scientificName})`,
-    description: `Learn how to identify ${species.commonName} (${species.scientificName}). Habitat, look-alikes, season, edibility, safety notes, and real reference images.`,
+    title,
+    description: `How to identify ${short} (${species.scientificName}). ${edibilityIntro} Habitat, season, look-alikes, and field photos.`,
     alternates: { canonical: `/mushrooms/${species.slug}` },
     openGraph: {
-      title: `${species.commonName} (${species.scientificName})`,
+      title,
       description: species.summary,
       images: species.images.length > 0
         ? [{ url: `/images/species/${species.slug}/${species.images[0].filename}` }]
