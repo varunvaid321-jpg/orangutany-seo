@@ -62,6 +62,7 @@ import gyromitraEsculenta from "./gyromitra-esculenta";
 import hericiumCoralloides from "./hericium-coralloides";
 import hericiumErinaceus from "./hericium-erinaceus";
 import hydnumRepandum from "./hydnum-repandum";
+import hydnellumPeckii from "./hydnellum-peckii";
 import hygrocybeCoccinea from "./hygrocybe-coccinea";
 import hygrophoropsisAurantiaca from "./hygrophoropsis-aurantiaca";
 import hypholomaLateritium from "./hypholoma-lateritium";
@@ -202,6 +203,7 @@ export const allSpecies: SpeciesRecord[] = [
   hericiumCoralloides,
   hericiumErinaceus,
   hydnumRepandum,
+  hydnellumPeckii,
   hygrocybeCoccinea,
   hygrophoropsisAurantiaca,
   hypholomaLateritium,

@@ -1406,5 +1406,16 @@
     "fileSizeBytes": 132057,
     "renderingApproved": true,
     "approved": true
+  },
+  "hydnellum-peckii": {
+    "speciesSlug": "hydnellum-peckii",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2522210,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 93001,
+    "renderingApproved": true,
+    "approved": true
   }
 }
