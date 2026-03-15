@@ -271,13 +271,49 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
 
           {/* Related Species */}
           {(() => {
-            const hash = species.slug.split("").reduce((a, c) => a + c.charCodeAt(0), 0);
             const others = allSpecies.filter((s) => s.slug !== species.slug);
-            const related = [...others].sort((a, b) => {
-              const ha = a.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
-              const hb = b.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
-              return ((ha * hash) % 997) - ((hb * hash) % 997);
-            }).slice(0, 4);
+            const related: typeof others = [];
+            const used = new Set<string>();
+
+            // 1. Same genus (max 2)
+            const sameGenus = others.filter((s) => s.taxonomy.genus === species.taxonomy.genus);
+            for (const s of sameGenus) {
+              if (related.length >= 2) break;
+              related.push(s);
+              used.add(s.slug);
+            }
+
+            // 2. Look-alike species in our DB (max 1)
+            for (const la of species.lookAlikes) {
+              if (related.length >= 3) break;
+              if (la.slug && !used.has(la.slug)) {
+                const match = others.find((s) => s.slug === la.slug);
+                if (match) { related.push(match); used.add(match.slug); }
+              }
+            }
+
+            // 3. Same edibility category
+            const sameEdibility = others.filter((s) => s.edibility === species.edibility && !used.has(s.slug));
+            for (const s of sameEdibility) {
+              if (related.length >= 4) break;
+              related.push(s);
+              used.add(s.slug);
+            }
+
+            // 4. Hash-based fallback for remaining slots
+            if (related.length < 4) {
+              const hash = species.slug.split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+              const remaining = others.filter((s) => !used.has(s.slug))
+                .sort((a, b) => {
+                  const ha = a.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+                  const hb = b.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+                  return ((ha * hash) % 997) - ((hb * hash) % 997);
+                });
+              for (const s of remaining) {
+                if (related.length >= 4) break;
+                related.push(s);
+              }
+            }
             return related.length > 0 ? (
               <section>
                 <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
