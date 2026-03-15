@@ -106,7 +106,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           {species.funFacts.length > 0 && (
             <section>
               <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
-                Things You Probably Didn&apos;t Know
+                {titleName(species.commonName)} Facts
               </h2>
               <ul className="space-y-2">
                 {species.funFacts.map((fact, i) => (
@@ -157,7 +157,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           {/* Identification: with images */}
           <section>
             <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
-              How to Identify It
+              How to Identify {titleName(species.commonName)}
             </h2>
             <div className="space-y-3">
               {species.identification.cap && (
@@ -197,7 +197,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           {species.lookAlikes.length > 0 && (
             <section>
               <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
-                Easy to Confuse With
+                Mushrooms That Look Like {titleName(species.commonName)}
               </h2>
               <div className="space-y-3">
                 {species.lookAlikes.map((la) => {
@@ -247,7 +247,10 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
           {/* Edibility warning */}
           <section className="rounded-xl border border-orange-800/30 bg-orange-950/20 p-4">
             <h2 className="mb-1 font-[family-name:var(--font-heading)] text-base font-semibold text-orange-300">
-              Can You Eat It?
+              {species.edibility === "deadly" ? `Why ${titleName(species.commonName)} Is Deadly`
+                : species.edibility === "toxic" ? `Is ${titleName(species.commonName)} Safe to Eat?`
+                : species.edibility === "inedible" ? `${titleName(species.commonName)} Edibility`
+                : `Is ${titleName(species.commonName)} Edible?`}
             </h2>
             <p className="text-sm text-foreground/80">{species.edibilityNote}</p>
             <p className="mt-2 text-xs text-muted-foreground">
@@ -278,7 +281,7 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             return related.length > 0 ? (
               <section>
                 <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
-                  Explore More Species
+                  Similar Mushroom Species
                 </h2>
                 <div className="grid grid-cols-2 gap-3">
                   {related.map((r) => (
