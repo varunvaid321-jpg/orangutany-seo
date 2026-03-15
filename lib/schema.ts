@@ -110,6 +110,19 @@ export function personSchema(opts: {
   };
 }
 
+/** Breadcrumb schema for species pages: Home > Mushrooms > {commonName} */
+export function speciesBreadcrumbSchema(species: { commonName: string; slug: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: BASE },
+      { "@type": "ListItem", position: 2, name: "Mushrooms", item: `${BASE}/mushrooms` },
+      { "@type": "ListItem", position: 3, name: species.commonName, item: `${BASE}/mushrooms/${species.slug}` },
+    ],
+  };
+}
+
 /** Truncate to first N sentences, max chars */
 function truncate(text: string, maxChars: number): string {
   const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
