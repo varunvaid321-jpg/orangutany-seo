@@ -1418,6 +1418,39 @@
     "renderingApproved": true,
     "approved": true
   },
+  "gymnopilus-luteofolius": {
+    "speciesSlug": "gymnopilus-luteofolius",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 3343100,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 71240,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "lepiota-cristata": {
+    "speciesSlug": "lepiota-cristata",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 2535471,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 119207,
+    "renderingApproved": true,
+    "approved": true
+  },
+  "psilocybe-allenii": {
+    "speciesSlug": "psilocybe-allenii",
+    "mapVersion": "1.0",
+    "basemapVersion": "world-equirectangular-v1",
+    "projection": "equirectangular",
+    "gbifKey": 8351552,
+    "occurrenceCount": 5000,
+    "fileSizeBytes": 43082,
+    "renderingApproved": true,
+    "approved": true
+  },
   "kuehneromyces-mutabilis": {
     "speciesSlug": "kuehneromyces-mutabilis",
     "mapVersion": "1.0",

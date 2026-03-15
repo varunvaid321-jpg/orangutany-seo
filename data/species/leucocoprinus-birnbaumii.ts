@@ -38,11 +38,10 @@ const species: SpeciesRecord = {
       externalSource: "iNaturalist",
     },
     {
-      name: "Lepiota cristata (Stinking Dapperling)",
+      name: "Stinking Dapperling (Lepiota cristata)",
+      slug: "lepiota-cristata",
       distinction:
         "Much more dangerous (potentially deadly). Found outdoors in garden soils. Smaller, white to cream with reddish-brown scales on the cap center. Has a distinctive unpleasant chemical odor. Not yellow. Not found in houseplants.",
-      externalUrl: "https://www.inaturalist.org/taxa/58694-Lepiota-cristata",
-      externalSource: "iNaturalist",
     },
     {
       name: "Bolbitius titubans (Yellow Fieldcap)",

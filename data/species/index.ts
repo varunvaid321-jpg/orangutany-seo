@@ -57,6 +57,7 @@ import ganodermaLucidum from "./ganoderma-lucidum";
 import grifolaFrondosa from "./grifola-frondosa";
 import gliophorusChromolimoneus from "./gliophorus-chromolimoneus";
 import gymnopilusJunonius from "./gymnopilus-junonius";
+import gymnopilusLuteofolius from "./gymnopilus-luteofolius";
 import gymnopilusViridans from "./gymnopilus-viridans";
 import gyromitraEsculenta from "./gyromitra-esculenta";
 import hericiumCoralloides from "./hericium-coralloides";
@@ -82,6 +83,7 @@ import leccinumAurantiacum from "./leccinum-aurantiacum";
 import leccinumScabrum from "./leccinum-scabrum";
 import lentinulaEdodes from "./lentinula-edodes";
 import lepiotaBrunneoincarnata from "./lepiota-brunneoincarnata";
+import lepiotaCristata from "./lepiota-cristata";
 import lepistaSaeva from "./lepista-saeva";
 import leucocoprinusBirnbaumii from "./leucocoprinus-birnbaumii";
 import lycoperdonPerlatum from "./lycoperdon-perlatum";
@@ -104,6 +106,7 @@ import pleurotusOstreatus from "./pleurotus-ostreatus";
 import pleurotusPulmonarius from "./pleurotus-pulmonarius";
 import pluteusSalicinus from "./pluteus-salicinus";
 import podostromaCornuDamae from "./podostroma-cornu-damae";
+import psilocybeAllenii from "./psilocybe-allenii";
 import psilocybeAzurescens from "./psilocybe-azurescens";
 import psilocybeCaerulescens from "./psilocybe-caerulescens";
 import psilocybeCubensis from "./psilocybe-cubensis";
@@ -200,6 +203,7 @@ export const allSpecies: SpeciesRecord[] = [
   grifolaFrondosa,
   gliophorusChromolimoneus,
   gymnopilusJunonius,
+  gymnopilusLuteofolius,
   gymnopilusViridans,
   gyromitraEsculenta,
   hericiumCoralloides,
@@ -225,6 +229,7 @@ export const allSpecies: SpeciesRecord[] = [
   leccinumScabrum,
   lentinulaEdodes,
   lepiotaBrunneoincarnata,
+  lepiotaCristata,
   lepistaSaeva,
   leucocoprinusBirnbaumii,
   lycoperdonPerlatum,
@@ -247,6 +252,7 @@ export const allSpecies: SpeciesRecord[] = [
   pleurotusPulmonarius,
   pluteusSalicinus,
   podostromaCornuDamae,
+  psilocybeAllenii,
   psilocybeAzurescens,
   psilocybeCaerulescens,
   psilocybeCubensis,

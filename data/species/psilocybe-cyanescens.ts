@@ -37,11 +37,10 @@ const species: SpeciesRecord = {
         "DEADLY. This is the most dangerous possible confusion. Galerina grows on the same wood chips, at the same time, and can be the same size and color. Critical differences: Galerina has a rusty brown spore print (not purple-brown), does NOT bruise blue, and has a more persistent ring. Always check both spore print and bruising on every individual mushroom.",
     },
     {
-      name: "Psilocybe allenii",
+      name: "Allen's Psilocybe (Psilocybe allenii)",
+      slug: "psilocybe-allenii",
       distinction:
         "Also psychoactive, also on wood chips in the Pacific Northwest. Very similar but P. allenii has a less wavy cap margin and slightly different microscopic features (different pleurocystidia). Practically, both species contain psilocybin and grow in the same habitats. Spore print is also dark purple-brown.",
-      externalUrl: "https://www.inaturalist.org/taxa/348831-Psilocybe-allenii",
-      externalSource: "iNaturalist",
     },
     {
       name: "Hypholoma fasciculare (Sulphur Tuft)",

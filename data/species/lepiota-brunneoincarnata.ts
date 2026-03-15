@@ -42,11 +42,10 @@ const species: SpeciesRecord = {
         "Much larger (cap 15-30 cm), with a tall stem marked by a snakeskin pattern and a movable double ring. The Parasol is one of the best edible mushrooms in Europe, but only large specimens should be collected. Small Lepiota species are where the danger lies.",
     },
     {
-      name: "Lepiota cristata (Stinking Dapperling)",
+      name: "Stinking Dapperling (Lepiota cristata)",
+      slug: "lepiota-cristata",
       distinction:
         "A small Lepiota with reddish-brown concentric scales and a strong, unpleasant rubber or chemical smell. Also toxic but not known to be lethal. Very difficult to distinguish from Lepiota brunneoincarnata without microscopy.",
-      externalUrl: "https://www.inaturalist.org/taxa/58694-Lepiota-cristata",
-      externalSource: "iNaturalist",
     },
   ],
   edibility: "deadly",
