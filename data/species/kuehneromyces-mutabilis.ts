@@ -46,7 +46,7 @@ const species: SpeciesRecord = {
     },
     {
       name: "Conifer Tuft (Hypholoma capnoides)",
-      externalUrl: "https://www.inaturalist.org/taxa/63231-Hypholoma-capnoides",
+      externalUrl: "https://www.inaturalist.org/taxa/64071-Hypholoma-capnoides",
       externalSource: "iNaturalist",
       distinction:
         "Grows almost exclusively on conifer stumps (not hardwood). Cap more uniformly ochre-yellow without the strong two-toned hygrophanous effect. Lacks a prominent ring. Purple-brown to violet-gray spore print. Edible, with mild taste (not bitter like Sulphur Tuft).",
