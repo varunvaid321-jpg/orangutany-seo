@@ -1,7 +1,7 @@
 # Guide Site Inventory — guide.orangutany.com
 
-**Last verified: 2026-03-10**
-**Total indexed pages: 185 (sitemap)**
+**Last verified: 2026-03-15**
+**Total indexed pages: 191 (sitemap)**
 
 ## RULES (MANDATORY — read before ANY page change)
 
@@ -13,16 +13,16 @@
 6. **No orphan images**: `public/images/species/` dirs must match species in `data/species.ts`
 7. **Social page (`/social`)**: noindex, not in sitemap, not in nav — private content bank only
 
-## Species Pages (137)
+## Species Pages (143)
 
-Source of truth: `data/species.ts` → `allSpecies` array
+Source of truth: `data/species/index.ts` → `allSpecies` array
 Route: `/mushrooms/[slug]`
 Images: `/public/images/species/[slug]/`
 
-All 137 species have matching image directories. The `index` folder in images is NOT a species.
+All 143 species have matching image directories.
 
 ### Full species list (alphabetical)
-agaricus-bisporus, agaricus-campestris, agrocybe-praecox, amanita-caesarea, amanita-citrina, amanita-gemmata, amanita-jacksonii, amanita-muscaria, amanita-pantherina, amanita-phalloides, amanita-virosa, armillaria-mellea, auricularia-auricula-judae, boletus-edulis, boletus-pinophilus, boletus-reticulatus, calocybe-gambosa, calvatia-gigantea, cantharellus-cibarius, cantharellus-cinnabarinus, cantharellus-tubaeformis, chlorociboria-aeruginascens, chlorophyllum-molybdites, chlorophyllum-rhacodes, clathrus-ruber, clitocybe-dealbata, clitocybe-nuda, conocybe-filaris, coprinopsis-atramentaria, coprinus-comatus, coprinus-picaceus, cordyceps-militaris, cortinarius-orellanus, cortinarius-rubellus, craterellus-cornucopioides, craterellus-tubaeformis, cyclocybe-aegerita, entoloma-sinuatum, fistulina-hepatica, flammulina-velutipes, galerina-marginata, ganoderma-lucidum, grifola-frondosa, gymnopilus-junonius, gyromitra-esculenta, hericium-erinaceus, hydnum-repandum, hygrocybe-coccinea, hypholoma-fasciculare, inocybe-aeruginascens, inocybe-erubescens, inonotus-obliquus, lactarius-deliciosus, laetiporus-sulphureus, leccinum-aurantiacum, leccinum-scabrum, lentinula-edodes, lepiota-brunneoincarnata, lepista-saeva, leucocoprinus-birnbaumii, lycoperdon-perlatum, lycoperdon-pyriforme, macrolepiota-procera, marasmius-oreades, morchella-elata, morchella-esculenta, mutinus-caninus, mycena-haematopus, omphalotus-olearius, ophiocordyceps-sinensis, panaeolus-cyanescens, paxillus-involutus, phallus-hadriani, phallus-impudicus, pleurotus-ostreatus, pluteus-salicinus, podostroma-cornu-damae, psilocybe-azurescens, psilocybe-caerulescens, psilocybe-cubensis, psilocybe-cyanescens, psilocybe-mexicana, psilocybe-semilanceata, psilocybe-stuntzii, psilocybe-tampanensis, ramaria-botrytis, rubroboletus-satanas, russula-cyanoxantha, russula-emetica, russula-virescens, scleroderma-citrinum, sparassis-crispa, stereum-hirsutum, stropharia-rugosoannulata, suillus-granulatus, suillus-luteus, trametes-versicolor, tricholoma-equestre, tricholoma-matsutake, tuber-aestivum, tuber-magnatum, tuber-melanosporum, verpa-bohemica, volvariella-volvacea, xerocomellus-chrysenteron, xeromphalina-campanella
+agaricus-arvensis, agaricus-bisporus, agaricus-campestris, agaricus-xanthodermus, agrocybe-praecox, amanita-caesarea, amanita-citrina, amanita-fulva, amanita-gemmata, amanita-jacksonii, amanita-muscaria, amanita-novinupta, amanita-pantherina, amanita-phalloides, amanita-rubescens, amanita-virosa, armillaria-mellea, auricularia-auricula-judae, bolbitius-titubans, boletus-edulis, boletus-pinophilus, boletus-reticulatus, calocybe-gambosa, calvatia-gigantea, cantharellus-cibarius, cantharellus-cinnabarinus, cantharellus-formosus, cantharellus-tubaeformis, cerioporus-squamosus, chlorociboria-aeruginascens, chlorophyllum-molybdites, chlorophyllum-rhacodes, clathrus-ruber, clitocybe-dealbata, clitocybe-nebularis, clitocybe-nuda, conocybe-filaris, coprinellus-micaceus, coprinopsis-atramentaria, coprinus-comatus, coprinus-picaceus, cordyceps-militaris, cortinarius-orellanus, cortinarius-rubellus, cortinarius-vanduzerensis, craterellus-cornucopioides, craterellus-tubaeformis, cyclocybe-aegerita, daldinia-concentrica, entoloma-sinuatum, fistulina-hepatica, flammulina-velutipes, fomitopsis-betulina, galerina-marginata, ganoderma-lucidum, gliophorus-chromolimoneus, grifola-frondosa, gymnopilus-junonius, gymnopilus-luteofolius, gymnopilus-viridans, gyromitra-esculenta, hericium-coralloides, hericium-erinaceus, hydnellum-peckii, hydnum-repandum, hygrocybe-coccinea, hygrophoropsis-aurantiaca, hypholoma-fasciculare, hypholoma-lateritium, imleria-badia, inocybe-aeruginascens, inocybe-erubescens, inonotus-obliquus, kuehneromyces-mutabilis, laccaria-amethystina, laccaria-laccata, lactarius-deliciosus, lactarius-indigo, lactarius-torminosus, laetiporus-sulphureus, leccinum-aurantiacum, leccinum-scabrum, lentinula-edodes, lepiota-brunneoincarnata, lepiota-cristata, lepista-saeva, leucocoprinus-birnbaumii, lycoperdon-perlatum, lycoperdon-pyriforme, macrolepiota-procera, marasmius-oreades, morchella-elata, morchella-esculenta, mutinus-caninus, mycena-galericulata, mycena-haematopus, omphalotus-olearius, ophiocordyceps-sinensis, panaeolus-cyanescens, paxillus-involutus, phallus-hadriani, phallus-impudicus, pisolithus-arhizus, pleurotus-ostreatus, pleurotus-pulmonarius, pluteus-salicinus, podostroma-cornu-damae, psilocybe-allenii, psilocybe-azurescens, psilocybe-caerulescens, psilocybe-cubensis, psilocybe-cyanescens, psilocybe-mexicana, psilocybe-semilanceata, psilocybe-stuntzii, psilocybe-tampanensis, ramaria-botrytis, rubroboletus-satanas, russula-brevipes, russula-cyanoxantha, russula-emetica, russula-virescens, scleroderma-citrinum, sparassis-crispa, stereum-hirsutum, stropharia-rugosoannulata, suillus-granulatus, suillus-luteus, trametes-versicolor, tremella-fuciformis, tremella-mesenterica, tricholoma-equestre, tricholoma-matsutake, tuber-aestivum, tuber-borchii, tuber-magnatum, tuber-melanosporum, tylopilus-felleus, verpa-bohemica, volvariella-volvacea, xerocomellus-chrysenteron, xeromphalina-campanella, xylaria-polymorpha
 
 ## Articles (26)
 
@@ -129,9 +129,6 @@ Old root-level URLs → new paths (301):
 - More comparison/vs pages (Chanterelle vs Jack O'Lantern, King Bolete vs Bitter Bolete, etc.)
 
 ### Missing species (notable gaps)
-- Hydnellum peckii (bleeding tooth — has image dir but no data entry? verify)
-- Lactarius indigo (indigo milk cap — has image dir but no data entry? verify)
-- Tuber borchii (bianchetto truffle)
 - Pleurotus citrinopileatus (golden oyster)
 - Geastrum (earthstars)
 - Schizophyllum commune (split gill)
