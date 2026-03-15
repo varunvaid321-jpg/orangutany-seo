@@ -131,16 +131,6 @@ const species: SpeciesRecord = {
       licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
     },
     {
-      filename: "02-gills-underside.jpg",
-      alt: "Underside of a Parasol Mushroom cap showing dense white gills and the characteristic snakeskin-patterned stem",
-      source: "Wikimedia Commons",
-      sourceUrl:
-        "https://commons.wikimedia.org/wiki/File:2014.10.03.-02-Edertal_Kleinern--Gemeiner_Riesenschirmling.jpg",
-      author: "Andreas Eichler",
-      license: "CC BY-SA 4.0",
-      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
-    },
-    {
       filename: "03-stem-ring.jpg",
       alt: "Close-up of Parasol Mushroom stem showing the movable ring and distinctive brown snakeskin pattern",
       source: "Wikimedia Commons",
