@@ -12,6 +12,11 @@ export function Footer() {
         <p className="text-xs text-muted-foreground text-center">
           &copy; {new Date().getFullYear()} Orangutany &middot; Markham, Ontario, Canada
         </p>
+        <div className="flex gap-3 text-[10px] text-muted-foreground/60">
+          <a href="/privacy" className="hover:text-primary transition">Privacy Policy</a>
+          <span>&middot;</span>
+          <a href="https://orangutany.com/terms" className="hover:text-primary transition">Terms</a>
+        </div>
         <p className="text-[10px] text-muted-foreground/60 text-center max-w-md">
           Do not rely solely on online identification. Always verify with local experts.
         </p>
