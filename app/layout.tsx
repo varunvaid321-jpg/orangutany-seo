@@ -48,6 +48,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${manrope.variable} ${sora.variable}`}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5592460485592025"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-screen font-sans antialiased">
         <script
           type="application/ld+json"
