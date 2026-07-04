@@ -258,14 +258,17 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
             </p>
           </section>
 
-          {/* Soft Orangutany mention: not a CTA, just helpful */}
+          {/* Soft Orangutany mention: helpful nudge to the identifier app */}
           <section className="rounded-xl border border-border bg-card p-4 text-center">
             <p className="text-sm text-foreground/70">
-              Found something that looks like this in the wild?{" "}
-              <a href="https://orangutany.com" className="text-primary hover:underline">
-                Orangutany
+              Found something that looks like this in the wild? Don&apos;t guess —{" "}
+              <a
+                href={`https://orangutany.com/?utm_source=guide&utm_medium=species_cta&utm_campaign=${species.slug}`}
+                className="font-semibold text-primary hover:underline"
+              >
+                identify it from a photo with Orangutany
               </a>{" "}
-              can help you identify it from a photo.
+              and check it against look-alikes before you touch it.
             </p>
           </section>
 
@@ -314,6 +317,18 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                 related.push(s);
               }
             }
+            // Text-only extras: next same-genus, then same-edibility species not
+            // already shown as cards. Densifies the internal link graph without
+            // changing the card layout.
+            const moreLinks: typeof others = [];
+            for (const s of [...sameGenus, ...sameEdibility, ...others]) {
+              if (moreLinks.length >= 6) break;
+              if (!used.has(s.slug)) {
+                moreLinks.push(s);
+                used.add(s.slug);
+              }
+            }
+
             return related.length > 0 ? (
               <section>
                 <h2 className="mb-3 font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
@@ -345,6 +360,19 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                     </Link>
                   ))}
                 </div>
+                {moreLinks.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {moreLinks.map((m) => (
+                      <Link
+                        key={m.slug}
+                        href={`/mushrooms/${m.slug}`}
+                        className="rounded-full border border-border bg-card px-3 py-1 text-xs text-foreground/70 transition hover:border-primary/50 hover:text-primary"
+                      >
+                        {m.commonName}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </section>
             ) : null;
           })()}

@@ -8,6 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/social", "/marketingreport"],
       },
     ],
     sitemap: "https://guide.orangutany.com/sitemap.xml",
