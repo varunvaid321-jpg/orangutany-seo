@@ -225,6 +225,14 @@ export default async function SpeciesPage({ params }: { params: Promise<{ slug: 
                           <h3 className="text-sm font-semibold text-foreground">{la.name}</h3>
                         )}
                         <p className="mt-1 text-xs leading-relaxed text-foreground/80">{la.distinction}</p>
+                        {la.slug && linkedSpecies && (
+                          <Link
+                            href={`/compare/${[species.slug, la.slug].sort().join("-vs-")}`}
+                            className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-primary hover:underline"
+                          >
+                            Side-by-side comparison &rarr;
+                          </Link>
+                        )}
                         {la.externalUrl && (
                           <a
                             href={la.externalUrl}

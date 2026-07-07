@@ -3,6 +3,7 @@ import { allSpecies } from "@/data/species";
 import { articles, guides, authors } from "@/lib/content-index";
 import { RECIPES } from "@/data/recipes";
 import { lastModFor } from "@/lib/lastmod";
+import { allComparisons } from "@/lib/comparisons";
 
 export const dynamic = "force-static";
 
@@ -59,6 +60,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     staticPage("/newsletter", "monthly", 0.5),
     staticPage("/resources", "monthly", 0.6),
     staticPage("/privacy", "monthly", 0.3),
+    staticPage("/compare", "weekly", 0.8),
+    ...allComparisons().map((p) => ({
+      url: `${BASE}/compare/${p.slug}`,
+      // A comparison's content comes from both species files — use the newer.
+      lastModified: new Date(
+        Math.max(
+          lastModFor(`data/species/${p.a.slug}.ts`).getTime(),
+          lastModFor(`data/species/${p.b.slug}.ts`).getTime(),
+        ),
+      ),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     ...species,
     ...articleEntries,
     ...RECIPES.map((r) => ({
